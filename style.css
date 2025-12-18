@@ -1,118 +1,107 @@
-/* Global styles for Showa Digital Asset Archive */
+/* Style.css - Professional Design Adjustments */
 
+/* Typography */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F8F8F8;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     color: #333;
-}
-
-header {
-    background-color: #9E2A2B;
-    color: #FFF;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-header h1 {
+    background-color: #f8f9fa;
     margin: 0;
 }
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background: #E9E9E9;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: #444;
+    margin-bottom: 15px;
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+/* Color Palette */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
 }
 
-nav ul li a {
+a {
+    color: var(--primary-color);
     text-decoration: none;
-    color: #9E2A2B;
-    font-weight: bold;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: var(--dark-color);
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+/* Responsiveness with Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+.card {
+    flex: 1 1 300px;
+    margin: 15px;
+    background-color: var(--light-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-main {
-    padding: 30px 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-
+/* Modernized Tables */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 th, td {
     padding: 12px;
-    border: 1px solid #DDD;
+    text-align: left;
+    border-bottom: 1px solid var(--secondary-color);
 }
-
 th {
-    background-color: #9E2A2B;
+    background-color: var(--primary-color);
     color: white;
 }
-
 tr:nth-child(even) {
-    background-color: #F9F9F9;
+    background-color: #f2f2f2;
 }
 
-footer {
-    text-align: center;
-    padding: 15px 0;
-    background: #444;
-    color: white;
-}
-
-/* Form styles */
+/* Modernized Forms */
 form {
-    background: #FFF;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    max-width: 700px;
-    margin: auto;
-    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
 }
-
-form label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: bold;
-    color: #9E2A2B;
+input, textarea, select, button {
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    font-size: 16px;
 }
-
-form input[type="text"],
-form input[type="url"],
-form input[type="date"],
-form textarea,
-form select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #DDD;
-    border-radius: 4px;
-}
-
-form button {
-    padding: 10px 15px;
-    background: #9E2A2B;
-    color: #FFF;
-    border: none;
-    border-radius: 4px;
+button {
+    background-color: var(--primary-color);
+    color: white;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: var(--dark-color);
 }
 
-form button:hover {
-    background: #721A1B;
+/* Smooth Transitions */
+* {
+    transition: all 0.3s ease;
 }
