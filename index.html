@@ -3,31 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Showa Digital Asset Archive</title>
 </head>
 <body>
     <header>
-        <h1>Welcome to the Showa Digital Asset Archive</h1>
+        <h1>Showa Digital Asset Archive</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="https://github.com/ckgerteis/showa-digital-asset-archive/blob/main/catalog/fab.yml">View fab.yml</a> (3D asset entries in YAML format)</li>
-            <li><a href="https://github.com/ckgerteis/showa-digital-asset-archive/blob/main/catalog/sketchfab_urls.txt">View sketchfab_urls.txt</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#database">Database</a></li>
+            <li><a href="submit.html">Submit</a></li>
         </ul>
     </nav>
     <main>
         <section>
-            <header>
-                <h2>Catalog Contents</h2>
-            </header>
-            <p>The catalog contains a comprehensive collection of 3D assets, categorized for easy lookup. Use the links above to explore the respective files.</p>
+            <h2>Welcome</h2>
+            <p>A repository preserving 3D models from the Showa Era. Search, browse, or submit new artifacts.</p>
         </section>
-        <section>
-            <header>
-                <h2>Submission Form Instructions</h2>
-            </header>
-            <p>To submit new assets to the catalog, please refer to the templates provided in the <code>catalog</code> folder. Ensure that all fields are filled out correctly before submission.</p>
+        <section id="database">
+            <h2>Database</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Resource</th>
+                        <th>Type</th>
+                        <th>Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>fab.yml</td>
+                        <td>YAML</td>
+                        <td><a href="#">Download</a></td>
+                    </tr>
+                    <tr>
+                        <td>model.obj</td>
+                        <td>3D Model</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
+    <footer>
+        <p>&copy; Showa Digital Asset Archive, All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
