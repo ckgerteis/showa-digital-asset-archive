@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Entry Submission</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        textarea, input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Submit a New Asset Entry</h1>
+    <form action="#" method="POST">
+        <h2>Listing</h2>
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url" required>
+
+        <h2>Showa Fit</h2>
+        <label for="time_slice">Time slice:</label>
+        <select id="time_slice" name="time_slice">
+            <option value="1926–1945">1926–1945</option>
+            <option value="1945–1952">1945–1952</option>
+            <option value="1952–1973">1952–1973</option>
+            <option value="1973–1985">1973–1985</option>
+            <option value="1985–1989">1985–1989</option>
+        </select>
+
+        <label for="setting">Setting:</label>
+        <input type="text" id="setting" name="setting" placeholder="e.g., home, street, school" required>
+
+        <label for="anachronism_risks">Notes on anachronism risks:</label>
+        <textarea id="anachronism_risks" name="anachronism_risks" rows="4"></textarea>
+
+        <h2>Technical Information</h2>
+        <label for="formats">Format(s):</label>
+        <input type="text" id="formats" name="formats" placeholder="e.g., OBJ, FBX, glTF" required>
+
+        <label for="poly_count">Poly count / LODs:</label>
+        <input type="text" id="poly_count" name="poly_count">
+
+        <label for="texture_sizes">Texture Sizes:</label>
+        <input type="text" id="texture_sizes" name="texture_sizes">
+
+        <label for="scale">Units / scale:</label>
+        <input type="text" id="scale" name="scale">
+
+        <label for="performance_notes">Performance notes:</label>
+        <textarea id="performance_notes" name="performance_notes" rows="4"></textarea>
+
+        <h2>Rights and Provenance</h2>
+        <label for="license_listed">License listed:</label>
+        <input type="text" id="license_listed" name="license_listed" required>
+
+        <label for="license_verified">License verified:</label>
+        <select id="license_verified" name="license_verified">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select>
+
+        <label for="license_verified_date">License verified date:</label>
+        <input type="date" id="license_verified_date" name="license_verified_date">
+
+        <label for="license_verified_by">License verified by:</label>
+        <input type="text" id="license_verified_by" name="license_verified_by">
+
+        <label for="permission_status">Permission status:</label>
+        <select id="permission_status" name="permission_status">
+            <option value="unchecked">Unchecked</option>
+            <option value="ok-for-reference">OK for reference</option>
+            <option value="requires-permission">Requires permission</option>
+            <option value="restricted">Restricted</option>
+        </select>
+
+        <label for="permission_document_url">Permission document URL:</label>
+        <input type="url" id="permission_document_url" name="permission_document_url">
+
+        <label for="rights_notes">Rights notes:</label>
+        <textarea id="rights_notes" name="rights_notes" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
