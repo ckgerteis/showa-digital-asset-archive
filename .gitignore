@@ -1,0 +1,5 @@
+﻿.vscode/
+*.log
+PRIVATE_NOTES.md
+audits/
+outputs/
