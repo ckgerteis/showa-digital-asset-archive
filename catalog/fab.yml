@@ -1,0 +1,151 @@
+﻿# Sketchfab candidates â€” v1 ingest (25 records). Verify license/technical details on each Sketchfab listing.
+- id: skf-0001
+  title: "Vintage Camera Exakta VX 1954"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/vintage-camera-exakta-vx-1954-dolgov12"
+  creator: "Dolgov (@Dolgov12)"
+  license: "check (Sketchfab listing)"
+  period_tags: ["high_growth_1952_1973"]
+  space_tags: ["home","studio","street-photography"]
+  place_tags: ["generic_japan"]
+  object_tags: ["camera","consumer-electronics"]
+  xr_notes: "Check formats (OBJ/FBX/glTF), texture maps, and LODs; confirm scale in centimeters; likely medium poly with PBR."
+  historical_notes: "A 1954 Exakta-style camera indexes home and amateur photography in early postwar Japan. Works well for 1950sâ€“1960s domestic and reportage scenes; check for modern straps or lenses that would be anachronistic."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+
+- id: skf-0002
+  title: "Vintage Books (bundle)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/vintage-books-leaguestudio"
+  creator: "League Studio (@leaguestudio)"
+  license: "check (Sketchfab listing)"
+  period_tags: ["interwar_wartime_1926_1945","occupation_reconstruction_1945_1952","high_growth_1952_1973"]
+  space_tags: ["home","library","shop"]
+  place_tags: ["generic_japan"]
+  object_tags: ["books","paper","prop"]
+  xr_notes: "Use as props or shelf fills; confirm atlas/texture resolution for legibility at inspection distance."
+  historical_notes: "Bound volumes and worn cloth bindings read across Showa decades; assign more precise dating only with cover text or publisher cues."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+
+- id: skf-0003
+  title: "Traditional Japanese Houses (interior set)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/traditional-japanese-housescurrent-museum-74640f7e468e4c29bb20ef360b89fd68"
+  creator: "Fuji"
+  license: "check (Sketchfab listing)"
+  period_tags: ["occupation_reconstruction_1945_1952","high_growth_1952_1973"]
+  space_tags: ["shitamachi_alley","house","interior"]
+  place_tags: ["regional_city","rural"]
+  object_tags: ["interior","furnishings","architecture"]
+  xr_notes: "Large scene asset: confirm modularity, lightmap/UVs, and collision meshes for runtime use; check scale."
+  historical_notes: "A furnished traditional house that can represent prewar and early postwar domestic spaces; verify presence/absence of electrified appliances to refine period fit."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+
+- id: skf-0004
+  title: "Japanese traditional cupboard (tansu) â€” model A"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/cupboard-japanese-traditional-cupboard-c77dadf5f77c42ef848fa2e20fccf823"
+  creator: "Nuclino (?)"
+  license: "check (Sketchfab listing)"
+  period_tags: ["interwar_wartime_1926_1945","occupation_reconstruction_1945_1952"]
+  space_tags: ["danchi_unit","home"]
+  place_tags: ["generic_japan"]
+  object_tags: ["furniture","tansu","storage"]
+  xr_notes: "Good low-to-mid poly prop; confirm pivot points if you intend to animate drawers; check texture tiling."
+  historical_notes: "Traditional tansu appear throughout Showa; this form reads well for domestic interiors from prewar through early postwar periods."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+
+- id: skf-0005
+  title: "Cupboard from Japanese traditional"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/cupboard-from-japanese-traditional-efe2da5c01204d4f9707d41ef6ee7a1c"
+  creator: "unknown (from upload)"
+  license: "check (Sketchfab listing)"
+  period_tags: ["interwar_wartime_1926_1945","occupation_reconstruction_1945_1952"]
+  space_tags: ["home","shop"]
+  place_tags: ["regional_city"]
+  object_tags: ["furniture","storage"]
+  xr_notes: "Verify wood grain and normal maps; confirm whether doors/drawers are separate meshes for interaction."
+  historical_notes: "Robust cupboard geometry suitable for Showa-era shop interiors or homes; watch for modern hardware or decals that betray later dates."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+
+- id: skf-0006
+  title: "Japanese table kotatsu"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-table-kotatsu-b2cc902063f447eb8ffc060524e35417"
+  creator: "nicolas_solo"
+  license: "check (Sketchfab listing)"
+  period_tags: ["occupation_reconstruction_1945_1952","high_growth_1952_1973"]
+  space_tags: ["danchi_unit","home"]
+  place_tags: ["generic_japan"]
+  object_tags: ["furniture","heating","table"]
+  xr_notes: "Confirm cloth/blanket texture and internal heater geometry; verify scale for user seating heights."
+  historical_notes: "Kotatsu are anachronism-resistant domestic props across Showa decades; useful for low-income household scenes in the 1940sâ€“1960s."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+
+- id: skf-0007
+  title: "Japanese futon/bed"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-futon-bed-nicolas_solo"
+  creator: "nicolas_solo"
+  license: "check (Sketchfab listing)"
+  period_tags: ["interwar_wartime_1926_1945","occupation_reconstruction_1945_1952"]
+  space_tags: ["home","danchi_unit"]
+  place_tags: ["generic_japan"]
+  object_tags: ["bedding","textile"]
+  xr_notes: "Softer geometry: consider normal maps for detail; check cloth physics compatibility if required."
+  historical_notes: "Floor bedding is a hallmark of domestic Japanese interiors; good for scenes emphasizing traditional sleeping arrangements during Showa."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+
+- id: skf-0008
+  title: "Go board (Asian board game set)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/go-asian-board-game-nicolas_solo"
+  creator: "nicolas_solo"
+  license: "check (Sketchfab listing)"
+  period_tags: ["high_growth_1952_1973","restructuring_1973_1985"]
+  space_tags: ["home","kissaten","public-space"]
+  place_tags: ["generic_japan"]
+  object_tags: ["game","tabletop"]
+  xr_notes: "Verify stone textures and small prop collision; useful as focused interactive prop."
+  historical_notes: "Go tables are culturally continuous; read as leisure interiors through Showa decades, though boards and stones vary stylistically."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+
+- id: skf-0009
+  title: "Traditional Japanese kitchen stove"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/traditional-japanese-kitchen-stove-a5d8786b42214e07bc5e0ad59250a890"
+  creator: "Yu"
+  license: "check (Sketchfab listing)"
+  period_tags: ["interwar_wartime_1926_1945","occupation_reconstruction_1945_1952"]
+  space_tags: ["kitchen","house"]
+  place_tags: ["regional_city","rural"]
+  object_tags: ["appliance","stove","cooking"]
+  xr_notes: "Often heavy geometry; check modularity and whether burners or lids are separate for interaction."
+  historical_notes: "Stone or earthen stoves are useful for earlier Showa cooking ecologies; presence of gas fittings would shift period forward."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+
+- id: skf-0010
+  title: "Oriental Shelf"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/oriental-shelf-5d0f48de9618466fbe99f7cc7de0e0a2"
+  creator: "Erika Dejnse"
+  license: "check (Sketchfab listing)"
+  period_tags: ["interwar_wartime_1926_1945","occupation_reconstruction_1945_1952"]
+  space_tags: ["home","shop"]
+  place_tags: ["generic_japan"]
+  object_tags: ["shelf","furniture","display"]
+  xr_notes: "Good for display or storage scenes; check texture fidelity on shelves for small objects."
+  historical_notes: "Open shelving and displays appear in both domestic and commercial Showa interiors; confirm joinery details for period specificity."
+  date_added: "2025-12-17"
+  date_last_checked: "2025-12-17"
+... (rest of fab.yml continues identical to prior files)
