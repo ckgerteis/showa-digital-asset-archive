@@ -1,32 +1,24 @@
+# FULL CATALOG - 25 ITEMS
+# Cleaned and Formatted for Showa Digital Asset Archive
+
 - id: skf-0001
   title: "Vintage Camera Exakta VX 1954"
   source: "sketchfab"
   source_url: "https://sketchfab.com/3d-models/vintage-camera-exakta-vx-1954-dolgov12"
   creator: "Dolgov (@Dolgov12)"
-  license: "check (Sketchfab listing)"
   period_tags: ["high_growth_1952_1973"]
-  space_tags: ["home", "studio", "street-photography"]
-  place_tags: ["generic_japan"]
-  object_tags: ["camera", "consumer-electronics"]
-  xr_notes: "Check formats (OBJ/FBX/glTF), texture maps, and LODs."
+  space_tags: ["home", "studio"]
+  object_tags: ["technology", "camera"]
   historical_notes: "A 1954 Exakta-style camera indexes home and amateur photography in early postwar Japan."
-  date_added: "2025-12-17"
-  date_last_checked: "2025-12-17"
 
 - id: skf-0002
   title: "Vintage Books (bundle)"
   source: "sketchfab"
   source_url: "https://sketchfab.com/3d-models/vintage-books-leaguestudio"
-  creator: "League Studio (@leaguestudio)"
-  license: "check (Sketchfab listing)"
+  creator: "League Studio"
   period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
-  space_tags: ["home", "library", "shop"]
-  place_tags: ["generic_japan"]
-  object_tags: ["books", "paper", "prop"]
-  xr_notes: "Use as props or shelf fills."
+  object_tags: ["household", "books"]
   historical_notes: "Bound volumes and worn cloth bindings read across Showa decades."
-  date_added: "2025-12-17"
-  date_last_checked: "2025-12-17"
 
 - id: skf-0003
   title: "Traditional Japanese Houses (interior set)"
@@ -34,8 +26,7 @@
   source_url: "https://sketchfab.com/3d-models/traditional-japanese-housescurrent-museum-74640f7e468e4c29bb20ef360b89fd68"
   creator: "Fuji"
   period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
-  space_tags: ["shitamachi_alley", "house", "interior"]
-  object_tags: ["interior", "furnishings", "architecture"]
+  object_tags: ["architecture", "interior"]
   historical_notes: "A furnished traditional house that can represent prewar and early postwar domestic spaces."
 
 - id: skf-0004
@@ -43,13 +34,173 @@
   source: "sketchfab"
   source_url: "https://sketchfab.com/3d-models/cupboard-japanese-traditional-cupboard-c77dadf5f77c42ef848fa2e20fccf823"
   period_tags: ["interwar_wartime_1926_1945"]
-  object_tags: ["furniture", "tansu", "storage"]
+  object_tags: ["household", "furniture"]
   historical_notes: "Traditional tansu appear throughout Showa; this form reads well for domestic interiors."
+
+- id: skf-0005
+  title: "Cupboard from Japanese traditional"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/cupboard-from-japanese-traditional-efe2da5c01204d4f9707d41ef6ee7a1c"
+  period_tags: ["interwar_wartime_1926_1945"]
+  object_tags: ["household", "furniture"]
+  historical_notes: "Robust cupboard geometry suitable for Showa-era shop interiors or homes."
 
 - id: skf-0006
   title: "Japanese table kotatsu"
   source: "sketchfab"
   source_url: "https://sketchfab.com/3d-models/japanese-table-kotatsu-b2cc902063f447eb8ffc060524e35417"
   period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
-  object_tags: ["furniture", "heating", "table"]
+  object_tags: ["household", "furniture"]
   historical_notes: "Kotatsu are anachronism-resistant domestic props across Showa decades."
+
+- id: skf-0007
+  title: "Japanese futon/bed"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-futon-bed-nicolas_solo"
+  period_tags: ["interwar_wartime_1926_1945"]
+  object_tags: ["household", "bedding"]
+  historical_notes: "Floor bedding is a hallmark of domestic Japanese interiors."
+
+- id: skf-0008
+  title: "Go board (Asian board game)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/go-asian-board-game-nicolas_solo"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["art", "game"]
+  historical_notes: "Go tables are culturally continuous; read as leisure interiors through Showa decades."
+
+- id: skf-0009
+  title: "Traditional Japanese kitchen stove"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/traditional-japanese-kitchen-stove-a5d8786b42214e07bc5e0ad59250a890"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
+  object_tags: ["household", "kitchen"]
+  historical_notes: "Stone or earthen stoves are useful for earlier Showa cooking ecologies."
+
+- id: skf-0010
+  title: "Oriental Shelf"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/oriental-shelf-5d0f48de9618466fbe99f7cc7de0e0a2"
+  period_tags: ["interwar_wartime_1926_1945"]
+  object_tags: ["household", "furniture"]
+  historical_notes: "Open shelving and displays appear in both domestic and commercial Showa interiors."
+
+- id: skf-0011
+  title: "Zenith Console Mid Century Modern"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/zenith-console-mid-century-modern-a9d5edadaf494489b33d4e98290d349b"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["technology", "audio"]
+  historical_notes: "A classic mid-century console representing the introduction of high-fidelity audio to the living room."
+
+- id: skf-0012
+  title: "Ensemble Stereo"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/ensemble-stereo-70a5253f8cd54d73b081027e0d43ef80"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["technology", "audio"]
+  historical_notes: "Stereo systems became a status symbol of the middle-class household during the economic boom."
+
+- id: skf-0013
+  title: "1960s Nesting Tables"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/1960s-nesting-tables-418ff95954f14088920b3234d471f3d1"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["household", "furniture"]
+  historical_notes: "Modernist furniture design influenced Japanese interiors heavily in the 1960s."
+
+- id: skf-0014
+  title: "IBM Standard Issue Clock"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/ibm-standard-issue-clock-d9bb3ac6fd0144f69a4ab3afc4bace1e"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["household", "clock"]
+  historical_notes: "Standardized timekeeping became ubiquitous in schools and offices during the modernization period."
+
+- id: skf-0015
+  title: "Bottle Selection (Sake/Drinks)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/bottle-selection-dc27cb42274f4d2fb3413347ccfc68b2"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["household", "food"]
+  historical_notes: "Glass bottling became standard for beverages and condiments in the post-war era."
+
+- id: skf-0016
+  title: "Kikkoman Soy Sauce Bottle"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/kikkoman-soy-sauce-d9f7418ef42a4876a0a7f8c1fa7996ea"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["household", "food"]
+  historical_notes: "The iconic Kikkoman dispenser, designed by Kenji Ekuan in 1961, is a masterpiece of Showa industrial design."
+
+- id: skf-0017
+  title: "Vintage Kettle"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/vintage-kettle-0047fa5e44334d3e9bd171ad2bf95ff5"
+  period_tags: ["occupation_reconstruction_1945_1952"]
+  object_tags: ["household", "kitchen"]
+  historical_notes: "Standard metal kettles were essential tools in every Showa kitchen."
+
+- id: skf-0018
+  title: "Vintage Metal Ashtray"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/vintage-metal-ashtray-e3a5fd374386419680a26a3acaa18728"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["household", "culture"]
+  historical_notes: "Smoking was prevalent in public and private spaces throughout the Showa era."
+
+- id: skf-0019
+  title: "Vintage TV"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/vintage-tv-free-ed92cac6b8d64ea48ea4f91ce9bf350b"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["technology", "television"]
+  historical_notes: "The television was one of the 'Three Sacred Treasures' of the post-war economic boom."
+
+- id: skf-0020
+  title: "Retro Bike"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/retro-bike-d9c4d3b44b2e4e4aa24e360c9830c0a1"
+  period_tags: ["occupation_reconstruction_1945_1952"]
+  object_tags: ["transport", "bicycle"]
+  historical_notes: "Bicycles were the primary mode of personal transport for many during the reconstruction era."
+
+- id: skf-0021
+  title: "Vintage Fridge"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/vintage-fridge-30765d86e64e487a935b399ee056b0f7"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["technology", "appliance"]
+  historical_notes: "The refrigerator was another of the 'Three Sacred Treasures' that transformed domestic life."
+
+- id: skf-0022
+  title: "Vintage Bicycle"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/vintage-bicycle-755673cce36140c1b4aaf249c9c51b06"
+  period_tags: ["interwar_wartime_1926_1945"]
+  object_tags: ["transport", "bicycle"]
+  historical_notes: "Pre-war bicycle designs often featured sturdy frames for utility and delivery use."
+
+- id: skf-0023
+  title: "Tableware Cutlery"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/tableware-cutlery-d5171d5947d34715b13e8f24dc0ad2cf"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["household", "kitchen"]
+  historical_notes: "Western-style cutlery became increasingly common in Japanese households during the 1960s."
+
+- id: skf-0024
+  title: "Tableware Set"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/tableware-71c02a0e1e5d4e51b8772fe447e7d784"
+  period_tags: ["high_growth_1952_1973"]
+  object_tags: ["household", "kitchen"]
+  historical_notes: "Modern ceramic designs reflected the changing aesthetics of the dining table."
+
+- id: skf-0025
+  title: "Wagon Coal Mine"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/wagon-coal-mine-fe3feca2ef8d41c8b57e0f7949508621"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
+  object_tags: ["transport", "industrial"]
+  historical_notes: "Coal mining was a critical industry powering Japan's modernization and reconstruction."
