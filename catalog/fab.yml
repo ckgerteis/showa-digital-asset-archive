@@ -1,5 +1,6 @@
 # FULL CATALOG - 25 ITEMS
 # Cleaned and Formatted for Showa Digital Asset Archive
+# Last Updated: 2025-12-20
 
 - id: skf-0001
   title: "Vintage Camera Exakta VX 1954"
@@ -57,6 +58,7 @@
   title: "Japanese futon/bed"
   source: "sketchfab"
   source_url: "https://sketchfab.com/3d-models/japanese-futon-bed-nicolas_solo"
+  creator: "nicolas_solo"
   period_tags: ["interwar_wartime_1926_1945"]
   object_tags: ["household", "bedding"]
   historical_notes: "Floor bedding is a hallmark of domestic Japanese interiors."
@@ -65,6 +67,7 @@
   title: "Go board (Asian board game)"
   source: "sketchfab"
   source_url: "https://sketchfab.com/3d-models/go-asian-board-game-nicolas_solo"
+  creator: "nicolas_solo"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["art", "game"]
   historical_notes: "Go tables are culturally continuous; read as leisure interiors through Showa decades."
