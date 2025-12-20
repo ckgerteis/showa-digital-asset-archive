@@ -1,8 +1,8 @@
 # FULL CATALOG - INTEGRATED ASSETS
-# Includes Sketchfab (Verified Active) & Fab.com (via Legacy Redirects)
+# Includes Sketchfab, Fab (UE), CGTrader, and Unity Asset Store
 # Last Updated: 2025-12-20
 
-# --- SKETCHFAB ASSETS (001-042) ---
+# --- SKETCHFAB ASSETS (001-058) ---
 - id: skf-0001
   title: "Vintage Camera Yashica Lynx"
   source: "sketchfab"
@@ -346,9 +346,169 @@
   object_tags: ["culture", "religion"]
   historical_notes: "A portable Shinto shrine (mikoshi) carried during festivals, symbolizing community identity and resilience."
 
-# --- FAB ASSETS (Legacy Redirects) ---
-# Note: Using original Unreal Marketplace links ensures reliable redirection to Fab.
+# --- NEWLY IDENTIFIED SKETCHFAB ASSETS (043-058) ---
 
+- id: skf-0043
+  title: "Showa-era TV (Vintage TV Free)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/vintage-tv-free-ed92b5e5ab864cf089e849b425c3a9c4"
+  creator: "donnichols"
+  period_tags: ["high_growth_1952_1973"]
+  space_tags: ["home", "living_room"]
+  object_tags: ["technology", "television"]
+  historical_notes: "CRT television consistent with mid-century domestic interiors; useful for Showa-era living room staging."
+
+- id: skf-0044
+  title: "Old Kitchen Cabinet with Sink"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/old-kitchen-cabinet-with-sink-9eff74ae07584f30a0fa0b6bf003c663"
+  creator: "SmartPolygon"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "kitchen"]
+  object_tags: ["household", "kitchen", "furniture"]
+  historical_notes: "Compact sink/cabinet unit suitable for modest post-war apartments and company housing interiors."
+
+- id: skf-0045
+  title: "Old Kitchen Set"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/old-kitchen-set-39a82bbb8c4e41d8952a395d6b693adf"
+  creator: "Pieter Ferreira"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "kitchen"]
+  object_tags: ["household", "kitchen", "interior"]
+  historical_notes: "Consolidated kitchen fixtures/props for rapid blocking of lived-in domestic spaces."
+
+- id: skf-0046
+  title: "Vintage Phone"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/vintage-phone-ea1190c5b6d2483ba3211fccf8b4b450"
+  creator: "galhardijulio"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "office"]
+  object_tags: ["technology", "communication"]
+  historical_notes: "Mid-century telephone prop for corridors, offices, and domestic entryways (Showa-era communications infrastructure)."
+
+- id: skf-0047
+  title: "School Backpack"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/school-backpack-287ad479a4bf4dc486d2e7cfce6d551b"
+  creator: "AFXCGMotion"
+  period_tags: ["high_growth_1952_1973"]
+  space_tags: ["education", "home"]
+  object_tags: ["clothing", "education", "prop"]
+  historical_notes: "Student bag prop supporting school/curriculum-related scenes and everyday life vignettes."
+
+- id: skf-0048
+  title: "Old Metal Basin (Kanadarai variant)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/metal-basin-cd1e63dd4a704d59b282d2c46d7dbc63"
+  creator: "Shibayama"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "bath"]
+  object_tags: ["household", "hygiene", "kitchen"]
+  historical_notes: "Metal washing basin variant; supports bathing/laundry routines prior to plastic ubiquity."
+
+- id: skf-0049
+  title: "Japan Old Book (Handpainted)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japan-old-book-handpainted-ac36f20481ab46d0a1db76af7d22d0fd"
+  creator: "Bunkichi80"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
+  space_tags: ["home", "study"]
+  object_tags: ["household", "books"]
+  historical_notes: "Watoji-style bound book variant; useful as a period-appropriate domestic/study prop."
+
+- id: skf-0050
+  title: "Japanese Retro Pot"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-retro-pot-e22db974a49748bfac85fea024f1c331"
+  creator: "kaltalv"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "kitchen"]
+  object_tags: ["household", "kitchen"]
+  historical_notes: "Domestic cookware prop for Showa kitchens; supports meal-prep and everyday-life staging."
+
+- id: skf-0051
+  title: "Japanese Camera (1969 SLR)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-camera-1969-slr-339e8f526a104b4bb010f8eb93f989fe"
+  creator: "Kinmori"
+  period_tags: ["high_growth_1952_1973"]
+  space_tags: ["home", "studio"]
+  object_tags: ["technology", "camera"]
+  historical_notes: "Late-1960s SLR prop aligning with Japan’s consumer optical boom; useful for hobbyist/middle-class domestic scenes."
+
+- id: skf-0052
+  title: "Japanese Wall Set (Modular Wall)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-wall-set-modular-wall-d41e4e8e2886456aa31c29fe47e05dce"
+  creator: "Anatomic3D"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "interior"]
+  object_tags: ["architecture", "interior", "component"]
+  historical_notes: "Modular interior wall components for fast assembly of domestic layouts (washitsu/yoshitsu hybrids)."
+
+- id: skf-0053
+  title: "Old Sewing Machine"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/old-sewing-machine-d9de8821d1b0441582b545d4b82bb591"
+  creator: "Richard_33"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
+  space_tags: ["home", "work"]
+  object_tags: ["household", "tool"]
+  historical_notes: "Domestic sewing machine prop supporting home-economy, repair, and textile work narratives."
+
+- id: skf-0054
+  title: "Japanese Chest of Drawers (Tansu)"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-chest-of-drawers-tansu-559f54f5c473418c91fa2c108f9c0640"
+  creator: "StacyLoveless"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
+  space_tags: ["home"]
+  object_tags: ["household", "furniture"]
+  historical_notes: "Alternative tansu model for varied domestic interiors; useful where multiple rooms require non-repeating assets."
+
+- id: skf-0055
+  title: "Japanese Room Decor Set"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-room-decor-set-floor-cushion-teaset-table-8c57a3b6a9d4459191c0d62d4cdbc245"
+  creator: "yankobe"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "living_room"]
+  object_tags: ["household", "culture", "furniture"]
+  historical_notes: "Low-table living arrangement props supporting everyday hospitality, tea, and domestic sociability."
+
+- id: skf-0056
+  title: "Japanese Ceramic Coiled Tea Bowl"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-ceramic-coiled-tea-bowl-17th-century-e900dd13672d464d9bf6c8b237fae76b"
+  creator: "LauraWald"
+  period_tags: ["edo_1603_1868"]
+  space_tags: ["home", "culture"]
+  object_tags: ["culture", "ceramic", "tea"]
+  historical_notes: "Premodern tea-ceremony object; can function diegetically as an heirloom/display item in later-period interiors."
+
+- id: skf-0057
+  title: "Japanese Futonbed"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/japanese-futonbed-d791aa20d22a466eab8ae8201d3e77b2"
+  creator: "nicolas_solo"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "bedroom"]
+  object_tags: ["household", "bedding"]
+  historical_notes: "Floor bedding variant enabling multiple domestic configurations (stored away vs. laid out)."
+
+- id: skf-0058
+  title: "Tatami Mat"
+  source: "sketchfab"
+  source_url: "https://sketchfab.com/3d-models/tatami-mat-6111f3f7d4894b419bc1334d14b450ed"
+  creator: "Justin Collie"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "interior"]
+  object_tags: ["architecture", "interior", "component"]
+  historical_notes: "Single tatami module for custom washitsu assembly and accurate spatial scaling."
+
+# --- FAB ASSETS (Legacy Redirects) ---
 - id: fab-0001
   title: "Coal Mine and Industrial Kitbash Set"
   source: "unreal_marketplace"
@@ -550,7 +710,7 @@
 - id: fab-0023
   title: "Japanese Tea Set"
   source: "unreal_marketplace"
-  source_url: "https://www.fab.com/listings/38d46b1d-2d78-42c3-b09a-04d68aaa10be"
+  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-tea-set"
   creator: "BPDesignStudio"
   period_tags: ["interwar_wartime_1926_1945", "high_growth_1952_1973"]
   object_tags: ["household", "culture"]
@@ -559,7 +719,7 @@
 - id: fab-0024
   title: "Japanese Style Dining Set"
   source: "unreal_marketplace"
-  source_url: "https://www.fab.com/listings/13391751-039e-46dd-9953-dd875ae484b9"
+  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-style-dining-set"
   creator: "Black Eye Creations"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["household", "food"]
@@ -568,7 +728,7 @@
 - id: fab-0025
   title: "Chef Vol 1: Japanese Recipes"
   source: "unreal_marketplace"
-  source_url: "https://www.fab.com/listings/f3ffb1c0-e420-4893-806c-60591ec31e3d"
+  source_url: "https://unrealengine.com/marketplace/en-US/product/chef-vol-1-japanese-recipes"
   creator: "Chong seng hock"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["food", "culture"]
@@ -577,7 +737,7 @@
 - id: fab-0026
   title: "Japanese Bicycle"
   source: "unreal_marketplace"
-  source_url: "https://www.fab.com/listings/d569ad7c-1058-4f56-8786-cfde1f600e99"
+  source_url: "https://www.unrealengine.com/marketplace/en-US/product/japanese-bicycle"
   creator: "Tipis Games"
   period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
   object_tags: ["transport", "vehicle"]
@@ -586,7 +746,7 @@
 - id: fab-0027
   title: "Shoji Door Assembly Kit"
   source: "unreal_marketplace"
-  source_url: "https://www.fab.com/listings/77e4d143-ad4d-44a0-9407-e93627e78f6e"
+  source_url: "https://www.unrealengine.com/marketplace/en-US/product/shoji-door-assembly-kit"
   creator: "christinayan01"
   period_tags: ["interwar_wartime_1926_1945", "high_growth_1952_1973"]
   object_tags: ["architecture", "component"]
@@ -595,7 +755,7 @@
 - id: fab-0028
   title: "Japanese Room Props"
   source: "unreal_marketplace"
-  source_url: "https://www.fab.com/listings/5d7f0073-f857-44cc-aa5a-a6476ffe7245"
+  source_url: "https://www.unrealengine.com/marketplace/en-US/product/japanese-room-props"
   creator: "KTY"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["household", "prop"]
@@ -604,7 +764,7 @@
 - id: fab-0029
   title: "Japanese Room Kit"
   source: "unreal_marketplace"
-  source_url: "https://www.fab.com/listings/b6d9c233-b770-4e67-8cf8-5f665e93d0e3"
+  source_url: "https://www.unrealengine.com/marketplace/en-US/product/japanese-room-kit"
   creator: "christinayan01"
   period_tags: ["occupation_reconstruction_1945_1952"]
   object_tags: ["interior", "architecture"]
@@ -613,7 +773,7 @@
 - id: fab-0030
   title: "Andon Traditional Lights"
   source: "unreal_marketplace"
-  source_url: "https://www.fab.com/listings/e59475b3-dd27-4868-ad27-1e71d6d1c4ae"
+  source_url: "https://www.unrealengine.com/marketplace/en-US/product/andon-japanese-traditional-room-lights-pack"
   creator: "xxJulexx"
   period_tags: ["interwar_wartime_1926_1945"]
   object_tags: ["household", "lighting"]
@@ -622,8 +782,183 @@
 - id: fab-0031
   title: "Japanese Furniture"
   source: "unreal_marketplace"
-  source_url: "https://www.fab.com/listings/d2e20af1-757a-4705-ae31-42487dc9be0d"
+  source_url: "https://www.unrealengine.com/marketplace/en-US/product/japanese-furniture"
   creator: "DmitryAnisimov"
   period_tags: ["occupation_reconstruction_1945_1952"]
   object_tags: ["household", "furniture"]
   historical_notes: "Low wooden furniture typical of rooms designed for sitting on tatami."
+
+- id: fab-0032
+  title: "Snap Japanese Kit"
+  source: "unreal_marketplace"
+  source_url: "https://www.unrealengine.com/marketplace/en-US/product/snap-japanese-kit"
+  creator: "Unknown"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  object_tags: ["architecture", "modular", "environment"]
+  historical_notes: "Snap-together modular Japanese environment kit suitable for rapid greyboxing and iteration in Unreal/Fab workflows."
+
+# --- CGTRADER ASSETS (cgt-0001+) ---
+- id: cgt-0001
+  title: "Japanese Low Table (Chabu Table)"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/furniture/table/japanese-low-table-chabu-table"
+  creator: "Various"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "living_room"]
+  object_tags: ["household", "furniture"]
+  historical_notes: "Low dining table supporting tatami-room staging and shared-meal scenes."
+
+- id: cgt-0002
+  title: "Japanese Thermal Jar"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/household/other/japanese-thermal-jar"
+  creator: "Various"
+  period_tags: ["high_growth_1952_1973"]
+  space_tags: ["home", "kitchen"]
+  object_tags: ["household", "kitchen"]
+  historical_notes: "Insulated container suitable for Showa domestic food/storage practices."
+
+- id: cgt-0003
+  title: "Traditional Japanese Cupboard"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/furniture/cabinet/traditional-japanese-cupboard"
+  creator: "Various"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
+  space_tags: ["home"]
+  object_tags: ["household", "furniture"]
+  historical_notes: "Storage furniture consistent with modest interiors; useful for reducing repeated prop silhouettes."
+
+- id: cgt-0004
+  title: "Tatami Mat (CGTrader variant)"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/interior/bedroom/tatami-mat"
+  creator: "Various"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "interior"]
+  object_tags: ["architecture", "interior", "component"]
+  historical_notes: "Alternative tatami model for variation and/or different topology/UV requirements."
+
+- id: cgt-0005
+  title: "Japanese Public Bathroom"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/exterior/street/japanese-public-bathroom"
+  creator: "Various"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["public", "bath"]
+  object_tags: ["architecture", "public_space"]
+  historical_notes: "Public hygiene infrastructure environment element; supports neighbourhood/street-scene context."
+
+- id: cgt-0006
+  title: "Furnitures and Tools in Old Japanese Dining Room"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/interior/kitchen/furnitures-and-tools-in-old-japanese-dining-room"
+  creator: "Various"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
+  space_tags: ["home", "kitchen"]
+  object_tags: ["household", "kitchen", "prop_set"]
+  historical_notes: "Bundled interior props enabling faster dressing of lived-in dining/kitchen scenes."
+
+- id: cgt-0007
+  title: "100+ Sets of Japanese Traditional House Interior"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/interior/house/100-over-sets-of-japanese-traditional-house-interior"
+  creator: "Various"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  space_tags: ["home", "interior"]
+  object_tags: ["architecture", "interior", "prop_set"]
+  historical_notes: "Large interior kit for fast iteration across multiple domestic rooms without repeating layouts."
+
+- id: cgt-0008
+  title: "Hachiman Shrine (Pack)"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/exterior/architectural-exterior/hachiman-shrine-pack"
+  creator: "Various"
+  period_tags: ["interwar_wartime_1926_1945", "high_growth_1952_1973"]
+  space_tags: ["public", "religion"]
+  object_tags: ["architecture", "culture", "religion"]
+  historical_notes: "Shrine environment pack for religious/civic landscape elements (continuity across eras)."
+
+- id: cgt-0009
+  title: "Japanese Festival Pack (Matsuri and Obon Assets)"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/various/various-models/japanese-festival-pack-matsuri-and-obon-assets"
+  creator: "Various"
+  period_tags: ["interwar_wartime_1926_1945", "high_growth_1952_1973"]
+  space_tags: ["public", "festival"]
+  object_tags: ["culture", "event", "prop_set"]
+  historical_notes: "Festival props supporting community scenes, street dressing, and seasonal cultural contexts."
+
+- id: cgt-0010
+  title: "Japanese Izakaya Restaurant 2"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/interior/interior-office/japanese-izakaya-restaurant-2"
+  creator: "Various"
+  period_tags: ["high_growth_1952_1973"]
+  space_tags: ["commercial", "interior"]
+  object_tags: ["architecture", "commercial", "interior"]
+  historical_notes: "Commercial interior environment suitable for Showa-era nightlife and after-work sociality scenes."
+
+- id: cgt-0011
+  title: "Female Kimono"
+  source: "cgtrader"
+  source_url: "https://www.cgtrader.com/3d-models/character/clothing/female-kimono"
+  creator: "Various"
+  period_tags: ["interwar_wartime_1926_1945"]
+  space_tags: ["home", "public"]
+  object_tags: ["clothing", "culture"]
+  historical_notes: "Traditional garment asset for formal/daily wear contexts; supports period character dressing."
+
+# --- UNITY ASSET STORE ASSETS (unity-0001+) ---
+- id: unity-0001
+  title: "\"Shouwa\" 80's Japanese town model set - vol.1 House"
+  source: "unity_asset_store"
+  source_url: "https://assetstore.unity.com/packages/3d/environments/urban/shouwa-80-s-japanese-town-model-set-vol-1-house-91384"
+  creator: "FUNSET"
+  period_tags: ["late_showa_1973_1989"]
+  object_tags: ["architecture", "urban", "environment"]
+  historical_notes: "Late-Showa residential kit (houses + domestic exterior details) for building neighbourhood streetscapes."
+
+- id: unity-0002
+  title: "\"Shouwa\" 80's Japanese town model set vol.3 -Mall"
+  source: "unity_asset_store"
+  source_url: "https://assetstore.unity.com/packages/3d/environments/urban/shouwa-80-s-japanese-town-model-set-vol-3-mall-127437"
+  creator: "FUNSET"
+  period_tags: ["late_showa_1973_1989"]
+  object_tags: ["architecture", "commercial", "environment"]
+  historical_notes: "Late-Showa commercial district/mall elements (shops, signs, arcade roof) for dense street scenes."
+
+- id: unity-0003
+  title: "Old Japanese Town"
+  source: "unity_asset_store"
+  source_url: "https://assetstore.unity.com/packages/3d/environments/historic/old-japanese-town-210612"
+  creator: "KraftMaru"
+  period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
+  object_tags: ["architecture", "urban", "environment"]
+  historical_notes: "Large environment pack for constructing older streetscapes; useful as a base layer behind bespoke domestic interiors."
+
+- id: unity-0004
+  title: "Stylized Japan Environment"
+  source: "unity_asset_store"
+  source_url: "https://assetstore-fallback.unity.com/packages/3d/environments/historic/stylized-japan-environment-231870"
+  creator: "Halberstram Art"
+  period_tags: ["interwar_wartime_1926_1945", "high_growth_1952_1973"]
+  object_tags: ["architecture", "environment", "stylized"]
+  historical_notes: "Stylized environment pack (pagodas/ryokan/torii + nature assets) for non-photoreal XR scenes or interpretive layers."
+
+- id: unity-0005
+  title: "Japanese House Package"
+  source: "unity_asset_store"
+  source_url: "https://marketplace.unity.com/packages/3d/props/japanese-house-package-214482"
+  creator: "Reberu Game Studio"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  object_tags: ["architecture", "buildings", "prop_set"]
+  historical_notes: "Multi-building bundle (shops/houses) supporting quick assembly of mixed-use streets and neighbourhood nodes."
+
+- id: unity-0006
+  title: "Living Room 1950s / 40+ Assets"
+  source: "unity_asset_store"
+  source_url: "https://assetstore.unity.com/packages/3d/props/living-room-1950s-40-assets-280411"
+  creator: "PackDev"
+  period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
+  object_tags: ["interior", "household", "prop_set"]
+  historical_notes: "Mid-century interior prop pack enabling Western-influenced domestic scenes (useful alongside Showa electronics and hybrid room layouts)."
