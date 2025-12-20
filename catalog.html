@@ -90,7 +90,8 @@
         let allData = [];
 
         document.addEventListener('DOMContentLoaded', () => {
-            // Fetch the YAML file from the catalog folder
+            console.log("Attempting to fetch catalog/fab.yml...");
+
             fetch('catalog/fab.yml')
                 .then(response => {
                     if (!response.ok) throw new Error("HTTP error " + response.status);
@@ -98,17 +99,40 @@
                 })
                 .then(yamlText => {
                     try {
-                        // Parse YAML into a JavaScript Object
+                        console.log("Raw YAML loaded. Length:", yamlText.length);
+                        
+                        // --- FIX: SANITIZE INPUT ---
+                        // 1. Remove Byte Order Mark (BOM) if present (invisible character at start)
+                        if (yamlText.charCodeAt(0) === 0xFEFF) {
+                            yamlText = yamlText.slice(1);
+                        }
+                        // 2. normalize line endings to prevent parser crashes
+                        yamlText = yamlText.replace(/\r\n/g, '\n');
+                        // ---------------------------
+
                         allData = jsyaml.load(yamlText);
+                        
+                        if (!allData) {
+                            throw new Error("YAML file is empty or invalid.");
+                        }
+
                         renderGrid(allData);
                     } catch (e) {
-                        console.error("YAML Parsing Error:", e);
-                        document.getElementById('catalogGrid').innerHTML = `<div class="alert alert-danger col-12">Error parsing YAML file. Please check the console for details.</div>`;
+                        console.error("YAML Parsing Error Details:", e);
+                        document.getElementById('catalogGrid').innerHTML = 
+                            `<div class="alert alert-danger col-12">
+                                <strong>Parsing Error:</strong> ${e.message}<br>
+                                <small>Please ensure your 'catalog/fab.yml' does not contain invisible characters or invalid indentation.</small>
+                             </div>`;
                     }
                 })
                 .catch(error => {
                     console.error('Fetch Error:', error);
-                    document.getElementById('catalogGrid').innerHTML = `<div class="alert alert-danger col-12">Could not find 'catalog/fab.yml'. Ensure the file exists.</div>`;
+                    document.getElementById('catalogGrid').innerHTML = 
+                        `<div class="alert alert-danger col-12">
+                            <strong>Connection Error:</strong> ${error.message}<br>
+                            <small>Ensure 'catalog/fab.yml' exists and is accessible.</small>
+                         </div>`;
                 });
         });
 
@@ -130,11 +154,12 @@
             data.forEach(item => {
                 // 1. DATA MAPPING (Connecting YAML keys to Variables)
                 const title = item.title || "Untitled Asset";
-                const desc = item.historical_notes || "No historical notes provided.";
-                const url = item.source_url || "#";
+                // Look for 'historical_notes' OR 'description' to be safe
+                const desc = item.historical_notes || item.description || "No description provided.";
+                // Look for 'source_url' OR 'url'
+                const url = item.source_url || item.url || "#";
                 
                 // Handle Tags (which are arrays in your YAML)
-                // We take the first tag, clean up underscores/numbers, and use it as the badge
                 const eras = Array.isArray(item.period_tags) ? item.period_tags : [item.period_tags];
                 const displayEra = eras[0] ? eras[0].replace(/_/g, ' ').replace(/\d+/g, '').trim() : "Unknown Era";
                 
@@ -177,7 +202,7 @@
             const filtered = allData.filter(item => {
                 // Prepare item data for safe comparison
                 const iTitle = (item.title || "").toLowerCase();
-                const iNotes = (item.historical_notes || "").toLowerCase();
+                const iNotes = (item.historical_notes || item.description || "").toLowerCase();
                 
                 // Convert array tags to a single string for easy checking
                 const iEras = Array.isArray(item.period_tags) ? item.period_tags.join(" ") : (item.period_tags || "");
