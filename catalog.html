@@ -13,7 +13,7 @@
         h1, h2, h3 { font-family: 'Merriweather', serif; color: #2c3e50; }
         .filter-section { background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
         
-        /* Card & Image Styling */
+        /* Card Styling */
         .asset-card { transition: transform 0.2s; border: none; }
         .asset-card:hover { transform: translateY(-2px); }
         
@@ -32,11 +32,14 @@
             object-fit: cover;
             transition: opacity 0.3s ease;
         }
-        /* Fade in effect */
+        
         .img-loading { opacity: 0.4; filter: blur(4px); }
         .img-loaded { opacity: 1; filter: blur(0); }
 
+        /* Badges */
         .badge-era { background-color: #c0392b; position: absolute; top: 10px; right: 10px; z-index: 2; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+        .badge-source { position: absolute; bottom: 10px; left: 10px; z-index: 2; font-size: 0.75rem; opacity: 0.9; }
+        
         .creator-text { font-size: 0.85rem; color: #666; font-style: italic; }
     </style>
 </head>
@@ -66,7 +69,7 @@
         <div class="row mb-5 justify-content-center">
             <div class="col-lg-10">
                 <div class="filter-section d-flex flex-wrap gap-3">
-                    <input type="text" id="searchInput" class="form-control w-50" placeholder="Search title, creator...">
+                    <input type="text" id="searchInput" class="form-control w-50" placeholder="Search title, creator, or source...">
                     <select id="eraFilter" class="form-select w-25">
                         <option value="All">All Periods</option>
                         <option value="1926_1945">Interwar (1926-45)</option>
@@ -111,7 +114,6 @@
             fetch('catalog/fab.yml')
                 .then(r => r.text())
                 .then(text => {
-                    // Clean BOM if present
                     if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
                     allData = jsyaml.load(text);
                     renderGrid(allData);
@@ -140,19 +142,44 @@
                 const title = item.title || "Untitled";
                 const url = item.source_url || "#";
                 const creator = item.creator || "Unknown Creator";
+                const source = item.source || "web"; // 'sketchfab' or 'unreal_marketplace'
                 
-                // Format tags
-                let era = (item.period_tags?.[0] || "").replace(/_/g,' ').replace(/\d+/g,'').trim();
-                if(era.length > 20) era = "Showa Era"; // Fallback for long tags
+                // --- DYNAMIC BUTTON LOGIC ---
+                let btnText = "View Resource";
+                let btnIcon = "bi-box-arrow-up-right";
+                let btnClass = "btn-outline-secondary";
+                let sourceBadge = "";
 
-                // Placeholder Image (Gray Box)
-                const placeholder = `https://placehold.co/600x400/e9ecef/999?text=Loading+Image...`;
+                if (source === 'sketchfab') {
+                    btnText = "View on Sketchfab";
+                    btnIcon = "bi-box";
+                    btnClass = "btn-outline-primary";
+                    sourceBadge = `<span class="badge bg-primary badge-source"><i class="bi bi-box"></i> Sketchfab</span>`;
+                } else if (source === 'unreal_marketplace') {
+                    btnText = "View on UE Marketplace";
+                    btnIcon = "bi-shop";
+                    btnClass = "btn-outline-dark";
+                    sourceBadge = `<span class="badge bg-dark badge-source"><i class="bi bi-shop"></i> UE Asset</span>`;
+                }
+
+                // --- FORMAT TAGS ---
+                let era = (item.period_tags?.[0] || "").replace(/_/g,' ').replace(/\d+/g,'').trim();
+                if(era.length > 20) era = "Showa Era"; 
+
+                // --- PLACEHOLDER IMAGE ---
+                // We use a different placeholder color for UE assets to visually distinguish them
+                const placeholderBg = source === 'unreal_marketplace' ? '333' : 'e9ecef';
+                const placeholderFg = source === 'unreal_marketplace' ? 'fff' : '999';
+                const placeholderText = source === 'unreal_marketplace' ? 'UE+Marketplace' : 'Loading...';
+                
+                const placeholder = `https://placehold.co/600x400/${placeholderBg}/${placeholderFg}?text=${placeholderText}`;
 
                 const card = `
                     <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow-sm asset-card">
                             <div class="img-container">
                                 <span class="badge badge-era">${era}</span>
+                                ${sourceBadge}
                                 <img id="${uniqueId}" src="${placeholder}" class="img-loading" alt="Preview" onerror="this.src='https://placehold.co/600x400/e9ecef/999?text=No+Preview'">
                             </div>
                             <div class="card-body">
@@ -163,8 +190,8 @@
                                 </p>
                             </div>
                             <div class="card-footer bg-white border-top-0 pt-0 pb-3">
-                                <a href="${url}" target="_blank" class="btn btn-outline-primary btn-sm w-100">
-                                    View on Sketchfab <i class="bi bi-box-arrow-up-right"></i>
+                                <a href="${url}" target="_blank" class="btn ${btnClass} btn-sm w-100">
+                                    ${btnText} <i class="bi ${btnIcon}"></i>
                                 </a>
                             </div>
                         </div>
@@ -172,29 +199,23 @@
                 `;
                 grid.innerHTML += card;
 
-                // TRIGGER IMAGE FETCH
-                if (url.includes('sketchfab.com')) {
+                // --- FETCH THUMBNAIL (Sketchfab Only) ---
+                if (source === 'sketchfab' || url.includes('sketchfab.com')) {
                     fetchThumbnail(url, uniqueId);
                 }
             });
         }
 
-        // --- THE FIX: Using 'AllOrigins' Proxy to bypass CORS ---
+        // --- PROXY FETCH FOR SKETCHFAB ---
         async function fetchThumbnail(modelUrl, imgId) {
             try {
-                // 1. Construct the Sketchfab oEmbed URL
                 const sketchfabApi = `https://sketchfab.com/oembed?url=${encodeURIComponent(modelUrl)}`;
-                
-                // 2. Wrap it in the AllOrigins Proxy
                 const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(sketchfabApi)}`;
-
                 const response = await fetch(proxyUrl);
-                const proxyData = await response.json(); // Proxy returns an object with 'contents'
+                const proxyData = await response.json();
 
                 if (proxyData.contents) {
-                    // 3. Parse the actual JSON from Sketchfab (it comes as a string inside 'contents')
                     const realData = JSON.parse(proxyData.contents);
-                    
                     if (realData.thumbnail_url) {
                         const img = document.getElementById(imgId);
                         if (img) {
@@ -205,22 +226,17 @@
                     }
                 }
             } catch (err) {
-                console.warn("Thumbnail fetch failed for:", modelUrl, err);
-                // On error, we just leave the placeholder, or we could set a specific 'error' image.
-                const img = document.getElementById(imgId);
-                if(img) {
-                    img.src = `https://placehold.co/600x400/e9ecef/999?text=View+on+Sketchfab`;
-                    img.classList.remove('img-loading');
-                }
+                // Keep placeholder on error
             }
         }
 
-        // Filter Logic
+        // --- FILTER LOGIC ---
         document.getElementById('searchInput').addEventListener('input', (e) => {
             const term = e.target.value.toLowerCase();
             const filtered = allData.filter(i => 
                 (i.title||"").toLowerCase().includes(term) || 
-                (i.creator||"").toLowerCase().includes(term)
+                (i.creator||"").toLowerCase().includes(term) ||
+                (i.source||"").toLowerCase().includes(term)
             );
             renderGrid(filtered);
         });
