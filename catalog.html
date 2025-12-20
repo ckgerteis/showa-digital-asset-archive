@@ -13,13 +13,14 @@
         h1, h2, h3 { font-family: 'Merriweather', serif; color: #2c3e50; }
         .filter-section { background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
         
-        .asset-card { transition: transform 0.2s; }
+        /* Card & Image Styling */
+        .asset-card { transition: transform 0.2s; border: none; }
         .asset-card:hover { transform: translateY(-2px); }
         
-        /* Image container to prevent layout shifts */
         .img-container {
-            height: 200px;
-            background-color: #eee;
+            height: 220px;
+            background-color: #e9ecef;
+            position: relative;
             overflow: hidden;
             display: flex;
             align-items: center;
@@ -28,11 +29,14 @@
         .asset-card img { 
             width: 100%;
             height: 100%;
-            object-fit: cover; 
-            transition: opacity 0.5s ease;
+            object-fit: cover;
+            transition: opacity 0.3s ease;
         }
-        
-        .badge-era { background-color: #c0392b; }
+        /* Fade in effect */
+        .img-loading { opacity: 0.4; filter: blur(4px); }
+        .img-loaded { opacity: 1; filter: blur(0); }
+
+        .badge-era { background-color: #c0392b; position: absolute; top: 10px; right: 10px; z-index: 2; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
         .creator-text { font-size: 0.85rem; color: #666; font-style: italic; }
     </style>
 </head>
@@ -91,8 +95,7 @@
                 <div class="col-md-6 text-md-end">
                     <p class="small text-white-50">
                         <strong>Disclaimer:</strong> This site is a curated index of links. 
-                        All 3D models and intellectual property displayed via external APIs 
-                        remain the property of their respective creators.
+                        3D models and images remain the property of their respective creators.
                     </p>
                 </div>
             </div>
@@ -108,12 +111,14 @@
             fetch('catalog/fab.yml')
                 .then(r => r.text())
                 .then(text => {
+                    // Clean BOM if present
                     if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
                     allData = jsyaml.load(text);
                     renderGrid(allData);
                 })
                 .catch(e => {
-                    document.getElementById('catalogGrid').innerHTML = `<div class="alert alert-danger">Error loading data: ${e.message}</div>`;
+                    document.getElementById('catalogGrid').innerHTML = 
+                        `<div class="alert alert-danger">Error loading data: ${e.message}</div>`;
                 });
         });
 
@@ -136,26 +141,28 @@
                 const url = item.source_url || "#";
                 const creator = item.creator || "Unknown Creator";
                 
-                // Set default placeholder immediately so it never gets "stuck"
-                const defaultImg = `https://placehold.co/600x400/f0f0f0/999?text=View+3D+Model`;
+                // Format tags
+                let era = (item.period_tags?.[0] || "").replace(/_/g,' ').replace(/\d+/g,'').trim();
+                if(era.length > 20) era = "Showa Era"; // Fallback for long tags
+
+                // Placeholder Image (Gray Box)
+                const placeholder = `https://placehold.co/600x400/e9ecef/999?text=Loading+Image...`;
 
                 const card = `
                     <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow-sm border-0 asset-card">
+                        <div class="card h-100 shadow-sm asset-card">
                             <div class="img-container">
-                                <img id="${uniqueId}" src="${defaultImg}" alt="Preview of ${title}" onerror="this.src='${defaultImg}'">
-                                <span class="badge badge-era position-absolute top-0 end-0 m-2">
-                                    ${(item.period_tags?.[0] || "").replace(/_/g,' ').replace(/\d+/g,'')}
-                                </span>
+                                <span class="badge badge-era">${era}</span>
+                                <img id="${uniqueId}" src="${placeholder}" class="img-loading" alt="Preview" onerror="this.src='https://placehold.co/600x400/e9ecef/999?text=No+Preview'">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-truncate mb-1">${title}</h5>
+                                <h5 class="card-title text-truncate mb-1" title="${title}">${title}</h5>
                                 <p class="creator-text mb-2"><i class="bi bi-person-circle"></i> ${creator}</p>
-                                <p class="card-text text-muted small" style="line-height: 1.4;">
+                                <p class="card-text text-muted small" style="line-height: 1.4; height: 60px; overflow: hidden;">
                                     ${(item.historical_notes || "").substring(0, 90)}...
                                 </p>
                             </div>
-                            <div class="card-footer bg-white border-0 pt-0 pb-3">
+                            <div class="card-footer bg-white border-top-0 pt-0 pb-3">
                                 <a href="${url}" target="_blank" class="btn btn-outline-primary btn-sm w-100">
                                     View on Sketchfab <i class="bi bi-box-arrow-up-right"></i>
                                 </a>
@@ -165,34 +172,46 @@
                 `;
                 grid.innerHTML += card;
 
-                // Attempt to fetch thumbnail
+                // TRIGGER IMAGE FETCH
                 if (url.includes('sketchfab.com')) {
                     fetchThumbnail(url, uniqueId);
                 }
             });
         }
 
+        // --- THE FIX: Using 'AllOrigins' Proxy to bypass CORS ---
         async function fetchThumbnail(modelUrl, imgId) {
             try {
-                // Try Sketchfab's official oEmbed endpoint directly
-                // Note: This URL returns JSON with the thumbnail_url
-                const apiUrl = `https://sketchfab.com/oembed?url=${encodeURIComponent(modelUrl)}`;
+                // 1. Construct the Sketchfab oEmbed URL
+                const sketchfabApi = `https://sketchfab.com/oembed?url=${encodeURIComponent(modelUrl)}`;
                 
-                const response = await fetch(apiUrl);
-                
-                if (!response.ok) throw new Error("Fetch failed");
-                
-                const data = await response.json();
-                
-                if (data.thumbnail_url) {
-                    const img = document.getElementById(imgId);
-                    if (img) {
-                        img.src = data.thumbnail_url;
+                // 2. Wrap it in the AllOrigins Proxy
+                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(sketchfabApi)}`;
+
+                const response = await fetch(proxyUrl);
+                const proxyData = await response.json(); // Proxy returns an object with 'contents'
+
+                if (proxyData.contents) {
+                    // 3. Parse the actual JSON from Sketchfab (it comes as a string inside 'contents')
+                    const realData = JSON.parse(proxyData.contents);
+                    
+                    if (realData.thumbnail_url) {
+                        const img = document.getElementById(imgId);
+                        if (img) {
+                            img.src = realData.thumbnail_url;
+                            img.classList.remove('img-loading');
+                            img.classList.add('img-loaded');
+                        }
                     }
                 }
             } catch (err) {
-                console.log("Thumbnail fetch failed for:", modelUrl);
-                // No action needed; the placeholder image is already there.
+                console.warn("Thumbnail fetch failed for:", modelUrl, err);
+                // On error, we just leave the placeholder, or we could set a specific 'error' image.
+                const img = document.getElementById(imgId);
+                if(img) {
+                    img.src = `https://placehold.co/600x400/e9ecef/999?text=View+on+Sketchfab`;
+                    img.classList.remove('img-loading');
+                }
             }
         }
 
