@@ -30,7 +30,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: opacity 0.3s ease;
+            transition: opacity 0.5s ease;
         }
         
         .img-loading { opacity: 0.4; filter: blur(4px); }
@@ -39,7 +39,6 @@
         /* Badges */
         .badge-era { background-color: #c0392b; position: absolute; top: 10px; right: 10px; z-index: 2; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
         .badge-source { position: absolute; bottom: 10px; left: 10px; z-index: 2; font-size: 0.75rem; opacity: 0.9; }
-        
         .creator-text { font-size: 0.85rem; color: #666; font-style: italic; }
     </style>
 </head>
@@ -52,7 +51,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link active" href="catalog.html">Catalog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="educators.html">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="educators.html">Research & Education</a></li>
                 </ul>
             </div>
         </div>
@@ -94,6 +93,9 @@
                 <div class="col-md-6 mb-3">
                     <h5>Showa Digital Asset Archive</h5>
                     <small>Preserving the material heritage of modern Japan.</small>
+                    <div class="mt-3">
+                        <a href="acknowledgments.html" class="text-white-50 text-decoration-none small">Acknowledgments</a>
+                    </div>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="small text-white-50">
@@ -142,9 +144,9 @@
                 const title = item.title || "Untitled";
                 const url = item.source_url || "#";
                 const creator = item.creator || "Unknown Creator";
-                const source = item.source || "web"; // 'sketchfab' or 'unreal_marketplace'
+                const source = item.source || "web"; 
                 
-                // --- DYNAMIC BUTTON LOGIC ---
+                // --- BUTTON & BADGE CONFIG ---
                 let btnText = "View Resource";
                 let btnIcon = "bi-box-arrow-up-right";
                 let btnClass = "btn-outline-secondary";
@@ -156,23 +158,21 @@
                     btnClass = "btn-outline-primary";
                     sourceBadge = `<span class="badge bg-primary badge-source"><i class="bi bi-box"></i> Sketchfab</span>`;
                 } else if (source === 'unreal_marketplace') {
-                    btnText = "View on UE Marketplace";
+                    btnText = "View on Fab.com";
                     btnIcon = "bi-shop";
                     btnClass = "btn-outline-dark";
-                    sourceBadge = `<span class="badge bg-dark badge-source"><i class="bi bi-shop"></i> UE Asset</span>`;
+                    sourceBadge = `<span class="badge bg-dark badge-source"><i class="bi bi-shop"></i> Fab Asset</span>`;
                 }
 
-                // --- FORMAT TAGS ---
+                // --- IMAGE HANDLING ---
+                // 1. Check if 'image' is manually defined in YAML
+                // 2. If not, use a placeholder based on source
+                let placeholderText = source === 'unreal_marketplace' ? 'Fab+Asset' : 'Loading+Preview...';
+                let initialImg = item.image || `https://placehold.co/600x400/e9ecef/999?text=${placeholderText}`;
+                
+                // Tags
                 let era = (item.period_tags?.[0] || "").replace(/_/g,' ').replace(/\d+/g,'').trim();
                 if(era.length > 20) era = "Showa Era"; 
-
-                // --- PLACEHOLDER IMAGE ---
-                // We use a different placeholder color for UE assets to visually distinguish them
-                const placeholderBg = source === 'unreal_marketplace' ? '333' : 'e9ecef';
-                const placeholderFg = source === 'unreal_marketplace' ? 'fff' : '999';
-                const placeholderText = source === 'unreal_marketplace' ? 'UE+Marketplace' : 'Loading...';
-                
-                const placeholder = `https://placehold.co/600x400/${placeholderBg}/${placeholderFg}?text=${placeholderText}`;
 
                 const card = `
                     <div class="col-md-4 mb-4">
@@ -180,7 +180,7 @@
                             <div class="img-container">
                                 <span class="badge badge-era">${era}</span>
                                 ${sourceBadge}
-                                <img id="${uniqueId}" src="${placeholder}" class="img-loading" alt="Preview" onerror="this.src='https://placehold.co/600x400/e9ecef/999?text=No+Preview'">
+                                <img id="${uniqueId}" src="${initialImg}" class="img-loading" alt="Preview" onerror="this.src='https://placehold.co/600x400/e9ecef/999?text=No+Preview'">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title text-truncate mb-1" title="${title}">${title}</h5>
@@ -199,23 +199,23 @@
                 `;
                 grid.innerHTML += card;
 
-                // --- FETCH THUMBNAIL (Sketchfab Only) ---
-                if (source === 'sketchfab' || url.includes('sketchfab.com')) {
-                    fetchThumbnail(url, uniqueId);
+                // --- SMART IMAGE FETCHER ---
+                if (!item.image && (source === 'sketchfab' || url.includes('sketchfab.com'))) {
+                    fetchSketchfabThumbnail(url, uniqueId);
+                } else if (item.image) {
+                     document.getElementById(uniqueId).classList.remove('img-loading');
                 }
             });
         }
 
-        // --- PROXY FETCH FOR SKETCHFAB ---
-        async function fetchThumbnail(modelUrl, imgId) {
+        async function fetchSketchfabThumbnail(modelUrl, imgId) {
             try {
                 const sketchfabApi = `https://sketchfab.com/oembed?url=${encodeURIComponent(modelUrl)}`;
                 const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(sketchfabApi)}`;
                 const response = await fetch(proxyUrl);
-                const proxyData = await response.json();
-
-                if (proxyData.contents) {
-                    const realData = JSON.parse(proxyData.contents);
+                const data = await response.json();
+                if (data.contents) {
+                    const realData = JSON.parse(data.contents);
                     if (realData.thumbnail_url) {
                         const img = document.getElementById(imgId);
                         if (img) {
@@ -225,12 +225,10 @@
                         }
                     }
                 }
-            } catch (err) {
-                // Keep placeholder on error
-            }
+            } catch (err) { /* Fail silently */ }
         }
 
-        // --- FILTER LOGIC ---
+        // Filter Logic
         document.getElementById('searchInput').addEventListener('input', (e) => {
             const term = e.target.value.toLowerCase();
             const filtered = allData.filter(i => 
