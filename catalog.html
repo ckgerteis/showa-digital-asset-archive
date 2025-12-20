@@ -15,10 +15,21 @@
         
         .asset-card { transition: transform 0.2s; }
         .asset-card:hover { transform: translateY(-2px); }
-        .asset-card img { 
-            height: 200px; 
-            object-fit: cover; 
+        
+        /* Image container to prevent layout shifts */
+        .img-container {
+            height: 200px;
             background-color: #eee;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .asset-card img { 
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            transition: opacity 0.5s ease;
         }
         
         .badge-era { background-color: #c0392b; }
@@ -65,7 +76,7 @@
         <div id="catalogGrid" class="row">
             <div class="col-12 text-center py-5">
                 <div class="spinner-border text-primary" role="status"></div>
-                <p class="mt-2">Connecting to Index...</p>
+                <p class="mt-2">Loading Index...</p>
             </div>
         </div>
     </div>
@@ -80,9 +91,8 @@
                 <div class="col-md-6 text-md-end">
                     <p class="small text-white-50">
                         <strong>Disclaimer:</strong> This site is a curated index of links. 
-                        All 3D models, images, and intellectual property displayed via external APIs 
-                        remain the property of their respective creators and hosting platforms (e.g., Sketchfab).
-                        We do not host or claim ownership of these assets.
+                        All 3D models and intellectual property displayed via external APIs 
+                        remain the property of their respective creators.
                     </p>
                 </div>
             </div>
@@ -102,7 +112,9 @@
                     allData = jsyaml.load(text);
                     renderGrid(allData);
                 })
-                .catch(e => console.error(e));
+                .catch(e => {
+                    document.getElementById('catalogGrid').innerHTML = `<div class="alert alert-danger">Error loading data: ${e.message}</div>`;
+                });
         });
 
         function renderGrid(data) {
@@ -124,14 +136,14 @@
                 const url = item.source_url || "#";
                 const creator = item.creator || "Unknown Creator";
                 
-                // Initial "Loading" State
-                let imgUrl = `https://placehold.co/600x400/f0f0f0/999?text=Loading+Preview...`;
+                // Set default placeholder immediately so it never gets "stuck"
+                const defaultImg = `https://placehold.co/600x400/f0f0f0/999?text=View+3D+Model`;
 
                 const card = `
                     <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow-sm border-0 asset-card">
-                            <div style="position: relative;">
-                                <img id="${uniqueId}" src="${imgUrl}" class="card-img-top" alt="Preview of ${title}">
+                            <div class="img-container">
+                                <img id="${uniqueId}" src="${defaultImg}" alt="Preview of ${title}" onerror="this.src='${defaultImg}'">
                                 <span class="badge badge-era position-absolute top-0 end-0 m-2">
                                     ${(item.period_tags?.[0] || "").replace(/_/g,' ').replace(/\d+/g,'')}
                                 </span>
@@ -153,7 +165,7 @@
                 `;
                 grid.innerHTML += card;
 
-                // Securely fetch thumbnail via proxy
+                // Attempt to fetch thumbnail
                 if (url.includes('sketchfab.com')) {
                     fetchThumbnail(url, uniqueId);
                 }
@@ -162,16 +174,25 @@
 
         async function fetchThumbnail(modelUrl, imgId) {
             try {
-                // Using Noembed (Open Source oEmbed Proxy)
-                const apiUrl = `https://noembed.com/embed?url=${encodeURIComponent(modelUrl)}`;
+                // Try Sketchfab's official oEmbed endpoint directly
+                // Note: This URL returns JSON with the thumbnail_url
+                const apiUrl = `https://sketchfab.com/oembed?url=${encodeURIComponent(modelUrl)}`;
+                
                 const response = await fetch(apiUrl);
+                
+                if (!response.ok) throw new Error("Fetch failed");
+                
                 const data = await response.json();
+                
                 if (data.thumbnail_url) {
                     const img = document.getElementById(imgId);
-                    if(img) img.src = data.thumbnail_url;
+                    if (img) {
+                        img.src = data.thumbnail_url;
+                    }
                 }
             } catch (err) {
-                console.warn("Thumbnail fetch failed for", modelUrl);
+                console.log("Thumbnail fetch failed for:", modelUrl);
+                // No action needed; the placeholder image is already there.
             }
         }
 
