@@ -18,27 +18,17 @@
             color: #2c3e50; 
         }
         
-        /* Form Container Styling - "The Document" Look */
         .form-section {
             padding: 40px 0;
         }
         .form-wrapper {
             background: white;
             border-radius: 4px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Soft, deep shadow */
-            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
             border-top: 5px solid #c0392b; /* Archive Red Accent */
+            min-height: 600px;
         }
         
-        /* Iframe Styling */
-        iframe {
-            display: block; /* Removes bottom whitespace */
-            border: none;
-            width: 100%;
-            /* Taller height to prevent internal scrolling */
-            min-height: 1600px; 
-        }
-
         /* Guidelines Section */
         .guidelines-box {
             background-color: #e9ecef;
@@ -47,19 +37,9 @@
             margin-bottom: 40px;
             border-left: 4px solid #555;
         }
-        .guidelines-box h4 {
-            font-size: 1.1rem;
-            font-weight: 700;
-            margin-bottom: 15px;
-        }
-        .guidelines-box ul {
-            padding-left: 20px;
-            margin-bottom: 0;
-        }
-        .guidelines-box li {
-            margin-bottom: 8px;
-            font-size: 0.95rem;
-        }
+        .guidelines-box h4 { font-size: 1.1rem; font-weight: 700; margin-bottom: 15px; }
+        .guidelines-box ul { padding-left: 20px; margin-bottom: 0; }
+        .guidelines-box li { margin-bottom: 8px; font-size: 0.95rem; }
     </style>
 </head>
 <body>
@@ -103,22 +83,29 @@
                     </ul>
                 </div>
 
-                <div class="form-wrapper">
-                    <div class="text-center py-5 d-none" id="loading-message">
+                <div class="form-wrapper position-relative">
+                    
+                    <div id="loader" class="text-center py-5" style="position: absolute; width: 100%; top: 50px; z-index: 0;">
                         <div class="spinner-border text-secondary" role="status"></div>
-                        <p class="mt-2 text-muted">Loading Submission Form...</p>
+                        <p class="mt-2 text-muted">Loading Form...</p>
                     </div>
 
                     <iframe 
                         src="https://docs.google.com/forms/d/e/1FAIpQLSdC5lMy9t_k0AQZm6wLjwNqNJAVKDYmIfLquZgZe88tfwiQ9Q/viewform?embedded=true" 
-                        onload="document.getElementById('loading-message').classList.add('d-none')"
-                        title="Submission Form">
+                        width="100%" 
+                        height="1600" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0"
+                        style="position: relative; z-index: 1; background: transparent;"
+                        onload="document.getElementById('loader').style.display='none';">
                         Loading…
                     </iframe>
+
                 </div>
 
                 <p class="text-center mt-4 small text-muted">
-                    Having trouble with the form? <a href="#" class="text-dark">Contact the administrators</a> directly.
+                    If the form does not load, you can <a href="https://docs.google.com/forms/d/e/1FAIpQLSdC5lMy9t_k0AQZm6wLjwNqNJAVKDYmIfLquZgZe88tfwiQ9Q/viewform" target="_blank" class="text-dark fw-bold">open it in a new window here</a>.
                 </p>
 
             </div>
