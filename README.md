@@ -13,7 +13,10 @@ We invite specialists of all kinds involved in preserving cultural patrimony to 
 ---
 
 ## Mission and argument
-This project treats three interlocking claims as practical imperatives. First, ordinary objects, kitchenware, furniture, signage, industrial tools, and industrial artifacts: they register social practices and index broad shifts in daily life over time. Second, immersive technologies and 3D modeling, by excavating subtle textures and material states, counterpose nuanced records of cultural pasts against generalized national nostalgia. Third, as virtual reconstructions become ubiquitous in contemporary pedagogy and historical world-building, their affective and narrative force depends on credible assets.
+This project treats three interlocking claims as practical imperatives. 
+First, ordinary objects, kitchenware, furniture, signage, industrial tools, and industrial artifacts: they register social practices and index broad shifts in daily life over time. 
+Second, immersive technologies and 3D modeling, by excavating subtle textures and material states, counterpose nuanced records of cultural pasts against generalized national nostalgia. 
+Third, as virtual reconstructions become ubiquitous in contemporary pedagogy and historical world-building, their affective and narrative force depends on credible assets.
 ---
 
 ### Updates & Important Directions for Collaborators
