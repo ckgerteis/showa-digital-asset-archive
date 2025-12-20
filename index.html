@@ -3,52 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Showa Digital Asset Archive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #fdfbf7;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+        h1, h2, h3 {
+            font-family: 'Merriweather', serif;
+        }
+        /* Hero Section with a Gradient Overlay (Replace url() with a real image later if desired) */
+        .hero-section {
+            background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.7)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tokyo_Tower_and_Zojoji_Temple.jpg/1200px-Tokyo_Tower_and_Zojoji_Temple.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0;
+            margin-bottom: 50px;
+        }
+        .feature-card {
+            transition: transform 0.3s ease;
+            border: none;
+            border-radius: 10px;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .icon-box {
+            font-size: 2rem;
+            color: #c0392b; /* Muted Red */
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Showa Digital Asset Archive</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#database">Database</a></li>
-            <li><a href="submit.html">Submit</a></li>
-        </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Showa Digital Asset Archive</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalog.html">Catalog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="submit.html">Submit Entry</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
-        <section>
-            <h2>Welcome</h2>
-            <p>A repository preserving 3D models from the Showa Era. Search, browse, or submit new artifacts.</p>
-        </section>
-        <section id="database">
-            <h2>Database</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Resource</th>
-                        <th>Type</th>
-                        <th>Links</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>fab.yml</td>
-                        <td>YAML</td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>model.obj</td>
-                        <td>3D Model</td>
-                        <td><a href="#">View</a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; Showa Digital Asset Archive, All Rights Reserved.</p>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">Preserving the Showa Era</h1>
+            <p class="lead mb-4 mx-auto" style="max-width: 700px;">
+                A curated digital repository of 3D assets and material culture from Japan (1926–1989).
+                Connecting researchers and educators with digital heritage.
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="catalog.html" class="btn btn-light btn-lg px-4">Browse Collection</a>
+                <a href="submit.html" class="btn btn-outline-light btn-lg px-4">Submit Asset</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mb-5">
+        <div class="row align-items-center">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="mb-4">About the Archive</h2>
+                <p class="text-muted fs-5">
+                    The <strong>Showa Digital Asset Archive</strong> serves as a central hub for discovering digital representations of Japanese history. 
+                    Unlike traditional museums, we do not host physical artifacts. Instead, we aggregate metadata on <strong>3D models, photogrammetry scans, and digital reconstructions</strong> 
+                    hosted across the web, facilitating the study of 20th-century Japanese material culture.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row g-4">
+            
+            <div class="col-md-4">
+                <div class="card feature-card h-100 shadow-sm p-4 text-center">
+                    <div class="card-body">
+                        <div class="icon-box">🔍</div>
+                        <h4 class="card-title">Search the Catalog</h4>
+                        <p class="card-text text-muted">
+                            Filter assets by decade (1920s–1980s), object type, or file format. Find the perfect digital asset for your research.
+                        </p>
+                        <a href="catalog.html" class="btn btn-link text-decoration-none">Go to Catalog &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feature-card h-100 shadow-sm p-4 text-center">
+                    <div class="card-body">
+                        <div class="icon-box">📤</div>
+                        <h4 class="card-title">Submit Findings</h4>
+                        <p class="card-text text-muted">
+                            Found a high-quality 3D model of a Showa-era radio, building, or vehicle? Submit the link to our curators.
+                        </p>
+                        <a href="submit.html" class="btn btn-link text-decoration-none">Submit an Entry &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feature-card h-100 shadow-sm p-4 text-center">
+                    <div class="card-body">
+                        <div class="icon-box">🎓</div>
+                        <h4 class="card-title">For Educators</h4>
+                        <p class="card-text text-muted">
+                            Utilize these digital assets in virtual reality (VR) environments, classroom presentations, or digital humanities projects.
+                        </p>
+                        <a href="#" class="btn btn-link text-decoration-none">Learn More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-auto">
+        <div class="container text-center">
+            <div class="mb-2">
+                <a href="#" class="text-white text-decoration-none mx-2">Privacy Policy</a>
+                <span class="text-white-50">|</span>
+                <a href="#" class="text-white text-decoration-none mx-2">Contact</a>
+            </div>
+            <small class="text-white-50">&copy; 2025 Showa Digital Asset Archive. All rights reserved.</small>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
