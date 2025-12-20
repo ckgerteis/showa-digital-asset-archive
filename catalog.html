@@ -13,7 +13,6 @@
         h1, h2, h3 { font-family: 'Merriweather', serif; color: #2c3e50; }
         .filter-section { background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
         
-        /* Card Styling */
         .asset-card { transition: transform 0.2s; border: none; }
         .asset-card:hover { transform: translateY(-2px); }
         
@@ -52,6 +51,7 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link active" href="catalog.html">Catalog</a></li>
                     <li class="nav-item"><a class="nav-link" href="educators.html">Research & Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="submit.html">Submit Entry</a></li>
                 </ul>
             </div>
         </div>
@@ -146,29 +146,50 @@
                 const creator = item.creator || "Unknown Creator";
                 const source = item.source || "web"; 
                 
-                // --- BUTTON & BADGE CONFIG ---
+                // --- DYNAMIC BUTTON & BADGE CONFIG ---
+                // This section now supports Sketchfab, Fab, CGTrader, and Unity
                 let btnText = "View Resource";
                 let btnIcon = "bi-box-arrow-up-right";
                 let btnClass = "btn-outline-secondary";
                 let sourceBadge = "";
+                let placeholderText = "Loading...";
+                let placeholderBg = "e9ecef";
+                let placeholderFg = "999";
 
                 if (source === 'sketchfab') {
                     btnText = "View on Sketchfab";
                     btnIcon = "bi-box";
                     btnClass = "btn-outline-primary";
                     sourceBadge = `<span class="badge bg-primary badge-source"><i class="bi bi-box"></i> Sketchfab</span>`;
-                } else if (source === 'unreal_marketplace') {
+                    placeholderText = "Loading Preview...";
+                } 
+                else if (source === 'unreal_marketplace') {
                     btnText = "View on Fab.com";
                     btnIcon = "bi-shop";
                     btnClass = "btn-outline-dark";
                     sourceBadge = `<span class="badge bg-dark badge-source"><i class="bi bi-shop"></i> Fab Asset</span>`;
+                    placeholderText = "Fab Asset";
+                    placeholderBg = "333"; placeholderFg = "fff";
+                }
+                else if (source === 'cgtrader') {
+                    btnText = "View on CGTrader";
+                    btnIcon = "bi-cart3";
+                    btnClass = "btn-outline-success";
+                    sourceBadge = `<span class="badge bg-success badge-source"><i class="bi bi-cart3"></i> CGTrader</span>`;
+                    placeholderText = "CGTrader";
+                    placeholderBg = "198754"; placeholderFg = "fff";
+                }
+                else if (source === 'unity_asset_store') {
+                    btnText = "View on Unity Store";
+                    btnIcon = "bi-unity";
+                    btnClass = "btn-outline-secondary";
+                    sourceBadge = `<span class="badge bg-secondary badge-source"><i class="bi bi-box-seam"></i> Unity</span>`;
+                    placeholderText = "Unity Asset";
+                    placeholderBg = "444"; placeholderFg = "fff";
                 }
 
                 // --- IMAGE HANDLING ---
-                // 1. Check if 'image' is manually defined in YAML
-                // 2. If not, use a placeholder based on source
-                let placeholderText = source === 'unreal_marketplace' ? 'Fab+Asset' : 'Loading+Preview...';
-                let initialImg = item.image || `https://placehold.co/600x400/e9ecef/999?text=${placeholderText}`;
+                let initialImg = item.image || `https://placehold.co/600x400/${placeholderBg}/${placeholderFg}?text=${placeholderText}`;
                 
                 // Tags
                 let era = (item.period_tags?.[0] || "").replace(/_/g,' ').replace(/\d+/g,'').trim();
@@ -199,10 +220,10 @@
                 `;
                 grid.innerHTML += card;
 
-                // --- SMART IMAGE FETCHER ---
+                // --- SMART IMAGE FETCHER (Sketchfab Only) ---
                 if (!item.image && (source === 'sketchfab' || url.includes('sketchfab.com'))) {
                     fetchSketchfabThumbnail(url, uniqueId);
-                } else if (item.image) {
+                } else {
                      document.getElementById(uniqueId).classList.remove('img-loading');
                 }
             });
