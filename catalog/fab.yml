@@ -1,5 +1,5 @@
 # FULL CATALOG - INTEGRATED ASSETS
-# Includes Sketchfab & Unreal Engine Marketplace
+# Includes Sketchfab & Fab.com (formerly UE Marketplace)
 # Last Updated: 2025-12-20
 
 # --- SKETCHFAB ASSETS (001-042) ---
@@ -354,292 +354,283 @@
   object_tags: ["culture", "religion"]
   historical_notes: "A portable Shinto shrine (mikoshi) carried during festivals, symbolizing community identity and resilience."
 
-# --- UNREAL ENGINE MARKETPLACE ASSETS (NEW) ---
+# --- FAB ASSETS (Formerly Unreal Engine Marketplace) ---
 
-- id: ue-0001
+- id: fab-0001
   title: "Coal Mine and Industrial Kitbash Set"
   source: "unreal_marketplace"
-  source_url: "https://www.unrealengine.com/marketplace/ja/product/coal-mine-and-industrial-kitbash-set"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/2dbfab0b-6672-46c0-b650-329d37af0259"
+  creator: "Denys Rutkovskyi"
   period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
   object_tags: ["industrial", "architecture"]
   historical_notes: "A kitbash set useful for reconstructing Showa-era coal mining facilities."
 
-- id: ue-0002
+- id: fab-0002
   title: "Mineral Mining System"
   source: "unreal_marketplace"
-  source_url: "https://www.unrealengine.com/marketplace/ja/product/mineral-mining-system"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/a22ea271-eb98-4863-add9-62f293707044"
+  creator: "Defuse Studios"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["industrial", "tool"]
   historical_notes: "Mining system assets that can represent industrial processes."
 
-- id: ue-0003
+- id: fab-0003
   title: "Train Simulation Template"
   source: "unreal_marketplace"
-  source_url: "https://www.unrealengine.com/marketplace/en-US/product/train-simulation-template"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/db3f1b0b-4e47-402a-8ee4-389e6f315af5"
+  creator: "Yepkoo"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["transport", "industrial"]
   historical_notes: "Template useful for simulating rail transport, a backbone of Showa modernization."
 
-- id: ue-0004
-  title: "Mining Tools Pack 01"
+- id: fab-0004
+  title: "Mining Tools Pack"
   source: "unreal_marketplace"
-  source_url: "https://www.unrealengine.com/marketplace/en-US/product/mining-tools-pack-01"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/eb082e65-e690-46f5-9ede-1dfae5d68db4"
+  creator: "n3kded"
   period_tags: ["interwar_wartime_1926_1945"]
   object_tags: ["industrial", "tool"]
   historical_notes: "Various hand tools used in mining operations."
 
-- id: ue-0005
-  title: "Mining Tools Pack"
-  source: "unreal_marketplace"
-  source_url: "https://www.unrealengine.com/marketplace/en-US/product/mining-tools-pack"
-  creator: "Check Marketplace"
-  period_tags: ["interwar_wartime_1926_1945"]
-  object_tags: ["industrial", "tool"]
-  historical_notes: "Additional collection of mining equipment."
-
-- id: ue-0006
+- id: fab-0005
   title: "Mine Stuff Bundle"
   source: "unreal_marketplace"
-  source_url: "https://www.unrealengine.com/marketplace/en-US/product/mine-stuff-bundle"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/0b75bc0e-d884-4ceb-84e0-b154f7e23a47"
+  creator: "Game Stuff Studio"
   period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
   object_tags: ["industrial", "environment"]
   historical_notes: "A comprehensive bundle of assets for creating mine environments."
 
-- id: ue-0007
+- id: fab-0006
   title: "Japanese Medieval Village"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-medieval-village"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/b9acd0c5-58b3-4657-8d1e-86b191272eec"
+  creator: "Jemini Studio"
   period_tags: ["interwar_wartime_1926_1945"]
   object_tags: ["architecture", "environment"]
-  historical_notes: "Though stylized as medieval, rural Japanese village architecture remained largely consistent until the mid-20th century."
+  historical_notes: "Traditional rural Japanese village architecture (Minka) consistent until the mid-20th century."
 
-- id: ue-0008
+- id: fab-0007
   title: "Japan Village"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japan-village"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/bbbf727f-b4c7-4f9f-b4ea-4e2b849904f6"
+  creator: "ART EQUILIBRIUM"
   period_tags: ["occupation_reconstruction_1945_1952"]
   object_tags: ["architecture", "environment"]
   historical_notes: "Environment pack suitable for creating rural or semi-rural post-war scenes."
 
-- id: ue-0009
+- id: fab-0008
   title: "Japanese Alley 01"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-alley-01"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/b1a6197f-442b-4f40-b181-2d5aabe948ce"
+  creator: "KraftMaru"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["architecture", "urban"]
   historical_notes: "Detailed alleyway assets capturing the dense urban texture of the Showa era."
 
-- id: ue-0010
+- id: fab-0009
   title: "Japanese Restaurant Interior/Exterior"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-restaurant-interior-exterior"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/c50c0488-ad34-49eb-9823-cd8f53eb35c9"
+  creator: "Nimikko"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["architecture", "commercial"]
-  historical_notes: "Complete restaurant environment useful for social history and leisure scenes."
+  historical_notes: "Complete restaurant environment based on a real Izakaya in Onomichi, Hiroshima."
 
-- id: ue-0011
+- id: fab-0010
   title: "Conveyor Belt Sushi Restaurant"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/conveyor-belt-sushi-restaurant"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/c3c1c1d3-6556-468d-a423-7598ffec4f5b"
+  creator: "Nimikko"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["architecture", "commercial"]
   historical_notes: "Kaitenzushi (conveyor belt sushi) emerged in 1958, symbolizing the efficiency of the high-growth era."
 
-- id: ue-0012
+- id: fab-0011
   title: "Small Japanese Restaurant Scene"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/small-japanese-restaurant-scene-and-assets"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/74e28f93-54ac-4a3b-9818-28aed70b9209"
+  creator: "Nimikko"
   period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
   object_tags: ["architecture", "commercial"]
   historical_notes: "Small eateries were central to neighborhood social life throughout the Showa period."
 
-- id: ue-0013
+- id: fab-0012
   title: "Old Japanese School"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/old-japanese-school"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/ae507a8b-70f0-4b34-a8f3-e4f49e5ecad4"
+  creator: "IsolatedSoulStudio"
   period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
   object_tags: ["architecture", "education"]
   historical_notes: "Wooden school buildings were standard educational infrastructure before the shift to reinforced concrete."
 
-- id: ue-0014
+- id: fab-0013
   title: "Japanese Classroom Pack"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-classroom-pack"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/0899a9a3-e060-4c2e-b6c2-e8d6cd8e78e8"
+  creator: "Nimikko"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["interior", "education"]
   historical_notes: "Standardized classroom fixtures reflect the modernization of the Japanese education system."
 
-- id: ue-0015
+- id: fab-0014
   title: "Japanese Classroom (1K/2K)"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-classroom-1k-2k-textures"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/0bb95074-79af-4979-8f1e-87fac3cf6ba5"
+  creator: "Mehmet Cam"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["interior", "education"]
   historical_notes: "High-fidelity textures for creating realistic Showa-era school environments."
 
-- id: ue-0016
+- id: fab-0015
   title: "Japanese School Collection"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-school-collection-5-asset-packs-over-200-assets"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/af6a2e21-41f7-49a0-9cde-8b9b0b1ce091"
+  creator: "Nimikko"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["architecture", "education"]
   historical_notes: "Comprehensive set of school assets covering various aspects of student life."
 
-- id: ue-0017
+- id: fab-0016
   title: "Japanese University/School Cafeteria"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-university-school-cafeteria"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/9080ba21-8981-442d-a8a7-8cf01ce5ce02"
+  creator: "Nimikko"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["interior", "education"]
   historical_notes: "Institutional cafeteria spaces reflect the mass-scale education and dining of the post-war boom."
 
-- id: ue-0018
+- id: fab-0017
   title: "Japanese House and Foliage"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-house-and-foliage-environment-asset-pack"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/25d96862-fc78-42f0-8871-0f4ed2f73c72"
+  creator: "Evil Planet Games"
   period_tags: ["occupation_reconstruction_1945_1952"]
   object_tags: ["architecture", "environment"]
   historical_notes: "Domestic architecture integrated with garden elements, typical of suburban Showa homes."
 
-- id: ue-0019
+- id: fab-0018
   title: "Modular Japanese Buildings"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/modular-japanese-buildings"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/e8a069ec-6082-4bab-baa0-4d7a39340c28"
+  creator: "Nimikko"
   period_tags: ["interwar_wartime_1926_1945", "occupation_reconstruction_1945_1952"]
   object_tags: ["architecture", "urban"]
   historical_notes: "Modular components allowing for the construction of varied streetscapes."
 
-- id: ue-0020
+- id: fab-0019
   title: "Kawara Roof Collection"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/kawara-roof-collection"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/17fe6fb4-3460-4cd8-8ea9-1d4328e86756"
+  creator: "christinayan01"
   period_tags: ["interwar_wartime_1926_1945", "high_growth_1952_1973"]
   object_tags: ["architecture", "component"]
   historical_notes: "Traditional Kawara tiles remained the dominant roofing material throughout the 20th century."
 
-- id: ue-0021
+- id: fab-0020
   title: "Old Japanese Street Props"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/old-japanese-streetprops"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/c93e9d7c-c80e-444c-be61-b5aab4fa55d8"
+  creator: "Nimikko"
   period_tags: ["occupation_reconstruction_1945_1952"]
   object_tags: ["urban", "prop"]
-  historical_notes: "Utility poles, vending machines, and barriers that define the Japanese street aesthetic."
+  historical_notes: "Utility poles, vending machines, and barriers that define the Japanese street aesthetic. Included in Residential Area Collection."
 
-- id: ue-0022
+- id: fab-0021
   title: "Japanese Street Signs Pack"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-street-signs-pack-100-japanese-street-signs"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/516eae83-9ecf-404f-9eaf-21a338185919"
+  creator: "Nimikko"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["urban", "signage"]
   historical_notes: "A collection of 100 street signs, essential for creating authentic urban density."
 
-- id: ue-0023
+- id: fab-0022
   title: "Japanese Izakaya Pub Pack"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-izakaya-pub-pack-68-unique-assets"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/1df6000b-2d7f-43e5-bfc4-0d8edd2fc26c"
+  creator: "Nimikko"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["commercial", "interior"]
   historical_notes: "Izakaya interiors represent the after-work culture of the Japanese 'salaryman'."
 
-- id: ue-0024
+- id: fab-0023
   title: "Japanese Tea Set"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-tea-set"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/38d46b1d-2d78-42c3-b09a-04d68aaa10be"
+  creator: "BPDesignStudio"
   period_tags: ["interwar_wartime_1926_1945", "high_growth_1952_1973"]
   object_tags: ["household", "culture"]
   historical_notes: "Tea sets are ubiquitous in Japanese hospitality and domestic life across all eras."
 
-- id: ue-0025
+- id: fab-0024
   title: "Japanese Style Dining Set"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-style-dining-set"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/13391751-039e-46dd-9953-dd875ae484b9"
+  creator: "Black Eye Creations"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["household", "food"]
   historical_notes: "Table settings reflecting the mix of traditional and modern dining habits."
 
-- id: ue-0026
+- id: fab-0025
   title: "Chef Vol 1: Japanese Recipes"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/chef-vol-1-japanese-recipes"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/f3ffb1c0-e420-4893-806c-60591ec31e3d"
+  creator: "Chong seng hock"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["food", "culture"]
   historical_notes: "Visual assets for various Japanese dishes."
 
-- id: ue-0027
+- id: fab-0026
   title: "Japanese Bicycle"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-bicycle"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/d569ad7c-1058-4f56-8786-cfde1f600e99"
+  creator: "Tipis Games"
   period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
   object_tags: ["transport", "vehicle"]
   historical_notes: "The 'Mamachari' style utility bicycle became a staple of Japanese daily life."
 
-- id: ue-0028
+- id: fab-0027
   title: "Shoji Door Assembly Kit"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/shoji-door-assembly-kit"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/77e4d143-ad4d-44a0-9407-e93627e78f6e"
+  creator: "christinayan01"
   period_tags: ["interwar_wartime_1926_1945", "high_growth_1952_1973"]
   object_tags: ["architecture", "component"]
   historical_notes: "Shoji screens remained a key architectural feature even in modernizing homes."
 
-- id: ue-0029
+- id: fab-0028
   title: "Japanese Room Props"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-room-props"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/5d7f0073-f857-44cc-aa5a-a6476ffe7245"
+  creator: "KTY"
   period_tags: ["high_growth_1952_1973"]
   object_tags: ["household", "prop"]
   historical_notes: "Small items that clutter and define a lived-in Japanese room."
 
-- id: ue-0030
+- id: fab-0029
   title: "Japanese Room Kit"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-room-kit"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/b6d9c233-b770-4e67-8cf8-5f665e93d0e3"
+  creator: "christinayan01"
   period_tags: ["occupation_reconstruction_1945_1952"]
   object_tags: ["interior", "architecture"]
   historical_notes: "A kit for building standard Japanese washitsu (tatami rooms)."
 
-- id: ue-0031
+- id: fab-0030
   title: "Andon Traditional Lights"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/andon-japanese-traditional-room-lights-pack"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/e59475b3-dd27-4868-ad27-1e71d6d1c4ae"
+  creator: "xxJulexx"
   period_tags: ["interwar_wartime_1926_1945"]
   object_tags: ["household", "lighting"]
   historical_notes: "Traditional paper-enclosed floor lamps providing ambient lighting."
 
-- id: ue-0032
+- id: fab-0031
   title: "Japanese Furniture"
   source: "unreal_marketplace"
-  source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-furniture"
-  creator: "Check Marketplace"
+  source_url: "https://www.fab.com/listings/d2e20af1-757a-4705-ae31-42487dc9be0d"
+  creator: "DmitryAnisimov"
   period_tags: ["occupation_reconstruction_1945_1952"]
   object_tags: ["household", "furniture"]
   historical_notes: "Low wooden furniture typical of rooms designed for sitting on tatami."
