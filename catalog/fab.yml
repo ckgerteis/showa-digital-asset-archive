@@ -53,11 +53,3 @@
   period_tags: ["occupation_reconstruction_1945_1952", "high_growth_1952_1973"]
   object_tags: ["furniture", "heating", "table"]
   historical_notes: "Kotatsu are anachronism-resistant domestic props across Showa decades."
-
-- id: skf-0008
-  title: "Go board (Asian board game set)"
-  source: "sketchfab"
-  source_url: "https://sketchfab.com/3d-models/go-asian-board-game-nicolas_solo"
-  period_tags: ["high_growth_1952_1973"]
-  object_tags: ["game", "tabletop"]
-  historical_notes: "Go tables are culturally continuous; read as leisure interiors."
