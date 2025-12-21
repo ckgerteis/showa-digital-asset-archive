@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>研究・教育 | Showa Digital Archive</title>
+    <title>研究・教育 | 昭和デジタル・アセット・アーカイブ</title>
 
-    <link rel="alternate" hreflang="en" href="../educators.html">
-    <link rel="alternate" hreflang="ja" href="educators.html">
+    <link rel="alternate" hreflang="en" href="https://ckgerteis.github.io/showa-digital-asset-archive/educators.html">
+    <link rel="alternate" hreflang="ja" href="https://ckgerteis.github.io/showa-digital-asset-archive/ja/educators.html">
+    <link rel="alternate" hreflang="x-default" href="https://ckgerteis.github.io/showa-digital-asset-archive/educators.html">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -20,14 +21,16 @@
         .content-box { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); min-height: 600px; }
         .mission-quote { border-left: 4px solid #c0392b; padding-left: 20px; font-style: italic; color: #555; margin: 30px 0; }
         .pedagogy-step { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
-        .ja-note { background: #fff8e1; border: 1px solid #f1e2a4; border-radius: 8px; padding: 12px 14px; margin-bottom: 18px; color: #6b5e2e; }
+        .asset-card { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 16px; }
+        .asset-card ul { margin-bottom: 0; }
+        .smallcaps { font-variant: small-caps; letter-spacing: 0.02em; }
     </style>
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Showa Digital Asset Archive</a>
+            <a class="navbar-brand" href="index.html">昭和デジタル・アセット・アーカイブ</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,8 +39,8 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">ホーム</a></li>
                     <li class="nav-item"><a class="nav-link" href="catalog.html">カタログ</a></li>
                     <li class="nav-item"><a class="nav-link active" href="educators.html">研究・教育</a></li>
-                    <li class="nav-item"><a class="nav-link" href="submit.html">登録（投稿）</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../educators.html">English</a></li>
+                    <li class="nav-item"><a class="nav-link" href="submit.html">投稿</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../educators.html" lang="en">English</a></li>
                 </ul>
             </div>
         </div>
@@ -46,225 +49,320 @@
     <div class="container pb-5">
         <div class="text-center mb-5">
             <h1>研究・教育</h1>
-            <p class="lead text-muted">ミッション、教育実践、技術メモ（日本語版は段階的に整備中です）。</p>
+            <p class="lead text-muted">昭和デジタル・アセット・アーカイブの理念、教育方法、デジタル環境の参照枠、開発者向け指針。</p>
         </div>
 
         <div class="row">
             <div class="col-lg-3 mb-4">
                 <div class="nav flex-column nav-pills shadow-sm bg-white rounded" id="v-pills-tab" role="tablist">
-                    <button class="nav-link text-start active" id="v-pills-mission-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mission" type="button">ミッション</button>
-                    <button class="nav-link text-start" id="v-pills-pedagogy-tab" data-bs-toggle="pill" data-bs-target="#v-pills-pedagogy" type="button">教育的アプローチ</button>
-                    <button class="nav-link text-start" id="v-pills-landscape-tab" data-bs-toggle="pill" data-bs-target="#v-pills-landscape" type="button">デジタル昭和景観</button>
-                    <button class="nav-link text-start" id="v-pills-tech-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tech" type="button">開発者向け</button>
-                    <button class="nav-link text-start" id="v-pills-plans-tab" data-bs-toggle="pill" data-bs-target="#v-pills-plans" type="button">授業案</button>
-                    <button class="nav-link text-start" id="v-pills-cite-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cite" type="button">引用</button>
+                    <button class="nav-link text-start active" id="v-pills-mission-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mission" type="button">ミッションとビジョン</button>
+                    <button class="nav-link text-start" id="v-pills-pedagogy-tab" data-bs-toggle="pill" data-bs-target="#v-pills-pedagogy" type="button">教育アプローチ</button>
+                    <button class="nav-link text-start" id="v-pills-landscape-tab" data-bs-toggle="pill" data-bs-target="#v-pills-landscape" type="button">デジタル空間の昭和表象</button>
+                    <button class="nav-link text-start" id="v-pills-tech-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tech" type="button">開発者ガイド</button>
+                    <button class="nav-link text-start" id="v-pills-plans-tab" data-bs-toggle="pill" data-bs-target="#v-pills-plans" type="button">授業案とモジュール</button>
+                    <button class="nav-link text-start" id="v-pills-cite-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cite" type="button">引用方法</button>
                 </div>
             </div>
 
             <div class="col-lg-9">
                 <div class="tab-content" id="v-pills-tabContent">
 
+                    <!-- MISSION -->
                     <div class="tab-pane fade show active content-box" id="v-pills-mission">
-                        <div class="ja-note"><strong>日本語版は作成中です。</strong> 以下は英語原文です。</div>
-
                         <div class="d-flex justify-content-between align-items-center mb-4">
-                            <small class="text-uppercase text-muted fw-bold">15 December 2025</small>
-                            <span class="badge bg-light text-dark border">Project Director: Dr. Christopher Gerteis</span>
+                            <small class="text-uppercase text-muted fw-bold">2025年12月15日</small>
+                            <span class="badge bg-light text-dark border">プロジェクト・ディレクター：クリストファー・ガーテイス（Dr. Christopher Gerteis）</span>
                         </div>
 
-                        <h2 class="mb-4">Preserving the Material Heritage of Modern Japan</h2>
-                        <p class="lead">We are building a library of 3D digitized objects used in everyday life during the Showa Era (1926-1989).</p>
-                        <p>We think 3D digitization offers an ideal means to create an interactive virtual record of the material artefacts that distinguished everyday life in modern Japan. We invite specialists of all kinds involved in preserving cultural patrimony to join us in ensuring that Japan's twentieth-century cultural heritage does not disappear.</p>
+                        <h2 class="mb-4">近現代日本の物質文化遺産を、触れられる形で残す</h2>
+                        <p class="lead">昭和期（1926–1989）の日常生活をかたちづくったモノを、3Dデジタル・オブジェクトとして収集し、研究と教育に供する公開アーカイブを構築しています。</p>
+
+                        <p>3Dデジタル化は、写真やテキストに回収されがちな「日用品」を、スケール、触感の痕跡、使用による摩耗、修理痕、素材の反射といった物質的情報として再提示します。そうした情報は、近代化、消費文化、労働、家庭、移動、災害と復興といった昭和史の大きな変化が、具体的に「どのようなモノの体系として生活に入り込んだのか」を問い直すための入口となります。本アーカイブは、文化財保護の専門家、博物館・自治体の関係者、研究者、教育者、そしてデジタル制作に関わる実務者との共同によって、20世紀日本の物質的遺産が散逸し、再利用の際に歴史的文脈を失うことを抑止することを目指します。</p>
+
                         <hr class="my-5">
-                        <h3 class="mb-3">Mission and Argument</h3>
-                        <p>This project treats three interlocking claims as practical imperatives:</p>
+
+                        <h3 class="mb-3">ミッション（実務上の三つの主張）</h3>
+                        <p>本プロジェクトは、次の三点を単なる理念ではなく、設計と運用の実務要件として扱います。</p>
+
                         <div class="mission-quote">
-                            <p><strong>1. Social Indexing:</strong> First, ordinary objects—kitchenware, furniture, signage, industrial tools, and industrial artifacts—register social practices and index broad shifts in daily life over time.</p>
-                            <p><strong>2. Countering Nostalgia:</strong> Second, immersive technologies and 3D modeling, by excavating subtle textures and material states, counterpose nuanced records of cultural pasts against generalized national nostalgia.</p>
-                            <p><strong>3. Credible Narratives:</strong> Third, as virtual reconstructions become ubiquitous in contemporary pedagogy and historical world-building, their affective and narrative force depends on credible assets.</p>
+                            <p><strong>1. 社会的インデクシング：</strong>台所用品、家具、看板、工具、家電、工業製品といった「ありふれたモノ」は、生活実践を記録し、日常の編成が時間の中でどのように変化したかを指標化します。</p>
+                            <p><strong>2. ノスタルジーへの対抗：</strong>没入型技術や3Dモデリングは、表層的な「懐かしさ（natsukashii／懐かしい）」に回収されがちな過去像に対し、物質の状態や手触りの差異を通じて、より複層的で矛盾を孕む歴史記録を提示し得ます。</p>
+                            <p><strong>3. 説得力ある世界構築：</strong>教育、展示、エンターテインメントを問わず、仮想復元が一般化する現在、その叙述的・感情的な力は「信用できるアセット」に依存します。物語の説得力は、細部の物質性に支えられます。</p>
                         </div>
+
+                        <p class="mt-4 mb-0">本アーカイブは、単一の「昭和像」を固定しません。むしろ、モノが持つ地域差、階層差、用途の差、そして使用と劣化の痕跡が示す時間差を、研究と制作の両方で読み解けるようにすることを優先します。</p>
                     </div>
 
+                    <!-- PEDAGOGY -->
                     <div class="tab-pane fade content-box" id="v-pills-pedagogy">
-                        <div class="ja-note"><strong>日本語版は作成中です。</strong> 以下は英語原文です。</div>
+                        <h2 class="mb-4">物質文化を、デジタルで教える</h2>
+                        <p class="lead">昭和を「テキスト」だけで理解するのではなく、人々が使い、住み、修理し、捨て、引き継いだモノを通じて理解することは、人文学にもデザイン教育にも共通する強い学習回路になります。</p>
 
-                        <h2 class="mb-4">Teaching Material Culture Digitally</h2>
-                        <p class="lead">The study of material culture allows students to understand the Showa Era not just through texts, but through the objects that people used, lived in, and created.</p>
-                        <p>Digital surrogates act as primary sources. By manipulating a 3D object, students move beyond the passive observation of a 2D photograph into an active interrogation of form, function, and wear.</p>
+                        <p>3Dデジタル・サロゲートは、二次資料ではなく一次資料として扱えます。学生は、写真の受動的な閲覧から離れ、回転、拡大、角度変更によって、形態、機能、摩耗、汚れ、補修、素材の接合といった情報を能動的に問い直します。こうした操作は、物質文化研究における「観察可能性」の訓練であると同時に、3D制作における「歴史的妥当性」の訓練でもあります。</p>
+
                         <hr class="my-4">
 
-                        <h3 class="mb-3">Why 3D?</h3>
+                        <h3 class="mb-3">なぜ3Dなのか</h3>
 
                         <div class="pedagogy-step">
-                            <h5>1. Spatial Analysis & Corporeal Relations</h5>
-                            <p><strong>Concept:</strong> Understanding the scale of post-war environments relative to the human body.</p>
-                            <p><strong>Application:</strong> When viewing the <a href="catalog.html">Traditional Japanese House</a> or <em>Danchi</em> models, students can visualize the compression of space. By measuring the <em>tatami</em> mats (a standardized unit of architecture and living), students grasp the physical reality of the transition from multi-generational rural homes to the nuclear family's urban apartment.</p>
+                            <h5>1. スケールの把握と身体との関係</h5>
+                            <p><strong>要点：</strong>戦後環境の寸法を、身体経験として理解すること。</p>
+                            <p><strong>応用：</strong>畳（tatami／畳）を単位として室内を計測し、家具や家電が配置されることで、生活の姿勢や動線がどのように規定されるかを検討します。例えば、こたつ（kotatsu／炬燵）は暖房器具であると同時に、家族の集合や滞在の時間を編成する装置でもあります。</p>
                         </div>
 
                         <div class="pedagogy-step">
-                            <h5>2. Technological Evolution & Design</h5>
-                            <p><strong>Concept:</strong> Comparing pre-war and post-war industrial design to see the shift in manufacturing capabilities.</p>
-                            <p><strong>Application:</strong> Compare the <a href="catalog.html">Vintage Tansu</a> (pre-war craft) with the <a href="catalog.html">Kikkoman Soy Sauce Bottle</a> (1961 industrial design). The former represents localized carpentry and heirloom culture; the latter represents the triumph of Japanese plastic injection molding, branding, and global export.</p>
+                            <h5>2. 技術史とデザイン史の交差</h5>
+                            <p><strong>要点：</strong>戦後の工業化と家電化が、家庭内の労働と余暇をどのように再編したか。</p>
+                            <p><strong>応用：</strong>テレビ、冷蔵庫、ステレオといった「豊かさ」の指標が、広告や統計以上に、生活空間の中心や会話の配置をどう変えたかを読みます。ここでは「モノの表象」よりも、モノが要求する配線、置き場所、視線、音量、収納の仕方を分析対象にします。</p>
                         </div>
 
                         <div class="pedagogy-step">
-                            <h5>3. Accessibility & Conservation</h5>
-                            <p><strong>Concept:</strong> Examining fragile artifacts that cannot be physically handled or exported from Japan.</p>
-                            <p><strong>Application:</strong> Photogrammetry allows students in London or New York to inspect the underside of a Showa-era rice cooker or the texture of a coal miner's helmet—angles obscured in museum display cases—without risk to the object.</p>
+                            <h5>3. 保存とアクセスの倫理</h5>
+                            <p><strong>要点：</strong>脆弱な資料を損なわず、地域・国境を越えて検討可能にすること。</p>
+                            <p><strong>応用：</strong>展示ケースでは見えない裏面や接合部、素材の摩耗、修理痕を、遠隔地からも確認できます。これは「触れない」ことの代替ではなく、触れられない条件そのものを前提に、観察のプロトコルを設計する訓練です。</p>
                         </div>
 
                         <div class="mt-5 p-4 bg-light rounded border">
-                            <h4>Classroom Methodology: "Reading" an Object</h4>
-                            <p>We recommend adapting Jules Prown's methodology for material culture analysis when using this Archive:</p>
-                            <ol>
-                                <li class="mb-2"><strong>Description:</strong> What is seen? (Material, dimensions, geometry, wear patterns). Restrict students to observable facts only.</li>
-                                <li class="mb-2"><strong>Deduction:</strong> How was it used? How does the object force the body to move? (e.g., A low <em>chabudai</em> table dictates a seated posture on the floor).</li>
-                                <li class="mb-2"><strong>Speculation:</strong> What does this object signify about the culture that produced it? (e.g., The "Three Sacred Treasures" signify a desire for Western modernization and relief from domestic labor).</li>
+                            <h4>授業方法：「モノを読む」ための手順</h4>
+                            <p class="mb-3">本アーカイブの利用にあたり、ジュールズ・プロウン（Jules Prown）の物質文化分析の手順を、3D操作に合わせて改変することを推奨します。</p>
+                            <ol class="mb-0">
+                                <li class="mb-2"><strong>記述（Description）：</strong>何が見えるか（素材、寸法、形状、摩耗、汚れ、欠損）。まず観察可能な事実に限定します。</li>
+                                <li class="mb-2"><strong>推論（Deduction）：</strong>どのように使われたか。身体はどのように動かされるか（例：座卓は床座の姿勢を要求する）。</li>
+                                <li class="mb-0"><strong>解釈（Speculation）：</strong>そのモノが示す価値観、規範、技術条件は何か（例：家電化が家庭内労働の再配分とジェンダー化をいかに促したか）。</li>
                             </ol>
                         </div>
                     </div>
 
+                    <!-- LANDSCAPE -->
                     <div class="tab-pane fade content-box" id="v-pills-landscape">
-                        <h2 class="mb-4">昭和時代のデジタル表象：遺産保存とエンターテインメント</h2>
-                        <p class="lead">バーチャル博物館からビデオゲームまで、昭和時代（1926年～1989年）は世界中の遺産保存プラットフォームとエンターテインメント空間においてデジタル形式で鮮やかに生き続けている。</p>
-                        
+                        <h2 class="mb-4">ヘリテージとエンターテインメントにおける「昭和」のデジタル表象</h2>
+                        <p class="lead">昭和（1926–1989）は、博物館のデジタル展示からゲームやソーシャルVRまで、多様なデジタル環境で再演されています。そこで鍵になるのは、物語の魅力だけではなく、物質的細部がつくる「信憑性」の設計です。</p>
+
                         <hr class="my-5">
-                        
-                        <h3 class="mb-4">昭和時代を保存する教育的・アーカイブ的デジタルプロジェクト</h3>
-                        <p>デジタル技術により、博物館やアーカイブは昭和時代を没入型で再現し保存することが可能になった。日本の機関は昭和時代の人工物と環境をデジタル化する先頭に立っている：</p>
-                        
+
+                        <h3 class="mb-4">教育・アーカイブ領域の取り組み</h3>
+                        <p>日本国内の博物館や自治体、大学研究機関は、昭和期の生活環境や記憶を、VRや3Dモデル、パノラマ画像で提示する試みを進めています。ここで重要なのは、単に「懐かしさ」を喚起するのではなく、戦争、復興、高度成長、都市改造といった異なる時間層を、具体的な生活用品や空間の配置として可視化する点です。</p>
+
                         <div class="mb-4">
-                            <h5><strong><a href="https://www.showakan.go.jp/vr-showakan/" target="_blank">国立昭和館（しょうわかん）</a></strong></h5>
-                            <p>第二次世界大戦中および戦後の日本の民間人の日常生活と苦難に特化した東京の博物館。アクセスを拡大するため、昭和館は「バーチャル昭和館」ツアーを提供している：6階と7階の展示を360度パノラマ画像でオンライン探索できる。この博物館は、戦争とその余波の中で一般市民が耐えた苦難を記念するために建てられたものであり、そのデジタルツアーはこの悲劇的な時期の日常生活を捉えている。軍事史よりも戦時中の苦しみと生存の記憶を保存することに重点が置かれており、民間人の経験を伝えるという博物館の使命に沿っている。</p>
+                            <h5><strong><a href="https://www.showakan.go.jp/vr-showakan/" target="_blank" rel="noopener">昭和館（しょうけい館ではなく昭和館） Virtual Showa-kan</a></strong></h5>
+                            <p>戦中・戦後の民間人の生活と苦難に焦点を当てる東京の昭和館は、展示フロアの360度パノラマを用いたバーチャルツアーを提供しています。軍事史中心ではなく、民間の経験を伝える点に特徴があり、生活史と記憶の保存という本アーカイブの問題意識と接続します。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong><a href="https://matsudo-digital-museum.jp/en/special/vr/" target="_blank">松戸デジタルミュージアム － 常盤平団地VRツアー</a></strong></h5>
-                            <p>千葉県の松戸市博物館は、「常盤平団地の誕生」と呼ばれるバーチャルツアーを作成した。このVR体験は、1962年の中流階級のアパート（団地）ユニットを、当時の家電と装飾で完全に再現している。1960年代初頭の東京通勤者が率いる家族の生活を、当時の「最新の便利さ」とともに描写している。フォトグラメトリと3Dモデリングを通じて、訪問者は典型的な昭和時代の家庭のレイアウトと物品に没入でき、日本の戦後の近代性がどのように日常的な家庭生活に入り込んだかを示している。</p>
+                            <h5><strong><a href="https://matsudo-digital-museum.jp/en/special/vr/" target="_blank" rel="noopener">松戸市立博物館 松戸デジタルミュージアム「常盤平団地」VR</a></strong></h5>
+                            <p>1960年代の団地（danchi／団地）住戸を、家電や家具の配置を含めて再構成するVRコンテンツです。居間の中心、家事動線、収納の仕方などが、生活の規範と結びついていたことを、空間として理解させる点で教育効果が高い事例です。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong><a href="https://www.makuake.com/project/1964tokyo-vr/" target="_blank">1964年東京VR「タイムマシン」プロジェクト</a></strong></h5>
-                            <p>1964年のオリンピック当時の東京を仮想的に再構築することを目的とした、クラウドソース型イニシアティブ（2018年にMakuakeクラウドファンディングを通じて開始）。開発者は1954年から1974年までの期間に見つけた数千枚の写真を使用して、1964年の東京の3D都市景観を構築している。参加者（NHKやソニーなどの主要パートナーを含む）は画像と記憶を提供し、それがVR都市ジオラマに縫い合わされる。目標は、ユーザーが東京の昭和時代の通りを歩き、新しく建設された高速道路やオリンピック会場などのランドマークを認識できる「タイムマシン」体験を作り出すことである。</p>
+                            <h5><strong><a href="https://www.makuake.com/project/1964tokyo-vr/" target="_blank" rel="noopener">1964年東京VR「タイムマシン」プロジェクト</a></strong></h5>
+                            <p>2018年にクラウドファンディングを基点として開始された取り組みで、1954–1974年頃の写真資料を集積し、1964年東京の都市景観を3D化する試みです。大量の視覚資料から都市の形を立ち上げるプロセスは、史料批判と制作手続きが不可分であることを示します。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong><a href="http://www.arc.ritsumei.ac.jp/en/index.html" target="_blank">バーチャル京都 － 4次元歴史GIS</a></strong></h5>
-                            <p><a href="http://www.arc.ritsumei.ac.jp/en/index.html" target="_blank">立命館大学</a>では、研究者が時間を超えて京都の都市景観を再現するデジタル博物館、バーチャル京都を開発した。このプロジェクトの特徴は、3Dモデルに時間次元を追加することである：昭和時代（20世紀半ば）の航空写真と古い地図が統合され、「4次元」GIS環境で京都の過去の景観が再構築される。1940年代の航空画像を現代の地形に重ね合わせることで、バーチャル京都は異なる時代に近隣がどのように見えたかをシミュレートでき、視聴者は現在と1900年代半ばの景色を切り替えることができる。</p>
+                            <h5><strong><a href="http://www.arc.ritsumei.ac.jp/en/index.html" target="_blank" rel="noopener">立命館大学 アート・リサーチセンター Virtual Kyoto（4D Historical GIS）</a></strong></h5>
+                            <p>地図・航空写真・歴史資料を統合し、時間軸をもつ3D都市モデルとして京都の景観変遷を提示する研究プロジェクトです。昭和期の空中写真を重ねることで、戦後復興と都市計画の痕跡を「景観の層」として読ませることができます。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong><a href="https://mori-m-foundation.or.jp/english/ius2/timemachine_project2/index.shtml" target="_blank">東京タイムマシンプロジェクト － 銀座VR</a></strong></h5>
-                            <p><a href="https://mori-m-foundation.or.jp/english/ius2/timemachine_project2/index.shtml" target="_blank">森記念財団</a>の都市研究所が作成したこのプロジェクトは、時間を通じた没入型VRツアーである。その第一弾は、東京の象徴的な銀座四丁目交差点を三つの時代 － 江戸時代（1850年）、明治時代（1910年）、昭和時代（1940年頃）－ でシームレスな仮想環境として再現している。地図、写真、文書を使用した詳細な歴史研究に基づき、銀座VRではユーザーが1940年の賑わう銀座の街角に「タイムトラベル」し、時代に正確な建物、交通手段（路面電車、初期の自動車）、看板、さらには仮想歩行者のファッションを見ることができる。オンライン体験は2021年に開始され、世界中の観客が銀座の変遷を探索できるようになった。</p>
+                            <h5><strong><a href="https://mori-m-foundation.or.jp/english/ius2/timemachine_project2/index.shtml" target="_blank" rel="noopener">森記念財団 東京タイムマシン・プロジェクト（銀座VR）</a></strong></h5>
+                            <p>江戸（1850）、明治（1910）、昭和（約1940）の銀座四丁目を再構成し、時代間の連続と断絶を体験可能にするプロジェクトです。史料（地図、写真、文書）の組み合わせによって、看板、交通、建築の細部を積み上げる方法は、信憑性の設計が一次資料の扱いに依存することを示します。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong><a href="https://www.hiroshimacvb.jp/en/unique-experience/experience/2386.html" target="_blank">広島復興VR（平和公園ツアーVR）</a></strong></h5>
-                            <p>戦争の記憶という文脈において、広島はVRを採用して記憶を保存している。建設会社（フジタ）と東京大学による共同プロジェクトは、1945年8月6日の原爆投下前後の広島市中心部を再現する<a href="https://hiroshima-resthouse.com/tour/vrtour" target="_blank">80分間のVRツアー</a>を開発した。ヘッドセットを装着したユーザーは、1945年8月6日の晴れた朝の活気ある広島の通りに立ち、店頭や通勤者を見た後、原爆の閃光とその後の徹底的な破壊を目撃することができる。このシミュレーションは、生存者の証言と歴史的写真に基づいており、建物の3Dモデリングと廃墟となった都市の外観を導いた。このVRコンテンツは広島で「平和公園VR」ツアーとして提供され、学校や博物館にも平和教育のために提供されている。</p>
+                            <h5><strong><a href="https://www.hiroshimacvb.jp/en/unique-experience/experience/2386.html" target="_blank" rel="noopener">広島 復元VR（平和公園周辺のVR体験）</a></strong></h5>
+                            <p>被爆前後の都市空間を再構成するVR体験は、戦争記憶を伝達する装置として位置づけられます。証言や写真を参照しつつ、視覚化の限界と倫理を授業内で検討する素材にもなります。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong>近代日本デジタル人工物ライブラリ（軍艦島XRプロジェクト）</strong></h5>
-                            <p>歴史家クリストファー・ガーティスが率いる国際学術的取り組みで、このプロジェクトは昭和時代の日常品の3Dデジタル化に焦点を当てている。チームは1925年から1989年までの日本の日常生活で使用された物質文化の高忠実度3Dモデルのライブラリを構築している。レーザースキャンやフォトグラメトリ（アップルのLiDAR「RealityScan」も使用）などの技術を使用して、家電や電子機器から玩具や個人用品まで、その時代の人工物の保存を開始している。これらの物品をスキャンし、Sketchfabなどのプラットフォームでホストすることにより、プロジェクトはその形状と外観を保護するだけでなく、研究と仮想展示のために世界中でアクセス可能にしている。これは軍艦島（端島）のような場所に特に関連している － 昭和工業ブームからの有名な廃鉱山町 － 研究者は崩壊しつつある環境から人工物と建築を保存できる。</p>
+                            <h5><strong>昭和デジタル・アセット・アーカイブ（本プロジェクト）</strong></h5>
+                            <p>本アーカイブは、昭和期の日常物質文化を高精細な3Dモデルとして収集し、研究と教育、展示、制作の現場に提供することを目的とします。ハシマ（端島、軍艦島）のように、環境劣化によって物質資料が失われつつある場所では、アセット化が保存と研究の双方に関わる基盤作業となります。</p>
                         </div>
-                        
-                        <p class="mt-5">これらの例は、仮想博物館や都市「タイムマシン」からフォトグラメトリアーカイブまで、さまざまな遺産アプローチを示している。日本と国際的なプロジェクトは、重要な目標で収束している：没入型技術を通じて昭和時代の出来事、建築、日常生活の記憶を保存すること。重要なことに、多くは公的機関や大学によって支援されており、昭和の歴史をデジタルで保護する価値の広範な認識を示している。</p>
-                        
+
+                        <p class="mt-5">これらの事例は、パノラマ、VR、3Dモデル、GISといった技術が、昭和の生活史や記憶を多層的に保存するために用いられていることを示します。同時に、どの細部を残し、どの細部が欠落するのかという選択が、歴史叙述そのものを形成する点を確認する必要があります。</p>
+
                         <hr class="my-5">
-                        
-                        <h3 class="mb-4">ビデオゲームと仮想世界における昭和時代の舞台</h3>
-                        <p>博物館の領域を超えて、昭和時代は商業ゲームやユーザー生成型仮想環境にとって豊かな背景となっている。開発者やクリエイターは、本物らしさや懐かしさを感じる世界を提供するために、昭和時代の設定を活用することが多い：</p>
-                        
+
+                        <h3 class="mb-4">ゲームと仮想世界における昭和</h3>
+                        <p>一方で、昭和は商業ゲームやユーザー生成の仮想世界においても、魅力的な舞台として再構成されます。ここでは、教育的価値と商業的欲望、歴史的配慮と暴力的スペクタクルがしばしば緊張関係に置かれます。</p>
+
                         <div class="mb-4">
-                            <h5><strong><a href="https://ryu-ga-gotoku.com/zero-directorscut/" target="_blank">龍が如く0</a>（セガ、2015年）</strong></h5>
-                            <p>日本の「バブル経済」の全盛期である1988年の昭和晩年を舞台にした、批評家から高く評価されたアクションアドベンチャーゲーム。龍が如く0は、実在の場所（東京の歌舞伎町、大阪の道頓堀）に基づいた架空の東京と大阪の地区を、80年代の姿で細部まで再現している。ネオンに照らされた通りは、時代に正確な店の看板、アーケード、VHSレンタル店、ファッションで満たされ、プレイヤーをブーム時代の喧騒に浸らせる。このゲームは「昭和時代の日本の信じられないほど正直で忠実な表現」として称賛されており、お金が自由に流れ、新しいガラスの高層ビルが古いラーメン店の上にそびえ立つ、派手な過剰の社会を描いている。物語はこの設定を単なる背景としてではなく、プロットの燃料として使用している：昭和時代の不動産バブル中の不動産争奪戦を中心に展開する。</p>
+                            <h5><strong><a href="https://ryu-ga-gotoku.com/zero-directorscut/" target="_blank" rel="noopener">『龍が如く0 誓いの場所』</a>（セガ、2015）</strong></h5>
+                            <p>1988年（昭和63年）の東京・大阪を参照し、バブル期の都市景観と消費文化を濃密に再現する作品です。看板、ゲームセンター、レンタルビデオ、服飾、夜の光環境といった細部は、歴史の「空気」を作る一方で、暴力と娯楽の文法の中に組み込まれます。授業では、細部の「もっともらしさ」と、物語の政治性の関係を検討できます。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong>シェンムー（セガ、1999年）</strong></h5>
-                            <p>オープンワールドデザインの先駆者とされることが多いシェンムーは、1986年の日本の港町、横須賀を舞台にしている。プレイヤーは、近所の駄菓子屋、ガチャポン、ビンテージセガアーケードゲーム、日常のルーチンに従う隣人を備えた、昭和60年代の忠実にモデル化された日本の町を探索する。このゲームは「復讐叙事詩と日本の生活シミュレーターの融合」である。シェンムーの細部へのこだわり（自動販売機からソーダを飲む、野良猫に餌をやる、バスを待つ）は、昭和晩年の日常生活を効果的に捉えている。主人公の周りの生きた世界 － 昭和の美学にしっかりと根ざしている － がシェンムーを文化的試金石にした要因である。</p>
-                            <p class="text-muted small mb-0">関連リンク：<a href="https://shenmue.fandom.com/wiki/Shenmue" target="_blank">Shenmue Wiki</a>／<a href="https://www.theguardian.com/technology/2014/may/02/shenmue-sega-classic-14-years-too-late" target="_blank">The Guardian（2014）</a>／<a href="https://sesesega.hatenablog.jp/entry/shenmue" target="_blank">SeSeSega（はてなブログ）</a></p>
+                            <h5><strong>Shenmue（セガ、1999）</strong></h5>
+                            <p>1986年（昭和61年）の横須賀を舞台に、生活のリズムや町の反復的な営みを、オープンワールド的な設計で体験させた作品です。自販機、駄菓子屋、ガチャ、近隣住民の生活動線といった「平凡な要素」が、時代感覚の核になっている点が重要で、史料としての「日常ディテール」をどう扱うかを考える素材になります。</p>
+                            <p class="text-muted small mb-0">参考：<a href="https://shenmue.fandom.com/wiki/Shenmue" target="_blank" rel="noopener">Shenmue Wiki</a>、<a href="https://www.theguardian.com/technology/2014/may/02/shenmue-sega-classic-14-years-too-late" target="_blank" rel="noopener">The Guardian（2014）</a>、<a href="https://sesesega.hatenablog.jp/entry/shenmue" target="_blank" rel="noopener">SeSeSega（はてなブログ、日本語）</a>。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong><a href="https://en.wikipedia.org/wiki/Boku_no_Natsuyasumi" target="_blank">ぼくのなつやすみ</a>（<a href="http://www.mkitchen.co.jp/" target="_blank">ミレニアムキッチン</a>、2000年）</strong></h5>
-                            <p>「僕の夏休み」は、1975年8月（昭和50年）の日本の田舎で親戚を訪ねる少年の役割にプレイヤーを置く日本のゲームシリーズである。これらのゲームには戦闘や大きな対立はなく、代わりに昭和時代の子供の夏の懐かしい楽しみをシミュレートする － セミを捕まえ、水ロケットで遊び、夕方のセミの鳴き声や遠くの風鈴を聞く。手描きの背景は、木造の伝統的な家屋、なだらかな緑の丘、漫画雑誌や白黒テレビのようなアナログの詳細を描写し、体験を1970年代にしっかりと根付かせている。このシリーズは、デジタルメディアを使用して集団的ノスタルジアを呼び起こす代表例であり、プレイヤー（その多くは70年代を生きていない）を昭和の日々の「シンプルな生活」への憧れに誘う。</p>
+                            <h5><strong><a href="https://en.wikipedia.org/wiki/Boku_no_Natsuyasumi" target="_blank" rel="noopener">『ぼくのなつやすみ』</a>（<a href="http://www.mkitchen.co.jp/" target="_blank" rel="noopener">ミレニアムキッチン</a>、2000）</strong></h5>
+                            <p>1975年（昭和50年）夏の農村生活を、戦闘や大事件ではなく、虫取り、縁側、風鈴、家の匂いといった感覚の連鎖として提示するシリーズです。ここでは「昭和のノスタルジー」が、風景の細部と反復行為によって成立している点が重要で、授業では、ノスタルジーが何を隠し、何を強調するのかを問い直せます。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong>VRChatワールド － ユーザー作成の昭和環境</strong></h5>
-                            <p>ソーシャルVRプラットフォームVRChatでは、クリエイター（日本人と国際的）が昭和時代の設定に敬意を表する多数の探索可能な世界を構築している。例えば、ユーザーtakayan660による「レトロ甲府夜散歩」は、古い看板と狭い路地を備えた昭和時代の日本の通りの仮想レプリカである。別の世界、「昭和の古いアパート」は、訪問者が畳敷きの部屋とビンテージカレンダーを備えた1970年代の古いアパートブロックを歩き回ることができる。<a href="https://www.v-market.work/" target="_blank">バーチャルマーケット2021</a>では、日本の衣料品ブランドBEAMSが「バーチャル昭和浅草」環境（Netflixの<a href="https://www.netflix.com/title/81317135" target="_blank">『浅草キッド』</a>のプロモーション）で協力し、仮想居酒屋バーと劇場を特色とし、アバターが昭和スタイルのタップダンスルーチンを演じることができた。同種の都市ノスタルジアは、Netflixの<a href="https://www.netflix.com/title/80113037" target="_blank">『深夜食堂: Tokyo Stories』</a>のような作品群にも横断的に流通している。このようなVRChat体験は、エンターテインメントと展示を融合させている － ユーザーは時代に正確な建物と物品を見るだけでなく、その中で交流できる。</p>
+                            <h5><strong>VRChatにおけるユーザー生成の昭和空間</strong></h5>
+                            <p>VRChatでは、昭和風の路地、古いアパート、飲食店、商店街などを模したワールドが多数制作されています。Netflixの<a href="https://www.netflix.com/title/81317135" target="_blank" rel="noopener"><em>Asakusa Kid</em></a>のプロモーションとも接続した「バーチャル浅草」的な演出が流通し、同様の都市ノスタルジーは<a href="https://www.netflix.com/title/80113037" target="_blank" rel="noopener"><em>Midnight Diner: Tokyo Stories</em></a>のような配信作品とも共鳴します。社会的交流と展示が同一空間で起きる点は、教育利用においても重要です。</p>
                         </div>
-                        
+
                         <div class="mb-4">
-                            <h5><strong><a href="https://store.steampowered.com/app/1687540/Showa_American_Story/" target="_blank">昭和米国物語</a>（NEKCOM、開発中）</strong></h5>
-                            <p>昭和的な記号を用いたオルタナティブ・ヒストリーとして宣伝される、ファーストパーソン・シューター風のアクション作品。1980年代のアメリカが「昭和期の日本文化」によって上書きされるという前提は、歴史的参照を娯楽市場向けの暴力的スペクタクルへと転用するリスクを端的に示す。ここでは、昭和期の物質文化や美学が広範に流通する局面で、開発者がそれらを「便利な雰囲気素材」として消費しうることを示す事例として、批判的に位置づける（本アーカイブが目指す方向とは異なる）。</p>
-                            <p class="text-muted small mb-0"><strong>注意：</strong>全年齢向けではなく、職場での閲覧に適さない可能性があります（Blood, Intense Violence, Partial Nudity, Sexual Themes, Strong Language, Use of Alcohol）。</p>
+                            <h5><strong><a href="https://store.steampowered.com/app/1687540/Showa_American_Story/" target="_blank" rel="noopener">Showa American Story</a>（NEKCOM、開発中）</strong></h5>
+                            <p>昭和期の日本的記号を、暴力的なオルタナティブ・ヒストリーの装置として利用する市場志向の事例として言及します。昭和の物質文化や視覚記号が、歴史的説明責任を伴わずに「様式」のパーツとして切り出され得ることを示す点で、本アーカイブが目指す方向性（歴史的文脈の付与、資料批判、引用倫理）を逆照射します。</p>
+                            <p class="text-muted small mb-0"><strong>コンテンツ注意：</strong>全年齢向けではなく、職場閲覧にも不適切となり得ます（流血、強い暴力、部分的ヌード、性的表現、強い言語表現、飲酒）。</p>
                         </div>
-                        
-                        <p class="mt-5">大予算のコンソールゲームからファン制作のVRチャットルームまで、昭和時代は豊かな設定のパレットを提供する。これらのゲームの英語圏のカバレッジは、設定の真正性と教育的価値を称賛することが多く、日本の議論はこれらのデジタル世界が引き出す<em>懐かしい</em>（ノスタルジック）な感情を強調する。いずれの場合も、現実的であれ幻想的であれ、昭和時代の環境の慎重な構築は、ユーザー体験を大幅に豊かにし、エンターテインメント製品が文化的タイムカプセルとして機能することを可能にする。</p>
-                        
-                        <hr class="my-5">
-                        
-                        <h3 class="mb-4">デジタル戦略と主題的物語</h3>
-                        <p>遺産プラットフォームとエンターテインメントプラットフォームの両方にわたって、昭和時代は二つの主要なデジタル戦略を通じて生き返らせられる：詳細な3D環境の創造（場所のマクロスケール再現）と本物の物品や人工物の保存（ミクロスケールの詳細）。これらのデジタル資産は、昭和時代の複雑な歴史を反映する物語のための舞台と小道具として機能する。</p>
-                        
-                        <h5 class="mt-4"><strong>3Dスキャンと人工物のフォトグラメトリ</strong></h5>
-                        <p>多くのプロジェクトは、昭和時代のデジタル物品に特別な焦点を当てている。軍艦島XRプロジェクトの人工物ライブラリは、昭和時代のテレビ、電話、カメラ、その他の家庭用品のような日常品を3Dモデルにスキャンしている。デジタル化されると、これらの物品は仮想ギャラリーで検査されるか、より大きなシミュレーションに挿入できる。このような物品を保存することにより、クリエイターは昭和生活のテクスチャ － 10円ラムネ瓶の外観やダイヤル式電話の音 － を、それを生きたことのない人々が体験できるようにする。</p>
-                        
-                        <h5 class="mt-4"><strong>再構築された仮想環境</strong></h5>
-                        <p>1940年代の銀座のような都市地区全体であれ、1960年代の質素なアパートであれ、環境を再構築することは、ユーザーを昭和の文脈に位置づける鍵である。これらの環境は、アーカイブ研究と現代の3Dモデリングを通じて作成されることが多い。これらの環境の物語的影響は重要である － 再構築された環境は、物語のテーマを増幅できる文脈とムードを提供する。広島VRでの戦争の恐怖から、ぼくのなつやすみの平和な村での懐かしいシンプルさまで。</p>
-                        
-                        <h5 class="mt-4"><strong>デジタル昭和表象における主要テーマ</strong></h5>
-                        <ul>
-                            <li><strong>日常生活への郷愁：</strong> 多くのプロジェクトは、家族、コミュニティ、20世紀半ばの日本の認識された「よりシンプルな時代」への郷愁を呼び起こし、暖かい照明、レトロカラーパレット、日常生活の物語的ビネットを使用する。</li>
-                            <li><strong>トラウマと戦争の記憶：</strong> 遺産デジタルプロジェクトは昭和史のトラウマに取り組む － 第二次世界大戦、原爆投下、戦後占領 － 没入型技術を使用して共感を育み、歴史の教訓を伝える。</li>
-                            <li><strong>近代性と急速な変化：</strong> 多くの表象は、時代の急速な近代化を強調し、高層ビルが伝統的な商店の隣にそびえ立つ都市景観に見られる「古いvs新しい」のテーマを持つ。</li>
-                            <li><strong>家族と社会構造：</strong> デジタル物語は、多世代家族、強い近隣コミュニティ、戦後ブーム中の核家族への移行に焦点を当てることが多い。</li>
-                        </ul>
-                        
-                        <div class="mt-5 p-4 bg-light rounded border">
-                            <h4>結論</h4>
-                            <p>色褪せゆく記憶を保存する仮想博物館から、20世紀半ばの日本の光景と音を復活させるビデオゲームまで、昭和時代はデジタル形式で鮮やかに生き続けている。日本主導のプロジェクトは、3Dスキャン、VR、ARを活用して文化遺産を保護し － 世界中の誰もが昭和時代の家や街路をツアーできるようにしている。同時に、ゲーム開発者とオンラインコミュニティは、世界中で昭和日本を喚起的な舞台として受け入れている。</p>
-                            <p class="mb-0">遺産プロジェクトは事実的な深さと重厚さを与え － 仮想昭和世界が信頼でき歴史を尊重することを保証する。エンターテインメントプロジェクトは創造的な広がりをもたらし、遊びや物語の装いの下で新しい観客に時代を紹介する。それらは一緒に昭和の多面的なデジタル記憶を形成する。直接昭和の記憶を持つ最後の世代が高齢化する時代において、これらのデジタル再構築と物語は、世界が日本の劇的な20世紀をどのように思い出すかにおいて、ますます重要な役割を果たすであろう。</p>
-                        </div>
+
+                        <p class="mt-5 mb-0">ヘリテージ領域の「記憶の保存」と、娯楽領域の「感情の演出」はしばしば同じ技術を共有します。しかし、両者の目的と倫理は一致しません。本アーカイブは、制作に資することを否定しませんが、制作が歴史的妥当性と引用倫理に基づくことを、明示的な設計要件として求めます。</p>
                     </div>
 
+                    <!-- TECH -->
                     <div class="tab-pane fade content-box" id="v-pills-tech">
-                        <div class="ja-note"><strong>日本語版は作成中です。</strong> 以下は英語原文です。</div>
+                        <h3 class="mb-3">開発者・技術責任者向け</h3>
+                        <p>本アーカイブは、軽量でアクセス可能なメタデータ設計を優先し、アセット本体は外部ホスティング（例：Sketchfab）を活用します。ここでいう「信用できるアセット（Credible Assets）」とは、見栄えの良さだけではなく、制作・研究・教育で再利用可能な再現性と参照性を備えたデータを指します。</p>
 
-                        <h3>For Developers & Technical Leads</h3>
-                        <p>Our archive relies on external hosting to maintain lightweight, accessible metadata. We prioritize the following standards for "Credible Assets":</p>
-                        <h5 class="mt-4">1. Preferred Formats</h5>
+                        <h5 class="mt-4">1. 推奨フォーマット</h5>
                         <ul>
-                            <li><strong>glTF / GLB:</strong> Preferred for web-readiness and PBR materials.</li>
-                            <li><strong>OBJ / FBX:</strong> Accepted for archival geometry, provided textures are included.</li>
+                            <li><strong>glTF / GLB：</strong>Web実装に適し、PBR素材の運用が容易です。</li>
+                            <li><strong>OBJ / FBX：</strong>アーカイブ用途のジオメトリとして受理します（テクスチャ同梱が前提）。</li>
                         </ul>
-                        <h5 class="mt-4">2. Viewing Standards</h5>
-                        <p>Most assets in this catalog are hosted on platforms like Sketchfab or museum repositories. We utilize WebGL for browser-based inspection, allowing users to rotate, zoom, and pan without specialized software.</p>
+
+                        <h5 class="mt-4">2. ビューイング基準</h5>
+                        <p>多くのアセットは、Sketchfab等で閲覧できる形式を採用します。WebGLによるブラウザ内操作（回転、ズーム、パン）を前提に、授業内で「観察の手順」がそのまま反復可能であることを重視します。</p>
+
+                        <div class="mt-4 p-4 bg-light rounded border">
+                            <h4 class="mb-3">実装上の注意</h4>
+                            <ul class="mb-0">
+                                <li class="mb-2">外部アセットの利用は、必ず<strong>作者クレジット</strong>と<strong>元URL</strong>を保持してください（引用方法は「引用」タブ参照）。</li>
+                                <li class="mb-2">授業利用では、リンク切れや権利変更に備え、授業計画内に「代替アセット（類似物）」の候補を持つことを推奨します。</li>
+                                <li class="mb-0">アセットは「文化」を一枚岩に表象しません。メタデータ（時期、場所、用途、素材）によって、差異と矛盾を可視化してください。</li>
+                            </ul>
+                        </div>
                     </div>
 
+                    <!-- LESSON PLANS -->
                     <div class="tab-pane fade content-box" id="v-pills-plans">
-                        <div class="ja-note"><strong>日本語版は作成中です。</strong> 以下は英語原文です。</div>
+                        <h2 class="mb-4">授業案とモジュール（Lesson Plans & Modules）</h2>
+                        <p class="lead">以下は、学部上級から大学院導入レベルの「日本近現代史」「物質文化研究」「STS（科学技術社会論）」「デザイン史・制作系演習」を想定したモジュール案です。いずれも、カタログを一般的に眺めるだけでは到達しにくい「一次資料としての3Dアセットの読解」を中心に設計しています。</p>
 
-                        <h2 class="mb-4">Lesson Plans & Modules</h2>
-                        <p class="lead">These modules are designed for undergraduate seminars in Japanese History, Material Culture, or Science & Technology Studies (STS).</p>
-                        <p class="text-muted small mt-4">注: このタブの本文は英語原文を段階的に移植します（現時点では英語版ページを参照）。</p>
+                        <div class="mt-4 p-4 bg-light rounded border">
+                            <h4 class="mb-3">この演習が人文学とデザイン双方に重要である理由</h4>
+                            <p class="mb-0">人文学にとって、3Dアセットは「文章化される前の資料」です。寸法、素材、摩耗、補修、欠損といった情報は、統計や回顧談話では捉えにくい生活実践の痕跡です。デザイン教育にとって、3Dアセットは「歴史的制約を伴う制作素材」です。時代に即した形状や素材の説得力は、参照の仕方（史料批判、引用、文脈付け）に依存します。両者を接続することで、学生は「見た目の昭和」から「歴史としての昭和」へ、制作と分析を同時に進められます。</p>
+                        </div>
+
+                        <p class="mt-4">各モジュールのアセットは、可能な限り<strong>アセット本体（元URL）へ直接リンク</strong>しています。追加例の探索には、<a href="catalog.html">カタログ</a>で検索し、同類の物品や地域差のあるバリエーションを学生自身に提案させてください。</p>
+
+                        <hr class="my-5">
+
+                        <!-- MODULE 1 -->
+                        <div class="mb-5">
+                            <h4>モジュール1：「明るい生活」と消費社会（1955–1970）</h4>
+                            <p><strong>主題：</strong>家電化と中間層の形成。テレビ、冷蔵庫、オーディオが、家庭内の視線、会話、余暇、ジェンダー化された労働をどう再編したか。</p>
+
+                            <div class="asset-card mb-3">
+                                <strong>使用アセット（直接リンク）：</strong>
+                                <ul class="mt-2">
+                                    <li><a href="https://sketchfab.com/3d-models/vintage-japanese-tv-66384232356540c1b017772863925725" target="_blank" rel="noopener">Showa Retro TV（skf-0005）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/vintage-fridge-30765d86e64e487a935b399ee056b0f7" target="_blank" rel="noopener">Vintage Fridge（skf-0021）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/ensemble-stereo-70a5253f8cd54d73b081027e0d43ef80" target="_blank" rel="noopener">Ensemble Stereo（skf-0012）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/kotatsu-japanese-heated-table-with-blanket-cfb9685fa4c3474baf0cf203da96486b" target="_blank" rel="noopener">Kotatsu（skf-0006）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/kikkoman-soy-sauce-d9f7418ef42a4876a0a7f8c1fa7996ea" target="_blank" rel="noopener">Kikkoman Soy Sauce Bottle（skf-0016）</a></li>
+                                </ul>
+                            </div>
+
+                            <h5>学習目標</h5>
+                            <ul>
+                                <li>家電が家庭空間の「中心」をどこに作ったか（茶の間（chanoma／茶の間）と居間の競合）を、配置と動線から説明できる。</li>
+                                <li>「省力化」が、家庭内労働の実態とジェンダー規範をどう変えたか（変えなかったか）を、モノの要求（設置、維持、掃除、配線、収納）から論じられる。</li>
+                                <li>広告や統計ではなく、物質的細部（寸法、重量感、素材、摩耗）から「普及」と「格差」を読み解ける。</li>
+                            </ul>
+
+                            <h5>授業内活動：「仮想茶の間（Virtual Chanoma）」</h5>
+                            <p>グループごとに、TV、冷蔵庫、ステレオ、こたつを「一つの生活時間割」として配置します。ポイントは美術的構成ではなく、(1) 視線の方向（TV中心化）、(2) 音の発生源（ステレオの占有）、(3) 体の姿勢（床座と椅子座の混在）、(4) 家事動線（冷蔵庫へ向かう経路）を、説明可能な図として提出させることです。最後に、同じ構成を「別の階層」や「別の住居形態（下宿、社宅、団地）」へ移した場合に、どのモノが成立しにくくなるかを議論します。</p>
+
+                            <h5>振り返り（短い課題）</h5>
+                            <p class="mb-0">「豊かさ」を表すモノを一つ選び、(a) それが必要とするインフラ（電気、配線、修理、部品供給）、(b) それが可視化する労働（掃除、買い物、調理、余暇管理）、(c) それが隠すコスト（廃棄、更新、格差）を、400–600字で整理させます。</p>
+                        </div>
+
+                        <hr class="my-5">
+
+                        <!-- MODULE 2 -->
+                        <div class="mb-5">
+                            <h4>モジュール2：住空間の再編と標準化（1950s–1960s）</h4>
+                            <p><strong>主題：</strong>戦後の住宅難、都市への人口集中、住宅の標準化が、住まいの内部構成（和室と洋室のハイブリッド）をどう作ったか。1964年東京オリンピックは都市インフラの象徴として語られがちですが、その効果は「外部の大規模構造」だけでなく、住まいの内部に入ってくる部材と規格の変化としても検討できます。</p>
+
+                            <div class="asset-card mb-3">
+                                <strong>使用アセット（直接リンク）：</strong>
+                                <ul class="mt-2">
+                                    <li><a href="https://sketchfab.com/3d-models/kyoto-machiya-house-b5f7e6f809964590b073070857367332" target="_blank" rel="noopener">Kyoto Machiya（skf-0003）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/traditional-japanese-house-tatami-05364405365548658660306263306636" target="_blank" rel="noopener">Traditional Japanese House | Tatami Room（skf-0035）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/japanese-wall-set-modular-wall-d41e4e8e2886456aa31c29fe47e05dce" target="_blank" rel="noopener">Japanese Wall Set（skf-0052）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/tatami-mat-6111f3f7d4894b419bc1334d14b450ed" target="_blank" rel="noopener">Tatami Mat（skf-0058）</a></li>
+                                </ul>
+                            </div>
+
+                            <h5>学習目標</h5>
+                            <ul>
+                                <li>町家（machiya／町家）の空間論理と、モジュール化された室内部材が示す「標準化」を比較できる。</li>
+                                <li>畳の規格と部屋寸法の関係を、図面ではなく3Dの計測と視認性から説明できる。</li>
+                                <li>都市改造を、道路や高架だけでなく、住宅内部の部材、壁面、間仕切りの変化として捉え直せる。</li>
+                            </ul>
+
+                            <h5>授業内活動：「スクラップ・アンド・ビルド（sukurappu ando birudo／スクラップ・アンド・ビルド）の室内版」</h5>
+                            <p>町家モデルを基準として、畳室（tatami room）とモジュール壁セットを使い、(a) 伝統的な奥行きの配置（通り庭、間口と奥行きの関係）を維持した場合、(b) 標準化された部材で迅速に「新しい室内」を作る場合、それぞれで生活動線と視線がどう変わるかを比較します。議論では、標準化が「貧困の結果」か「近代化の達成」かという二分法に落とさず、工期、資材供給、修理可能性、住み替えの頻度といった条件を含めて評価させてください。</p>
+
+                            <h5>追加探索（カタログ利用）</h5>
+                            <p class="mb-0">カタログで、台所設備、照明、電話、収納などのアセットを追加し、同じ部屋が「誰の生活」を想定しているのかを再設定させます。例えば、固定電話や流し台の配置は、通信と家事の結節点として、室内の権力配置を可視化します。</p>
+                        </div>
+
+                        <hr class="my-5">
+
+                        <!-- MODULE 3 -->
+                        <div>
+                            <h4>モジュール3：エネルギーと労働（石炭から石油へ）</h4>
+                            <p><strong>主題：</strong>高度成長の「明るい生活」が拡大する同時期に、エネルギー転換（石炭から石油へ）によって、炭鉱労働と産業都市がどのように周縁化されたか。ここでは、勝者の物質文化と敗者の物質文化を、同一の分析枠で比較します。</p>
+
+                            <div class="asset-card mb-3">
+                                <strong>使用アセット（直接リンク）：</strong>
+                                <ul class="mt-2">
+                                    <li><a href="https://sketchfab.com/3d-models/work-helmet-3a90b5f021604be18c26d67e4bef53b8" target="_blank" rel="noopener">Work Helmet（skf-0036）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/coal-mine-gallery-2cc9dfc11fe243039f9900f0c31414ae" target="_blank" rel="noopener">Coal Mine Gallery（skf-0026）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/colliery-buildings-set-4f30cf1b73564b4c913419408d135dcf" target="_blank" rel="noopener">Colliery Buildings Set（skf-0037）</a></li>
+                                    <li><a href="https://sketchfab.com/3d-models/bohrhammer-az-20-173e131655e64282b082ecbbc63d46b7" target="_blank" rel="noopener">Bohrhammer（skf-0039）</a></li>
+                                </ul>
+                            </div>
+
+                            <h5>討議：「見えない労働者」</h5>
+                            <p>モジュール1の家電と見比べながら、炭鉱空間と作業装備が示す身体の制約（重量、視界、危険、反復動作）を分析します。重要なのは、「産業の象徴」としての炭鉱ではなく、(a) 装備の摩耗が示す作業の反復、(b) 坑道の寸法が示す身体の圧縮、(c) 建物セットが示す労働の集団性と統治（宿舎、施設、移動）を読み解くことです。最後に、同時代の都市家庭のアセットが「清潔さ」を演出するのに対し、炭鉱アセットが「汚れ」を不可避として抱える点を、価値判断ではなく物質条件として記述させます。</p>
+
+                            <h5 class="mt-4">短い比較課題</h5>
+                            <p class="mb-0">学生に、家電（TVや冷蔵庫）と労働装備（ヘルメットや掘削工具）を一つずつ選ばせ、両者が要求する「維持」の体系（電力、修理、部品供給、身体のケア、事故対策）を比較させます。高度成長を「消費の物語」から「維持の政治経済」へ引き戻すことが目的です。</p>
+                        </div>
                     </div>
 
+                    <!-- CITATION -->
                     <div class="tab-pane fade content-box" id="v-pills-cite">
-                        <div class="ja-note"><strong>日本語版は作成中です。</strong> 以下は英語原文です。</div>
+                        <h3 class="mb-3">引用ガイドライン</h3>
+                        <p>本アーカイブを通じて見つけたアセットを論文、スライド、展示、制作物に利用する場合、原則として<strong>3Dモデルの原作者</strong>と<strong>元URL</strong>を明示してください。本サイトは「発見と文脈付け」の入口であり、著作権や利用条件は原プラットフォームの規約に従います。</p>
 
-                        <h3>Citation Guidelines</h3>
-                        <p>When using assets found through this archive in academic papers or presentations, please cite the <strong>original creator</strong> of the 3D model, not just this archive.</p>
                         <div class="bg-light p-3 border rounded">
-                            <strong>Asset Citation Format:</strong><br>
+                            <strong>アセット引用形式（例）：</strong><br>
                             [Creator Name]. ([Year]). <em>[Title of Model]</em> [3D Model]. Retrieved from [URL].
                         </div>
+
                         <p class="mt-4">
-                            <strong>To cite this Archive:</strong><br>
+                            <strong>本アーカイブ自体を引用する場合：</strong><br>
                             <em>Gerteis, Christopher. (2025). Showa Digital Asset Archive. SOAS University of London. Retrieved from https://ckgerteis.github.io/showa-digital-asset-archive/</em>
                         </p>
+
+                        <div class="mt-4 p-4 bg-light rounded border">
+                            <h4 class="mb-3">参考文献（授業用の最小限の導入）</h4>
+                            <ul class="mb-0">
+                                <li class="mb-2">Yoshimi, Shunya 吉見俊哉. <em>Banpaku no seiji keizaigaku</em> 万博の政治経済学 [The Political Economy of Expositions]. Tokyo: Kōdansha, 1992.</li>
+                                <li class="mb-2">Garon, Sheldon. <em>Molding Japanese Minds: The State in Everyday Life</em>. Princeton: Princeton University Press, 1997.</li>
+                                <li class="mb-2">Gordon, Andrew. <em>A Modern History of Japan: From Tokugawa Times to the Present</em>. Oxford: Oxford University Press, 2003.</li>
+                                <li class="mb-0">Sand, Jordan. <em>Tokyo Vernacular: Common Spaces, Local Histories, Found Objects</em>. Berkeley: University of California Press, 2013.</li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
@@ -277,11 +375,12 @@
             <div class="mb-2">
                 <a href="acknowledgments.html" class="text-white text-decoration-none mx-2">謝辞</a>
                 <span class="text-white-50">|</span>
-                <a href="#" class="text-white text-decoration-none mx-2">連絡</a>
+                <a href="#" class="text-white text-decoration-none mx-2">連絡先</a>
             </div>
             <small class="text-white-50">&copy; 2025 Showa Digital Asset Archive. Directed by Dr. Christopher Gerteis.</small>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

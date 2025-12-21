@@ -11,7 +11,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    
+
     <style>
         body { background-color: #fdfbf7; font-family: 'Roboto', sans-serif; color: #333; }
         h1, h2, h3, h4 { font-family: 'Merriweather', serif; color: #2c3e50; }
@@ -21,6 +21,7 @@
         .content-box { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); min-height: 600px; }
         .mission-quote { border-left: 4px solid #c0392b; padding-left: 20px; font-style: italic; color: #555; margin: 30px 0; }
         .pedagogy-step { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .module { margin-bottom: 2.5rem; }
     </style>
 </head>
 <body>
@@ -63,168 +64,182 @@
 
             <div class="col-lg-9">
                 <div class="tab-content" id="v-pills-tabContent">
-                    
+
                     <div class="tab-pane fade show active content-box" id="v-pills-mission">
                         <div class="d-flex justify-content-between align-items-center mb-4">
                             <small class="text-uppercase text-muted fw-bold">15 December 2025</small>
                             <span class="badge bg-light text-dark border">Project Director: Dr. Christopher Gerteis</span>
                         </div>
-                        
+
                         <h2 class="mb-4">Preserving the Material Heritage of Modern Japan</h2>
                         <p class="lead">We are building a library of 3D digitized objects used in everyday life during the Showa Era (1926-1989).</p>
-                        <p>We think 3D digitization offers an ideal means to create an interactive virtual record of the material artefacts that distinguished everyday life in modern Japan. We invite specialists of all kinds involved in preserving cultural patrimony to join us in ensuring that Japan's twentieth-century cultural heritage does not disappear.</p>
+                        <p>We think 3D digitization offers an ideal means to create an interactive virtual record of the material artifacts that distinguished everyday life in modern Japan. We invite specialists of all kinds involved in preserving cultural patrimony to join us in ensuring that Japan's twentieth-century cultural heritage does not disappear.</p>
                         <hr class="my-5">
                         <h3 class="mb-3">Mission and Argument</h3>
                         <p>This project treats three interlocking claims as practical imperatives:</p>
                         <div class="mission-quote">
-                            <p><strong>1. Social Indexing:</strong> First, ordinary objects—kitchenware, furniture, signage, industrial tools, and industrial artifacts—register social practices and index broad shifts in daily life over time.</p>
+                            <p><strong>1. Social Indexing:</strong> First, ordinary objects (kitchenware, furniture, signage, industrial tools, and industrial artifacts) register social practices and index broad shifts in daily life over time.</p>
                             <p><strong>2. Countering Nostalgia:</strong> Second, immersive technologies and 3D modeling, by excavating subtle textures and material states, counterpose nuanced records of cultural pasts against generalized national nostalgia.</p>
                             <p><strong>3. Credible Narratives:</strong> Third, as virtual reconstructions become ubiquitous in contemporary pedagogy and historical world-building, their affective and narrative force depends on credible assets.</p>
                         </div>
                     </div>
 
+                    <!-- UPDATED PEDAGOGY TAB -->
                     <div class="tab-pane fade content-box" id="v-pills-pedagogy">
                         <h2 class="mb-4">Teaching Material Culture Digitally</h2>
-                        <p class="lead">The study of material culture allows students to understand the Showa Era not just through texts, but through the objects that people used, lived in, and created.</p>
-                        
-                        <p>Digital surrogates act as primary sources. By manipulating a 3D object, students move beyond the passive observation of a 2D photograph into an active interrogation of form, function, and wear.</p>
+                        <p class="lead">Material culture is not “background” to history. It is a primary archive of practice: how bodies moved, what infrastructures demanded, what kinds of labor were assumed, and how designs stabilized (or disrupted) social expectations in everyday life.</p>
+
+                        <p>In a digital archive, 3D surrogates function as primary sources that can be handled without damage. The point is not only realism. It is method. Students can isolate components, compare variants, measure proportion, and argue from wear, assembly, and ergonomics in ways that a still photograph rarely permits.</p>
 
                         <hr class="my-4">
 
                         <h3 class="mb-3">Why 3D?</h3>
-                        
+
                         <div class="pedagogy-step">
-                            <h5>1. Spatial Analysis & Corporeal Relations</h5>
-                            <p><strong>Concept:</strong> Understanding the scale of post-war environments relative to the human body.</p>
-                            <p><strong>Application:</strong> When viewing the <a href="catalog.html">Traditional Japanese House</a> or <em>Danchi</em> models, students can visualize the compression of space. By measuring the <em>tatami</em> mats (a standardized unit of architecture and living), students grasp the physical reality of the transition from multi-generational rural homes to the nuclear family's urban apartment.</p>
+                            <h5>1. Scale, posture, and the built environment</h5>
+                            <p><strong>Concept:</strong> Domestic space is a technology of the body. Floor-sitting, storage patterns, thresholds, and circulation routes index lived constraints and social norms.</p>
+                            <p><strong>Application:</strong> Start from a spatial component rather than an “iconic object.” Use a tatami-room interior as a measuring device for postwar domestic life: students can infer circulation paths, storage logics, and the relationship between furniture height and posture by working inside a modeled room rather than looking at it from outside. Pair a room model with a standardized tatami unit to make the argument legible as proportion and habit, not atmosphere.</p>
+                            <ul class="mb-0">
+                                <li><a href="https://sketchfab.com/3d-models/traditional-japanese-house-tatami-05364405365548658660306263306636" target="_blank" rel="noopener">Traditional Japanese House | Tatami Room (skf-0035)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/tatami-mat-6111f3f7d4894b419bc1334d14b450ed" target="_blank" rel="noopener">Tatami Mat (skf-0058)</a></li>
+                            </ul>
                         </div>
 
                         <div class="pedagogy-step">
-                            <h5>2. Technological Evolution & Design</h5>
-                            <p><strong>Concept:</strong> Comparing pre-war and post-war industrial design to see the shift in manufacturing capabilities.</p>
-                            <p><strong>Application:</strong> Compare the <a href="catalog.html">Vintage Tansu</a> (pre-war craft) with the <a href="catalog.html">Kikkoman Soy Sauce Bottle</a> (1961 industrial design). The former represents localized carpentry and heirloom culture; the latter represents the triumph of Japanese plastic injection molding, branding, and global export.</p>
+                            <h5>2. Design history, materials, and industrial time</h5>
+                            <p><strong>Concept:</strong> Showa design history is not a simple story of “traditional to modern.” It is an uneven overlay of craft, mass production, corporate branding, and export logics that reorganized domestic life and taste.</p>
+                            <p><strong>Application:</strong> Ask students to compare a storage cabinet associated with long-lived carpentry practices to an industrially standardized, globally circulating consumer object. Treat the comparison as an argument about materials, production, and social circulation: what kinds of labor become visible or invisible, what kinds of maintenance are expected, what kind of space each object presumes, and how branding changes the object’s social life.</p>
+                            <ul class="mb-0">
+                                <li><a href="https://sketchfab.com/3d-models/japanese-chest-tansu-b8733220023640209670737303030206" target="_blank" rel="noopener">Japanese Chest (Tansu) (skf-0004)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/kikkoman-soy-sauce-d9f7418ef42a4876a0a7f8c1fa7996ea" target="_blank" rel="noopener">Kikkoman Soy Sauce Bottle (skf-0016)</a></li>
+                            </ul>
                         </div>
 
                         <div class="pedagogy-step">
-                            <h5>3. Accessibility & Conservation</h5>
-                            <p><strong>Concept:</strong> Examining fragile artifacts that cannot be physically handled or exported from Japan.</p>
-                            <p><strong>Application:</strong> Photogrammetry allows students in London or New York to inspect the underside of a Showa-era rice cooker or the texture of a coal miner's helmet—angles obscured in museum display cases—without risk to the object.</p>
+                            <h5>3. Infrastructures of work, risk, and repair</h5>
+                            <p><strong>Concept:</strong> “Everyday life” includes industrial time, workplace risk, and the designed management of safety. Objects of work are often the clearest index of how institutions governed bodies and extracted labor.</p>
+                            <p><strong>Application:</strong> Use a safety artifact as a gateway to discuss labor regimes rather than treating it as a prop. Students can write object biographies that include manufacture, institutional adoption, maintenance, and the politics of risk. The point is to connect form to governance: what the object assumes about accidents, accountability, and worker visibility.</p>
+                            <ul class="mb-0">
+                                <li><a href="https://sketchfab.com/3d-models/work-helmet-3a90b5f021604be18c26d67e4bef53b8" target="_blank" rel="noopener">Work Helmet (skf-0036)</a></li>
+                            </ul>
                         </div>
 
                         <div class="mt-5 p-4 bg-light rounded border">
-                            <h4>Classroom Methodology: "Reading" an Object</h4>
-                            <p>We recommend adapting Jules Prown's methodology for material culture analysis when using this Archive:</p>
-                            <ol>
-                                <li class="mb-2"><strong>Description:</strong> What is seen? (Material, dimensions, geometry, wear patterns). Restrict students to observable facts only.</li>
-                                <li class="mb-2"><strong>Deduction:</strong> How was it used? How does the object force the body to move? (e.g., A low <em>chabudai</em> table dictates a seated posture on the floor).</li>
-                                <li class="mb-2"><strong>Speculation:</strong> What does this object signify about the culture that produced it? (e.g., The "Three Sacred Treasures" signify a desire for Western modernization and relief from domestic labor).</li>
+                            <h4>Classroom Methodology: “Reading” an Object</h4>
+                            <p>We recommend adapting Jules Prown’s descriptive sequence, with an added design-and-ethics step appropriate to 3D assets:</p>
+                            <ol class="mb-0">
+                                <li class="mb-2"><strong>Description:</strong> What is observable (materials, joins, geometry, wear, scale cues). Require claims to be anchored in visible evidence.</li>
+                                <li class="mb-2"><strong>Deduction:</strong> What kinds of bodily movement does the object demand or discourage (posture, grip, reach, maintenance).</li>
+                                <li class="mb-2"><strong>Contextualization:</strong> Where does the object sit in Showa time (policy, infrastructure, household economy, labor regime, consumption).</li>
+                                <li class="mb-0"><strong>Design-and-ethics check:</strong> If you deploy this asset in a game, VR exhibit, or heritage simulation, what claims are you making, what are you erasing, and what responsibilities follow from that use.</li>
                             </ol>
+                            <p class="mt-3 mb-0">For more examples, encourage students to browse the <a href="catalog.html">Catalog</a>, then propose additions or variants (the archive grows through comparative sets, not single “representative” objects).</p>
                         </div>
                     </div>
 
                     <div class="tab-pane fade content-box" id="v-pills-landscape">
                         <h2 class="mb-4">Digital Representations of the Showa Era in Heritage and Entertainment</h2>
                         <p class="lead">From virtual museums to video games, the Showa period (1926–1989) lives on vibrantly in digital form across heritage preservation and entertainment platforms worldwide.</p>
-                        
+
                         <hr class="my-5">
-                        
+
                         <h3 class="mb-4">Educational and Archival Digital Projects Preserving the Showa Era</h3>
                         <p>Digital technology has enabled museums and archives to recreate and preserve the Showa period in immersive ways. Japanese institutions have been at the forefront of digitizing Showa-era artifacts and environments:</p>
-                        
+
                         <div class="mb-4">
                             <h5><strong><a href="https://www.showakan.go.jp/vr-showakan/" target="_blank">National Showa Memorial Museum (Showa-kan)</a></strong></h5>
                             <p>A Tokyo museum dedicated to the everyday life and hardships of Japanese civilians during and after WWII (the early Showa years). The Showa-kan offers a "Virtual Showa-kan" tour with 360° panoramic imagery of its 6th and 7th floor exhibits exploring daily life in this tragic period. The emphasis is on preserving memories of wartime suffering and survival rather than on military history, aligning with the museum's mission of conveying civilian experiences.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong><a href="https://matsudo-digital-museum.jp/en/special/vr/" target="_blank">Matsudo Digital Museum – Tokiwadaira Danchi VR Tour</a></strong></h5>
                             <p>In Chiba, the Matsudo City Museum has created a virtual tour called "Birth of the Tokiwadaira Housing Complex." This VR experience reconstructs a 1962 middle-class apartment (<em>danchi</em>) unit, fully furnished with period-appropriate appliances and décor. It portrays the life of a family headed by a Tokyo commuter in the early 1960s, complete with the "latest conveniences" of the time. Through photogrammetry and 3D modeling, visitors can immerse themselves in the layout and objects of a typical Showa-era household, illustrating how Japan's postwar modernity entered everyday domestic life.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong><a href="https://www.makuake.com/project/1964tokyo-vr/" target="_blank">1964 Tokyo VR "Time Machine" Project</a></strong></h5>
                             <p>A crowdsourced initiative (launched in 2018 via Makuake crowdfunding) aimed to virtually reconstruct Tokyo as it was around the time of the 1964 Olympics. Developers are using thousands of found photographs from the 1954–1974 period to build a 3D cityscape of 1964 Tokyo. Participants (including major partners like NHK and Sony) contribute images and memories, which are then stitched into a VR urban diorama. The goal is to create a "time machine" experience where users can walk through Tokyo's Showa-era streets, recognizing landmarks like newly built highways and Olympic venues.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong><a href="http://www.arc.ritsumei.ac.jp/en/index.html" target="_blank">Virtual Kyoto – 4D Historical GIS</a></strong></h5>
                             <p>At <a href="http://www.arc.ritsumei.ac.jp/en/index.html" target="_blank">Ritsumeikan University</a>, researchers have developed Virtual Kyoto, a digital museum that recreates Kyoto's cityscape across time. The project adds a time dimension to the 3D model: aerial photographs from the Showa period (mid-20th century) and old maps are integrated to rebuild Kyoto's past landscapes in a "4D" GIS environment. By overlaying 1940s aerial images with modern topography, Virtual Kyoto can simulate how neighborhoods looked in different eras, allowing viewers to toggle between present-day and mid-1900s views.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong><a href="https://mori-m-foundation.or.jp/english/ius2/timemachine_project2/index.shtml" target="_blank">Tokyo Time Machine Project – Ginza VR</a></strong></h5>
                             <p>The <a href="https://mori-m-foundation.or.jp/english/ius2/timemachine_project2/index.shtml" target="_blank">Mori Memorial Foundation</a>'s urban lab created this project as an immersive VR tour through time. Its first installment recreates Tokyo's iconic Ginza 4-chome intersection in three eras – the Edo period (1850), Meiji period (1910), and Showa period (circa 1940) – as a seamless virtual environment. Based on detailed historical research using maps, photographs, and documents, the Ginza VR lets users "time-travel" to a bustling Ginza street corner in 1940, seeing period-accurate buildings, transportation (streetcars, early automobiles), signage, and even fashions on virtual pedestrians. The online experience launched in 2021, allowing global audiences to explore Ginza's transformation.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong><a href="https://www.hiroshimacvb.jp/en/unique-experience/experience/2386.html" target="_blank">Hiroshima Reconstruction VR (Peace Park Tour VR)</a></strong></h5>
                             <p>In the context of war memorialization, Hiroshima has adopted VR to preserve memory. A collaborative project by Fujita Co. and the University of Tokyo developed an <a href="https://hiroshima-resthouse.com/tour/vrtour" target="_blank">80-minute VR tour</a> that recreates Hiroshima's city center on August 6, 1945, before and after the atomic bombing. Users wearing a headset can stand on a lively Hiroshima street on the clear morning of August 6, 1945, and then witness the flash of the bomb and the utter devastation that followed. The simulation is informed by survivor testimonies and historical photographs. This VR content is offered as "Peace Park VR" tours in Hiroshima and provided to schools and museums for peace education, using digital reconstruction to vividly convey the trauma of war.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong>Modern Japan Digital Artifact Library (Hashima XR Project)</strong></h5>
-                            <p>An international academic effort spearheaded by historian Christopher Gerteis, this project focuses on 3D digitization of everyday objects from the Showa era. The team is building a library of high-fidelity 3D models of material culture used in Japanese daily life between 1925 and 1989. Using techniques like laser scanning and photogrammetry (even Apple's LiDAR "RealityScan" for quick captures), they have begun preserving artifacts ranging from household appliances and electronics to toys and personal items of the era. By scanning these objects and hosting them on platforms like Sketchfab, the project not only safeguards their form and appearance but also makes them accessible globally for study and virtual exhibition. This is especially relevant for sites like Hashima Island (Gunkanjima) – a famous abandoned mining town from the Showa industrial boom – where researchers can preserve artifacts and architecture from an otherwise decaying environment.</p>
+                            <p>An international academic effort spearheaded by historian Christopher Gerteis, this project focuses on 3D digitization of everyday objects from the Showa era. The team is building a library of high-fidelity 3D models of material culture used in Japanese daily life between 1925 and 1989. Using techniques like laser scanning and photogrammetry (including Apple's LiDAR “RealityScan” for quick captures), they have begun preserving artifacts ranging from household appliances and electronics to toys and personal items of the era. By scanning these objects and hosting them on platforms like Sketchfab, the project not only safeguards their form and appearance but also makes them accessible globally for study and virtual exhibition. This is especially relevant for sites like Hashima Island (Gunkanjima) – a famous abandoned mining town from the Showa industrial boom – where researchers can preserve artifacts and architecture from an otherwise decaying environment.</p>
                         </div>
-                        
+
                         <p class="mt-5">Together, these examples illustrate a range of heritage approaches: from virtual museums and city "time machines" to photogrammetric archives. Both Japanese and international projects converge on key goals: preserving the memory of the Showa era's events, architecture, and daily life through immersive technology. Crucially, many are supported by public institutions or universities, indicating a broad recognition of the value of digitally safeguarding Showa history.</p>
-                        
+
                         <hr class="my-5">
-                        
+
                         <h3 class="mb-4">Showa Era Settings in Video Games and Virtual Worlds</h3>
                         <p>Beyond the museum sphere, the Showa era has become a rich backdrop for commercial games and user-generated virtual environments. Developers and creators often tap into Showa-period settings to provide players with worlds that feel authentic or nostalgically familiar:</p>
-                        
+
                         <div class="mb-4">
                             <h5><strong><a href="https://ryu-ga-gotoku.com/zero-directorscut/" target="_blank">Yakuza 0</a> (Sega, 2015)</strong></h5>
-                            <p>A critically acclaimed action-adventure game set in 1988, during the late Showa years at the height of Japan's "bubble economy." Yakuza 0 painstakingly recreates fictionalized Tokyo and Osaka districts based on real locations as they looked in the 80s. Neon-lit streets are filled with period-accurate shop signs, arcades, VHS rental stores, and fashion, immersing the player in the hustle of the boom era. The game has been praised as "an incredibly honest and faithful representation of Showa-era Japan" – depicting a society of gaudy excess where money flows freely and new glass high-rises begin to tower over old ramen shops. The narrative uses this setting not just as window dressing but as plot fuel: the story centers on a real estate scramble, with criminal factions fighting over property during the Showa-era real estate bubble.</p>
+                            <p>A critically acclaimed action-adventure game set in 1988, during the late Showa years at the height of Japan's "bubble economy." Yakuza 0 painstakingly recreates fictionalized Tokyo and Osaka districts based on real locations as they looked in the 80s. Neon-lit streets are filled with period-accurate shop signs, arcades, VHS rental stores, and fashion, immersing the player in the hustle of the boom era. The narrative uses this setting not just as window dressing but as plot fuel: the story centers on a real estate scramble, with criminal factions fighting over property during the Showa-era real estate bubble.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong>Shenmue (Sega, 1999)</strong></h5>
-                            <p>Often regarded as a pioneer of open-world design, Shenmue is set in 1986 Yokosuka, a port city in Japan. Players explore a faithfully modeled Japanese town in the Showa 60 era, complete with a neighborhood candy shop, gacha toy machines, vintage Sega arcade games, and neighbors who follow daily routines. The game is "part revenge epic, part Japanese life simulator." Shenmue's attention to mundane details (drinking soda from a vending machine, feeding a stray cat, waiting for the bus) effectively captures late-Showa everyday life. The living world around the protagonist – grounded firmly in Showa aesthetics – is what made Shenmue a cultural touchstone.</p>
+                            <p>Often regarded as a pioneer of open-world design, Shenmue is set in 1986 Yokosuka, a port city in Japan. Players explore a faithfully modeled Japanese town in the Showa 60 era, complete with a neighborhood candy shop, gacha toy machines, vintage Sega arcade games, and neighbors who follow daily routines. Shenmue's attention to mundane details (drinking soda from a vending machine, feeding a stray cat, waiting for the bus) effectively captures late-Showa everyday life.</p>
                             <p class="text-muted small mb-0">More information: <a href="https://shenmue.fandom.com/wiki/Shenmue" target="_blank">Shenmue Wiki</a>; <a href="https://www.theguardian.com/technology/2014/may/02/shenmue-sega-classic-14-years-too-late" target="_blank">The Guardian (2014)</a>; <a href="https://sesesega.hatenablog.jp/entry/shenmue" target="_blank">SeSeSega hatenablog (Japanese)</a>.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong><a href="https://en.wikipedia.org/wiki/Boku_no_Natsuyasumi" target="_blank">Boku no Natsuyasumi</a> (<a href="http://www.mkitchen.co.jp/" target="_blank">Millennium Kitchen</a>, 2000)</strong></h5>
-                            <p>"My Summer Vacation" is a series of Japanese games that drop the player into the role of a young boy visiting relatives in the Japanese countryside in August 1975 (Showa 50). These games have no combat or grand conflict; instead, they simulate the nostalgic pleasures of a Showa-era childhood summer – catching cicadas, playing with water rockets, listening to evening cicada cries and distant wind chimes. The hand-drawn backgrounds depict wooden traditional homes, rolling green hills, and analog details like manga magazines and black-and-white TV sets that firmly root the experience in the 1970s. This series is a prime example of using digital media to evoke collective nostalgia, inviting players to yearn for the "simple life" of Showa days.</p>
+                            <p>"My Summer Vacation" is a series of Japanese games that drop the player into the role of a young boy visiting relatives in the Japanese countryside in August 1975 (Showa 50). These games have no combat or grand conflict; instead, they simulate the nostalgic pleasures of a Showa-era childhood summer – catching cicadas, playing with water rockets, listening to evening cicada cries and distant wind chimes.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong>VRChat Worlds – User-Created Showa Environments</strong></h5>
-                            <p>In the social VR platform VRChat, creators (both Japanese and international) have built numerous explorable worlds that pay homage to Showa-era settings. Examples include "Retro Kofu Night Walk" – a virtual replica of a Japanese street from the Showa period with old signage and narrow alleys – and 「昭和の古いアパート」 ("Old Showa-era Apartment"), which lets visitors wander through a rundown 1970s apartment block with tatami-matted rooms and vintage calendars. During <a href="https://www.v-market.work/" target="_blank">Virtual Market 2021</a>, the Japanese clothing brand BEAMS collaborated on a "Virtual Showa Asakusa" environment (promoting Netflix's <a href="https://www.netflix.com/title/81317135" target="_blank"><em>Asakusa Kid</em></a>) featuring a virtual izakaya bar and theater where avatars could perform Showa-style tap dance routines. The same retro-urban imaginary circulates through adjacent streaming nostalgia, including Netflix’s <a href="https://www.netflix.com/title/80113037" target="_blank"><em>Midnight Diner: Tokyo Stories</em></a>. Such VRChat experiences blend entertainment and exhibition – users not only see period-accurate buildings and objects, but can socialize within them.</p>
+                            <p>In the social VR platform VRChat, creators (both Japanese and international) have built numerous explorable worlds that pay homage to Showa-era settings. During <a href="https://www.v-market.work/" target="_blank">Virtual Market 2021</a>, the Japanese clothing brand BEAMS collaborated on a "Virtual Showa Asakusa" environment (promoting Netflix's <a href="https://www.netflix.com/title/81317135" target="_blank"><em>Asakusa Kid</em></a>) featuring a virtual izakaya bar and theater where avatars could perform Showa-style tap dance routines. The same retro-urban imaginary circulates through adjacent streaming nostalgia, including Netflix’s <a href="https://www.netflix.com/title/80113037" target="_blank"><em>Midnight Diner: Tokyo Stories</em></a>.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h5><strong><a href="https://store.steampowered.com/app/1687540/Showa_American_Story/" target="_blank">Showa American Story</a> (NEKCOM, in development)</strong></h5>
                             <p>An upcoming first-person action title framed as an alternate history in which late-Showa Japanese popular culture “overruns” an imagined 1980s America. We note it here primarily as a market-facing example of how Showa visual culture and material signs can be lifted as an aesthetic kit for violent spectacle, rather than handled as historically accountable heritage. In that sense, it helps clarify what this Archive is not trying to do, even as it shows one commercial path that developers may pursue when Showa-era assets become widely available.</p>
                             <p class="text-muted small mb-0"><strong>Content note:</strong> Not appropriate for all ages, and may be unsuitable for workplace viewing (Blood, Intense Violence, Partial Nudity, Sexual Themes, Strong Language, Use of Alcohol).</p>
                         </div>
-                        
-                        <p class="mt-5">From big-budget console games to fan-made VR chatrooms, the Showa era provides a rich palette of settings. English-language coverage of these games often praises the authenticity and educational value of the settings, while Japanese discussions emphasize the <em>natsukashii</em> (nostalgic) feelings these digital worlds elicit. The careful construction of Showa-era environments – whether realistic or fantastical – significantly enriches the user experience, allowing entertainment products to double as cultural time capsules.</p>
-                        
+
+                        <p class="mt-5">From big-budget console games to fan-made VR chatrooms, the Showa era provides a rich palette of settings. The careful construction of Showa-era environments (whether realistic or fantastical) can enrich the user experience, allowing entertainment products to double as cultural time capsules.</p>
+
                         <hr class="my-5">
-                        
+
                         <h3 class="mb-4">Digital Strategies and Thematic Narratives</h3>
                         <p>Across both heritage and entertainment platforms, the Showa era is brought to life through two main digital strategies: the creation of detailed 3D environments (macro-scale recreations of places) and the preservation of authentic objects or artifacts (micro-scale details). These digital assets serve as stages and props for narratives that reflect the complex history of the Showa period.</p>
-                        
+
                         <h5 class="mt-4"><strong>3D Scanning and Photogrammetry of Artifacts</strong></h5>
-                        <p>Many projects put special focus on digital objects from the Showa era. The Hashima XR Project's artifact library scans everyday items like Showa-era televisions, telephones, cameras, and other household goods into 3D models. Once digitized, these objects can be examined in virtual galleries or inserted into larger simulations. By preserving such objects, creators ensure that the textures of Showa life – the look of a 10-yen ramune bottle or the sound of a rotary phone – can be experienced by those who never lived through it.</p>
-                        
+                        <p>Many projects put special focus on digital objects from the Showa era. Once digitized, these objects can be examined in virtual galleries or inserted into larger simulations. By preserving such objects, creators ensure that the textures of Showa life can be experienced by those who never lived through it.</p>
+
                         <h5 class="mt-4"><strong>Reconstructed Virtual Environments</strong></h5>
-                        <p>Whether it's an entire city district like 1940s Ginza or a humble 1960s apartment, reconstructing environments is key to situating users in Showa contexts. These environments are often created through archival research plus modern 3D modeling. The narrative impact of these environments is significant – a reconstructed environment provides context and mood that can amplify a story's themes, from the horror of war in Hiroshima VR to the nostalgic simplicity in Boku no Natsuyasumi's peaceful village.</p>
-                        
+                        <p>Whether it's an entire city district like 1940s Ginza or a humble 1960s apartment, reconstructing environments is key to situating users in Showa contexts. These environments are often created through archival research plus modern 3D modeling.</p>
+
                         <h5 class="mt-4"><strong>Key Themes in Digital Showa Representations</strong></h5>
                         <ul>
-                            <li><strong>Nostalgia for Everyday Life:</strong> Many projects evoke nostalgia for family, community, and the perceived "simpler times" of mid-20th-century Japan, with warm lighting, retro color palettes, and slice-of-life narrative vignettes.</li>
-                            <li><strong>Trauma and War Memory:</strong> Heritage digital projects tackle the trauma of Showa history – WWII, nuclear bombings, and postwar occupation – using immersive tech to foster empathy and pass down lessons of history.</li>
+                            <li><strong>Nostalgia for Everyday Life:</strong> Many projects evoke nostalgia for family, community, and the perceived "simpler times" of mid-20th-century Japan.</li>
+                            <li><strong>Trauma and War Memory:</strong> Heritage digital projects tackle the trauma of Showa history using immersive tech to foster empathy and pass down lessons of history.</li>
                             <li><strong>Modernity and Rapid Change:</strong> Many representations emphasize the era's breakneck modernization, with themes of "old vs new" visible in cityscapes where skyscrapers rise next to traditional shophouses.</li>
-                            <li><strong>Family and Social Structure:</strong> Digital narratives often focus on the multi-generational family, strong neighborhood communities, and the transition to nuclear families during the postwar boom.</li>
+                            <li><strong>Family and Social Structure:</strong> Digital narratives often focus on the multi-generational family, neighborhood communities, and the transition to nuclear families during the postwar boom.</li>
                         </ul>
-                        
+
                         <div class="mt-5 p-4 bg-light rounded border">
                             <h4>Conclusion</h4>
-                            <p>From virtual museums preserving fading memories to video games resurrecting the sights and sounds of mid-20th-century Japan, the Showa era lives on vibrantly in digital form. Japanese-led projects have leveraged 3D scanning, VR, and AR to safeguard cultural heritage – enabling anyone, anywhere to tour a Showa-era home or city street. At the same time, game developers and online communities worldwide have embraced Showa Japan as an evocative setting.</p>
-                            <p class="mb-0">Heritage projects lend factual depth and gravitas – ensuring virtual Showa worlds are credible and respectful of history. Entertainment projects contribute creative breadth, introducing the era to new audiences under the guise of play or storytelling. Together they form a multifaceted digital remembrance of Showa. In an age when the last generation with direct Showa memories is aging, these digital reconstructions and narratives will play an ever more important role in how the world recalls Japan's dramatic 20th century.</p>
+                            <p>From virtual museums preserving fading memories to video games resurrecting the sights and sounds of mid-20th-century Japan, the Showa era lives on vibrantly in digital form. Heritage projects lend factual depth and gravitas, ensuring virtual Showa worlds are credible and historically responsible, while entertainment projects contribute creative breadth and reach.</p>
+                            <p class="mb-0">Together they form a multifaceted digital remembrance of Showa. In an age when the last generation with direct Showa memories is aging, these digital reconstructions and narratives will play an ever more important role in how the world recalls Japan's dramatic twentieth century.</p>
                         </div>
                     </div>
 
@@ -240,71 +255,224 @@
                         <p>Most assets in this catalog are hosted on platforms like Sketchfab or museum repositories. We utilize WebGL for browser-based inspection, allowing users to rotate, zoom, and pan without specialized software.</p>
                     </div>
 
+                    <!-- UPDATED LESSON PLANS TAB -->
                     <div class="tab-pane fade content-box" id="v-pills-plans">
-                        <h2 class="mb-4">Lesson Plans & Modules</h2>
-                        <p class="lead">These modules are designed for undergraduate seminars in Japanese History, Material Culture, or Science & Technology Studies (STS).</p>
-                        
-                        <hr class="my-5">
+                        <h2 class="mb-4">Lesson Plans &amp; Modules</h2>
 
-                        <div class="mb-5">
-                            <h4>Module 1: The "Bright Life" and Consumerism (1955–1970)</h4>
-                            <p><strong>Topic:</strong> The rapid adoption of western-style appliances and the "Three Sacred Treasures" (Television, Washing Machine, Refrigerator).</p>
-                            
-                            <div class="bg-light p-3 rounded border mb-3">
-                                <strong>Catalog Assets:</strong>
-                                <ul class="mb-0 mt-2">
-                                    <li><a href="catalog.html">Vintage TV (skf-0031)</a></li>
-                                    <li><a href="catalog.html">Vintage Fridge (skf-0021)</a></li>
-                                    <li><a href="catalog.html">Ensemble Stereo (skf-0012)</a></li>
-                                </ul>
-                            </div>
+                        <p class="lead">
+                            These modular lesson plans treat digital 3D assets as primary sources. The point is not simply to “decorate” a scene, but to practice historically grounded interpretation through material culture: students make explicit, testable claims about time, place, labor, and everyday life by attending to scale, wear, repair, interfaces, packaging, and spatial arrangement.
+                        </p>
 
-                            <h5>Learning Objectives:</h5>
+                        <div class="module">
+                            <h4>Why this matters (humanities and design)</h4>
                             <ul>
-                                <li>Analyze how domestic appliances altered the layout of the Japanese home (<em>chanoma</em> vs. living room).</li>
-                                <li>Discuss the gendered implications of "labor-saving" devices in the post-war era.</li>
+                                <li><strong>For humanities students:</strong> the exercise trains close reading of objects as evidence. Everyday things condense policy, industry, gendered labor, and built environments, especially in the high-growth decades when domestic life was reorganized through consumer durables and new media ecologies.</li>
+                                <li><strong>For design students:</strong> the exercise connects form to constraint. Students learn to explain why a given interface, footprint, material, or maintenance pattern makes sense (or does not) within a historically specific household, budget, and infrastructure.</li>
+                                <li><strong>For both:</strong> the goal is to move from “plausible vibes” to <em>argued plausibility</em>: what in the object makes your period/location claim credible, and what evidence would falsify it.</li>
+                            </ul>
+                            <p class="mb-0">Each module below includes a core question, direct asset links, and a sequence that can be run in 50–90 minutes. Encourage students to use the <a href="catalog.html">Catalog</a> to find additional assets that strengthen or complicate their argument.</p>
+                        </div>
+
+                        <hr>
+
+                        <div class="module">
+                            <h4>Module 1: Domestic modernity and the “new middle-class home” (c. 1955–1973)</h4>
+                            <p>This module uses consumer durables and domestic props to reconstruct the lived logic of high-growth household life: not only “what was owned,” but how ownership reorganized routines (food storage, family gathering, media consumption, heating).</p>
+
+                            <p><strong>Core question:</strong> What kinds of domestic time, labor, and aspiration are being built into this room?</p>
+
+                            <p><strong>Assets (direct links):</strong></p>
+                            <ul>
+                                <li><a href="https://sketchfab.com/3d-models/vintage-japanese-tv-66384232356540c1b017772863925725" target="_blank" rel="noopener">Showa Retro TV (skf-0005)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/vintage-fridge-30765d86e64e487a935b399ee056b0f7" target="_blank" rel="noopener">Vintage Fridge (skf-0021)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/ensemble-stereo-70a5253f8cd54d73b081027e0d43ef80" target="_blank" rel="noopener">Ensemble Stereo (skf-0012)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/kotatsu-japanese-heated-table-with-blanket-cfb9685fa4c3474baf0cf203da96486b" target="_blank" rel="noopener">Kotatsu (Heated Table) (skf-0006)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/kikkoman-soy-sauce-d9f7418ef42a4876a0a7f8c1fa7996ea" target="_blank" rel="noopener">Kikkoman Soy Sauce Bottle (skf-0016)</a></li>
                             </ul>
 
-                            <h5>Activity: The Virtual Living Room</h5>
-                            <p>Have students examine the <strong>Vintage TV</strong> and <strong>Kotatsu</strong>. Ask them to sketch a floor plan of a 1960s apartment (Danchi) placing these objects. How does the television displace the <em>tokonoma</em> (alcove) as the focal point of the room? How does the <strong>Ensemble Stereo</strong> signal a shift from collective family radio listening to individual leisure?</p>
+                            <p><strong>Learning objectives:</strong></p>
+                            <ul>
+                                <li>Practice object-based historical inference by linking visible features (materials, knobs, vents, packaging, cord logic) to a bounded time frame.</li>
+                                <li>Explain how domestic infrastructure (electricity, retail distribution, housing size) shapes what “modern” ownership means in practice.</li>
+                                <li>Make an argument about household labor (who does what, where, and when) using spatial placement as evidence.</li>
+                            </ul>
+
+                            <p><strong>In-class sequence (50–75 minutes):</strong></p>
+                            <ol>
+                                <li><strong>Observe (10 min):</strong> In pairs, list five concrete features of one object (not “retro,” but “wood cabinet,” “dial layout,” “vent placement,” “bottle geometry,” “wear pattern”).</li>
+                                <li><strong>Hypothesize (10 min):</strong> For each feature, propose one historical claim it supports (period, income bracket, housing type, routine). Name one piece of counterevidence that would challenge your claim.</li>
+                                <li><strong>Stage (15–25 min):</strong> Place objects into a single room (living/dining/kitchen). Justify <em>why</em> each object sits where it does (circulation, cords, heat, cleaning, social use).</li>
+                                <li><strong>Argue (10–15 min):</strong> Deliver a 90-second “room argument” connecting objects to (a) media time, (b) food time, and (c) heating time.</li>
+                                <li><strong>Extend (optional):</strong> Use the <a href="catalog.html">Catalog</a> to add one additional prop that <em>complicates</em> the narrative (a prewar object that persists, or an item signaling hobbyist culture).</li>
+                            </ol>
+
+                            <p><strong>Assessment prompt (short writing):</strong> Choose one object and write 250–350 words explaining how it reorganizes domestic labor or sociability. Cite at least two visible features as evidence.</p>
                         </div>
 
-                        <hr class="my-5">
+                        <hr>
 
-                        <div class="mb-5">
-                            <h4>Module 2: Urban Texture & The Olympic Transformation (1964)</h4>
-                            <p><strong>Topic:</strong> The friction between traditional urban density and high-modernist infrastructure during the 1964 Tokyo Olympics.</p>
-                            
-                            <div class="bg-light p-3 rounded border mb-3">
-                                <strong>Catalog Assets:</strong>
-                                <ul class="mb-0 mt-2">
-                                    <li><a href="catalog.html">Japanese Alley 01 (fab-0008)</a></li>
-                                    <li><a href="catalog.html">Old Japanese Street Props (fab-0020)</a></li>
-                                    <li><a href="catalog.html">Kyoto Machiya (skf-0003)</a></li>
-                                </ul>
-                            </div>
+                        <div class="module">
+                            <h4>Module 2: Built form, interior hybridity, and everyday space</h4>
+                            <p>This module treats architecture and interior components as historical arguments. Students build a small, plausible domestic space and explain how “traditional” and “modern” forms coexist in Showa-era interiors.</p>
 
-                            <h5>Activity: "Scrap and Build"</h5>
-                            <p>Contrast the <strong>Kyoto Machiya</strong> (representing the wooden low-city <em>shitamachi</em>) with the <strong>Japanese Alley</strong> assets. Discuss the concept of "Scrap and Build" (<em>sukurappu ando birudo</em>). Have students identify specific textures in the 3D models (rusted corrugated iron, concrete utility poles) that signify the hasty, patchwork modernization of the mid-Showa period.</p>
+                            <p><strong>Core question:</strong> What does this layout imply about household size, privacy, and daily routines?</p>
+
+                            <p><strong>Assets (direct links):</strong></p>
+                            <ul>
+                                <li><a href="https://sketchfab.com/3d-models/kyoto-machiya-house-b5f7e6f809964590b073070857367332" target="_blank" rel="noopener">Kyoto Machiya (Traditional House) (skf-0003)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/traditional-japanese-house-tatami-05364405365548658660306263306636" target="_blank" rel="noopener">Traditional Japanese House | Tatami Room (skf-0035)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/japanese-wall-set-modular-wall-d41e4e8e2886456aa31c29fe47e05dce" target="_blank" rel="noopener">Japanese Wall Set (Modular Wall) (skf-0052)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/japanese-room-decor-set-floor-cushion-teaset-table-8c57a3b6a9d4459191c0d62d4cdbc245" target="_blank" rel="noopener">Japanese Room Decor Set (skf-0055)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/vintage-wall-clock-9f45c47493844f249514755106605030" target="_blank" rel="noopener">Vintage Wall Clock (skf-0014)</a></li>
+                            </ul>
+
+                            <p><strong>Learning objectives:</strong></p>
+                            <ul>
+                                <li>Understand domestic space as an archive of constraint (timber, tatami modularity, storage, shifting expectations about privacy and cleanliness).</li>
+                                <li>Explain how interiors “carry” social relations (gendered work, intergenerational living, guest etiquette) through layout choices.</li>
+                                <li>Translate spatial claims into concrete design decisions (room boundaries, thresholds, object placement, sightlines).</li>
+                            </ul>
+
+                            <p><strong>In-class sequence (60–90 minutes):</strong></p>
+                            <ol>
+                                <li><strong>Plan (10 min):</strong> Choose one scenario (single adult worker, couple with child, multigenerational household) and one setting (machiya slice, small apartment, mixed interior).</li>
+                                <li><strong>Assemble (20–30 min):</strong> Build a two-room slice (tatami room plus corridor or kitchenette edge). Use walls/thresholds deliberately.</li>
+                                <li><strong>Explain (15 min):</strong> Annotate the scene with 4–6 labels linking spatial features to routines (sleep storage, eating, studying, receiving guests, heating/cooling).</li>
+                                <li><strong>Challenge (10–15 min):</strong> Swap scenes with another group and identify one “implausibility” and one “strong historical clue.” Revise accordingly.</li>
+                                <li><strong>Extend (optional):</strong> Use the <a href="catalog.html">Catalog</a> to add one object that forces a spatial rethink (a large appliance, a school item, or an item of ritual practice).</li>
+                            </ol>
                         </div>
 
-                        <hr class="my-5">
+                        <hr>
 
-                        <div>
-                            <h4>Module 3: Energy & Labor – The Coal Transition</h4>
-                            <p><strong>Topic:</strong> The shift from coal to oil (the "Energy Revolution") and the closure of the Miike mines.</p>
-                            
-                            <div class="bg-light p-3 rounded border mb-3">
-                                <strong>Catalog Assets:</strong>
-                                <ul class="mb-0 mt-2">
-                                    <li><a href="catalog.html">Work Helmet (skf-0036)</a></li>
-                                    <li><a href="catalog.html">Coal Mine Gallery (skf-0026)</a></li>
-                                    <li><a href="catalog.html">Colliery Buildings (skf-0037)</a></li>
-                                </ul>
+                        <div class="module">
+                            <h4>Module 3: Industrial labor, energy regimes, and the hidden infrastructure of “growth”</h4>
+                            <p>This module links everyday prosperity to industrial work and extraction. Students use mining-related assets to think about what is made visible or invisible in “modernization” narratives, and how labor, safety, and environment are represented.</p>
+
+                            <p><strong>Core question:</strong> What must be true about labor and risk for this vision of “growth” to function?</p>
+
+                            <p><strong>Assets (direct links):</strong></p>
+                            <ul>
+                                <li><a href="https://sketchfab.com/3d-models/work-helmet-3a90b5f021604be18c26d67e4bef53b8" target="_blank" rel="noopener">Work Helmet (skf-0036)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/wagon-coal-mine-fe3feca2ef8d41c8b57e0f7949508621" target="_blank" rel="noopener">Wagon Coal Mine (skf-0025)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/coal-mine-gallery-2cc9dfc11fe243039f9900f0c31414ae" target="_blank" rel="noopener">Coal Mine Gallery (skf-0026)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/mine-scene-8d06b91f11394f758798f1e838175bd0" target="_blank" rel="noopener">Mine Scene (skf-0027)</a></li>
+                                <li><a href="https://sketchfab.com/3d-models/colliery-buildings-set-4f30cf1b73564b4c913419408d135dcf" target="_blank" rel="noopener">Colliery Buildings Set (skf-0037)</a></li>
+                            </ul>
+
+                            <p><strong>Learning objectives:</strong></p>
+                            <ul>
+                                <li>Connect domestic consumption to energy and industrial systems (without treating infrastructure as “background”).</li>
+                                <li>Identify how visual representation can naturalize risk, erase labor, or turn extraction into scenery.</li>
+                                <li>Practice ethical historical narration: describe labor conditions without sensationalism, and name what the scene cannot show.</li>
+                            </ul>
+
+                            <p><strong>In-class sequence (50–75 minutes):</strong></p>
+                            <ol>
+                                <li><strong>Read the scene (10 min):</strong> List what the environment emphasizes (machines, tunnels, buildings) and what it obscures (bodies, sound, dust, injury, governance).</li>
+                                <li><strong>Build a claim (15 min):</strong> Write two claims: one about labor organization (skill, supervision, safety) and one about energy politics (why coal matters here).</li>
+                                <li><strong>Visual ethics (15–20 min):</strong> Add 3–5 annotations describing what would be present beyond the frame (protective gear, lighting, ventilation, injury risk, shift rhythms).</li>
+                                <li><strong>Compare (10 min):</strong> Contrast this industrial scene with Module 1’s domestic scene: what links them, and what language usually separates them?</li>
+                                <li><strong>Extend (optional):</strong> Use the <a href="catalog.html">Catalog</a> to add an object that “travels” between worlds (a phone, a clock, a bottle, a school item) and justify the connection.</li>
+                            </ol>
+                        </div>
+
+                        <hr>
+
+                        <h3 class="mb-3">Context Primers &amp; Instructor Notes</h3>
+                        <p class="text-muted">
+                            These short primers are designed to be assignable in advance (5–10 minutes each) or used as in-class framing. They anchor object work in Showa time, without turning the exercise into a survey lecture. Instructors can treat them as “working hypotheses” that students test against object evidence.
+                        </p>
+
+                        <div class="accordion" id="showaPrimersEN">
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="primerOneHeadingEN">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#primerOneEN" aria-expanded="true" aria-controls="primerOneEN">
+                                        Primer 1: Showa “high growth” as infrastructure and routine (c. 1955–1973)
+                                    </button>
+                                </h2>
+                                <div id="primerOneEN" class="accordion-collapse collapse show" aria-labelledby="primerOneHeadingEN" data-bs-parent="#showaPrimersEN">
+                                    <div class="accordion-body">
+                                        <p>
+                                            “High growth” is often narrated as macroeconomics, but for students working with 3D assets it is more productive to treat it as a reorganization of everyday infrastructures and routines. Domestic electrification, mass distribution, and the normalization of repair and replacement created new expectations about comfort, hygiene, storage, and media time. A television console or refrigerator, read closely, is an argument about space and household management: where cords can run, where heat can vent, how cleaning is imagined, and which tasks are assumed to be repetitive rather than exceptional. The point is not to claim that any one object “represents” the period. Rather, students should learn to link observable features to a bounded claim about when and where such an object becomes plausible, and what it presumes about household budgets, service networks, and the social organization of labor in the home.
+                                        </p>
+                                        <p class="mb-0">
+                                            Teaching tip: Require students to name what the object cannot tell them on its own (purchase price, brand status, region), then assign a “minimal corroboration” task (an advertisement, a household budget table, a housing plan) as follow-up evidence.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
 
-                            <h5>Discussion: The Invisible Worker</h5>
-                            <p>While the "Bright Life" was happening in Tokyo, coal miners faced redundancy. Use the <strong>Work Helmet</strong> and <strong>Mine Gallery</strong> to discuss the physicality of industrial labor. Compare the rough, worn textures of the mining equipment with the sleek, clean lines of the consumer appliances in Module 1. What does this material contrast tell us about the winners and losers of the "High Growth" economic miracle?</p>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="primerTwoHeadingEN">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#primerTwoEN" aria-expanded="false" aria-controls="primerTwoEN">
+                                        Primer 2: Housing, danchi, and the politics of domestic space
+                                    </button>
+                                </h2>
+                                <div id="primerTwoEN" class="accordion-collapse collapse" aria-labelledby="primerTwoHeadingEN" data-bs-parent="#showaPrimersEN">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Postwar housing is a crucial hinge for material-culture work because it sets the constraints that make objects “fit” or “misfit.” The spread of apartment living (including danchi) and the persistence of mixed interiors complicate simplistic narratives of tradition versus modernity. Students should treat room components (tatami modules, thresholds, storage walls, circulation) as technologies that discipline bodies and organize privacy. Even small placement decisions can be turned into arguments: a kotatsu implies a winter social geography, a phone implies a household boundary and an institutional network, a wall clock implies a regime of scheduled time. The analytical payoff comes when students connect these spatial logics to family structure, gendered labor, and neighborhood governance, rather than stopping at “nostalgic atmosphere.”
+                                        </p>
+                                        <p class="mb-0">
+                                            Teaching tip: Assign a “one-room proof” exercise. Students must justify every placement in writing and identify one non-negotiable constraint (cords, cleaning, sleep storage, guest etiquette) that forces trade-offs.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="primerThreeHeadingEN">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#primerThreeEN" aria-expanded="false" aria-controls="primerThreeEN">
+                                        Primer 3: Communications, institutions, and everyday discipline
+                                    </button>
+                                </h2>
+                                <div id="primerThreeEN" class="accordion-collapse collapse" aria-labelledby="primerThreeHeadingEN" data-bs-parent="#showaPrimersEN">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Telephony, school goods, and routine institutional artifacts are not neutral. They materialize access, enforce schedules, and rehearse hierarchies through placement and use. Instructors can frame a phone not as “retro tech,” but as an object that implies subscription systems, repair infrastructures, household authority, and the spatial politics of privacy (who answers, where it rings, what can be overheard). In the classroom, the strongest student work connects institutional time to domestic time: the bell schedule, shift work, commuting, children’s homework, and the shared spaces where these regimes collide.
+                                        </p>
+                                        <p class="mb-0">
+                                            Teaching tip: Have students stage a threshold scene (genkan, corridor, office entry) and write a short “day in the life” that cites object placement as evidence for discipline, access, and conflict.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="primerFourHeadingEN">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#primerFourEN" aria-expanded="false" aria-controls="primerFourEN">
+                                        Primer 4: Energy regimes, labor, and the hidden costs of “growth”
+                                    </button>
+                                </h2>
+                                <div id="primerFourEN" class="accordion-collapse collapse" aria-labelledby="primerFourHeadingEN" data-bs-parent="#showaPrimersEN">
+                                    <div class="accordion-body">
+                                        <p>
+                                            A digital archive of Showa objects risks reproducing a familiar split: the warm domestic interior versus the distant industrial exterior. This module refuses that split by treating energy and labor as everyday conditions. Mining assets, safety equipment, and industrial scenes should be used to make representation itself a question. What becomes visible (machines, tunnels, buildings) and what remains absent (bodies, dust, sound, injury, governance) is not an accident. Students should learn to name what the model cannot show, and to write historically responsible captions that resist turning extraction into “scenery.” The goal is not to moralize, but to connect consumption to systems, and to identify the narrative shortcuts that entertainment media often takes.
+                                        </p>
+                                        <p class="mb-0">
+                                            Teaching tip: Ask students to write two captions for the same scene: one in “game marketing” voice, one in “museum label” voice. Then require a third caption that is historically accountable and explicit about limits.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="mt-5 p-4 bg-light rounded border">
+                            <h4 class="mb-3">Suggested Readings (short list)</h4>
+                            <p class="text-muted mb-3">
+                                These are intentionally few and teachable. Instructors can expand regionally or thematically (labor, gender, environmental history, media history, design history) as needed.
+                            </p>
+
+                            <ul class="mb-0">
+                                <li>Prown, Jules David. “Mind in Matter: An Introduction to Material Culture Theory and Method.” <em>Winterthur Portfolio</em> 17, no. 1 (1982): 1–19.</li>
+                                <li>Gordon, Andrew. <em>A Modern History of Japan: From Tokugawa Times to the Present</em>. 3rd ed. New York: Oxford University Press, 2013.</li>
+                                <li>Sand, Jordan. <em>House and Home in Modern Japan: Architecture, Domestic Space, and Bourgeois Culture, 1880–1930</em>. Cambridge, MA: Harvard University Asia Center, 2003.</li>
+                                <li>Allison, Anne. <em>Millennial Monsters: Japanese Toys and the Global Imagination</em>. Berkeley: University of California Press, 2006. (use selectively for consumption and affect)</li>
+                                <li>Harootunian, Harry. <em>Overcome by Modernity: History, Culture, and Community in Interwar Japan</em>. Princeton, NJ: Princeton University Press, 2000. (for thinking about “modernity” as discourse, not a checklist)</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -320,6 +488,7 @@
                             <em>Gerteis, Christopher. (2025). Showa Digital Asset Archive. SOAS University of London. Retrieved from https://ckgerteis.github.io/showa-digital-asset-archive/</em>
                         </p>
                     </div>
+
                 </div>
             </div>
         </div>
