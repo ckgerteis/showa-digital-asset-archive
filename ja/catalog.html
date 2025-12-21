@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カタログ | Showa Digital Archive</title>
+
+    <link rel="alternate" hreflang="en" href="../catalog.html">
+    <link rel="alternate" hreflang="ja" href="catalog.html">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <style>
+        body { background-color: #fdfbf7; font-family: 'Roboto', sans-serif; }
+        h1, h2, h3 { font-family: 'Merriweather', serif; color: #2c3e50; }
+        .filter-section { background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .asset-card { transition: transform 0.2s; border: none; }
+        .asset-card:hover { transform: translateY(-2px); }
+        .img-container {
+            height: 220px;
+            background-color: #e9ecef;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .asset-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.5s ease;
+        }
+        .img-loading { opacity: 0.4; filter: blur(4px); }
+        .img-loaded { opacity: 1; filter: blur(0); }
+
+        .badge-era { background-color: #c0392b; position: absolute; top: 10px; right: 10px; z-index: 2; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+        .badge-source { position: absolute; bottom: 10px; left: 10px; z-index: 2; font-size: 0.75rem; opacity: 0.9; }
+        .creator-text { font-size: 0.85rem; color: #666; font-style: italic; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Showa Digital Asset Archive</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">ホーム</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="catalog.html">カタログ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="educators.html">研究・教育</a></li>
+                    <li class="nav-item"><a class="nav-link" href="submit.html">登録（投稿）</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../catalog.html">English</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h2>アーカイブ・カタログ</h2>
+                <p class="text-muted">外部デジタルアセット <span id="count">0</span> 件のインデックス。</p>
+            </div>
+        </div>
+
+        <div class="row mb-5 justify-content-center">
+            <div class="col-lg-10">
+                <div class="filter-section d-flex flex-wrap gap-3">
+                    <input type="text" id="searchInput" class="form-control w-50" placeholder="タイトル、制作者、ソースで検索…">
+                    <select id="eraFilter" class="form-select w-25">
+                        <option value="All">全期間</option>
+                        <option value="1926_1945">戦間期・戦時期（1926–45）</option>
+                        <option value="1945_1952">占領期（1945–52）</option>
+                        <option value="1952_1973">高度成長期（1952–73）</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="catalogGrid" class="row">
+            <div class="col-12 text-center py-5">
+                <div class="spinner-border text-primary" role="status"></div>
+                <p class="mt-2">読み込み中…</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <h5>Showa Digital Asset Archive</h5>
+                    <small>近現代日本の物質文化をめぐるデジタル資源への導線を整備します。</small>
+                    <div class="mt-3">
+                        <a href="acknowledgments.html" class="text-white-50 text-decoration-none small">謝辞</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="small text-white-50">
+                        <strong>免責事項:</strong> このサイトはリンクのキュレーション・インデックスです。
+                        3Dモデルおよび画像の権利は各制作者に帰属します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+    <script>
+        let allData = [];
+
+        const L = {
+            noAssets: "該当するアセットが見つかりません。",
+            untitled: "無題",
+            unknownCreator: "制作者不明",
+            viewResource: "リンクを開く",
+            viewOnSketchfab: "Sketchfabで見る",
+            viewOnFab: "Fab.comで見る",
+            viewOnCGTrader: "CGTraderで見る",
+            viewOnUnity: "Unity Asset Storeで見る",
+            loadingPreview: "プレビュー読込中…",
+            loading: "読み込み中…",
+            noPreview: "プレビューなし",
+            errorLoading: "データの読み込みに失敗しました"
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('../catalog/fab.yml')
+                .then(r => r.text())
+                .then(text => {
+                    if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+                    allData = jsyaml.load(text);
+                    renderGrid(allData);
+                })
+                .catch(e => {
+                    document.getElementById('catalogGrid').innerHTML =
+                        `<div class="alert alert-danger">${L.errorLoading}: ${e.message}</div>`;
+                });
+        });
+
+        function renderGrid(data) {
+            const grid = document.getElementById('catalogGrid');
+            const countSpan = document.getElementById('count');
+
+            if (!data || data.length === 0) {
+                grid.innerHTML = `<div class="col-12 text-center p-5">${L.noAssets}</div>`;
+                countSpan.innerText = "0";
+                return;
+            }
+
+            countSpan.innerText = data.length;
+            grid.innerHTML = '';
+
+            data.forEach((item, index) => {
+                const uniqueId = `img-${index}`;
+                const title = item.title || L.untitled;
+                const url = item.source_url || "#";
+                const creator = item.creator || L.unknownCreator;
+                const source = item.source || "web";
+
+                let btnText = L.viewResource;
+                let btnIcon = "bi-box-arrow-up-right";
+                let btnClass = "btn-outline-secondary";
+                let sourceBadge = "";
+                let placeholderText = L.loading;
+                let placeholderBg = "e9ecef";
+                let placeholderFg = "999";
+
+                if (source === 'sketchfab') {
+                    btnText = L.viewOnSketchfab;
+                    btnIcon = "bi-box";
+                    btnClass = "btn-outline-primary";
+                    sourceBadge = `<span class="badge bg-primary badge-source"><i class="bi bi-box"></i> Sketchfab</span>`;
+                    placeholderText = L.loadingPreview;
+                }
+                else if (source === 'unreal_marketplace') {
+                    btnText = L.viewOnFab;
+                    btnIcon = "bi-shop";
+                    btnClass = "btn-outline-dark";
+                    sourceBadge = `<span class="badge bg-dark badge-source"><i class="bi bi-shop"></i> Fab Asset</span>`;
+                    placeholderText = "Fab Asset";
+                    placeholderBg = "333"; placeholderFg = "fff";
+                }
+                else if (source === 'cgtrader') {
+                    btnText = L.viewOnCGTrader;
+                    btnIcon = "bi-cart3";
+                    btnClass = "btn-outline-success";
+                    sourceBadge = `<span class="badge bg-success badge-source"><i class="bi bi-cart3"></i> CGTrader</span>`;
+                    placeholderText = "CGTrader";
+                    placeholderBg = "198754"; placeholderFg = "fff";
+                }
+                else if (source === 'unity_asset_store') {
+                    btnText = L.viewOnUnity;
+                    btnIcon = "bi-unity";
+                    btnClass = "btn-outline-secondary";
+                    sourceBadge = `<span class="badge bg-secondary badge-source"><i class="bi bi-box-seam"></i> Unity</span>`;
+                    placeholderText = "Unity Asset";
+                    placeholderBg = "444"; placeholderFg = "fff";
+                }
+
+                let initialImg = item.image || `https://placehold.co/600x400/${placeholderBg}/${placeholderFg}?text=${encodeURIComponent(placeholderText)}`;
+
+                let era = (item.period_tags?.[0] || "").replace(/_/g,' ').replace(/\d+/g,'').trim();
+                if (era.length > 20) era = "Showa Era";
+
+                const card = `
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm asset-card">
+                            <div class="img-container">
+                                <span class="badge badge-era">${era}</span>
+                                ${sourceBadge}
+                                <img id="${uniqueId}" src="${initialImg}" class="img-loading" alt="Preview" onerror="this.src='https://placehold.co/600x400/e9ecef/999?text=${encodeURIComponent(L.noPreview)}'">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-truncate mb-1" title="${title}">${title}</h5>
+                                <p class="creator-text mb-2"><i class="bi bi-person-circle"></i> ${creator}</p>
+                                <p class="card-text text-muted small" style="line-height: 1.4; height: 60px; overflow: hidden;">
+                                    ${(item.historical_notes || "").substring(0, 90)}...
+                                </p>
+                            </div>
+                            <div class="card-footer bg-white border-top-0 pt-0 pb-3">
+                                <a href="${url}" target="_blank" class="btn ${btnClass} btn-sm w-100">
+                                    ${btnText} <i class="bi ${btnIcon}"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                grid.innerHTML += card;
+
+                if (!item.image && (source === 'sketchfab' || url.includes('sketchfab.com'))) {
+                    fetchSketchfabThumbnail(url, uniqueId);
+                } else {
+                    document.getElementById(uniqueId).classList.remove('img-loading');
+                }
+            });
+        }
+
+        async function fetchSketchfabThumbnail(modelUrl, imgId) {
+            try {
+                const sketchfabApi = `https://sketchfab.com/oembed?url=${encodeURIComponent(modelUrl)}`;
+                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(sketchfabApi)}`;
+                const response = await fetch(proxyUrl);
+                const data = await response.json();
+                if (data.contents) {
+                    const realData = JSON.parse(data.contents);
+                    if (realData.thumbnail_url) {
+                        const img = document.getElementById(imgId);
+                        if (img) {
+                            img.src = realData.thumbnail_url;
+                            img.classList.remove('img-loading');
+                            img.classList.add('img-loaded');
+                        }
+                    }
+                }
+            } catch (err) { /* Fail silently */ }
+        }
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            const filtered = allData.filter(i =>
+                (i.title||"").toLowerCase().includes(term) ||
+                (i.creator||"").toLowerCase().includes(term) ||
+                (i.source||"").toLowerCase().includes(term)
+            );
+            renderGrid(filtered);
+        });
+
+        document.getElementById('eraFilter').addEventListener('change', (e) => {
+            const v = e.target.value;
+            if (v === "All") { renderGrid(allData); return; }
+            const filtered = allData.filter(i => (i.period_tags||[]).includes(v));
+            renderGrid(filtered);
+        });
+    </script>
+</body>
+</html>

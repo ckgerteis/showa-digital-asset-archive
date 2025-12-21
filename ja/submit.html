@@ -1,40 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit an Entry | Showa Digital Archive</title>
+    <title>登録（投稿） | Showa Digital Archive</title>
 
-    <link rel="alternate" hreflang="en" href="https://ckgerteis.github.io/showa-digital-asset-archive/submit.html">
-    <link rel="alternate" hreflang="ja" href="https://ckgerteis.github.io/showa-digital-asset-archive/ja/submit.html">
-    <link rel="alternate" hreflang="x-default" href="https://ckgerteis.github.io/showa-digital-asset-archive/submit.html">
+    <link rel="alternate" hreflang="en" href="../submit.html">
+    <link rel="alternate" hreflang="ja" href="submit.html">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    
+
     <style>
-        body { 
-            background-color: #fdfbf7; 
-            font-family: 'Roboto', sans-serif; 
-            color: #333; 
+        body {
+            background-color: #fdfbf7;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
         }
-        h1, h2, h3 { 
-            font-family: 'Merriweather', serif; 
-            color: #2c3e50; 
+        h1, h2, h3 {
+            font-family: 'Merriweather', serif;
+            color: #2c3e50;
         }
-        
-        .form-section {
-            padding: 40px 0;
-        }
+
+        .form-section { padding: 40px 0; }
         .form-wrapper {
             background: white;
             border-radius: 4px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-            border-top: 5px solid #c0392b; /* Archive Red Accent */
+            border-top: 5px solid #c0392b;
             min-height: 600px;
         }
-        
-        /* Guidelines Section */
+
         .guidelines-box {
             background-color: #e9ecef;
             padding: 30px;
@@ -57,61 +53,60 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="catalog.html">Catalog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="educators.html">Research & Education</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="submit.html">Submit Entry</a></li>
-                    <li class="nav-item"><a class="nav-link" href="ja/submit.html" lang="ja">日本語</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">ホーム</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalog.html">カタログ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="educators.html">研究・教育</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="submit.html">登録（投稿）</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../submit.html">English</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <div class="container form-section">
-        
+
         <div class="row justify-content-center mb-4">
             <div class="col-lg-8 text-center">
-                <h1 class="display-5 mb-3">Submit a Digital Asset</h1>
-                <p class="lead text-muted">Help us grow the archive by submitting links to high-quality 3D models or datasets.</p>
+                <h1 class="display-5 mb-3">デジタルアセットを投稿する</h1>
+                <p class="lead text-muted">高品質な3Dモデルやデータセットのリンクを共有し、アーカイブの拡充にご協力ください。</p>
+                <p class="small text-muted mb-0">注: フォーム本体は現時点では英語表示です。日本語フォームは準備中です。</p>
             </div>
         </div>
 
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                
+
                 <div class="guidelines-box">
-                    <h4>Before You Submit</h4>
+                    <h4>投稿前の確認</h4>
                     <ul>
-                        <li><strong>Relevance:</strong> Ensure the asset dates between 1926 and 1989 (Showa Era).</li>
-                        <li><strong>Ownership:</strong> You must either be the creator or link to a publicly licensed asset (CC0, CC-BY).</li>
-                        <li><strong>Format:</strong> We prioritize URLs from Sketchfab, Fab.com, or institutional repositories.</li>
-                        <li><strong>Accuracy:</strong> Please provide a brief historical context if known.</li>
+                        <li><strong>関連性:</strong> 原則として1926年から1989年（昭和期）に関わるアセットを対象とします。</li>
+                        <li><strong>権利:</strong> 投稿者が制作者であるか、または公開ライセンス（CC0、CC-BYなど）のアセットへのリンクである必要があります。</li>
+                        <li><strong>形式:</strong> Sketchfab、Fab.com、または機関リポジトリ等のURLを優先します。</li>
+                        <li><strong>正確性:</strong> 既知であれば簡潔な歴史的背景を添えてください。</li>
                     </ul>
                 </div>
 
                 <div class="form-wrapper position-relative">
-                    
                     <div id="loader" class="text-center py-5" style="position: absolute; width: 100%; top: 50px; z-index: 0;">
                         <div class="spinner-border text-secondary" role="status"></div>
-                        <p class="mt-2 text-muted">Loading Form...</p>
+                        <p class="mt-2 text-muted">フォームを読み込み中…</p>
                     </div>
 
-                    <iframe 
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSdC5lMy9t_k0AQZm6wLjwNqNJAVKDYmIfLquZgZe88tfwiQ9Q/viewform?embedded=true" 
-                        width="100%" 
-                        height="1600" 
-                        frameborder="0" 
-                        marginheight="0" 
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdC5lMy9t_k0AQZm6wLjwNqNJAVKDYmIfLquZgZe88tfwiQ9Q/viewform?embedded=true"
+                        width="100%"
+                        height="1600"
+                        frameborder="0"
+                        marginheight="0"
                         marginwidth="0"
                         style="position: relative; z-index: 1; background: transparent;"
                         onload="document.getElementById('loader').style.display='none';">
                         Loading…
                     </iframe>
-
                 </div>
 
                 <p class="text-center mt-4 small text-muted">
-                    If the form does not load, you can <a href="https://docs.google.com/forms/d/e/1FAIpQLSdC5lMy9t_k0AQZm6wLjwNqNJAVKDYmIfLquZgZe88tfwiQ9Q/viewform" target="_blank" class="text-dark fw-bold">open it in a new window here</a>.
+                    読み込めない場合は、<a href="https://docs.google.com/forms/d/e/1FAIpQLSdC5lMy9t_k0AQZm6wLjwNqNJAVKDYmIfLquZgZe88tfwiQ9Q/viewform" target="_blank" class="text-dark fw-bold">新しいウィンドウで開く</a>ことができます。
                 </p>
 
             </div>
@@ -121,9 +116,9 @@
     <footer class="bg-dark text-light py-4 mt-auto">
         <div class="container text-center">
             <div class="mb-2">
-                <a href="acknowledgments.html" class="text-white text-decoration-none mx-2">Acknowledgments</a>
+                <a href="acknowledgments.html" class="text-white text-decoration-none mx-2">謝辞</a>
                 <span class="text-white-50">|</span>
-                <a href="#" class="text-white text-decoration-none mx-2">Contact</a>
+                <a href="#" class="text-white text-decoration-none mx-2">連絡</a>
             </div>
             <small class="text-white-50">&copy; 2025 Showa Digital Asset Archive. Directed by Dr. Christopher Gerteis.</small>
         </div>
