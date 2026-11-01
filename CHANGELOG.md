@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-01: About the Archive rewritten
+
+- Home page (EN/JA): the About section now describes the archive as a collaborative hub and sets it in the Shōwa retro boom in Japan and the global city pop revival, and explains why the period draws world builders and game designers and how the archive supports teaching history alongside game and virtual-world design. Sources: SHIBUYA109 lab. (SoftBank News, 21 Feb 2024); Travel Watch (13 Apr 2021) and TV Tokyo (28 May 2021) on Seibuen Yūenchi; Tokyo Weekender (21 Jul 2026) on Spotify streams.
+
 ## 2026-11-01: provenance of the catalog stated
 
 - AI & Ethics statement (EN/JA) corrected at the project director's instruction: the December 2025 catalog was adapted from the work of Katherine Strachan and Adam Kay (linked to their public profiles), and has been maintained with Anthropic's Claude tools since then. It replaces the earlier sentence that the first version was compiled with AI tools.
