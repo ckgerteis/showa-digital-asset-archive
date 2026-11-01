@@ -3,268 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog | Showa Digital Archive</title>
-
+    <title>Catalog | Shōwa Digital Asset Archive</title>
     <link rel="alternate" hreflang="en" href="https://ckgerteis.github.io/showa-digital-asset-archive/catalog.html">
     <link rel="alternate" hreflang="ja" href="https://ckgerteis.github.io/showa-digital-asset-archive/ja/catalog.html">
     <link rel="alternate" hreflang="x-default" href="https://ckgerteis.github.io/showa-digital-asset-archive/catalog.html">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" integrity="sha384-l4UPAMHGzl7zwogLW4nOwaU2XTk6oiM1jhCRQstZEndoIiA2I5bg6fST3wzBSRBD" crossorigin="anonymous">
     <style>
         body { background-color: #fdfbf7; font-family: 'Roboto', sans-serif; }
         h1, h2, h3 { font-family: 'Merriweather', serif; color: #2c3e50; }
         .filter-section { background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        
-        .asset-card { transition: transform 0.2s; border: none; }
-        .asset-card:hover { transform: translateY(-2px); }
-        
-        .img-container {
-            height: 220px;
-            background-color: #e9ecef;
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .asset-card img { 
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: opacity 0.5s ease;
-        }
-        
-        .img-loading { opacity: 0.4; filter: blur(4px); }
-        .img-loaded { opacity: 1; filter: blur(0); }
-
-        /* Badges */
-        .badge-era { background-color: #c0392b; position: absolute; top: 10px; right: 10px; z-index: 2; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
-        .badge-source { position: absolute; bottom: 10px; left: 10px; z-index: 2; font-size: 0.75rem; opacity: 0.9; }
-        .creator-text { font-size: 0.85rem; color: #666; font-style: italic; }
+        .asset-card { border: none; }
+        .img-container { height: 220px; background-color: #e9ecef; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+        .img-container img { width: 100%; height: 100%; object-fit: cover; }
+        .no-image { color: #6c757d; font-size: 1.1rem; }
+        .badge-source { position: absolute; bottom: 10px; left: 10px; font-size: 0.75rem; opacity: 0.9; }
+        .creator-text { font-size: 0.85rem; color: #555; }
+        .licence-dot { display: inline-block; width: .6rem; height: .6rem; border-radius: 50%; margin-right: .35rem; }
+        .lic-open { background: #198754; } .lic-commercial { background: #0d6efd; } .lic-viewonly { background: #6c757d; } .lic-unknown { background: #ffc107; }
+        details summary { cursor: pointer; color: #2c3e50; }
     </style>
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Showa Digital Asset Archive</a>
+            <a class="navbar-brand" href="index.html">Shōwa Digital Asset Archive</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="catalog.html">Catalog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="educators.html">Research & Education</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="catalog.html" aria-current="page">Catalog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="educators.html">Research &amp; Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ethics.html">AI &amp; Ethics</a></li>
                     <li class="nav-item"><a class="nav-link" href="submit.html">Submit Entry</a></li>
-                    <li class="nav-item"><a class="nav-link" href="ja/catalog.html" lang="ja">日本語</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ja/catalog.html" lang="ja" hreflang="ja">日本語</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row mb-4">
+    <main class="container">
+        <div class="row mb-3">
             <div class="col-12 text-center">
-                <h2>Archive Catalog</h2>
-                <p class="text-muted">Index of <span id="count">0</span> external digital assets.</p>
+                <h1 class="h2">Archive Catalog</h1>
+                <p class="text-muted">Index of external 3D listings: <span id="count">0</span>.</p>
+                <p class="small text-muted mx-auto" style="max-width: 46rem;">Every entry below has been checked against its listing; the date is shown under Details. Entries that could not be confirmed are held in the <a href="https://github.com/ckgerteis/showa-digital-asset-archive/blob/main/catalog/quarantine.yml" target="_blank" rel="noopener">quarantine register</a> until they are.</p>
             </div>
         </div>
-
-        <div class="row mb-5 justify-content-center">
-            <div class="col-lg-10">
-                <div class="filter-section d-flex flex-wrap gap-3">
-                    <input type="text" id="searchInput" class="form-control w-50" placeholder="Search title, creator, or source...">
-                    <select id="eraFilter" class="form-select w-25">
-                        <option value="All">All Periods</option>
-                        <option value="1926_1945">Interwar (1926-45)</option>
-                        <option value="1945_1952">Occupation (1945-52)</option>
-                        <option value="1952_1973">High Growth (1952-73)</option>
-                    </select>
+        <div class="row mb-4 justify-content-center">
+            <div class="col-lg-11">
+                <div class="filter-section row g-2">
+                    <div class="col-12"><input type="search" id="searchInput" class="form-control" placeholder="Search title, creator, notes or tags" aria-label="Search title, creator, notes or tags"></div>
+                    <div class="col-6 col-md-4 col-lg"><select id="periodFilter" class="form-select" aria-label="All periods"><option value="">All periods</option></select></div>
+                    <div class="col-6 col-md-4 col-lg"><select id="objectFilter" class="form-select" aria-label="All object types"><option value="">All object types</option></select></div>
+                    <div class="col-6 col-md-4 col-lg"><select id="spaceFilter" class="form-select" aria-label="All spaces"><option value="">All spaces</option></select></div>
+                    <div class="col-6 col-md-4 col-lg"><select id="sourceFilter" class="form-select" aria-label="All platforms"><option value="">All platforms</option></select></div>
+                    <div class="col-6 col-md-4 col-lg"><select id="licenceFilter" class="form-select" aria-label="All licence types"><option value="">All licence types</option></select></div>
                 </div>
             </div>
         </div>
-
-        <div id="catalogGrid" class="row">
-            <div class="col-12 text-center py-5">
-                <div class="spinner-border text-primary" role="status"></div>
-                <p class="mt-2">Loading Index...</p>
-            </div>
+        <div id="catalogGrid" class="row" aria-live="polite">
+            <div class="col-12 text-center py-5"><div class="spinner-border text-primary" role="status"></div><p class="mt-2">Loading catalog…</p></div>
         </div>
-    </div>
+    </main>
 
     <footer class="bg-dark text-light py-5 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <h5>Showa Digital Asset Archive</h5>
-                    <small>Preserving the material heritage of modern Japan.</small>
-                    <div class="mt-3">
-                        <a href="acknowledgments.html" class="text-white-50 text-decoration-none small">Acknowledgments</a>
-                    </div>
+                    <h2 class="h5 text-white">Shōwa Digital Asset Archive</h2>
+                    <a href="acknowledgments.html" class="text-white-50 text-decoration-none small">Acknowledgments</a>
                 </div>
-                <div class="col-md-6 text-md-end">
-                    <p class="small text-white-50">
-                        <strong>Disclaimer:</strong> This site is a curated index of links. 
-                        3D models and images remain the property of their respective creators.
-                    </p>
-                </div>
+                <div class="col-md-6 text-md-end"><p class="small text-white-50">A curated index of links to externally hosted 3D models. Models and images remain the property of their creators; licences are as stated on each listing.</p></div>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-
-    <script>
-        let allData = [];
-
-        document.addEventListener('DOMContentLoaded', () => {
-            fetch('catalog/fab.yml')
-                .then(r => r.text())
-                .then(text => {
-                    if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
-                    allData = jsyaml.load(text);
-                    renderGrid(allData);
-                })
-                .catch(e => {
-                    document.getElementById('catalogGrid').innerHTML = 
-                        `<div class="alert alert-danger">Error loading data: ${e.message}</div>`;
-                });
-        });
-
-        function renderGrid(data) {
-            const grid = document.getElementById('catalogGrid');
-            const countSpan = document.getElementById('count');
-            
-            if (!data || data.length === 0) {
-                grid.innerHTML = '<div class="col-12 text-center p-5">No assets found.</div>';
-                countSpan.innerText = "0";
-                return;
-            }
-
-            countSpan.innerText = data.length;
-            grid.innerHTML = '';
-
-            data.forEach((item, index) => {
-                const uniqueId = `img-${index}`;
-                const title = item.title || "Untitled";
-                const url = item.source_url || "#";
-                const creator = item.creator || "Unknown Creator";
-                const source = item.source || "web"; 
-                
-                // --- DYNAMIC BUTTON & BADGE CONFIG ---
-                // This section now supports Sketchfab, Fab, CGTrader, and Unity
-                let btnText = "View Resource";
-                let btnIcon = "bi-box-arrow-up-right";
-                let btnClass = "btn-outline-secondary";
-                let sourceBadge = "";
-                let placeholderText = "Loading...";
-                let placeholderBg = "e9ecef";
-                let placeholderFg = "999";
-
-                if (source === 'sketchfab') {
-                    btnText = "View on Sketchfab";
-                    btnIcon = "bi-box";
-                    btnClass = "btn-outline-primary";
-                    sourceBadge = `<span class="badge bg-primary badge-source"><i class="bi bi-box"></i> Sketchfab</span>`;
-                    placeholderText = "Loading Preview...";
-                } 
-                else if (source === 'unreal_marketplace') {
-                    btnText = "View on Fab.com";
-                    btnIcon = "bi-shop";
-                    btnClass = "btn-outline-dark";
-                    sourceBadge = `<span class="badge bg-dark badge-source"><i class="bi bi-shop"></i> Fab Asset</span>`;
-                    placeholderText = "Fab Asset";
-                    placeholderBg = "333"; placeholderFg = "fff";
-                }
-                else if (source === 'cgtrader') {
-                    btnText = "View on CGTrader";
-                    btnIcon = "bi-cart3";
-                    btnClass = "btn-outline-success";
-                    sourceBadge = `<span class="badge bg-success badge-source"><i class="bi bi-cart3"></i> CGTrader</span>`;
-                    placeholderText = "CGTrader";
-                    placeholderBg = "198754"; placeholderFg = "fff";
-                }
-                else if (source === 'unity_asset_store') {
-                    btnText = "View on Unity Store";
-                    btnIcon = "bi-unity";
-                    btnClass = "btn-outline-secondary";
-                    sourceBadge = `<span class="badge bg-secondary badge-source"><i class="bi bi-box-seam"></i> Unity</span>`;
-                    placeholderText = "Unity Asset";
-                    placeholderBg = "444"; placeholderFg = "fff";
-                }
-
-                // --- IMAGE HANDLING ---
-                let initialImg = item.image || `https://placehold.co/600x400/${placeholderBg}/${placeholderFg}?text=${placeholderText}`;
-                
-                // Tags
-                let era = (item.period_tags?.[0] || "").replace(/_/g,' ').replace(/\d+/g,'').trim();
-                if(era.length > 20) era = "Showa Era"; 
-
-                const card = `
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow-sm asset-card">
-                            <div class="img-container">
-                                <span class="badge badge-era">${era}</span>
-                                ${sourceBadge}
-                                <img id="${uniqueId}" src="${initialImg}" class="img-loading" alt="Preview" onerror="this.src='https://placehold.co/600x400/e9ecef/999?text=No+Preview'">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-truncate mb-1" title="${title}">${title}</h5>
-                                <p class="creator-text mb-2"><i class="bi bi-person-circle"></i> ${creator}</p>
-                                <p class="card-text text-muted small" style="line-height: 1.4; height: 60px; overflow: hidden;">
-                                    ${(item.historical_notes || "").substring(0, 90)}...
-                                </p>
-                            </div>
-                            <div class="card-footer bg-white border-top-0 pt-0 pb-3">
-                                <a href="${url}" target="_blank" class="btn ${btnClass} btn-sm w-100">
-                                    ${btnText} <i class="bi ${btnIcon}"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                grid.innerHTML += card;
-
-                // --- SMART IMAGE FETCHER (Sketchfab Only) ---
-                if (!item.image && (source === 'sketchfab' || url.includes('sketchfab.com'))) {
-                    fetchSketchfabThumbnail(url, uniqueId);
-                } else {
-                     document.getElementById(uniqueId).classList.remove('img-loading');
-                }
-            });
-        }
-
-        async function fetchSketchfabThumbnail(modelUrl, imgId) {
-            try {
-                const sketchfabApi = `https://sketchfab.com/oembed?url=${encodeURIComponent(modelUrl)}`;
-                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(sketchfabApi)}`;
-                const response = await fetch(proxyUrl);
-                const data = await response.json();
-                if (data.contents) {
-                    const realData = JSON.parse(data.contents);
-                    if (realData.thumbnail_url) {
-                        const img = document.getElementById(imgId);
-                        if (img) {
-                            img.src = realData.thumbnail_url;
-                            img.classList.remove('img-loading');
-                            img.classList.add('img-loaded');
-                        }
-                    }
-                }
-            } catch (err) { /* Fail silently */ }
-        }
-
-        // Filter Logic
-        document.getElementById('searchInput').addEventListener('input', (e) => {
-            const term = e.target.value.toLowerCase();
-            const filtered = allData.filter(i => 
-                (i.title||"").toLowerCase().includes(term) || 
-                (i.creator||"").toLowerCase().includes(term) ||
-                (i.source||"").toLowerCase().includes(term)
-            );
-            renderGrid(filtered);
-        });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js" integrity="sha384-+pxiN6T7yvpryuJmE1gM9PX7yQit15auDb+ZwwvJOd/4be2Cie5/IuVXgQb/S9du" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>window.CATALOG_CONFIG = { yamlPath: "catalog/fab.yml", lang: "en" };</script>
+    <script src="assets/catalog.js"></script>
 </body>
 </html>
