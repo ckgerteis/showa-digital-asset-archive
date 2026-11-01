@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-01: Shōwa artefacts in video games
+
+- Home page (EN/JA): new subsection on Shōwa artefacts in video games (*Shenmue*, *Yakuza 0*, *Boku no Natsuyasumi*, *Paranormasight*), placed after the opening paragraph of About the Archive; the nostalgia paragraphs follow under their own heading, and the duplicate game sentence in the closing paragraph is cut. The project credit line is removed at the director's instruction.
+
 ## 2026-11-01: About the Archive rewritten
 
 - Home page (EN/JA): the About section now describes the archive as a collaborative hub and sets it in the Shōwa retro boom in Japan and the global city pop revival, and explains why the period draws world builders and game designers and how the archive supports teaching history alongside game and virtual-world design. Sources: SHIBUYA109 lab. (SoftBank News, 21 Feb 2024); Travel Watch (13 Apr 2021) and TV Tokyo (28 May 2021) on Seibuen Yūenchi; Tokyo Weekender (21 Jul 2026) on Spotify streams.
