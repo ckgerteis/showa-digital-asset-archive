@@ -745,7 +745,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/2dbfab0b-6672-46c0-b650-329d37af0259"
   creator: Denys Rutkovskyi
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Denys%20Rutkovskyi"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - interwar_wartime_1926_1945
   - occupation_reconstruction_1945_1952
@@ -754,12 +755,13 @@
   - architecture
   historical_notes: "A kitbash set useful for reconstructing Shōwa-era coal mining facilities."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/65a49b72-98f7-4f57-bd4a-ac4bd85b32ac/322728cc-6475-4500-a704-3cb8d9cb2f00.jpg"
   technical:
     formats: Unreal Engine
     price: paid; From $79.99 (Fab search card)
   verification:
     status: probable
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "Seller matches; Fab title is the catalog title with the words reordered (catalog: 'Coal Mine and Industrial\
       \ Kitbash Set'). Description 'Industrial Kit bash set built in the theme of Coal Mine'. Likely same product\
@@ -769,7 +771,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/db3f1b0b-4e47-402a-8ee4-389e6f315af5"
   creator: Yepkoo
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Yepkoo"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -777,11 +780,12 @@
   - industrial
   historical_notes: "Template useful for simulating rail transport, a backbone of Shōwa modernization."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/e490cb2c-eb7c-41bb-8200-171f40b7dbae/cbd8e9a2-ab1d-480e-96e6-5b819d26eb37.jpg"
   technical:
     formats: Unreal Engine
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Train Simulation Template"
 - id: fab-0004
@@ -789,7 +793,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/eb082e65-e690-46f5-9ede-1dfae5d68db4"
   creator: n3kded
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/n3kded"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - interwar_wartime_1926_1945
   object_tags:
@@ -797,19 +802,21 @@
   - tool
   historical_notes: Various hand tools used in mining operations.
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/148e2e20-949d-4688-adf2-07e44c1ff1dc/235e10c5-a619-481f-b39b-66e358611f36.jpg"
   technical:
     formats: Unreal Engine, Unity
     price: paid; From $9.99 (Fab search card)
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0005
   title: Mine Stuff Bundle
   source: fab
   source_url: "https://www.fab.com/listings/0b75bc0e-d884-4ceb-84e0-b154f7e23a47"
   creator: Game Stuff Studio
-  licence: Fab Standard License
+  creator_url: "https://www.fab.com/sellers/Game%20Stuff%20Studio"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - interwar_wartime_1926_1945
   - occupation_reconstruction_1945_1952
@@ -818,19 +825,21 @@
   - environment
   historical_notes: "A comprehensive bundle of assets for creating mine environments."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/97f765b6-d678-4347-a17c-b3dfd3ed1149/63681f39-0b4f-4836-9661-8ae83462a1b2.jpg"
   technical:
     formats: Unreal Engine
     price: paid; $8.99 to $24.99 across licence tiers
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0007
   title: Japan Village
   source: fab
   source_url: "https://www.fab.com/listings/bbbf727f-b4c7-4f9f-b4ea-4e2b849904f6"
   creator: ART EQUILIBRIUM
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/ART%20EQUILIBRIUM"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - occupation_reconstruction_1945_1952
   object_tags:
@@ -838,18 +847,20 @@
   - environment
   historical_notes: "Environment pack suitable for creating rural or semi-rural post-war scenes."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/b0828972-b9ce-4cca-b156-2562286d4400/e63af317-87eb-4061-9fb1-a1a0504616cf.jpg"
   technical:
     formats: Unreal Engine
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0009
   title: "Japanese Izakaya Restaurant #2 - Interior & Exterior"
   source: fab
   source_url: "https://www.fab.com/listings/c50c0488-ad34-49eb-9823-cd8f53eb35c9"
   creator: Nimikko
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Nimikko"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -857,12 +868,13 @@
   - commercial
   historical_notes: "Complete restaurant environment based on a real Izakaya in Onomichi, Hiroshima."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/0bac889b-c2fe-4be1-814e-7ba60bbefd7d/e854dc4d-a29f-4117-8399-c785410f3fbc.jpg"
   technical:
     formats: Unreal Engine
     price: paid; $19.99 Personal / $59.99 Professional
   verification:
     status: probable
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "No Fab listing titled 'Japanese Restaurant Interior/Exterior' found. Nimikko's 'Interior & Exterior'\
       \ restaurant pack is this izakaya listing (the catalog slug and its CGTrader twin 'old-japanese-restaurant-interior-and-exterior'\
@@ -872,7 +884,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/c3c1c1d3-6556-468d-a423-7598ffec4f5b"
   creator: Nimikko
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Nimikko"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -881,19 +894,21 @@
   historical_notes: "Kaitenzushi (conveyor belt sushi) emerged in 1958, symbolizing the efficiency of the high-growth\
     \ era."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/34e13dcb-0314-4efe-beae-cf730c6e23e0/ab7e1325-43f9-47f5-b764-47335c1d91c9.jpg"
   technical:
     formats: Unreal Engine
     price: paid; $19.99 Personal / $39.99 Professional
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0011
   title: Japanese Restaurant - Scene And Assets
   source: fab
   source_url: "https://www.fab.com/listings/74e28f93-54ac-4a3b-9818-28aed70b9209"
   creator: Nimikko
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Nimikko"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - occupation_reconstruction_1945_1952
   - high_growth_1952_1973
@@ -902,12 +917,13 @@
   - commercial
   historical_notes: "Small eateries were central to neighborhood social life throughout the Shōwa period."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/7057cc65-c902-46ca-a953-47019df4c24c/bc40bfde-c2a0-47e5-a17a-14ec8d55815c.jpg"
   technical:
     formats: Unreal Engine
     price: paid; From $14.99
   verification:
     status: probable
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "Seller confirmed on Fab page. Title differs from catalog 'Small Japanese Restaurant Scene' (catalog slug\
       \ ends 'small-japanese-restaurant-scene-and-assets'); description says 'typical small Japanese restaurant'\
@@ -917,7 +933,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/ae507a8b-70f0-4b34-a8f3-e4f49e5ecad4"
   creator: IsolatedSoulStudio
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/IsolatedSoulStudio"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - interwar_wartime_1926_1945
   - occupation_reconstruction_1945_1952
@@ -927,18 +944,20 @@
   historical_notes: "Wooden school buildings were standard educational infrastructure before the shift to reinforced\
     \ concrete."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/a2a35339-59af-407b-8320-9b61143fb756/c20af1eb-ade7-454b-950f-1f2619edc8ad.jpg"
   technical:
     formats: Unreal Engine
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0013
   title: Japanese Classroom - Realistic Environment
   source: fab
   source_url: "https://www.fab.com/listings/0899a9a3-e060-4c2e-b6c2-e8d6cd8e78e8"
   creator: Nimikko
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Nimikko"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -946,12 +965,13 @@
   - education
   historical_notes: "Standardized classroom fixtures reflect the modernization of the Japanese education system."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/5dc53b9c-2cb4-48ee-9413-bb01d4589b2d/48a3aa8e-4c87-4599-b0cc-92313765d0ad.jpg"
   technical:
     formats: Unreal Engine
     price: paid; From $19.99
   verification:
     status: probable
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "Seller confirmed on Fab page. Catalog title 'Japanese Classroom Pack'; Fab title is 'Japanese Classroom\
       \ - Realistic Environment' (Vol. 1 of Nimikko's school series, 50+ assets). Third-party store names the same\
@@ -961,7 +981,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/af6a2e21-41f7-49a0-9cde-8b9b0b1ce091"
   creator: Nimikko
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Nimikko"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -969,12 +990,13 @@
   - education
   historical_notes: "Comprehensive set of school assets covering various aspects of student life."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/5156195d-4a31-41cd-a9bb-04a7d85f0447/446b9461-8a43-48ef-846a-8413ef8dabdb.jpg"
   technical:
     formats: Unreal Engine
     price: paid; Personal $79.99 (nimikko.co.jp)
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Japanese School Collection"
 - id: fab-0016
@@ -982,7 +1004,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/9080ba21-8981-442d-a8a7-8cf01ce5ce02"
   creator: Nimikko
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Nimikko"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -991,12 +1014,13 @@
   historical_notes: "Institutional cafeteria spaces reflect the mass-scale education and dining of the post-war\
     \ boom."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/537b9bce-d697-4981-9fd7-61a2d8c415b4/163ce498-25b2-4cb6-9e96-27c67f817001.jpg"
   technical:
     formats: Unreal Engine
     price: paid; $19.99 Personal / $29.99 Professional
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Japanese University/School Cafeteria"
 - id: fab-0017
@@ -1004,7 +1028,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/25d96862-fc78-42f0-8871-0f4ed2f73c72"
   creator: Evil Planet Games
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Evil%20Planet%20Games"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - occupation_reconstruction_1945_1952
   object_tags:
@@ -1012,12 +1037,13 @@
   - environment
   historical_notes: "Domestic architecture integrated with garden elements, typical of suburban Shōwa homes."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/71c6f73d-8f38-4562-91c7-3a53352c4714/e39ea33d-4583-4635-91af-391cf1c3c31d.jpg"
   technical:
     formats: Unreal Engine
     price: paid; From $89.99 (seller page)
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Japanese House and Foliage"
 - id: fab-0018
@@ -1025,7 +1051,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/e8a069ec-6082-4bab-baa0-4d7a39340c28"
   creator: Nimikko
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Nimikko"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - interwar_wartime_1926_1945
   - occupation_reconstruction_1945_1952
@@ -1034,19 +1061,21 @@
   - urban
   historical_notes: "Modular components allowing for the construction of varied streetscapes."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/e080ff10-e3d3-4339-b2dd-f5bc6ad826d1/8dc8071a-14e9-4942-b1bd-a1e3f6213298.jpg"
   technical:
     formats: Unreal Engine
     price: paid; $19.99 Personal / $39.99 Professional
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0019
   title: Kawara Roof Collection
   source: fab
   source_url: "https://www.fab.com/listings/17fe6fb4-3460-4cd8-8ea9-1d4328e86756"
   creator: christinayan01
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/christinayan01"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - interwar_wartime_1926_1945
   - high_growth_1952_1973
@@ -1055,18 +1084,20 @@
   - component
   historical_notes: "Traditional Kawara tiles remained the dominant roofing material throughout the 20th century."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/3c3846b7-46e1-46a6-8568-903e5bbcb344/a80ddff8-afcd-41a8-b3a3-00cf2f23a3f1.jpg"
   technical:
     formats: Unreal Engine
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0021
   title: Japanese Street Signs Pack - 100+ Japanese Street Signs
   source: fab
   source_url: "https://www.fab.com/listings/516eae83-9ecf-404f-9eaf-21a338185919"
   creator: Nimikko
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Nimikko"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -1074,12 +1105,13 @@
   - signage
   historical_notes: "A collection of 100 street signs, essential for creating authentic urban density."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/2bdb0a2b-c1f8-4b2d-828e-3089dc470fca/c0914fa5-f93b-43e0-9b5e-fc41525099e3.jpg"
   technical:
     formats: Unreal Engine
     price: paid; Personal $4.99 (nimikko.co.jp)
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Japanese Street Signs Pack"
 - id: fab-0022
@@ -1087,7 +1119,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/1df6000b-2d7f-43e5-bfc4-0d8edd2fc26c"
   creator: Nimikko
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Nimikko"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -1095,12 +1128,13 @@
   - interior
   historical_notes: "Izakaya interiors represent the after-work culture of the Japanese 'salaryman'."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/d67ad2da-e934-4acd-8a33-fa4632aea5c2/f06b9b83-6849-4d66-a866-aaef53291bce.jpg"
   technical:
     formats: Unreal Engine
     price: paid; From $24.99
   verification:
     status: probable
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "Seller confirmed. Catalog title 'Japanese Izakaya Pub Pack' (slug '...pack-68-unique-assets'); Fab title\
       \ is 'Japanese Izakaya Restaurant #1 - 68 Unique Assets'. Same 68-asset count, so likely renamed."
@@ -1109,7 +1143,8 @@
   source: fab
   source_url: "https://www.fab.com/listings/38d46b1d-2d78-42c3-b09a-04d68aaa10be"
   creator: BPDesignStudio
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/BPDesignStudio"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - interwar_wartime_1926_1945
   - high_growth_1952_1973
@@ -1118,18 +1153,20 @@
   - culture
   historical_notes: "Tea sets are ubiquitous in Japanese hospitality and domestic life across all eras."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/8cf57932-56ac-47f4-89b2-584403a5651f/164e0768-9630-41e0-a2c0-bd4754b75a4a.jpg"
   technical:
     formats: Unreal Engine
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0026
   title: Japanese Bicycle
   source: fab
   source_url: "https://www.fab.com/listings/d569ad7c-1058-4f56-8786-cfde1f600e99"
   creator: Tipis Games
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/Tipis%20Games"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - occupation_reconstruction_1945_1952
   - high_growth_1952_1973
@@ -1138,18 +1175,20 @@
   - vehicle
   historical_notes: "The 'Mamachari' style utility bicycle became a staple of Japanese daily life."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/327dd734-4ff1-404b-910c-326b70e2c3ff/20e6c309-55f2-420b-89dc-6e88905bc054.jpg"
   technical:
     formats: Unreal Engine, Unity
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0027
   title: Shoji Door Assembly Kit
   source: fab
   source_url: "https://www.fab.com/listings/77e4d143-ad4d-44a0-9407-e93627e78f6e"
   creator: christinayan01
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/christinayan01"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - interwar_wartime_1926_1945
   - high_growth_1952_1973
@@ -1158,18 +1197,20 @@
   - component
   historical_notes: "Shoji screens remained a key architectural feature even in modernizing homes."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/bf9215ff-e94e-440b-85cc-ad655dd646ae/724a086d-3cce-444d-b194-1a6ef25e8000.jpg"
   technical:
     formats: Unreal Engine
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0028
   title: Japanese Room Props
   source: fab
   source_url: "https://www.fab.com/listings/5d7f0073-f857-44cc-aa5a-a6476ffe7245"
   creator: KTY
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/KTY"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -1177,18 +1218,20 @@
   - prop
   historical_notes: "Small items that clutter and define a lived-in Japanese room."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/3dc21dfa-7882-4869-9bf0-d4051e0b17e3/91642868-add5-48ac-963c-8fef68264491.jpg"
   technical:
     formats: Unreal Engine
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: fab-0029
   title: Japanese Room Kit
   source: fab
   source_url: "https://www.fab.com/listings/b6d9c233-b770-4e67-8cf8-5f665e93d0e3"
   creator: christinayan01
-  licence: Not displayed on listing
+  creator_url: "https://www.fab.com/sellers/christinayan01"
+  licence: Fab Standard License (Personal and Professional tiers)
   period_tags:
   - occupation_reconstruction_1945_1952
   object_tags:
@@ -1196,11 +1239,12 @@
   - architecture
   historical_notes: "A kit for building standard Japanese washitsu (tatami rooms)."
   showa_fit: unassessed
+  image: "https://media.fab.com/image_previews/gallery_images/a06e9fbc-44cc-4276-8dd1-4d11ded2c927/38338222-cc27-4927-ae86-c7e54bec3681.jpg"
   technical:
     formats: Unreal Engine
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: cgt-0001
   title: Chabu Table
@@ -1222,7 +1266,7 @@
   showa_fit: unassessed
   image: "https://img-new.cgtrader.com/items/4973811/b2557052c3/chabu-table-3d-model-b2557052c3.webp"
   verification:
-    status: verified
+    status: probable
     method: manual
     checked: '2026-11-01'
     note: "Listing title is '3D model Chabu Table'; description: 'A traditional Japanese low table... chabutai'.\
@@ -1376,7 +1420,7 @@
   showa_fit: unassessed
   image: "https://img-new.cgtrader.com/items/2721850/86b9b2e5b6/japanese-shrine-pack-30-modular-pbr-aaa-ready-models-3d-model-86b9b2e5b6.webp"
   verification:
-    status: verified
+    status: probable
     method: manual
     checked: '2026-11-01'
     note: "Title differs from catalog 'Hachiman Shrine (Pack)', but the URL slug contains 'hachiman-shrine-pack'\

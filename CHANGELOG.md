@@ -1,10 +1,10 @@
 # Changelog
 
-## 2026-11-01: images for CGTrader and Unity entries
+## 2026-11-01: an image for every entry
 
-- All nine CGTrader and six Unity Asset Store entries now carry the listing's own preview image (its `og:image`), hotlinked from the store's image server like the Sketchfab thumbnails. CGTrader refuses automated requests, so those listings were read in a browser; the Unity listings were read directly.
-- The same reading filled in what the CGTrader listings show: the designer for the six entries that had "Not confirmed", the licence (Royalty Free, no AI training) for all nine, and the current titles of cgt-0006 and cgt-0007, which their sellers have renamed. cgt-0001 and cgt-0008 move from probable to verified. Verification dates and methods are updated for all 15.
-- The 22 Fab entries still have no image.
+- Every one of the 179 entries now carries an image from its own listing, hotlinked from the platform's image server. The 37 Fab, CGTrader and Unity entries that had none now show the listing's preview image: Fab's from its listing data (640 px), CGTrader's and Unity's from the page's `og:image`. Fab and CGTrader refuse automated requests, so those listings were read in a browser; the Unity listings were read directly. All 179 image addresses answered 200 on 1 Nov 2026.
+- The same reading filled in what the listings show. Fab: seller links for all 22, and the licence (Fab Standard License, Personal and Professional tiers) where the catalog had "Not displayed on listing". CGTrader: the designer for the six entries that had "Not confirmed", the licence (Royalty Free, no AI training) for all nine, and the current titles of cgt-0006 and cgt-0007, which their sellers have renamed. Verification dates and methods are updated for all 37.
+- The seven probable entries stay probable: their doubt is whether each listing is the product the v1 catalog meant, which reading the listing does not settle.
 
 ## 2026-11-01: 112 new Sketchfab entries
 
