@@ -1,146 +1,90 @@
 #!/usr/bin/env python3
-"""
-scripts/scrape_sketchfab.py
+"""Draft schema-v2 catalog entries from Sketchfab model URLs.
 
-Simple scraper and Sketchfab-API caller to produce CSV/JSON outputs.
+Reads one Sketchfab model URL per line from catalog/sketchfab_urls.txt, looks each model up
+through the public Sketchfab API, and writes draft entries to outputs/new_entries.yml (git-ignored).
+Title, creator, licence, thumbnail and polygon counts come from the listing itself. Period tags,
+object tags and notes are left for the curator; showa_fit starts as 'unassessed'.
 
-Usage:
-  - set SKETCHFAB_TOKEN environment variable to a Sketchfab API token for best results
-  - run: python scripts/scrape_sketchfab.py
+Review the drafts, give each a free id, complete the curatorial fields, paste into catalog/fab.yml,
+then run scripts/validate_catalog.py.
+
+Usage: python scripts/scrape_sketchfab.py
 """
-import os
-import re
-import csv
 import json
+import re
+import sys
 import time
+import urllib.error
+import urllib.request
+from datetime import date
 from pathlib import Path
-import requests
-from bs4 import BeautifulSoup
+
+import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 URL_FILE = ROOT / "catalog" / "sketchfab_urls.txt"
-OUT_DIR = ROOT / "outputs"
-OUT_DIR.mkdir(exist_ok=True, parents=True)
+OUT = ROOT / "outputs" / "new_entries.yml"
+UA = {"User-Agent": "Mozilla/5.0 (ShowaArchive)"}
+LICENCE = {
+    "CC Attribution": "CC BY 4.0", "CC Attribution-NonCommercial": "CC BY-NC 4.0",
+    "CC Attribution-ShareAlike": "CC BY-SA 4.0", "CC Attribution-NoDerivs": "CC BY-ND 4.0",
+    "CC Attribution-NonCommercial-ShareAlike": "CC BY-NC-SA 4.0",
+    "CC Attribution-NonCommercial-NoDerivs": "CC BY-NC-ND 4.0", "CC0 Public Domain": "CC0 1.0",
+    "Standard": "Sketchfab Standard (paid)", "Editorial": "Sketchfab Editorial (editorial use only)",
+}
 
-SKETCHFAB_API = "https://api.sketchfab.com/v3/models"
-TOKEN = os.environ.get("SKETCHFAB_TOKEN")
-HEADERS = {"User-Agent":"ShowaArchiveBot/1.0"}
-if TOKEN:
-    HEADERS["Authorization"] = f"Bearer {TOKEN}"
 
-def extract_uid_from_url(url):
-    m = re.search(r'([0-9a-f]{32})$', url)
-    if m:
-        return m.group(1)
-    parts = url.rstrip('/').split('/')
-    if parts:
-        return parts[-1]
-    return None
+def model(uid):
+    req = urllib.request.Request(f"https://api.sketchfab.com/v3/models/{uid}", headers=UA)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        return {"_error": e.code}
 
-def fetch_api(uid_or_slug):
-    url = f"{SKETCHFAB_API}/{uid_or_slug}"
-    r = requests.get(url, headers=HEADERS, timeout=15)
-    if r.status_code == 200:
-        return r.json()
-    return None
-
-def html_fallback(url):
-    r = requests.get(url, headers=HEADERS, timeout=15)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
-    meta = {}
-    og = {}
-    for tag in soup.find_all("meta"):
-        if tag.get("property", "").startswith("og:"):
-            og[tag["property"]] = tag.get("content", "")
-        if tag.get("name", "").startswith("twitter:"):
-            meta[tag["name"]] = tag.get("content", "")
-    author = None
-    a = soup.find("a", {"rel": "author"})
-    if a:
-        author = {"name": a.text.strip(), "url": a.get("href")}
-    title = og.get("og:title") or (soup.title.string if soup.title else None)
-    desc = og.get("og:description") or meta.get("twitter:description")
-    return {"title": title, "description": desc, "og": og, "meta": meta, "author": author, "html_snippet": soup.text[:800]}
-
-def collect_one(url):
-    out = {"original_url": url, "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "sketchfab_api_used": False, "errors": []}
-    uid = extract_uid_from_url(url)
-    if not uid:
-        out["errors"].append("no_uid")
-        try:
-            hf = html_fallback(url)
-            out.update(hf)
-        except Exception as e:
-            out["errors"].append(str(e))
-        return out
-    api_data = None
-    if TOKEN:
-        try:
-            api_data = fetch_api(uid)
-            time.sleep(0.25)
-        except Exception as e:
-            out["errors"].append(f"api_error:{e}")
-    if api_data:
-        out["sketchfab_api_used"] = True
-        out["id"] = api_data.get("uid") or api_data.get("id")
-        out["name"] = api_data.get("name")
-        out["description"] = api_data.get("description")
-        out["published_at"] = api_data.get("publishedAt")
-        out["updated_at"] = api_data.get("updatedAt")
-        out["is_downloadable"] = api_data.get("isDownloadable", api_data.get("downloadable"))
-        user = api_data.get("user", {})
-        out["author_name"] = user.get("displayName")
-        out["author_username"] = user.get("username")
-        out["author_url"] = user.get("profileUrl") or ("https://sketchfab.com/" + user.get("username",""))
-        lic = None
-        if api_data.get("license"):
-            lic = api_data.get("license")
-        elif api_data.get("license_info") and isinstance(api_data.get("license_info"), dict):
-            lic = api_data['license_info'].get('type')
-        out["license"] = lic
-        arches = api_data.get("archives") or []
-        fmts = []
-        for a in arches:
-            fmt = a.get("format")
-            if fmt:
-                fmts.append(fmt)
-        out["formats"] = ",".join(fmts)
-        out["faces"] = api_data.get("faces")
-        out["vertices"] = api_data.get("vertices")
-    else:
-        try:
-            hf = html_fallback(url)
-            out.update(hf)
-        except Exception as e:
-            out["errors"].append(str(e))
-    return out
 
 def main():
     if not URL_FILE.exists():
-        print("Create catalog/sketchfab_urls.txt with one URL per line.")
-        return
-    urls = [ln.strip() for ln in URL_FILE.read_text(encoding='utf8').splitlines() if ln.strip()]
-    results = []
-    for i,url in enumerate(urls,1):
-        print(f"[{i}/{len(urls)}] {url}")
-        try:
-            r = collect_one(url)
-            results.append(r)
-        except Exception as e:
-            results.append({"original_url": url, "error": str(e)})
+        sys.exit("Create catalog/sketchfab_urls.txt with one Sketchfab model URL per line.")
+    urls = [u.strip() for u in URL_FILE.read_text(encoding="utf-8-sig").splitlines() if u.strip()]
+    drafts, failures = [], []
+    for url in urls:
+        m = re.search(r"([0-9a-f]{32})/?$", url)
+        if not m:
+            failures.append((url, "no 32-character model UID in URL"))
+            continue
+        j = model(m.group(1))
         time.sleep(0.3)
-    OUT_DIR.mkdir(exist_ok=True)
-    jsonp = OUT_DIR / "sketchfab_metadata.json"
-    csvp = OUT_DIR / "sketchfab_metadata.csv"
-    with jsonp.open("w", encoding="utf8") as jf:
-        json.dump(results, jf, ensure_ascii=False, indent=2)
-    fields = ["original_url","id","name","description","author_name","author_username","author_url","license","is_downloadable","faces","vertices","formats","published_at","updated_at","sketchfab_api_used","fetched_at","errors"]
-    with csvp.open("w", newline="", encoding="utf8") as cf:
-        writer = csv.DictWriter(cf, fieldnames=fields, extrasaction="ignore")
-        writer.writeheader()
-        for r in results:
-            writer.writerow({k: r.get(k,"") for k in fields})
-    print("Wrote outputs to", OUT_DIR)
+        if "_error" in j:
+            failures.append((url, f"Sketchfab API {j['_error']}"))
+            continue
+        lic = (j.get("license") or {}).get("label") if isinstance(j.get("license"), dict) else None
+        imgs = j.get("thumbnails", {}).get("images", [])
+        drafts.append({
+            "id": "skf-XXXX",
+            "title": j["name"],
+            "source": "sketchfab",
+            "source_url": j["viewerUrl"],
+            "creator": j["user"]["displayName"],
+            "creator_url": j["user"]["profileUrl"],
+            "licence": LICENCE.get(lic, lic) if lic else "View only (not downloadable)",
+            "period_tags": ["unassigned"],
+            "object_tags": [],
+            "historical_notes": "",
+            "showa_fit": "unassessed",
+            "image": sorted(imgs, key=lambda i: abs(i["width"] - 640))[0]["url"] if imgs else None,
+            "technical": {"faces": j.get("faceCount"), "vertices": j.get("vertexCount"),
+                          "downloadable": j.get("isDownloadable")},
+            "verification": {"status": "verified", "method": "sketchfab-api", "checked": date.today().isoformat()},
+            "_listing_description": (j.get("description") or "")[:400],
+        })
+    OUT.parent.mkdir(exist_ok=True)
+    OUT.write_text(yaml.safe_dump(drafts, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    print(f"{len(drafts)} draft entries written to {OUT.relative_to(ROOT)}")
+    for url, why in failures:
+        print(f"NOT DRAFTED: {url} ({why})")
+
+
 if __name__ == "__main__":
     main()

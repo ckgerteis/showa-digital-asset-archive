@@ -1,0 +1,51 @@
+name: Catalog checks
+
+on:
+  push:
+    paths: ["catalog/**", "scripts/**", ".github/workflows/catalog.yml"]
+  pull_request:
+    paths: ["catalog/**", "scripts/**", ".github/workflows/catalog.yml"]
+  schedule:
+    - cron: "17 3 * * 1"   # Mondays 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml jsonschema
+      - name: Validate catalog against schema
+        run: python scripts/validate_catalog.py
+
+  links:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Check every listing still exists
+        id: check
+        run: python scripts/check_links.py --report outputs/link_report.md
+      - name: Open or update an issue on failure
+        if: failure() && steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          title="Catalog link check: listings gone or changed"
+          num=$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number')
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --body-file outputs/link_report.md
+          else
+            gh issue create --title "$title" --body-file outputs/link_report.md
+          fi
