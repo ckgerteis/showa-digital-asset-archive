@@ -6,7 +6,7 @@ are © 2025–2026 Christopher Gerteis and licensed under the
 [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 Suggested attribution: Gerteis, Christopher. 2025–. *Shōwa Digital Asset Archive*. SOAS University of
-London. https://ckgerteis.github.io/showa-digital-asset-archive/.
+London. https://showa-digital-archive.org/.
 
 ## What this licence does not cover
 

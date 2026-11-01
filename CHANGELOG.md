@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-01: custom domain
+
+- The archive moves to https://showa-digital-archive.org/, registered through Netlify with DNS on Netlify (apex A and AAAA records to GitHub Pages, `www` as a CNAME to ckgerteis.github.io). GitHub Pages still serves the site; the old ckgerteis.github.io address redirects to the new one.
+- `CNAME` added; every absolute link, the citation on the Research & Education page, the README and `LICENSE-CONTENT.md` now give the new address.
+
 ## 2026-11-01: audit and schema v2
 
 An audit of the catalog on 1 November 2026 checked every listing. Of 54 Sketchfab entries, 23 resolved through the Sketchfab API and 31 did not (30 returned 404; one carried a malformed 28-character UID). The 49 Fab, CGTrader and Unity entries were resolved by web search, since those platforms refuse automated requests.
