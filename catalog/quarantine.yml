@@ -1,0 +1,924 @@
+# Shōwa Digital Asset Archive: quarantine register
+# Entries withheld from the public catalog. Each keeps its v1 record and the reason it was withheld.
+# An entry returns to fab.yml only after its listing has been checked and its record rebuilt from the listing.
+
+- id: skf-0001
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Vintage Camera Yashica Lynx
+  v1_record:
+    id: skf-0001
+    title: Vintage Camera Yashica Lynx
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/vintage-camera-yashica-lynx-1000-f92e4530050e4a77960625697620202e"
+    creator: shedmon
+    period_tags:
+    - high_growth_1952_1973
+    space_tags:
+    - home
+    - studio
+    object_tags:
+    - technology
+    - camera
+    historical_notes: "A 1960s rangefinder camera, symbolizing the booming Japanese optical industry."
+- id: skf-0002
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Japanese Book Set
+  candidates_for_review:
+  - title: Japanese Furniture Pack Volume 2
+    creator: EliteCreatures
+    url: "https://sketchfab.com/3d-models/bc5718ba598c4204bcd0df42d3295f4d"
+    same_creator: false
+  v1_record:
+    id: skf-0002
+    title: Japanese Book Set (Vol. 2)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japanese-book-set-vol2-f6723223900249539202020202020202"
+    creator: k-keii
+    period_tags:
+    - interwar_wartime_1926_1945
+    - occupation_reconstruction_1945_1952
+    object_tags:
+    - household
+    - books
+    historical_notes: "Bound volumes with traditional spines, typical of pre-war and early post-war publishing."
+- id: skf-0003
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Kyoto Machiya
+  candidates_for_review:
+  - title: Draft Kyoto Machiya entrance
+    creator: sayavog
+    url: "https://sketchfab.com/3d-models/fdef9978309349329fa53ef8b3607a31"
+    same_creator: false
+  v1_record:
+    id: skf-0003
+    title: Kyoto Machiya (Traditional House)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/kyoto-machiya-house-b5f7e6f809964590b073070857367332"
+    creator: denis_cliofas
+    period_tags:
+    - occupation_reconstruction_1945_1952
+    - high_growth_1952_1973
+    object_tags:
+    - architecture
+    - interior
+    historical_notes: "A traditional wooden townhouse (machiya) representing the persistent urban forms of the Showa\
+      \ era."
+- id: skf-0004
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Japanese Chest
+  candidates_for_review:
+  - title: Japanese Drawer Chest
+    creator: GiyoP
+    url: "https://sketchfab.com/3d-models/8fa883cbdee34379a25384442da0ab62"
+    same_creator: true
+  - title: Japanese Chest "TANSU"
+    creator: leina012
+    url: "https://sketchfab.com/3d-models/360f02342fd048329435bfbd81a26c1c"
+    same_creator: false
+  - title: Japanese Chest
+    creator: chertpaderi
+    url: "https://sketchfab.com/3d-models/8cbc2e814ae642abaa938deb4f6f245a"
+    same_creator: false
+  v1_record:
+    id: skf-0004
+    title: Japanese Chest (Tansu)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japanese-chest-tansu-b8733220023640209670737303030206"
+    creator: GiyoP
+    period_tags:
+    - interwar_wartime_1926_1945
+    object_tags:
+    - household
+    - furniture
+    historical_notes: "Traditional storage cabinetry (Tansu) used for clothing and heirlooms."
+- id: skf-0005
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Showa Retro TV
+  v1_record:
+    id: skf-0005
+    title: Showa Retro TV
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/vintage-japanese-tv-66384232356540c1b017772863925725"
+    creator: GiyoP
+    period_tags:
+    - high_growth_1952_1973
+    object_tags:
+    - household
+    - television
+    historical_notes: "A classic CRT television set with wooden casing, a centerpiece of the 1960s living room."
+- id: skf-0008
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Go Board Game Set
+  candidates_for_review:
+  - title: Board Games 1
+    creator: rune248
+    url: "https://sketchfab.com/3d-models/55c237e6743540a4a9aed53d61702725"
+    same_creator: false
+  v1_record:
+    id: skf-0008
+    title: Go Board Game Set
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/go-game-set-8d23533267744356820572097063236e"
+    creator: shedmon
+    period_tags:
+    - high_growth_1952_1973
+    object_tags:
+    - art
+    - game
+    historical_notes: "Go tables (goban) are culturally continuous objects found in homes and clubs."
+- id: skf-0009
+  reason: "malformed Sketchfab UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Kamado
+  candidates_for_review:
+  - title: '"Kamado" Traditional Japanese Cook Stove'
+    creator: rocknrodent
+    url: "https://sketchfab.com/3d-models/a4653ca3940b4c6598dbcea0589d3f0d"
+    same_creator: false
+  - title: Kamado Tanjiro
+    creator: LGBT_DOESN-T_KILL
+    url: "https://sketchfab.com/3d-models/e6c5139b1c3b48bea4ad5838797b206c"
+    same_creator: false
+  - title: KAMADO TANJIRO
+    creator: rakai.sahakarya
+    url: "https://sketchfab.com/3d-models/5d86551b961d490c91415d7f5b8698d6"
+    same_creator: false
+  v1_record:
+    id: skf-0009
+    title: Kamado (Traditional Stove)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/kamado-traditional-japanese-stove-6056360639964220330663306636"
+    creator: Unknown
+    period_tags:
+    - interwar_wartime_1926_1945
+    - occupation_reconstruction_1945_1952
+    object_tags:
+    - household
+    - kitchen
+    historical_notes: "Wood-fired cooking stoves were common before the widespread adoption of gas."
+- id: skf-0023
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Tableware Cutlery
+  candidates_for_review:
+  - title: Tableware Set
+    creator: cgaxis
+    url: "https://sketchfab.com/3d-models/c310102882eb488bb5a42437ba6ac75f"
+    same_creator: false
+  - title: Tableware
+    creator: nataliekirk
+    url: "https://sketchfab.com/3d-models/09e12b4bac5a4f858b91ec19ebdae820"
+    same_creator: false
+  - title: Tableware (Modern)
+    creator: nataliekirk
+    url: "https://sketchfab.com/3d-models/3e35a6aea84f4247b1a1327b925b316c"
+    same_creator: false
+  v1_record:
+    id: skf-0023
+    title: Tableware Cutlery
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/tableware-cutlery-d5171d5947d34715b13e8f24dc0ad2cf"
+    creator: Generic
+    period_tags:
+    - high_growth_1952_1973
+    object_tags:
+    - household
+    - kitchen
+    historical_notes: "Western-style cutlery became increasingly common in Japanese households during the 1960s."
+- id: skf-0035
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Traditional Japanese House | Tatami Room
+  candidates_for_review:
+  - title: Traditional Japanese Room
+    creator: Narinthip.Phaobunthoon
+    url: "https://sketchfab.com/3d-models/062e8dcba7404a2b9958c24ddda5e49c"
+    same_creator: false
+  - title: Zen Japanese Tea House with Go Board
+    creator: winters810
+    url: "https://sketchfab.com/3d-models/a1e95e5efee349a693f30eda32401aef"
+    same_creator: false
+  - title: Japanese House 01
+    creator: artsandmaterials
+    url: "https://sketchfab.com/3d-models/2e243a49942846c7a73051686395e233"
+    same_creator: false
+  v1_record:
+    id: skf-0035
+    title: Traditional Japanese House | Tatami Room
+    source: sketchfab
+    creator: StellarX
+    source_url: "https://sketchfab.com/3d-models/traditional-japanese-house-tatami-05364405365548658660306263306636"
+    period_tags:
+    - occupation_reconstruction_1945_1952
+    object_tags:
+    - architecture
+    - interior
+    historical_notes: "A modular tatami room component for reconstructing domestic spaces."
+- id: skf-0040
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Japanese Shrine Pack
+  candidates_for_review:
+  - title: Japanese Village Advanced Pack
+    creator: tran.ha.anh.thu.99
+    url: "https://sketchfab.com/3d-models/fdcf20d4635d4da6a4fe4684a9a76b94"
+    same_creator: false
+  - title: Japanese Hallway
+    creator: Kasugay
+    url: "https://sketchfab.com/3d-models/25b69a54178b4e2ebfbda5287d829c91"
+    same_creator: false
+  - title: Japanese Famous Buildings 3D Model Pack
+    creator: zhangshangbin1314159
+    url: "https://sketchfab.com/3d-models/92bcff38287f42e88e8a09b89185fa63"
+    same_creator: false
+  v1_record:
+    id: skf-0040
+    title: Japanese Shrine Pack
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japanese-shrine-pack-05445205560548658605503052633055"
+    creator: Generic
+    period_tags:
+    - interwar_wartime_1926_1945
+    - high_growth_1952_1973
+    object_tags:
+    - architecture
+    - culture
+    historical_notes: "Modular shrine elements representing the continuity of religious sites in urban landscapes."
+- id: skf-0041
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Female Kimono
+  candidates_for_review:
+  - title: Female Kimono
+    creator: 3dia
+    url: "https://sketchfab.com/3d-models/abb2b871951f4fceb531a16fa0fe7e44"
+    same_creator: false
+  - title: Female Geisha Kimono
+    creator: 3dia
+    url: "https://sketchfab.com/3d-models/2a09395072244976a65315811d7fdba2"
+    same_creator: false
+  - title: Female Kimono Lingerie
+    creator: 3dia
+    url: "https://sketchfab.com/3d-models/c0a760a2487549ae8bddbdf56f3c18fb"
+    same_creator: false
+  v1_record:
+    id: skf-0041
+    title: Female Kimono
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/female-kimono-06044305364205528655306663306636"
+    creator: Generic
+    period_tags:
+    - interwar_wartime_1926_1945
+    object_tags:
+    - clothing
+    - culture
+    historical_notes: "Traditional garment worn for formal occasions or daily life in pre-war era."
+- id: skf-0043
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Showa-era TV
+  v1_record:
+    id: skf-0043
+    title: Showa-era TV (Vintage TV Free)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/vintage-tv-free-ed92b5e5ab864cf089e849b425c3a9c4"
+    creator: donnichols
+    period_tags:
+    - high_growth_1952_1973
+    space_tags:
+    - home
+    - living_room
+    object_tags:
+    - technology
+    - television
+    historical_notes: "CRT television consistent with mid-century domestic interiors; useful for Showa-era living\
+      \ room staging."
+- id: skf-0045
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Old Kitchen Set
+  candidates_for_review:
+  - title: Old kitchen set
+    creator: Badboy17Aiden
+    url: "https://sketchfab.com/3d-models/cc62db021e2e49f6a08aa5c324a14936"
+    same_creator: false
+  - title: Old kitchen set
+    creator: sergeilihandristov
+    url: "https://sketchfab.com/3d-models/0d4f5bcc8ff246ac8452f4f7ed92d359"
+    same_creator: false
+  - title: Dirty Kitchen Sink
+    creator: Agustin_Honnun
+    url: "https://sketchfab.com/3d-models/3b320b1d79d543c28166b9e34d32baf0"
+    same_creator: false
+  v1_record:
+    id: skf-0045
+    title: Old Kitchen Set
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/old-kitchen-set-39a82bbb8c4e41d8952a395d6b693adf"
+    creator: Pieter Ferreira
+    period_tags:
+    - occupation_reconstruction_1945_1952
+    - high_growth_1952_1973
+    space_tags:
+    - home
+    - kitchen
+    object_tags:
+    - household
+    - kitchen
+    - interior
+    historical_notes: "Consolidated kitchen fixtures/props for rapid blocking of lived-in domestic spaces."
+- id: skf-0047
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: School Backpack
+  candidates_for_review:
+  - title: School Backpack
+    creator: MadeByYeshe
+    url: "https://sketchfab.com/3d-models/524d7fc724094ead9f203ed06bae76e1"
+    same_creator: false
+  - title: School Backpack
+    creator: Sebastian.BA
+    url: "https://sketchfab.com/3d-models/0869a608d5e94bb7b0b0484f4d974019"
+    same_creator: false
+  - title: School Backpack
+    creator: CIVI_3D_ART_DESIGN
+    url: "https://sketchfab.com/3d-models/62cd78ef662945f7a05b4c9c94d3e828"
+    same_creator: false
+  v1_record:
+    id: skf-0047
+    title: School Backpack
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/school-backpack-287ad479a4bf4dc486d2e7cfce6d551b"
+    creator: AFXCGMotion
+    period_tags:
+    - high_growth_1952_1973
+    space_tags:
+    - education
+    - home
+    object_tags:
+    - clothing
+    - education
+    - prop
+    historical_notes: "Student bag prop supporting school/curriculum-related scenes and everyday life vignettes."
+- id: skf-0048
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Old Metal Basin
+  candidates_for_review:
+  - title: Old Japanese Metal Basin
+    creator: GiyoP
+    url: "https://sketchfab.com/3d-models/cd1e63b16f804638873d21b822a23617"
+    same_creator: false
+  v1_record:
+    id: skf-0048
+    title: Old Metal Basin (Kanadarai variant)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/metal-basin-cd1e63dd4a704d59b282d2c46d7dbc63"
+    creator: Shibayama
+    period_tags:
+    - occupation_reconstruction_1945_1952
+    - high_growth_1952_1973
+    space_tags:
+    - home
+    - bath
+    object_tags:
+    - household
+    - hygiene
+    - kitchen
+    historical_notes: "Metal washing basin variant; supports bathing/laundry routines prior to plastic ubiquity."
+- id: skf-0049
+  reason: duplicate of skf-0033 (same Sketchfab model)
+  checked: '2026-11-01'
+  v1_record:
+    id: skf-0049
+    title: Japan Old Book (Handpainted)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japan-old-book-handpainted-ac36f20481ab46d0a1db76af7d22d0fd"
+    creator: Bunkichi80
+    period_tags:
+    - interwar_wartime_1926_1945
+    - occupation_reconstruction_1945_1952
+    space_tags:
+    - home
+    - study
+    object_tags:
+    - household
+    - books
+    historical_notes: "Watoji-style bound book variant; useful as a period-appropriate domestic/study prop."
+- id: skf-0051
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Japanese Camera
+  candidates_for_review:
+  - title: Japanese Cemetery Scene
+    creator: Kesiana
+    url: "https://sketchfab.com/3d-models/887b29d510084943941be1a7727d1687"
+    same_creator: false
+  - title: 1969 Japanese SLR Camera (Free Low-Poly)
+    creator: Logue3D
+    url: "https://sketchfab.com/3d-models/0f5e529f79fb4109bd0bdacf0ecef578"
+    same_creator: false
+  - title: Japanese Marriage
+    creator: sayavog
+    url: "https://sketchfab.com/3d-models/31718f7586c341338254da587841a6d3"
+    same_creator: false
+  v1_record:
+    id: skf-0051
+    title: Japanese Camera (1969 SLR)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japanese-camera-1969-slr-339e8f526a104b4bb010f8eb93f989fe"
+    creator: Kinmori
+    period_tags:
+    - high_growth_1952_1973
+    space_tags:
+    - home
+    - studio
+    object_tags:
+    - technology
+    - camera
+    historical_notes: "Late-1960s SLR prop aligning with Japan’s consumer optical boom; useful for hobbyist/middle-class\
+      \ domestic scenes."
+- id: skf-0052
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Japanese Wall Set
+  candidates_for_review:
+  - title: Urban Japanese House - Modular Props
+    creator: bholton
+    url: "https://sketchfab.com/3d-models/2a999a75d87140ec8c9bf436a645c66e"
+    same_creator: false
+  - title: PSX - JAPANESE CALENDER
+    creator: Kasujin
+    url: "https://sketchfab.com/3d-models/9f808585c8a84e8ea0a37114bfe28fb5"
+    same_creator: false
+  v1_record:
+    id: skf-0052
+    title: Japanese Wall Set (Modular Wall)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japanese-wall-set-modular-wall-d41e4e8e2886456aa31c29fe47e05dce"
+    creator: Anatomic3D
+    period_tags:
+    - occupation_reconstruction_1945_1952
+    - high_growth_1952_1973
+    space_tags:
+    - home
+    - interior
+    object_tags:
+    - architecture
+    - interior
+    - component
+    historical_notes: "Modular interior wall components for fast assembly of domestic layouts (washitsu/yoshitsu\
+      \ hybrids)."
+- id: skf-0053
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Old Sewing Machine
+  candidates_for_review:
+  - title: Old Sewing Machine
+    creator: CharlesNG
+    url: "https://sketchfab.com/3d-models/b4cc8c9b0e07495bb710c842b35ec600"
+    same_creator: false
+  - title: Old sewing machine
+    creator: tombolaso
+    url: "https://sketchfab.com/3d-models/7b5c1a174a4948028f12342e9eb409ab"
+    same_creator: false
+  - title: Old Sewing Machine
+    creator: delmarcheon
+    url: "https://sketchfab.com/3d-models/f89178388c3a49418554b83b2b11153b"
+    same_creator: false
+  v1_record:
+    id: skf-0053
+    title: Old Sewing Machine
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/old-sewing-machine-d9de8821d1b0441582b545d4b82bb591"
+    creator: Richard_33
+    period_tags:
+    - interwar_wartime_1926_1945
+    - occupation_reconstruction_1945_1952
+    space_tags:
+    - home
+    - work
+    object_tags:
+    - household
+    - tool
+    historical_notes: "Domestic sewing machine prop supporting home-economy, repair, and textile work narratives."
+- id: skf-0054
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Japanese Chest of Drawers
+  candidates_for_review:
+  - title: Japanese Drawer Chest
+    creator: GiyoP
+    url: "https://sketchfab.com/3d-models/8fa883cbdee34379a25384442da0ab62"
+    same_creator: false
+  - title: Miss Yamanashi Chest of Drawers (G-1939.12.9 a)
+    creator: WyomingStateMuseum
+    url: "https://sketchfab.com/3d-models/f56940221556437c8392a742a487efe8"
+    same_creator: false
+  - title: Miss Yamanashi Chest of Drawers (G-1939.12.9 b)
+    creator: WyomingStateMuseum
+    url: "https://sketchfab.com/3d-models/8b0c5332a2bf485db4e1b034c5c061c1"
+    same_creator: false
+  v1_record:
+    id: skf-0054
+    title: Japanese Chest of Drawers (Tansu)
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japanese-chest-of-drawers-tansu-559f54f5c473418c91fa2c108f9c0640"
+    creator: StacyLoveless
+    period_tags:
+    - interwar_wartime_1926_1945
+    - occupation_reconstruction_1945_1952
+    space_tags:
+    - home
+    object_tags:
+    - household
+    - furniture
+    historical_notes: "Alternative tansu model for varied domestic interiors; useful where multiple rooms require\
+      \ non-repeating assets."
+- id: skf-0055
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Japanese Room Decor Set
+  candidates_for_review:
+  - title: japanese room decor set
+    creator: local.yany
+    url: "https://sketchfab.com/3d-models/2257ac1a568e4ea3911c5e91720e9f80"
+    same_creator: false
+  - title: Japanese small room and garden
+    creator: Aspsyxia
+    url: "https://sketchfab.com/3d-models/7396b49ffbc34c9dafa40a0d60be42d1"
+    same_creator: false
+  - title: Japanese Chair
+    creator: Kasugay
+    url: "https://sketchfab.com/3d-models/c74f2e492d96448f8c4d10246e549161"
+    same_creator: false
+  v1_record:
+    id: skf-0055
+    title: Japanese Room Decor Set
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japanese-room-decor-set-floor-cushion-teaset-table-8c57a3b6a9d4459191c0d62d4cdbc245"
+    creator: yankobe
+    period_tags:
+    - occupation_reconstruction_1945_1952
+    - high_growth_1952_1973
+    space_tags:
+    - home
+    - living_room
+    object_tags:
+    - household
+    - culture
+    - furniture
+    historical_notes: "Low-table living arrangement props supporting everyday hospitality, tea, and domestic sociability."
+- id: skf-0056
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Japanese Ceramic Coiled Tea Bowl
+  candidates_for_review:
+  - title: Japanese Ceramic Coiled Tea Bowl
+    creator: TheHuntMuseum
+    url: "https://sketchfab.com/3d-models/078cff640cd24cf0b1bfb2c41542d770"
+    same_creator: false
+  v1_record:
+    id: skf-0056
+    title: Japanese Ceramic Coiled Tea Bowl
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japanese-ceramic-coiled-tea-bowl-17th-century-e900dd13672d464d9bf6c8b237fae76b"
+    creator: LauraWald
+    period_tags:
+    - edo_1603_1868
+    space_tags:
+    - home
+    - culture
+    object_tags:
+    - culture
+    - ceramic
+    - tea
+    historical_notes: "Premodern tea-ceremony object; can function diegetically as an heirloom/display item in later-period\
+      \ interiors."
+- id: skf-0057
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Japanese Futonbed
+  v1_record:
+    id: skf-0057
+    title: Japanese Futonbed
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/japanese-futonbed-d791aa20d22a466eab8ae8201d3e77b2"
+    creator: nicolas_solo
+    period_tags:
+    - interwar_wartime_1926_1945
+    - occupation_reconstruction_1945_1952
+    - high_growth_1952_1973
+    space_tags:
+    - home
+    - bedroom
+    object_tags:
+    - household
+    - bedding
+    historical_notes: "Floor bedding variant enabling multiple domestic configurations (stored away vs. laid out)."
+- id: skf-0058
+  reason: "Sketchfab API returns 404 for this UID; no model with matching title and creator found by API search"
+  checked: '2026-11-01'
+  search_query: Tatami Mat
+  candidates_for_review:
+  - title: Tatami Mat
+    creator: yomigaeri
+    url: "https://sketchfab.com/3d-models/f851bd1703964445b4825febef937942"
+    same_creator: false
+  - title: Tatami Mats
+    creator: erica
+    url: "https://sketchfab.com/3d-models/b46396bb3acc46e284b0a192390faabc"
+    same_creator: false
+  - title: Tatami Mat Tile
+    creator: ilkka.wahala
+    url: "https://sketchfab.com/3d-models/222abe420b784fa08089ac39b7e5b296"
+    same_creator: false
+  v1_record:
+    id: skf-0058
+    title: Tatami Mat
+    source: sketchfab
+    source_url: "https://sketchfab.com/3d-models/tatami-mat-6111f3f7d4894b419bc1334d14b450ed"
+    creator: Justin Collie
+    period_tags:
+    - interwar_wartime_1926_1945
+    - occupation_reconstruction_1945_1952
+    - high_growth_1952_1973
+    space_tags:
+    - home
+    - interior
+    object_tags:
+    - architecture
+    - interior
+    - component
+    historical_notes: "Single tatami module for custom washitsu assembly and accurate spatial scaling."
+- id: fab-0002
+  reason: "a similar listing exists but title or seller differs from the v1 record"
+  checked: '2026-11-01'
+  candidates_for_review:
+  - title: Mineral Mining System
+    creator: Gold Trigger Games
+    url: "https://www.fab.com/listings/a22ea271-eb98-4863-add9-62f293707044"
+  resolution_notes: "SELLER MISMATCH: exact title, but seller on Fab is Gold Trigger Games, not Defuse Studios.\
+    \ Defuse Studios' Fab seller page (https://www.fab.com/sellers/Defuse%20Studios) lists no mining product. Catalog\
+    \ creator is probably wrong."
+  v1_record:
+    id: fab-0002
+    title: Mineral Mining System
+    source: unreal_marketplace
+    source_url: "https://www.unrealengine.com/marketplace/ja/product/mineral-mining-system"
+    creator: Defuse Studios
+    period_tags:
+    - high_growth_1952_1973
+    object_tags:
+    - industrial
+    - tool
+    historical_notes: "Mining system assets that can represent industrial processes."
+- id: fab-0006
+  reason: "a similar listing exists but title or seller differs from the v1 record"
+  checked: '2026-11-01'
+  candidates_for_review:
+  - title: Japanese Modular Village (With Interiors)
+    creator: Jemini Studio
+    url: "https://www.fab.com/listings/9d531784-580c-463c-a00d-abaec2877fce"
+  resolution_notes: "No Fab listing titled 'Japanese Medieval Village' found. Jemini Studio's closest product is\
+    \ this gassho-style village; title differs, so unconfirmed. Queries: site:fab.com 'Japanese Medieval Village'\
+    \ (DDG); 'Japanese Medieval Village' Jemini Studio Fab (DDG); site:fab.com 'Japanese Medieval Village' Jemini\
+    \ Studio (Exa)."
+  v1_record:
+    id: fab-0006
+    title: Japanese Medieval Village
+    source: unreal_marketplace
+    source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-medieval-village"
+    creator: Jemini Studio
+    period_tags:
+    - interwar_wartime_1926_1945
+    object_tags:
+    - architecture
+    - environment
+    historical_notes: "Traditional rural Japanese village architecture (Minka) consistent until the mid-20th century."
+- id: fab-0008
+  reason: no live listing found by web search
+  checked: '2026-11-01'
+  resolution_notes: "Seller KraftMaru has Fab listings (e.g. Japanese Night City, Japanese City, Japanese House,\
+    \ Old Japanese Town, Underground Facility Set) but none titled 'Japanese Alley 01'. Queries: site:fab.com 'Japanese\
+    \ Alley 01' KraftMaru (Exa); site:fab.com 'Japanese Alley 01' (DDG); 'Japanese Alley' KraftMaru Fab (DDG); site:fab.com\
+    \ KraftMaru 'Japanese Alley' (DDG); site:fab.com KraftMaru Japanese alley street (DDG); 'Japanese Alley 01'\
+    \ KraftMaru unreal marketplace (DDG). Unrelated hits: Japanese Alley Props Pack - Vol.01 (other seller), Stylized\
+    \ Japanese Street (Entroverse Labs)."
+  v1_record:
+    id: fab-0008
+    title: Japanese Alley 01
+    source: unreal_marketplace
+    source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-alley-01"
+    creator: KraftMaru
+    period_tags:
+    - high_growth_1952_1973
+    object_tags:
+    - architecture
+    - urban
+    historical_notes: "Detailed alleyway assets capturing the dense urban texture of the Showa era."
+- id: fab-0014
+  reason: no live listing found by web search
+  checked: '2026-11-01'
+  resolution_notes: "No Fab listing by Mehmet Cam found. The 1K/2K product exists on the Unity Asset Store as 'Japanese\
+    \ Classroom 1K & 2K Texture' by Taiga Interactive ($4.99), not under Mehmet Cam. Fab listings titled 'Japanese\
+    \ Classroom' checked and rejected on seller: Xiao Studio (bf76846e-dd70-4fe2-b814-5f61f9072aa2), Rafael Rodrigues\
+    \ (7af4f84d-2032-45b9-8394-23c646a61675); bcd228d7-2ea7-43c9-9d24-727b4892f8db (Unreal, 'Japanese Classroom')\
+    \ seller could not be read from the page, so unverified. Queries: site:fab.com 'Japanese Classroom' 1K 2K textures\
+    \ (DDG); 'Japanese Classroom' 'Mehmet Cam' Fab (DDG); site:fab.com 'Mehmet Cam' (DDG); fab.com 'Japanese Classroom'\
+    \ 1K 2K textures Mehmet Cam (Exa x2)."
+  v1_record:
+    id: fab-0014
+    title: Japanese Classroom (1K/2K)
+    source: unreal_marketplace
+    source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-classroom-1k-2k-textures"
+    creator: Mehmet Cam
+    period_tags:
+    - high_growth_1952_1973
+    object_tags:
+    - interior
+    - education
+    historical_notes: "High-fidelity textures for creating realistic Showa-era school environments."
+- id: fab-0020
+  reason: no live listing found by web search
+  checked: '2026-11-01'
+  resolution_notes: "No Fab listing titled 'Old Japanese Street Props' found for Nimikko or anyone. Nimikko's catalogue\
+    \ lists only 'Japanese Street Props Pack - 33 Realistic Assets' (https://www.fab.com/listings/363d4607-94ad-4d01-9e83-9613896f581a),\
+    \ a different title without 'Old', so not offered as a candidate. Queries: fab.com 'Old Japanese Street Props'\
+    \ Nimikko (Exa); site:fab.com 'Old Japanese Street Props' (DDG); 'Old Japanese Streetprops' Fab Unreal (DDG);\
+    \ site:fab.com 'Japanese Street Props' old Japan street (DDG). Possible creator error: ArtStation page for IsolatedSoulStudio\
+    \ mentions Japanese/old street props products."
+  v1_record:
+    id: fab-0020
+    title: Old Japanese Street Props
+    source: unreal_marketplace
+    source_url: "https://unrealengine.com/marketplace/en-US/product/old-japanese-streetprops"
+    creator: Nimikko
+    period_tags:
+    - occupation_reconstruction_1945_1952
+    object_tags:
+    - urban
+    - prop
+    historical_notes: "Utility poles, vending machines, and barriers that define the Japanese street aesthetic.\
+      \ Included in Residential Area Collection."
+- id: fab-0024
+  reason: "a similar listing exists but title or seller differs from the v1 record"
+  checked: '2026-11-01'
+  candidates_for_review:
+  - title: Japanese Style Dining Set
+    creator: Open Box Games
+    url: "https://www.fab.com/listings/13391751-039e-46dd-9953-dd875ae484b9"
+  resolution_notes: "SELLER MISMATCH: exact title, but the Fab page shows seller 'Open Box Games', not Black Eye\
+    \ Creations. A Black Eye Creations page (blackeyecreations.com) and a sibling Fab listing ('Japanese Style Furniture\
+    \ Set', 68b1b854-91ed-43ce-83d3-f1ecb9db7b92) still show the 'Black Eye Creations' name with this product, so\
+    \ the seller was probably renamed. Not confirmed."
+  v1_record:
+    id: fab-0024
+    title: Japanese Style Dining Set
+    source: unreal_marketplace
+    source_url: "https://unrealengine.com/marketplace/en-US/product/japanese-style-dining-set"
+    creator: Black Eye Creations
+    period_tags:
+    - high_growth_1952_1973
+    object_tags:
+    - household
+    - food
+    historical_notes: "Table settings reflecting the mix of traditional and modern dining habits."
+- id: fab-0025
+  reason: no live listing found by web search
+  checked: '2026-11-01'
+  resolution_notes: "Queries: site:fab.com 'Chef Vol 1' Japanese Recipes (DDG); 'Chef Vol 1' 'Japanese Recipes'\
+    \ unreal engine (DDG); site:fab.com 'Chef' Japanese recipes food cooking (DDG); 'Chef Vol 1: Japanese Recipes'\
+    \ Unreal Engine marketplace Fab (Exa). Only unrelated hits (Cooking/Chef Pack 1 animations)."
+  v1_record:
+    id: fab-0025
+    title: "Chef Vol 1: Japanese Recipes"
+    source: unreal_marketplace
+    source_url: "https://unrealengine.com/marketplace/en-US/product/chef-vol-1-japanese-recipes"
+    creator: Chong seng hock
+    period_tags:
+    - high_growth_1952_1973
+    object_tags:
+    - food
+    - culture
+    historical_notes: Visual assets for various Japanese dishes.
+- id: fab-0030
+  reason: no live listing found by web search
+  checked: '2026-11-01'
+  resolution_notes: "No listing by xxJulexx found. Queries: site:fab.com Andon Japanese traditional room lights\
+    \ xxJulexx (DDG); site:fab.com Andon 'Traditional Lights' (DDG); xxJulexx fab.com sellers (DDG); site:fab.com\
+    \ xxJulexx Andon lights pack (DDG). Andon listings that exist belong to other sellers with different titles:\
+    \ 'Japanese Traditional Andon Lantern' by GRASP Co. (https://www.fab.com/listings/6b0af536-cce8-4588-babf-dea646699dd7)\
+    \ and 'Japanese Andon standing lamp' by Akio Momiji (https://www.fab.com/listings/d0df88a1-7b86-42d6-9dc0-c9e59b6e98ef);\
+    \ neither is a plausible match."
+  v1_record:
+    id: fab-0030
+    title: Andon Traditional Lights
+    source: unreal_marketplace
+    source_url: "https://www.unrealengine.com/marketplace/en-US/product/andon-japanese-traditional-room-lights-pack"
+    creator: xxJulexx
+    period_tags:
+    - interwar_wartime_1926_1945
+    object_tags:
+    - household
+    - lighting
+    historical_notes: "Traditional paper-enclosed floor lamps providing ambient lighting."
+- id: fab-0031
+  reason: "a similar listing exists but title or seller differs from the v1 record"
+  checked: '2026-11-01'
+  candidates_for_review:
+  - title: Japanese Furniture
+    creator: Edo Factory
+    url: "https://www.fab.com/listings/d2e20af1-757a-4705-ae31-42487dc9be0d"
+  resolution_notes: "SELLER MISMATCH: exact title (Edo-period furniture: tansu, chabudai, hibachi), but seller is\
+    \ Edo Factory, not DmitryAnisimov. No DmitryAnisimov listing found (site:fab.com 'Japanese Furniture' DmitryAnisimov,\
+    \ DDG). Other Fab 'Japanese Furniture' items belong to Inu Games (Vol.1), Nimikko (Modern Japanese Furniture\
+    \ Pack), christinayan01 (Antique Japanese Furniture)."
+  v1_record:
+    id: fab-0031
+    title: Japanese Furniture
+    source: unreal_marketplace
+    source_url: "https://www.unrealengine.com/marketplace/en-US/product/japanese-furniture"
+    creator: DmitryAnisimov
+    period_tags:
+    - occupation_reconstruction_1945_1952
+    object_tags:
+    - household
+    - furniture
+    historical_notes: "Low wooden furniture typical of rooms designed for sitting on tatami."
+- id: fab-0032
+  reason: no live listing found by web search
+  checked: '2026-11-01'
+  resolution_notes: "No Fab listing titled 'Snap Japanese Kit'. A YouTube video titled 'Snap Japanese Kit' exists\
+    \ (Edo-period modular snap kit), so the product existed, but its Fab listing, if migrated, is not indexed under\
+    \ that title. Queries: site:fab.com 'Snap Japanese Kit' (Exa and DDG); 'Snap Japanese Kit' (DDG); site:fab.com\
+    \ Snap Japanese modular snap kit (DDG). Edo Factory's 'Japanese Village Kit' (https://www.fab.com/listings/e0bcd85e-6970-4083-bf75-bec6d061ae82)\
+    \ is an Edo-style modular kit but not shown to be the same product, so not offered as a candidate."
+  v1_record:
+    id: fab-0032
+    title: Snap Japanese Kit
+    source: unreal_marketplace
+    source_url: "https://www.unrealengine.com/marketplace/en-US/product/snap-japanese-kit"
+    creator: Unknown
+    period_tags:
+    - occupation_reconstruction_1945_1952
+    - high_growth_1952_1973
+    object_tags:
+    - architecture
+    - modular
+    - environment
+    historical_notes: "Snap-together modular Japanese environment kit suitable for rapid greyboxing and iteration\
+      \ in Unreal/Fab workflows."
+- id: cgt-0003
+  reason: no live listing found by web search
+  checked: '2026-11-01'
+  resolution_notes: "Queries: site:cgtrader.com 'Traditional Japanese Cupboard' (DDG); cgtrader 'Traditional Japanese\
+    \ Cupboard' 3d model (DDG); cgtrader tansu traditional japanese cupboard 3d model (DDG); cgtrader.com traditional\
+    \ Japanese cupboard 3D model (Exa). Only different titles surfaced (Japanese Furniture Kit - Cupboard, Ornate\
+    \ Japanese Cabinet, Realistic Traditional Cupboard), not offered as candidates."
+  v1_record:
+    id: cgt-0003
+    title: Traditional Japanese Cupboard
+    source: cgtrader
+    source_url: "https://www.cgtrader.com/3d-models/furniture/cabinet/traditional-japanese-cupboard"
+    creator: Various
+    period_tags:
+    - interwar_wartime_1926_1945
+    - occupation_reconstruction_1945_1952
+    space_tags:
+    - home
+    object_tags:
+    - household
+    - furniture
+    historical_notes: "Storage furniture consistent with modest interiors; useful for reducing repeated prop silhouettes."
+- id: cgt-0011
+  reason: "a similar listing exists but title or seller differs from the v1 record"
+  checked: '2026-11-01'
+  candidates_for_review:
+  - title: Female Kimono Outfit 3D model
+    creator: Artstrystudio
+    url: "https://www.cgtrader.com/3d-models/character/clothing/female-kimono-outfit"
+  resolution_notes: "No listing titled exactly 'Female Kimono' found. Closest is this Artstrystudio item (published\
+    \ 2025-08-16); a second kimono item 'womens Kimono 3d clothing' by rajib-mu also exists (https://www.cgtrader.com/3d-models/character/clothing/womens-kimono-3d-clothing).\
+    \ The catalog gives no creator, so neither can be tied to the entry."
+  v1_record:
+    id: cgt-0011
+    title: Female Kimono
+    source: cgtrader
+    source_url: "https://www.cgtrader.com/3d-models/character/clothing/female-kimono"
+    creator: Various
+    period_tags:
+    - interwar_wartime_1926_1945
+    space_tags:
+    - home
+    - public
+    object_tags:
+    - clothing
+    - culture
+    historical_notes: "Traditional garment asset for formal/daily wear contexts; supports period character dressing."

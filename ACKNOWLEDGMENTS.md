@@ -1,4 +1,4 @@
-﻿# Acknowledgments
+# Acknowledgments
 
 We gratefully acknowledge Katherine Strachan, MEng, Reality Capture Engineer & Daiwa Scholar, Japan, for her instrumental work in getting this project started. Her proactivity in locating opportunities for RealityScan fieldwork, workflow design, and the initial corpus-building established the Archive's practical methods for photogrammetric capture, metadata practices, and the conservation of cultural artefacts. Katherine's generosity in training and protocol design laid the project's technical foundation and enabled the Archive's first demonstrators.
 

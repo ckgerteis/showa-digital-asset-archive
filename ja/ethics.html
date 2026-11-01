@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIと倫理 | 昭和デジタル・アセット・アーカイブ</title>
+
+    <link rel="alternate" hreflang="en" href="https://ckgerteis.github.io/showa-digital-asset-archive/ethics.html">
+    <link rel="alternate" hreflang="ja" href="https://ckgerteis.github.io/showa-digital-asset-archive/ja/ethics.html">
+    <link rel="alternate" hreflang="x-default" href="https://ckgerteis.github.io/showa-digital-asset-archive/ethics.html">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" integrity="sha384-l4UPAMHGzl7zwogLW4nOwaU2XTk6oiM1jhCRQstZEndoIiA2I5bg6fST3wzBSRBD" crossorigin="anonymous">
+
+    <style>
+        body { background-color: #fdfbf7; font-family: 'Roboto', sans-serif; color: #333; }
+        h1, h2, h3 { font-family: 'Merriweather', serif; color: #2c3e50; }
+        .content-box {
+            background: white; padding: 40px; border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px;
+            border-left: 5px solid #c0392b;
+        }
+        .role-badge { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: #7f8c8d; font-weight: 700; margin-bottom: 10px; display: block; }
+        .profile-link { text-decoration: none; color: #0077b5; font-weight: 500; }
+        .profile-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Shōwa Digital Asset Archive</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">ホーム</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalog.html">カタログ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="educators.html">研究・教育</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ethics.html" aria-current="page">AIと倫理</a></li>
+                    <li class="nav-item"><a class="nav-link" href="submit.html">登録（投稿）</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../ethics.html">English</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container pb-5">
+        <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-5 mb-3">AIと倫理</h1>
+                <p class="lead text-muted">カタログの記録がどのように作られ、誰がその内容を判断し、AIツールをどのように用いるか。</p>
+                <p class="badge text-bg-warning fs-6 fw-normal">2026年11月1日付の方針案（プロジェクト代表による検討用）</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <section class="content-box">
+                    <h2 class="h4 mb-3">この方針を定める理由</h2>
+                    <p class="mb-0">2026年11月、本カタログを監査した結果、Sketchfabの54項目のうち31項目が、記載されたアドレスでは見つからないモデルを指していることが判明した。これらのリンク切れの一部は、数字が連続して繰り返される識別子を持っていたが、これは正規のSketchfab識別子には見られないパターンである。また、有効な項目のいくつかについても、昭和の枠組みに合わせるためにタイトルが変更されていた。アメリカのゼニス社製コンソールが日本の家庭用ラジオとして、西洋のガラス器のセットが酒瓶として掲載されていた。カタログの初版は2025年12月にAIツールの助けを借りて作成されたが、こうしたツールはまさにこの種の誤り、すなわち裏付けとなる掲載ページのない、一見もっともらしい記録を生み出す。確認できなかった項目は現在、<a href="https://github.com/ckgerteis/showa-digital-asset-archive/blob/main/catalog/quarantine.yml" target="_blank" rel="noopener">公開の保留リスト</a>に置かれており、2026年11月以降のすべての項目には以下の規則が適用される。</p>
+                </section>
+                <section class="content-box">
+                    <h2 class="h4 mb-3">記録は掲載ページに基づく</h2>
+                    <p class="mb-0">掲載ページを記述するすべての項目（タイトル、制作者、ライセンス、サムネイル、ポリゴン数）は、Sketchfab APIを通じて、あるいはマーケットプレイスのページを読むことによって、掲載ページそのものから転記される。各記録には確認日と確認方法が記される。AIツールは、候補となる掲載ページの検索や本アーカイブのコード作成を補助することがある。ただし、カタログのいずれの項目もAIツールが供給することはない。毎週の自動確認により、各Sketchfabモデルが記録どおりのタイトルと制作者のもとで存在し続けているかを確かめ、存在しない場合には公開のイシューを作成する。</p>
+                </section>
+                <section class="content-box">
+                    <h2 class="h4 mb-3">判断は学芸員が行う</h2>
+                    <p class="mb-0">ある物が特定の時期に適合するか、学生に何を伝えうるか、どのように記述すべきかは、学芸員の判断に属する。各記録の時代適合性は「未評価」から始まり、学芸員が設定したときにのみ変更される。掲載ページの内容がカタログの枠組みと矛盾する場合、記録はその旨をカタログページに表示される要検討メモに記す。2025年に昭和期の採掘機器として登録された、ドイツの炭鉱で使われたフロットマン社製の削岩機の記録には、現在そのようなメモが付いている。AIの補助を受けて作成した解説は、公開前に掲載ページおよび既刊の研究文献と照合する。</p>
+                </section>
+                <section class="content-box">
+                    <h2 class="h4 mb-3">制作者とライセンス</h2>
+                    <p class="mb-0">本アーカイブは掲載ページへリンクするのみで、モデルファイルを複製・再配布することはない。制作者は掲載ページの表記どおりにクレジットする。クリエイティブ・コモンズの表示ライセンスがそれを求めており、またこれらのモデルを作ったのは制作者自身だからである。ライセンスは、CC BYから商用マーケットプレイスの規約、閲覧のみのモデルまで、各掲載ページの記載どおりに記録する。モデルの利用を予定する者は、まず掲載ページを読むこと。CGTraderの一部のライセンスは、モデルをAIシステムの学習に用いることを禁じており、本アーカイブはその条件が記載されている場合には記録する。本アーカイブは、掲載モデルも、それらについての自らの記録も、AIシステムの学習に用いない。</p>
+                </section>
+                <section class="content-box">
+                    <h2 class="h4 mb-3">生成モデルと再構築モデル</h2>
+                    <p class="mb-0">AIが生成したモデルは、その掲載ページに明記されている場合に限って掲載し、カタログの記録にもその旨を記す。本アーカイブ自身の3D取得は、Epic Games社のRealityScanアプリなどを用いたフォトグラメトリーによる。現存する実物のフォトグラメトリー・スキャン、資料に基づく復元、生成されたモデルは、それぞれ異なる種類の証拠である。これらを扱う学生は、自分がどの種類のものを手にしているかを知る必要がある。</p>
+                </section>
+                <section class="content-box">
+                    <h2 class="h4 mb-3">表象</h2>
+                    <p class="mb-0">昭和の物質文化は、ゲームや仮想世界の中で広く流通しており、しばしば繁栄と秩序の過去への郷愁として描かれる。本アーカイブの授業案は、モデルが何を欠いているかを学生に言語化させるものであり、カタログも同じ規律を自らに課す。戦時中に朝鮮人・中国人労働者が石炭採掘のために動員された端島には、建物のモデルでは示しえない歴史があり、そうした場所の記録はその歴史を明記する。</p>
+                </section>
+                <section class="content-box">
+                    <h2 class="h4 mb-3">訂正</h2>
+                    <p class="mb-0">誤りは、リポジトリの<a href="https://github.com/ckgerteis/showa-digital-asset-archive/issues" target="_blank" rel="noopener">イシュートラッカー</a>、または <a href="mailto:christopher.gerteis@soas.ac.uk">christopher.gerteis@soas.ac.uk</a> 宛のメールで報告できる。訂正はすべて、日付と根拠を添えて<a href="https://github.com/ckgerteis/showa-digital-asset-archive/blob/main/CHANGELOG.md" target="_blank" rel="noopener">変更履歴</a>に記録する。</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light py-4 mt-auto">
+        <div class="container text-center">
+            <div class="mb-2">
+                <a href="acknowledgments.html" class="text-white text-decoration-none mx-2">謝辞</a>
+                <span class="text-white-50">|</span>
+                <a href="mailto:christopher.gerteis@soas.ac.uk" class="text-white text-decoration-none mx-2">連絡</a>
+            </div>
+            <small class="text-white-50">&copy; 2025–2026 Shōwa Digital Asset Archive. Directed by Dr Christopher Gerteis. Text and data CC BY 4.0; code MIT.</small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

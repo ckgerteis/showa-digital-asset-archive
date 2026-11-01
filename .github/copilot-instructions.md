@@ -1,124 +1,41 @@
-# Showa Digital Asset Archive - AI Agent Instructions
+# Shōwa Digital Asset Archive: instructions for AI coding agents
 
-## Project Overview
-This is a **static GitHub Pages site** serving as a curated link archive for 3D digital assets of Japanese Showa Era (1926-1989) material culture. It does NOT host binaries—only metadata and links to external platforms (Sketchfab, Fab, CGTrader, Unity Asset Store).
+Read `ethics.html` first. It is binding on agents as well as people.
+
+## The one rule that matters
+
+**Never write a catalog field from your own knowledge.** Every descriptive field in `catalog/fab.yml` (`title`, `creator`, `creator_url`, `licence`, `source_url`, `image`, `technical`) must be copied from the listing itself, through the Sketchfab API (`scripts/scrape_sketchfab.py`) or from a listing page you have actually fetched. Do not construct, complete or guess a URL or a Sketchfab UID. If you cannot fetch the listing, do not add the entry; put it in `catalog/quarantine.yml` with the reason. The v1 catalog contained 31 Sketchfab links that resolved to no model, which is why this rule exists.
+
+Do not set `showa_fit` to anything except `unassessed`, and do not invent period tags. Curatorial fields are the curator's.
 
 ## Architecture
 
-### Critical: YAML-Driven Static Site
-- **Single Source of Truth**: [catalog/fab.yml](catalog/fab.yml) is the entire database
-- HTML files are **static templates** that read `catalog/fab.yml` client-side via `js-yaml`
-- No backend, no build process—direct HTML/CSS/JS served by GitHub Pages
-- Deployment: Push to `main` branch automatically deploys to `https://ckgerteis.github.io/showa-digital-asset-archive/`
+- Static GitHub Pages site, no build step. Bootstrap 5.3 and js-yaml from CDNs with SRI hashes.
+- `catalog/fab.yml` is the single source of truth, validated against `catalog/schema.json`.
+- `assets/catalog.js` renders both `catalog.html` and `ja/catalog.html` (it sets labels by `window.CATALOG_CONFIG.lang`). Change catalog behaviour there, once.
+- English pages at the root; Japanese mirrors in `ja/`. A navigation change must be made in all twelve pages (six English, six Japanese).
+- All catalog text is escaped in `assets/catalog.js` before it reaches the DOM; keep it that way.
 
-### Bilingual Structure
-- **English**: Root HTML files (`index.html`, `catalog.html`, etc.)
-- **Japanese**: Mirrored in `ja/` directory (`ja/index.html`, `ja/catalog.html`, etc.)
-- Both versions **read the same YAML file** (`catalog/fab.yml`) but render UI text differently
-- Use `hreflang` tags for SEO (see existing HTML `<head>` sections)
+## Workflow for a change to the catalog
 
-### Data Schema ([catalog/fab.yml](catalog/fab.yml))
-```yaml
-- id: skf-0001                      # Unique ID (prefix: skf=Sketchfab, fab=Fab, cgt=CGTrader, uas=Unity)
-  title: "Asset Name"
-  source: "sketchfab"               # One of: sketchfab, unreal_marketplace, cgtrader, unity_asset_store
-  source_url: "https://..."
-  creator: "Creator Name"
-  period_tags:                      # Must use exact values below (at least one required)
-    - "high_growth_1952_1973"       # Options: interwar_wartime_1926_1945, occupation_reconstruction_1945_1952, 
-                                    #          high_growth_1952_1973, bubble_era_1973_1989
-  object_tags: ["technology", "camera"]  # Freeform, but be consistent with existing tags
-  space_tags: ["home", "studio"]         # Optional. Common values: home, public, commercial, education
-                                         # Specific rooms: kitchen, living_room, bedroom, studio, bath, interior
-  historical_notes: "Why this asset matters historically"
-  image: "https://..."              # Optional thumbnail URL
-```
+1. Draft entries with `python scripts/scrape_sketchfab.py` (Sketchfab) or from the fetched listing page (other platforms).
+2. Run `python scripts/validate_catalog.py`. It must pass.
+3. Optionally run `python scripts/check_links.py`.
+4. Write a commit message that says what changed in the data (for example, "Add 3 Sketchfab listings (skf-0059 to skf-0061)"). Never commit with a placeholder message.
 
-## Key Workflows
+## Conventions
 
-### Adding New Assets (PRIMARY TASK)
-1. **Never edit HTML directly** for content changes
-2. Open [catalog/fab.yml](catalog/fab.yml) and append new entry using exact schema above
-3. Use [templates/new-entry.md](templates/new-entry.md) as a checklist for metadata collection
-4. **ID naming**: Increment from last entry with same prefix (e.g., `skf-0058` → `skf-0059`)
-5. **Period tags**: Must exactly match one of the four historical periods
-6. Test locally by opening `catalog.html` in browser (uses CORS-free local file:// protocol)
+- Romanisation: Modified Hepburn with macrons in running text (Shōwa, Omotesandō, 4-chōme). Tokyo, Kyoto, Osaka and Kobe take no macron. The repository slug stays `showa-digital-asset-archive`.
+- Citations on the site: Chicago 18 author–date.
+- British spelling of "licence" (noun) in prose; the UI word "Catalog" is kept as is.
+- Do not add model files, textures or binaries to the repository.
+- Do not add a backend, a database or a build tool.
 
-### Scraping Sketchfab Metadata
-Script: [scripts/scrape_sketchfab.py](scripts/scrape_sketchfab.py) - automated metadata collection from Sketchfab URLs
+## Testing locally
 
-**Usage:**
 ```bash
-# 1. Add Sketchfab URLs to the input file (one per line)
-echo "https://sketchfab.com/3d-models/..." >> catalog/sketchfab_urls.txt
-
-# 2. (Optional but recommended) Set API token for better data quality
-export SKETCHFAB_TOKEN="your_token_here"
-
-# 3. Run the scraper
-python3 scripts/scrape_sketchfab.py
-```
-
-**Output:**
-- `outputs/sketchfab_metadata.json` - Full API response with all fields
-- `outputs/sketchfab_metadata.csv` - Tabular format for spreadsheet review
-- Fields extracted: title, creator, license, download status, poly count, formats, thumbnails
-
-**Workflow:**
-1. Scraper hits Sketchfab API (if `SKETCHFAB_TOKEN` set) or falls back to HTML scraping
-2. Review output files to verify metadata quality
-3. Manually add curated entries to [catalog/fab.yml](catalog/fab.yml) with proper period/object tags
-4. `outputs/` directory is git-ignored (scratch space only)
-
-### Common Edits
-- **Styling changes**: Inline `<style>` blocks in each HTML file (no separate CSS file except [style.css](style.css) for shared rules)
-- **Navigation updates**: Must update in **all 10 HTML files** (5 English + 5 Japanese)
-- **Catalog filtering logic**: JavaScript at bottom of [catalog.html](catalog.html) and [ja/catalog.html](ja/catalog.html)
-
-## Conventions & Patterns
-
-### Bootstrap + Vanilla JS
-- Bootstrap 5.3 for layout (via CDN)
-- No jQuery, React, or build tools
-- Client-side YAML parsing via `js-yaml` CDN library
-- Catalog cards rendered dynamically with `renderGrid()` function
-
-### Image Loading Pattern
-```javascript
-// Lazy loading with blur-to-sharp transition
-<img class="img-loading" onload="this.classList.remove('img-loading'); this.classList.add('img-loaded')">
-```
-
-### Source-Specific UI Logic
-Each `source` value triggers different button styles and badges (see [catalog.html:150-180](catalog.html#L150-L180)):
-- `sketchfab` → Blue "View on Sketchfab" button
-- `unreal_marketplace` → Dark "View on Fab.com" button
-- `cgtrader` → Green "View on CGTrader" button
-- `unity_asset_store` → Gray "View on Unity Store" button
-
-### Historical Period Display Names
-Map YAML tags to UI labels (all four periods are valid, though "bubble_era_1973_1989" is rarely used currently):
-```javascript
-"interwar_wartime_1926_1945" → "Interwar (1926-45)"
-"occupation_reconstruction_1945_1952" → "Occupation (1945-52)"
-"high_growth_1952_1973" → "High Growth (1952-73)"
-"bubble_era_1973_1989" → "Bubble Era (1973-89)"
-```
-
-**Note**: Most assets in the current catalog use `high_growth_1952_1973` as this was the peak of Japanese industrial design innovation.
-
-## Critical Don'ts
-- ❌ Don't add binary files (3D models, textures) to repo
-- ❌ Don't create a database/backend—this is intentionally static
-- ❌ Don't use Node.js build tools or preprocessors
-- ❌ Don't edit English HTML without updating Japanese mirror
-- ❌ Don't create new period_tag values without coordinating with project lead
-
-## Testing Locally
-```bash
-# Serve locally (Python 3)
 python3 -m http.server 8000
-# Open http://localhost:8000/catalog.html
+# http://localhost:8000/catalog.html
 ```
 
-Or just open HTML files directly—no server needed for basic functionality.
+The catalog fetches the YAML over HTTP, so opening the file directly will not work.
