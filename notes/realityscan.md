@@ -1,4 +1,4 @@
-﻿# RealityScan
+# RealityScan
 
 We are using RealityScan to build our library of digital objects.
 

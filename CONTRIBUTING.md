@@ -1,4 +1,4 @@
-﻿# Contributing
+# Contributing
 
 This project is a link archive and metadata register.
 This is a curated database for historically accurate, practical 3D artefacts of Japanese history and culture for game building or heritage reconstruction.

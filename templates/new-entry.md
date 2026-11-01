@@ -1,4 +1,4 @@
-﻿## New asset entry template
+## New asset entry template
 
 ### Listing
 - URL:
