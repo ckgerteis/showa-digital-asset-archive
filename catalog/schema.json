@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://ckgerteis.github.io/showa-digital-asset-archive/catalog/schema.json",
+  "$id": "https://showa-digital-archive.org/catalog/schema.json",
   "title": "Shōwa Digital Asset Archive catalog entry (schema v2)",
   "type": "array",
   "items": {

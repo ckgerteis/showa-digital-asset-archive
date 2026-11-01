@@ -3,7 +3,7 @@
 **A curated index of externally hosted 3D models of material culture in Shōwa Japan (1926–1989), with provenance, licence and technical metadata for each listing.**
 昭和時代（1926–1989）の物質文化を表す3Dモデルの掲載ページを、出所・ライセンス・技術情報とともに整理したインデックス。
 
-Site: <https://ckgerteis.github.io/showa-digital-asset-archive/> · Directed by Dr Christopher Gerteis, SOAS University of London.
+Site: <https://showa-digital-archive.org/> · Directed by Dr Christopher Gerteis, SOAS University of London.
 
 The archive links to listings on Sketchfab, Fab, CGTrader and the Unity Asset Store. It never copies or redistributes model files.
 
