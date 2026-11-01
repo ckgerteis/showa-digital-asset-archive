@@ -3,3 +3,4 @@
 PRIVATE_NOTES.md
 audits/
 outputs/
+__pycache__/
