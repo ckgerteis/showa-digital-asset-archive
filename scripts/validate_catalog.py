@@ -35,7 +35,7 @@ def main():
     for e in data:
         if e.get("source") in prefix and not e.get("id", "").startswith(prefix[e["source"]] + "-"):
             errors.append(f"{e.get('id')}: id prefix does not match source {e.get('source')}")
-        if e.get("source") == "sketchfab" and not re.search(r"-[0-9a-f]{32}$", e.get("source_url", "")):
+        if e.get("source") == "sketchfab" and not re.search(r"[-/][0-9a-f]{32}$", e.get("source_url", "")):
             errors.append(f"{e.get('id')}: Sketchfab URL must end in a 32-character model UID")
         if "unassigned" in e.get("period_tags", []) and len(e["period_tags"]) > 1:
             errors.append(f"{e.get('id')}: 'unassigned' cannot be combined with other period tags")

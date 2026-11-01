@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-01: 112 new Sketchfab entries
+
+- `catalog/fab.yml` grows from 67 to 179 entries (skf-0059 to skf-0170), drawn from a search of Sketchfab and of the full model lists of 24 accounts. Each entry's listing dates the object to 1926–1989: the Osaka Museum of History's Time Capsule EXPO'70 objects, Edo-Tokyo Museum home-front objects, Tōbunken's scans of the Chiran and Aoto airfields, the Sakata clinic in Kumagaya (1931), traces of the Tokyo air raids, steam locomotives, culverts and rail remains, and postwar shopping arcades.
+- Title, creator, licence, thumbnail and polygon counts come from the Sketchfab API; each card shows the listing's own thumbnail. Historical notes state only what the listing says. `showa_fit` is `unassessed` throughout.
+- Review notes mark 19 entries for the director: nine pieces of military hardware admitted for a ruling (seven Ki-84 Hayate components, the Shiden-kai propeller, the destroyer Sawakaze turbine); three Iizuka listings whose descriptions state CC BY-NC while the platform's licence field differs; two pairs that look like second scans of one object (Asakusa arcade, the coal-mine horse Kannon); and single questions on the Hashima, Jinbōchō, box-pillow, Kenmeri and surrender-rescript listings.
+- `scripts/validate_catalog.py` now accepts Sketchfab URLs of the form `/3d-models/<uid>`, which Sketchfab uses for models with non-Latin titles.
+
 ## 2026-11-01: menu and citation
 
 - Acknowledgments (謝辞) added to the top menu of every page, after About the Creator. Menu links are set a little tighter at 1200 px and above so all items fit on one line.

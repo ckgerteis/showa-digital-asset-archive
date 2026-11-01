@@ -1551,3 +1551,2887 @@
     status: verified
     method: web-search
     checked: '2026-11-01'
+
+# Added 2026-11-01 from the candidate sweep (Tier A: the listing dates the object to 1926-1989).
+- id: skf-0059
+  title: Japanese Television Showa Retro CRT T-76C
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/japanese-television-showa-retro-crt-t-76c-f78ec31d6cfb4ec8bbbfa502807df316
+  creator: def-Lab
+  creator_url: https://sketchfab.com/d-def
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - technology
+  - media
+  - appliance
+  space_tags:
+  - home
+  historical_notes: The listing describes a Japanese-made CRT television launched around 1968 (Shōwa 43).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/f78ec31d6cfb4ec8bbbfa502807df316/thumbnails/bd45a0c0d2a64bd8b68fe64aa7d9ff7a/06ce58751fbf4cf5a2c0905cd1ea9834.jpeg
+  technical:
+    faces: 11810
+    vertices: 5924
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0060
+  title: TIME CAPSULE EXPO'70
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/time-capsule-expo70-50ac31aa616a43de8ec0cf7a3ad217de
+  creator: 大阪歴史博物館  Osaka Museum of History
+  creator_url: https://sketchfab.com/mushis3D
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - event
+  - technology
+  space_tags:
+  - public
+  historical_notes: Osaka Museum of History. The listing describes Time Capsule EXPO'70, made by the Mainichi Shimbun and Matsushita Electric for the 1970 Osaka Expo; casting began in 1969.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/50ac31aa616a43de8ec0cf7a3ad217de/thumbnails/15091534243b4db2800295ab7b656229/0f9f371e0baf437fbe8ce476cdbbaabc.jpeg
+  technical:
+    faces: 500000
+    vertices: 249994
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0061
+  title: 【 TIME CAPSULE EXPO'70】Mothercraft set　ままごとセット
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/time-capsule-expo70mothercraft-set-5dad27658da4437db175fab4878d01ad
+  creator: 大阪歴史博物館  Osaka Museum of History
+  creator_url: https://sketchfab.com/mushis3D
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - toy
+  - household
+  - kitchen
+  space_tags:
+  - home
+  historical_notes: A toy gas range from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/5dad27658da4437db175fab4878d01ad/thumbnails/300d419160734ce2b829ea9958d2682a/6153b8ec3cb44444af56be4e806941ea.jpeg
+  technical:
+    faces: 324717
+    vertices: 166335
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0062
+  title: 【TIME CAPSULE EXPO'70】Electric razor　電気かみそり
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/time-capsule-expo70electric-razor-d4211ec38d714af2adf9ca4550a8ab98
+  creator: 大阪歴史博物館  Osaka Museum of History
+  creator_url: https://sketchfab.com/mushis3D
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - appliance
+  - household
+  space_tags:
+  - home
+  historical_notes: A Matsushita Electric Works razor from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/d4211ec38d714af2adf9ca4550a8ab98/thumbnails/8029b05a3ba9499481199f14316f1fd5/2b48d8c891254b3d9d804c9f8d72a846.jpeg
+  technical:
+    faces: 13459
+    vertices: 7050
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0063
+  title: 【TIME CAPSULE EXPO'70】Ferroconcrete house　鉄筋住宅
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/time-capsule-expo70ferroconcrete-house-db3e3f5a8a9a43dab335d3245ed9d0c8
+  creator: 大阪歴史博物館  Osaka Museum of History
+  creator_url: https://sketchfab.com/mushis3D
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - architecture
+  - household
+  - model
+  space_tags:
+  - home
+  historical_notes: A 1:50 model of a 3DK public-corporation (kōdan) flat from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/db3e3f5a8a9a43dab335d3245ed9d0c8/thumbnails/213f47c21986491db057b9608f874d98/b30c36a7a02e4c03ab85c7825e05c962.jpeg
+  technical:
+    faces: 101366
+    vertices: 51110
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0064
+  title: 【TIME CAPSULE EXPO'70】Woman's beret　婦人用帽子
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/time-capsule-expo70womans-beret-25caa6bb756949c6926dccab0a648265
+  creator: 大阪歴史博物館  Osaka Museum of History
+  creator_url: https://sketchfab.com/mushis3D
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - clothing
+  space_tags:
+  - home
+  historical_notes: A woman's beret from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/25caa6bb756949c6926dccab0a648265/thumbnails/69338e117c6442598443d49293a75938/fcd96b7766134b23964225971da0c1e3.jpeg
+  technical:
+    faces: 100036
+    vertices: 50034
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0065
+  title: 【TIME CAPSULE】radio receiver　超小型ラジオ
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/time-capsuleradio-receiver-bc0e16947a7e42fbbbcbf600853799c8
+  creator: 大阪歴史博物館  Osaka Museum of History
+  creator_url: https://sketchfab.com/mushis3D
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - technology
+  - audio
+  space_tags:
+  - home
+  historical_notes: A micro-miniature radio receiver from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/bc0e16947a7e42fbbbcbf600853799c8/thumbnails/3283a0f596fd43b5b6b7a45378122753/9997ffde295343e9a301934bd76863f3.jpeg
+  technical:
+    faces: 1499498
+    vertices: 749806
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0066
+  title: Gunkanjima
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/gunkanjima-8b5f4004326144c9886233fcba8e10bd
+  creator: LZCreation
+  creator_url: https://sketchfab.com/jmch
+  licence: Sketchfab Standard (paid)
+  period_tags:
+  - high_growth_1952_1973
+  - late_showa_1973_1989
+  object_tags:
+  - architecture
+  - industrial
+  - urban
+  space_tags:
+  - public
+  historical_notes: Hashima (Gunkanjima), the coal-mining island off Nagasaki; the listing gives its peak population of 5,259 in 1959 and its closure in 1974.
+  showa_fit: unassessed
+  review_note: The archive's director researches Hashima; check the model against the Hashima XR Project record before assessing fit.
+  image: https://media.sketchfab.com/models/8b5f4004326144c9886233fcba8e10bd/thumbnails/dbb8c89d58a14ccf90f0ebcc2df6c70f/759f12eb68d649a681035619de9d799a.jpeg
+  technical:
+    faces: 990578
+    vertices: 647515
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0067
+  title: 比島山災害慰霊碑
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/c2fe8a4e23834c3297c0fd0957ddffab
+  creator: Tanikawa Wataru (タニカワ ワタル)
+  creator_url: https://sketchfab.com/tanikawa_wataru
+  licence: CC BY-NC 4.0
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - memorial
+  - environment
+  space_tags:
+  - public
+  historical_notes: A memorial to the Hijimayama landslide in Kōchi of 15 September 1972 (Shōwa 47).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/c2fe8a4e23834c3297c0fd0957ddffab/thumbnails/1f4f3928fd87440598ef16751d9b3323/021f2609aa154742bb33c3e742067155.jpeg
+  technical:
+    faces: 500000
+    vertices: 250645
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0068
+  title: 廃墟の女王「旧摩耶観光ホテル」
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/7bbed423934f42669ef922a739ff9fa2
+  creator: Nagasaki_3D_Project
+  creator_url: https://sketchfab.com/nagasaki_3d_museum
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - architecture
+  - leisure
+  space_tags:
+  - leisure
+  historical_notes: The former Maya Kankō Hotel on Mount Maya, Kobe, which the listing says ceased operating as a hotel in 1970.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/7bbed423934f42669ef922a739ff9fa2/thumbnails/52362290483f42679e07cb5ea3f47034/ca37bb32889b4212850dd514903a2183.jpeg
+  technical:
+    faces: 2091826
+    vertices: 1433613
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0069
+  title: 本江町の獅子頭(新) 昭和33年
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/33-f61603726030418ab74cf51dd6f9ae92
+  creator: 羽咋獅子舞ミュージアム
+  creator_url: https://sketchfab.com/Hakuishishimai
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - culture
+  - religion
+  space_tags:
+  - festival
+  historical_notes: A lion-dance head (shishigashira); the listing title dates it to Shōwa 33 (1958).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/f61603726030418ab74cf51dd6f9ae92/thumbnails/d1978422745b427681611635dc80b15c/0eda70f9bfc240c7ad930b39258053e2.jpeg
+  technical:
+    faces: 301226
+    vertices: 151165
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0070
+  title: Asakusa Underground Shopping Street / 浅草地下商店街
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/asakusa-underground-shopping-street-564735fdf3b44fb3928716ceb19602b9
+  creator: Taro Ohtani
+  creator_url: https://sketchfab.com/taroohtani
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - commercial
+  - urban
+  space_tags:
+  - commercial
+  historical_notes: The Asakusa underground shopping arcade, opened in 1955.
+  showa_fit: unassessed
+  review_note: Second scan of the same arcade as the alternaassets listing.
+  image: https://media.sketchfab.com/models/564735fdf3b44fb3928716ceb19602b9/thumbnails/52c88dad79e04d1ba191fde65abb721e/7259812e18384ec99e6b750501099e2a.jpeg
+  technical:
+    faces: 1736913
+    vertices: 911057
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0071
+  title: Eyes of Shinjuku, Japan
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/eyes-of-shinjuku-japan-51975a9c241e45e3a3e2d44cf68e56ff
+  creator: kazugoru
+  creator_url: https://sketchfab.com/kazugoru
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - sculpture
+  - urban
+  space_tags:
+  - public
+  historical_notes: An acrylic eye by Miyashita Yoshiko at Shinjuku station, in the basement of the Shinjuku Subaru Building; the listing dates it to 1969.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/51975a9c241e45e3a3e2d44cf68e56ff/thumbnails/250ecb417ffe4f91a045b6acfb0b9cc1/7b297c1f13334c118a638a545e2a7391.jpeg
+  technical:
+    faces: 147220
+    vertices: 83065
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0072
+  title: Jimbocho Station 神保町駅
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/jimbocho-station-811ed6d3c9b846c69f9edb8b0d00ab08
+  creator: ProQuLA
+  creator_url: https://sketchfab.com/alternaassets
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - transport
+  - urban
+  space_tags:
+  - public
+  historical_notes: Jinbōchō Station, Tokyo; the listing gives 1969 as the opening year.
+  showa_fit: unassessed
+  review_note: Check the opening year the listing gives.
+  image: https://media.sketchfab.com/models/811ed6d3c9b846c69f9edb8b0d00ab08/thumbnails/b91e1d2d8f63437aadac43d2ce30f0e8/7726c021112a4977a6d88a396f5a900e.jpeg
+  technical:
+    faces: 240867
+    vertices: 127588
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0073
+  title: 末広町地下通路
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/26ed39e445224648831b11c24f54292b
+  creator: ProQuLA
+  creator_url: https://sketchfab.com/alternaassets
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - urban
+  - transport
+  space_tags:
+  - public
+  historical_notes: The Suehirochō underground passage in Chiyoda, which the listing dates to the 1960s.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/26ed39e445224648831b11c24f54292b/thumbnails/15440288458d4573bf2ee0c2c4382bc1/f144092c0c6445dfa0de954732f747d9.jpeg
+  technical:
+    faces: 272720
+    vertices: 144510
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0074
+  title: 浅草地下街 - Asakusa Underground Shopping Street
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/asakusa-underground-shopping-street-f3dcb436648d486ba28d4978bed1cf0c
+  creator: ProQuLA
+  creator_url: https://sketchfab.com/alternaassets
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - commercial
+  - urban
+  space_tags:
+  - commercial
+  historical_notes: The Asakusa underground shopping arcade, which the listing calls Japan's oldest surviving underground shopping street, opened in 1955.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/f3dcb436648d486ba28d4978bed1cf0c/thumbnails/16b6bae649ed4d5e8d6fe88ff7613b54/44c9b21f6bda49609e3c2291fc21c224.jpeg
+  technical:
+    faces: 2434268
+    vertices: 1321652
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0075
+  title: Electric locomotive ED91 / 国鉄ED91交流電気機関車
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/electric-locomotive-ed91-ed91-206dabc80a2b4cf5a2b53265abbc0a66
+  creator: masanaga
+  creator_url: https://sketchfab.com/tasklong
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - transport
+  - vehicle
+  space_tags:
+  - public
+  historical_notes: JNR ED91, an electric locomotive built in 1956 for trials of AC electrification.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/206dabc80a2b4cf5a2b53265abbc0a66/thumbnails/c92f5bf94c5947c998f184cb8c8c0d5f/97a48be730c645499e8bdeeccd19e3f5.jpeg
+  technical:
+    faces: 641757
+    vertices: 538199
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0076
+  title: Nissan Skyline GT-R C110 Kenmeri '73
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/nissan-skyline-gt-r-c110-kenmeri-73-1a950b81ee274a0eb8014bd84ba047f5
+  creator: Martin Trafas
+  creator_url: https://sketchfab.com/TinoD2
+  licence: CC BY 4.0
+  period_tags:
+  - high_growth_1952_1973
+  - late_showa_1973_1989
+  object_tags:
+  - transport
+  - vehicle
+  space_tags:
+  - street
+  historical_notes: A Nissan Skyline GT-R of the C110 (Kenmeri) generation, built 1972–1977.
+  showa_fit: unassessed
+  review_note: Reconstruction by an enthusiast, not a scan of a surviving car.
+  image: https://media.sketchfab.com/models/1a950b81ee274a0eb8014bd84ba047f5/thumbnails/d800e8d7606e4c13820b5eb63167579c/dc5bede2084a40f3a1bbd53c356d18cf.jpeg
+  technical:
+    faces: 290990
+    vertices: 154189
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0077
+  title: YS-11型旅客機試作1号機（航空科学博物館）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/ys-111-30f38d0d479c4368896de7cd70bfbb53
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: CC BY 4.0
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - transport
+  - aircraft
+  space_tags:
+  - public
+  historical_notes: Museum of Aeronautical Sciences. The first prototype of the YS-11, Japan's first postwar domestic airliner, which first flew on 30 August 1962.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/30f38d0d479c4368896de7cd70bfbb53/thumbnails/41440f2a9d08411fa6b024dfdd3df6b5/cb30af318e234936972e52f0f6054a93.jpeg
+  technical:
+    faces: 2000072
+    vertices: 999855
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0078
+  title: 【3Dバーチャル見学ツアー】丸山ダム-ゲート開閉装置（巻上機）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/3d-fac6ad2521a64095996a25697ef4c2ba
+  creator: monicadesign
+  creator_url: https://sketchfab.com/monicadesign
+  licence: View only (not downloadable)
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - industrial
+  - infrastructure
+  space_tags:
+  - industrial
+  historical_notes: The gate hoist of the Maruyama Dam, Gifu, made by Hitachi Zōsen in March Shōwa 29 (1954).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/fac6ad2521a64095996a25697ef4c2ba/thumbnails/65ddea4770a94a1a84e110b2176e1c32/d3f4628991744f7bb3bf5fddc87faa46.jpeg
+  technical:
+    faces: 3000000
+    vertices: 1504409
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0079
+  title: オート三輪「くろがね」　tricycle "Kurogane"
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/tricycle-kurogane-2be78a8183cc43849f937b71f1a97227
+  creator: 松戸市立博物館【公式】Matsudo Museum
+  creator_url: https://sketchfab.com/Matsudo_Museum
+  licence: CC BY-SA 4.0
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - transport
+  - vehicle
+  space_tags:
+  - street
+  historical_notes: Matsudo Museum. A Kurogane three-wheeled truck, type KE4, built in 1957 by Nihon Nainenki.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/2be78a8183cc43849f937b71f1a97227/thumbnails/71ac7d6144084071bb4a3f94d88777cd/ad2e41350beb43b1a29572bd45b0afa8.jpeg
+  technical:
+    faces: 157315
+    vertices: 79197
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0080
+  title: 初台橋跡 暗渠 Culvert
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/culvert-0bdecf4c3f5642e5b391485c25d57a47
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - infrastructure
+  - urban
+  space_tags:
+  - street
+  historical_notes: The remains of Hatsudai bridge over a buried stream in Shibuya, built in September Shōwa 34 (1959).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/0bdecf4c3f5642e5b391485c25d57a47/thumbnails/fe0b6a27f541408f8b95d405d2f51f4b/a4e715c40e1b45ad8ebb93223e919a5b.jpeg
+  technical:
+    faces: 149990
+    vertices: 74992
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0081
+  title: 東京都文京区 白鳥橋 路面電車の遺構(a small part)
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/a-small-part-76970889d1f34867aa1e37ae135d8fde
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - high_growth_1952_1973
+  object_tags:
+  - transport
+  - infrastructure
+  - urban
+  space_tags:
+  - street
+  historical_notes: Tram track remains found under Shiratori bridge, Bunkyō, which the listing dates to around the 1970s.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/76970889d1f34867aa1e37ae135d8fde/thumbnails/72f41646d3fe44b598e97754d2761385/f80405b58a1b49cab14373d517bea77b.jpeg
+  technical:
+    faces: 400072
+    vertices: 200038
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0082
+  title: Konishiroku(Konica) Camera
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/konishirokukonica-camera-dedb1824608f420c9803ef8df51a3713
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - technology
+  - camera
+  space_tags:
+  - home
+  historical_notes: The listing identifies a Konishiroku Baby Pearl camera, made 1934–1950.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/dedb1824608f420c9803ef8df51a3713/thumbnails/d1cec67dfdaa4067915fceff4b2e254e/9fb42b4025ae4ca9aa5a9e646ce1d413.jpeg
+  technical:
+    faces: 56688
+    vertices: 28332
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0083
+  title: 泥めんこ ClayMenko001
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/claymenko001-aa154b6676a043d194a3d0f2af32eff8
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - toy
+  - culture
+  space_tags:
+  - home
+  historical_notes: The listing dates this clay menko, modelled on Daikokuten, from the Taishō to the early Shōwa period.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/aa154b6676a043d194a3d0f2af32eff8/thumbnails/d34b2aa922b64c7b8abfcf3349397c60/f1d116195ad549fa8ad26f0c5d8df41d.jpeg
+  technical:
+    faces: 499830
+    vertices: 249917
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0084
+  title: 電気ストーブ / Electric Heater
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/electric-heater-3826e880159a410cae0d5ad7229773f9
+  creator: ToMuCo｜Tokyo Museum Collection
+  creator_url: https://sketchfab.com/tiffhac
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - appliance
+  - household
+  space_tags:
+  - home
+  historical_notes: Edo-Tokyo Museum collection; the listing dates it to early Shōwa (昭和前期).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/3826e880159a410cae0d5ad7229773f9/thumbnails/fdae45295d134f40836dd3db553c147a/f1743f85f83b4a1fa986391bf2e36e81.jpeg
+  technical:
+    faces: 303822
+    vertices: 153262
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0085
+  title: 電気掃除機 / Vacuum Cleaner
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/vacuum-cleaner-205eb840243d45079ae8bb312a5deed3
+  creator: ToMuCo｜Tokyo Museum Collection
+  creator_url: https://sketchfab.com/tiffhac
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - appliance
+  - household
+  space_tags:
+  - home
+  historical_notes: Edo-Tokyo Museum collection; the listing dates it to early Shōwa (昭和初期).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/205eb840243d45079ae8bb312a5deed3/thumbnails/63f25842e6c94187a562119783051448/bd3328da307a463e91e913abdc97ca73.jpeg
+  technical:
+    faces: 79565
+    vertices: 40846
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0086
+  title: Sougo-Mujin Company Building/旧相互無尽会社ビル
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/sougo-mujin-company-building-5394dc583fac4bd69a760b6d35236342
+  creator: masanaga
+  creator_url: https://sketchfab.com/tasklong
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - commercial
+  space_tags:
+  - commercial
+  historical_notes: The listing dates this Jinbōchō building to 1930, built to mark Tokyo's reconstruction after the 1923 earthquake.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/5394dc583fac4bd69a760b6d35236342/thumbnails/dbcd4251c819485bbad098d9b6a841af/4dbd880168824e949403d4e998f64b23.jpeg
+  technical:
+    faces: 236244
+    vertices: 169211
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0087
+  title: 前川國男邸 / House of Kunio Mayekawa
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/house-of-kunio-mayekawa-5b1ee506fa6548938e5ac80b1f3507cf
+  creator: ToMuCo｜Tokyo Museum Collection
+  creator_url: https://sketchfab.com/tiffhac
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - household
+  space_tags:
+  - home
+  historical_notes: The architect Maekawa Kunio's own house in Kami-Ōsaki, Shinagawa, built in 1942 (Shōwa 17) when building materials were scarce under the wartime regime.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/5b1ee506fa6548938e5ac80b1f3507cf/thumbnails/ffd5833944fa4be897ec28db5dc60cb8/177daa47c47847edb54a3d6bf48325dd.jpeg
+  technical:
+    faces: 415519
+    vertices: 181402
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0088
+  title: 東京 神田岩本町 北原ビル / Kitahara Building
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/kitahara-building-7acb353f3fe749c3be5aebd1fde123c1
+  creator: masanaga
+  creator_url: https://sketchfab.com/tasklong
+  licence: CC BY-NC-ND 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - commercial
+  - urban
+  space_tags:
+  - commercial
+  historical_notes: The listing dates the Kitahara Building in Kanda Iwamotochō to 1927; it survived the air raids and was demolished in 2019.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/7acb353f3fe749c3be5aebd1fde123c1/thumbnails/4ecef643c0bc44f0a5a9f03e475d8457/e54f0479368348efb861ef2c2dcb00e8.jpeg
+  technical:
+    faces: 97271
+    vertices: 50871
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0089
+  title: 東京都庭園美術館/The Tokyo Metropolitan Teien Art Museum
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/the-tokyo-metropolitan-teien-art-museum-fbb7dfaf509c496f918d9864fa0bff8c
+  creator: ToMuCo｜Tokyo Museum Collection
+  creator_url: https://sketchfab.com/tiffhac
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - interior
+  space_tags:
+  - home
+  historical_notes: The main building of the Tokyo Metropolitan Teien Art Museum, built in 1933 (Shōwa 8) as the residence of Prince Asaka.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/fbb7dfaf509c496f918d9864fa0bff8c/thumbnails/abcb6cd0789244f9a013f47b2ec9a799/bb34121e80614b49bda05ed5c134f97d.jpeg
+  technical:
+    faces: 206039
+    vertices: 104587
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0090
+  title: 箱枕（Japanese pillow）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/japanese-pillow-208761ea9f9c44bc858892fcf5881130
+  creator: 大手前大学史学研究所 OTEMAE UNIVERSITY Institute of History
+  creator_url: https://sketchfab.com/shigaku
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - household
+  - bedding
+  space_tags:
+  - home
+  historical_notes: A box pillow used by women with traditional hairstyles; the listing says such pillows were in use until about the 1930s.
+  showa_fit: unassessed
+  review_note: The listing dates this pillow's manufacture to the Taishō period (大正時代か).
+  image: https://media.sketchfab.com/models/208761ea9f9c44bc858892fcf5881130/thumbnails/095f79d9ed7d4340801feabae87ea18b/8fe2974139ed489ca1105e14984abe68.jpeg
+  technical:
+    faces: 708921
+    vertices: 355839
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0091
+  title: 神奈川県大和市 馬頭観音 山林
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/3f7937d297de406c8d078b71a38e9efb
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - religion
+  - memorial
+  space_tags:
+  - religion
+  historical_notes: A roadside horse-headed Kannon dated November Shōwa 3 (1928).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/3f7937d297de406c8d078b71a38e9efb/thumbnails/e2e5b53779fd4ae19c5cd173ae07485e/bf718ae678be4047a612e6fb7b398b07.jpeg
+  technical:
+    faces: 349910
+    vertices: 174928
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0092
+  title: 馬頭観音
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/4a0acd45aeb448f3b2e12173693cefdb
+  creator: technobrain
+  creator_url: https://sketchfab.com/technobrain
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - religion
+  - industrial
+  - memorial
+  space_tags:
+  - religion
+  historical_notes: A horse-headed Kannon said to have been raised in 1936 (Shōwa 11) for the horses that worked a coal mine.
+  showa_fit: unassessed
+  review_note: The description matches the iizukabunka listing of the same name; probably a second scan of one monument.
+  image: https://media.sketchfab.com/models/4a0acd45aeb448f3b2e12173693cefdb/thumbnails/4a59b10b99cb49e0b7a5db939a666039/e02f898ac7e44c06b0827cdcaf572d7c.jpeg
+  technical:
+    faces: 96686
+    vertices: 48345
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0093
+  title: 馬頭観音（飯塚市指定文化財）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/edfee0cb686f4508a1b0d2a19e8a29a6
+  creator: 飯塚市教育委員会文化課文化財保護推進室
+  creator_url: https://sketchfab.com/iizukabunka
+  licence: CC BY-NC 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - religion
+  - industrial
+  - memorial
+  space_tags:
+  - religion
+  historical_notes: A horse-headed Kannon said to have been raised in 1936 (Shōwa 11) for the horses that worked a coal mine; Iizuka city designated cultural property.
+  showa_fit: unassessed
+  review_note: The listing's description states CC BY-NC; the platform's licence field differs. Confirm which applies.
+  image: https://media.sketchfab.com/models/edfee0cb686f4508a1b0d2a19e8a29a6/thumbnails/d2fe4d232e9945fab12814bb82b5cb4d/2206e0fa9fb44c33b703b190a16099a0.jpeg
+  technical:
+    faces: 96686
+    vertices: 48345
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0094
+  title: Former Ogoe Entertainment Facility(japan)1926
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/former-ogoe-entertainment-facilityjapan1926-7c620f1f560d49b7822c43537100cfd7
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - culture
+  space_tags:
+  - public
+  historical_notes: The former Ōgoe recreation hall in Tamura, Fukushima, built in 1926; a registered tangible cultural property.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/7c620f1f560d49b7822c43537100cfd7/thumbnails/a5e3dc48dd624ff8be74ff1afeca2c6f/f0fe8eadf3724cde93e1cb5f9979682f.jpeg
+  technical:
+    faces: 293658
+    vertices: 212550
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0095
+  title: Iwase Farm Archives Center(Ex-Office)
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/iwase-farm-archives-centerex-office-5ac66ecc2be845cbb14f7e8ac10f4bf9
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - office
+  space_tags:
+  - office
+  historical_notes: The former office of the Iwase Farm, Fukushima, built in 1933.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/5ac66ecc2be845cbb14f7e8ac10f4bf9/thumbnails/0b84ca681af5487ba77281dc2774f749/3a9fec7d41cd4bf2a08bc951fbff7125.jpeg
+  technical:
+    faces: 320297
+    vertices: 210675
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0096
+  title: トラの被り物（嘉穂劇場資料）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/66e4714c7ea7424e9afb71cceb7be7d9
+  creator: 飯塚市教育委員会文化課文化財保護推進室
+  creator_url: https://sketchfab.com/iizukabunka
+  licence: CC BY-NC 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - culture
+  - theatre
+  space_tags:
+  - theatre
+  historical_notes: A tiger costume head from the Kaho Gekijō theatre in Iizuka, believed to date from early Shōwa.
+  showa_fit: unassessed
+  review_note: The listing's description states CC BY-NC; the platform's licence field differs. Confirm which applies.
+  image: https://media.sketchfab.com/models/66e4714c7ea7424e9afb71cceb7be7d9/thumbnails/cc3731a7a59e43f3ab56b64c64d68443/307ffdf5d62f40558e59d38667db6f75.jpeg
+  technical:
+    faces: 45139
+    vertices: 22821
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0097
+  title: 民具資料　米せん機(べいせんき)
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/313d1e8412724c8481d51db071004ad4
+  creator: 羽咋市歴史民俗資料館　hakui_city_museum
+  creator_url: https://sketchfab.com/hakuicitymuseum
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - tool
+  - agriculture
+  space_tags:
+  - farm
+  historical_notes: Hakui City Museum. A rice-grading sieve (sengoku-dōshi) inscribed with a production date of August Shōwa 6 (1931).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/313d1e8412724c8481d51db071004ad4/thumbnails/a90394ea34054d3f86900797dd497a25/06e6c7ce3b9148868256a6c796d45b70.jpeg
+  technical:
+    faces: 500000
+    vertices: 251763
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0098
+  title: 犬の被り物（嘉穂劇場資料）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/bf46e9bd251741f9b11870af907a63df
+  creator: 飯塚市教育委員会文化課文化財保護推進室
+  creator_url: https://sketchfab.com/iizukabunka
+  licence: CC BY-NC 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - culture
+  - theatre
+  space_tags:
+  - theatre
+  historical_notes: A dog costume head from the Kaho Gekijō theatre in Iizuka, believed to date from early Shōwa.
+  showa_fit: unassessed
+  review_note: The listing's description states CC BY-NC; the platform's licence field differs. Confirm which applies.
+  image: https://media.sketchfab.com/models/bf46e9bd251741f9b11870af907a63df/thumbnails/42d213a3e1fe461e88195c7edaa02c50/e3760eab00d647eeb6703ae50d53eb76.jpeg
+  technical:
+    faces: 64941
+    vertices: 32588
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0099
+  title: 軒瓦（校章入り）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/6e002e2a9c264c3d821d74760797c450
+  creator: 大妻女子大学博物館　Otsuma Women's University Museum
+  creator_url: https://sketchfab.com/otsuma_museum
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  - occupation_reconstruction_1945_1952
+  - high_growth_1952_1973
+  - late_showa_1973_1989
+  object_tags:
+  - architecture
+  - education
+  space_tags:
+  - school
+  historical_notes: Otsuma Women's University Museum. An eaves tile with the school crest, from the ferroconcrete school building in use from 1936 (Shōwa 11) to 1986 (Shōwa 61).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/6e002e2a9c264c3d821d74760797c450/thumbnails/32b50d7310374a8e9b77f8d1103f2424/4aab4ee77e4c494ead6f6c0bb983f842.jpeg
+  technical:
+    faces: 49942
+    vertices: 24975
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0100
+  title: 坂田医院旧診療所分娩室
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/72c286f6a0db46408bf332afeac60f6a
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - interior
+  - medical
+  space_tags:
+  - clinic
+  historical_notes: The delivery room of the former Sakata clinic in Menuma, Kumagaya, built in 1931 (Shōwa 6) as a maternity clinic; a registered tangible cultural property.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/72c286f6a0db46408bf332afeac60f6a/thumbnails/e1736f4c1fff459f88a6a2a37b481cbe/b8e49075ee0e47d9b21f2bf80593c318.jpeg
+  technical:
+    faces: 201520
+    vertices: 107616
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0101
+  title: 坂田医院旧診療所受付調剤室
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/7d31f2c823fe46dda4238cbc1659013c
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - interior
+  - medical
+  space_tags:
+  - clinic
+  historical_notes: The reception and dispensary of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/7d31f2c823fe46dda4238cbc1659013c/thumbnails/b438ab6fa9604cabbfdad42b685098cf/bad9d5ac866f40d195a82016616ba098.jpeg
+  technical:
+    faces: 172713
+    vertices: 97162
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0102
+  title: 坂田医院旧診療所待合室
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/c9bf5b04c610484c8aa8d9db45b93a10
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - interior
+  - medical
+  space_tags:
+  - clinic
+  historical_notes: The waiting room of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/c9bf5b04c610484c8aa8d9db45b93a10/thumbnails/aae233ec36344f94bfaa3bd7889b0c2c/6ed675f8106349fb94f5be1f018ab3bc.jpeg
+  technical:
+    faces: 100663
+    vertices: 56488
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0103
+  title: 坂田医院旧診療所応接室
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/b47a0713cb3c4ea0908d49e751efb09c
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - interior
+  - medical
+  space_tags:
+  - clinic
+  historical_notes: The reception room of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/b47a0713cb3c4ea0908d49e751efb09c/thumbnails/5df34438f4214191b5cbe04ca75b04de/ab78523eeceb448b9f57b0eb42eac31b.jpeg
+  technical:
+    faces: 138347
+    vertices: 71740
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0104
+  title: 坂田医院旧診療所給湯室
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/f729804780e141008d1f7c65eb5c8044
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - interior
+  - medical
+  space_tags:
+  - clinic
+  historical_notes: The hot-water room of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/f729804780e141008d1f7c65eb5c8044/thumbnails/c74438928be147eb8ba0f601055119d4/819b1dc07f5f4053bca08ecefdf37a2b.jpeg
+  technical:
+    faces: 103734
+    vertices: 55224
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0105
+  title: 坂田医院旧診療所診察室
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/fffcfb3b07fe440891724e4a1478395b
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - architecture
+  - interior
+  - medical
+  space_tags:
+  - clinic
+  historical_notes: The consulting room of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/fffcfb3b07fe440891724e4a1478395b/thumbnails/d9dee11dd25848f28fc198fe461db42a/2f25892e78d747709e37ec24813dbce8.jpeg
+  technical:
+    faces: 172980
+    vertices: 93511
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0106
+  title: 熊谷市妻沼坂田医院旧診療所
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/e905902bf1624baba2e23b23d659484d
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  - occupation_reconstruction_1945_1952
+  - high_growth_1952_1973
+  - late_showa_1973_1989
+  object_tags:
+  - architecture
+  - medical
+  space_tags:
+  - clinic
+  historical_notes: The former Sakata clinic in Menuma, Kumagaya, built in 1931 (Shōwa 6) as a maternity clinic and used until the late 1970s.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/e905902bf1624baba2e23b23d659484d/thumbnails/3ed0ea6c23da4108978e35e31d183b76/027e9d2df02449ffafb96ac1ca9174eb.jpeg
+  technical:
+    faces: 362864
+    vertices: 195192
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0107
+  title: Old Museum Zoo Station：旧博物館動物園駅
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/old-museum-zoo-station-9a09bdf9c67c49c0944b1799f0d60f9e
+  creator: kazugoru
+  creator_url: https://sketchfab.com/kazugoru
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - transport
+  - architecture
+  space_tags:
+  - public
+  historical_notes: The former Hakubutsukan-Dōbutsuen station of the Keisei line in Ueno Park, opened in 1933 (Shōwa 8).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/9a09bdf9c67c49c0944b1799f0d60f9e/thumbnails/4da14365a57a42f386f99d1756c75fb7/9d1852233ed041fc9b47aaeb641d760c.jpeg
+  technical:
+    faces: 1144513
+    vertices: 573194
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0108
+  title: Futatsugoya Tunnel “Abandoned road” japan
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/futatsugoya-tunnel-abandoned-road-japan-4749ba1722774d3eb101199d51bd39b8
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  - high_growth_1952_1973
+  object_tags:
+  - transport
+  - infrastructure
+  space_tags:
+  - public
+  historical_notes: The Futatsugoya tunnel on the Bansei road, Fukushima, widened for motor traffic in 1934 (Shōwa 9) and bypassed in 1966.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/4749ba1722774d3eb101199d51bd39b8/thumbnails/2495ca0130e145a78e3b967bf30d1ad7/decb7e6e2c4e4e15ac3ee3a4eb100f58.jpeg
+  technical:
+    faces: 392594
+    vertices: 331277
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0109
+  title: Steam Locomotive D51 国鉄D51形蒸気機関車718号@一宮市 大平島公園
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/steam-locomotive-d51-d51718-a705dcf5443d4c9f9607101b8c7cf332
+  creator: monicadesign
+  creator_url: https://sketchfab.com/monicadesign
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  - high_growth_1952_1973
+  - late_showa_1973_1989
+  object_tags:
+  - transport
+  - vehicle
+  space_tags:
+  - public
+  historical_notes: JNR D51 no. 718, preserved in Ichinomiya; built by Hitachi at Kasado on 11 July 1943 (Shōwa 18) and withdrawn on 25 April 1974.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/a705dcf5443d4c9f9607101b8c7cf332/thumbnails/e52a27355b5449d6a9d21d76cb297d96/30a3ac8df696419389d722073f616d7b.jpeg
+  technical:
+    faces: 10788457
+    vertices: 5404863
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0110
+  title: 東京都新宿区西新宿5丁目 柳橋跡 culvert
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/5-culvert-6e8af7fc9f6a4b06b2563d4294c423dd
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - infrastructure
+  - urban
+  space_tags:
+  - street
+  historical_notes: The culvert of Yanagibashi over a tributary of the Kanda River, completed in 1932 (Shōwa 7).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/6e8af7fc9f6a4b06b2563d4294c423dd/thumbnails/0614d86b6ae14779ab17584f1cd21ead/039aacf350b54bbf951f6288dd09ec33.jpeg
+  technical:
+    faces: 200419
+    vertices: 100216
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0111
+  title: 東武鉄道千住貨物線跡 遺構
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/a456c4dd71ab430eaff9597f85809060
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  - occupation_reconstruction_1945_1952
+  - high_growth_1952_1973
+  - late_showa_1973_1989
+  object_tags:
+  - transport
+  - infrastructure
+  - industrial
+  space_tags:
+  - industrial
+  historical_notes: Remains of the Tōbu Senju freight line, opened in 1935, which from 1944 carried fertiliser by way of the Sumida River.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/a456c4dd71ab430eaff9597f85809060/thumbnails/6103b3faf44c45aa973e2b5b26605387/0abed8e9bbf748ce8f8a797f181b87f5.jpeg
+  technical:
+    faces: 1000414
+    vertices: 500266
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0112
+  title: 熊谷市川原明戸江南サイフォン吞口
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/61ffaaaf3d8d43e58adb0fa6533ce4f2
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - infrastructure
+  - agriculture
+  space_tags:
+  - farm
+  historical_notes: The intake of the Kōnan siphon, Kumagaya, built in reinforced concrete in 1936 (Shōwa 11).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/61ffaaaf3d8d43e58adb0fa6533ce4f2/thumbnails/2e9ec5c52bed4075890a444ffb20c95e/1543331d128f4853aa4b49af8049cc9c.jpeg
+  technical:
+    faces: 359233
+    vertices: 179843
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0113
+  title: 熊谷市楊井鑿井竣功碑
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/a13b0ad61c1041bfbcdf959573e41504
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - memorial
+  - infrastructure
+  space_tags:
+  - public
+  historical_notes: A monument in Kumagaya raised in 1934 (Shōwa 9) to mark the wells dug in the drought of 1933.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/a13b0ad61c1041bfbcdf959573e41504/thumbnails/029b34a3f1c9484ea4e4abd51a58fb71/2ef85e18c7bb43e6a10f005157bfa22e.jpeg
+  technical:
+    faces: 151139
+    vertices: 76302
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0114
+  title: 神奈川県横浜市 入江橋 親柱
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/ea553996939c4f6293f58e50b7fac591
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - infrastructure
+  - urban
+  space_tags:
+  - street
+  historical_notes: A gate post of Iriebashi bridge, Yokohama, built by the Reconstruction Bureau in May Shōwa 2 (1927).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/ea553996939c4f6293f58e50b7fac591/thumbnails/37a11e12e1a84886b884e6e86cfa2c91/5db7bc7c46a94d85b2bf1057f211a37e.jpeg
+  technical:
+    faces: 1000058
+    vertices: 500041
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0115
+  title: Steam Locomotive C58_114(japan)
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/steam-locomotive-c58-114japan-1a423ea9cce745baa29c08df2fad8be7
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  - high_growth_1952_1973
+  - late_showa_1973_1989
+  object_tags:
+  - transport
+  - vehicle
+  space_tags:
+  - public
+  historical_notes: JNR C58 no. 114, built in Osaka in February 1939; preserved in Ōsaki, Miyagi, and listed for scrapping.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/1a423ea9cce745baa29c08df2fad8be7/thumbnails/c240a51c3133413a8d4ffa7fe0c04f59/40b3a3a7b89f45c5b03835b22ab669b6.jpeg
+  technical:
+    faces: 692380
+    vertices: 468959
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0116
+  title: Steam Locomotive C58_19(japan)
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/steam-locomotive-c58-19japan-f989e188a88d400c81f9118c19303095
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  - high_growth_1952_1973
+  - late_showa_1973_1989
+  object_tags:
+  - transport
+  - vehicle
+  space_tags:
+  - public
+  historical_notes: JNR C58 no. 19, built in Hyōgo on 29 September 1938; preserved in Ōsaki, Miyagi, and listed for scrapping.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/f989e188a88d400c81f9118c19303095/thumbnails/5ed81d43e20946edb4f2d28e24c9f970/fa986f86d4a245d8a30e2ab0ed535111.jpeg
+  technical:
+    faces: 698946
+    vertices: 507273
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0117
+  title: Steam Locomotive C58_356(japan)
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/steam-locomotive-c58-356japan-05406f8ccedf475ebf1aa4118fa6e806
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - transport
+  - vehicle
+  space_tags:
+  - public
+  historical_notes: JNR C58 no. 356, built in 1944; preserved at Nakayamadaira Onsen station, Miyagi, and listed for scrapping.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/05406f8ccedf475ebf1aa4118fa6e806/thumbnails/3606f6bbda79480eb88d4a41e5f9470f/461d236b6def4c96a090942568e940b8.jpeg
+  technical:
+    faces: 797965
+    vertices: 656399
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0118
+  title: Steam Locomotive Type:D51(japan)
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/steam-locomotive-typed51japan-1f09333b44c646e0a557b25a49d88d36
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  - high_growth_1952_1973
+  object_tags:
+  - transport
+  - vehicle
+  space_tags:
+  - public
+  historical_notes: A JNR D51 freight locomotive built at Kōriyama in 1940, preserved in Kaiseizan park.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/1f09333b44c646e0a557b25a49d88d36/thumbnails/9a9b829198554ddfb3ee8b786d7099d9/1a9685ae77934253b98769a7dd7be420.jpeg
+  technical:
+    faces: 567434
+    vertices: 447504
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0119
+  title: War heritage_Japanese destroyer Sawakaze turbine
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/war-heritage-japanese-destroyer-sawakaze-turbine-85294a37736f4bf6924721d582b849b2
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: CC BY-NC 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - military
+  - industrial
+  space_tags:
+  - public
+  historical_notes: A turbine of the destroyer Sawakaze, beached at Onahama port, Iwaki, in April 1948.
+  showa_fit: unassessed
+  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  image: https://media.sketchfab.com/models/85294a37736f4bf6924721d582b849b2/thumbnails/9c23fe471b614be09bfc7988ba743162/12dc38d37aba47f1baa952f63c82d2ee.jpeg
+  technical:
+    faces: 205855
+    vertices: 102794
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0120
+  title: 山王神社一本足鳥居
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/a610ee5598ee49e695fa8746b399e096
+  creator: Nagasaki_3D_Project
+  creator_url: https://sketchfab.com/nagasaki_3d_museum
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - religion
+  - war
+  - architecture
+  space_tags:
+  - religion
+  historical_notes: The one-legged torii of Sannō shrine, Nagasaki; the listing says the other gates fell in the atomic bombing of 9 August 1945.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/a610ee5598ee49e695fa8746b399e096/thumbnails/14194110380c40f3bd79cff9e81b9f86/640x360.jpeg
+  technical:
+    faces: 1503836
+    vertices: 755087
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0121
+  title: 戦災遺構「旧江戸川区役所文書庫」
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/3fdac2a03da3496c880e4152b6a51626
+  creator: YOMIURI_SHIMBUN
+  creator_url: https://sketchfab.com/YOMIURI_SHIMBUN
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - architecture
+  space_tags:
+  - office
+  historical_notes: The former Edogawa ward office document store, burnt out inside in the Tokyo air raid of 10 March 1945.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/3fdac2a03da3496c880e4152b6a51626/thumbnails/3c2489a0a0ac4d0b9c968a40a755fd49/670fb96bc6b14a2fa3d7db132826a7d4.jpeg
+  technical:
+    faces: 499999
+    vertices: 272698
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0122
+  title: 旧陸軍知覧飛行場　弾薬庫（国登録有形文化財）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/209c043e96bc468ba348bfe256a1ddab
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - military
+  - architecture
+  space_tags:
+  - military
+  historical_notes: Tōbunken. The ammunition store of the former Army airfield at Chiran, Kagoshima, dated 1941.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/209c043e96bc468ba348bfe256a1ddab/thumbnails/56f241eedd654ae9a5d6adecd0e974a9/529c994868f747e6ac1deb6161f847d1.jpeg
+  technical:
+    faces: 3000000
+    vertices: 1698718
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0123
+  title: 旧陸軍知覧飛行場　掩体壕（南九州市指定文化財）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/86fe40afea514ec2b44427146d5faa87
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - military
+  - architecture
+  space_tags:
+  - military
+  historical_notes: Tōbunken. An aircraft blast shelter at the former Army airfield at Chiran, dated 1945.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/86fe40afea514ec2b44427146d5faa87/thumbnails/c0e69631325b4155b46dbed70e7069bc/3328cb47fefa496b9eeaea6ee8aadfd5.jpeg
+  technical:
+    faces: 2750000
+    vertices: 1422655
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0124
+  title: 旧陸軍知覧飛行場　掩体壕（南九州市指定文化財）　＊模型戦闘機・展望台を含む
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/651c677247e748e0869c0cd8ecc30e7f
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - military
+  - architecture
+  space_tags:
+  - military
+  historical_notes: Tōbunken. An aircraft blast shelter at the former Army airfield at Chiran, dated 1945; the scan includes a model fighter and a viewing platform.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/651c677247e748e0869c0cd8ecc30e7f/thumbnails/dddb55f6a88e4bdb8bc32fd0f3ca9778/3b0c4b91604c44be921f8593eefee8ec.jpeg
+  technical:
+    faces: 2499999
+    vertices: 1300305
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0125
+  title: 旧陸軍知覧飛行場　着陸訓練施設（国登録有形文化財）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/d69a4f71e5cf4d65813bd95abd9d9de8
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - military
+  - architecture
+  space_tags:
+  - military
+  historical_notes: Tōbunken. A landing-training structure at the former Army airfield at Chiran, dated 1941.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/d69a4f71e5cf4d65813bd95abd9d9de8/thumbnails/5acd660917d94c4cb32999b30f88e992/0a44c561ef344d0e9f37baacc3317cae.jpeg
+  technical:
+    faces: 3000000
+    vertices: 1841652
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0126
+  title: 旧陸軍知覧飛行場　給水塔（南九州市指定文化財）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/6d78944eb7054896bd7e0b3d6d5a0598
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - military
+  - architecture
+  space_tags:
+  - military
+  historical_notes: Tōbunken. The water tower of the former Army airfield at Chiran, dated 1941.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/6d78944eb7054896bd7e0b3d6d5a0598/thumbnails/3c32989e7e514df495f08596dd6a2f27/6fd22f4fd6f2443bbff69f65e30e1913.jpeg
+  technical:
+    faces: 2000200
+    vertices: 1065587
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0127
+  title: 旧陸軍知覧飛行場　防火水槽（国登録有形文化財）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/0a80562dcfa14f8fb22abe50cabe261f
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - military
+  - architecture
+  space_tags:
+  - military
+  historical_notes: Tōbunken. A fire-water cistern at the former Army airfield at Chiran, dated 1941.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/0a80562dcfa14f8fb22abe50cabe261f/thumbnails/c60f7b1a6c48494a939522138aad2bc3/68dd859d45804387bd3ba8af92b57a62.jpeg
+  technical:
+    faces: 2499999
+    vertices: 1270215
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0128
+  title: 東京都千代田区神田駅 新石町橋高架橋機銃掃射痕 軍事遺構
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/824f1a2f776b4385919d9a6e1d2a5425
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - infrastructure
+  - urban
+  space_tags:
+  - street
+  historical_notes: Marks on the Shin-Ishichōbashi viaduct at Kanda station, said to be from strafing during the Second World War; the listing says the date is unknown.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/824f1a2f776b4385919d9a6e1d2a5425/thumbnails/be9036cb310840ad9c14af8e0227ca57/1d2b0a49d42e41ae8fc945610e94f160.jpeg
+  technical:
+    faces: 200750
+    vertices: 100377
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0129
+  title: 焼夷弾の尾翼を加工した電熱器 / Electric Heater
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/electric-heater-dc23434a5a44466d86dc75c3e58a6e40
+  creator: ToMuCo｜Tokyo Museum Collection
+  creator_url: https://sketchfab.com/tiffhac
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - appliance
+  - household
+  space_tags:
+  - home
+  historical_notes: Edo-Tokyo Museum. An electric heater made from the tail fin of an incendiary bomb, dated 1945 (Shōwa 20).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/dc23434a5a44466d86dc75c3e58a6e40/thumbnails/614afe8c84d4403bb3095dd256e02df5/3983414d21bf49daa2fc236a6e420648.jpeg
+  technical:
+    faces: 70870
+    vertices: 36768
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0130
+  title: 神奈川県座間市 陸軍士官学校遥拝所方位盤 軍事遺構
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/cde47ec4b126473f85e4582c1c7c219e
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - memorial
+  space_tags:
+  - military
+  historical_notes: A direction plate at the bowing station of the Army Academy in Zama, used from 1937 when the academy moved there.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/cde47ec4b126473f85e4582c1c7c219e/thumbnails/49d74cf1cd2f493a8c94abd1d19ee8b7/18d8292377ca4eafa025281e764f2ecb.jpeg
+  technical:
+    faces: 196088
+    vertices: 97807
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0131
+  title: 神奈川県相模原市 米陸軍相模補給廠専用線跡 軍事遺構
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/c895be088410424986c02686c00053b6
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  - occupation_reconstruction_1945_1952
+  - high_growth_1952_1973
+  object_tags:
+  - military
+  - transport
+  - infrastructure
+  space_tags:
+  - military
+  historical_notes: Rail siding of the Sagami Army Ordnance Depot, taken over by the US Army after 1945.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/c895be088410424986c02686c00053b6/thumbnails/a7a002f64b934db9ba2bc6fc64369fe9/875cc790d0e04a4dad0ef3ecc2faed62.jpeg
+  technical:
+    faces: 400370
+    vertices: 200181
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0132
+  title: 紫電改プロペラ（築上町指定文化財）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/1afb5961fd714539994b5c594cbf4cff
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - aircraft
+  space_tags:
+  - public
+  historical_notes: Tōbunken. The propeller of a Navy Shiden-kai fighter shot down over Chikujō, Fukuoka, on 8 August 1945.
+  showa_fit: unassessed
+  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  image: https://media.sketchfab.com/models/1afb5961fd714539994b5c594cbf4cff/thumbnails/b92bc84de6ab40bcbb301cd500430fec/b1bc79ee915b488ab80f0cf8083c2966.jpeg
+  technical:
+    faces: 1997032
+    vertices: 1062327
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0133
+  title: 終戦の詔書
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/d12a3fd7b2bd4e888c220af0bc909480
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - document
+  - war
+  space_tags:
+  - public
+  historical_notes: The listing describes this as the original Imperial Rescript on the end of the war (終戦の詔書).
+  showa_fit: unassessed
+  review_note: The listing does not say whether the original or a facsimile was scanned.
+  image: https://media.sketchfab.com/models/d12a3fd7b2bd4e888c220af0bc909480/thumbnails/24eee6e8464b4c23a1e6243ff08a0cf4/9a029452ac864da98488fb6957029365.jpeg
+  technical:
+    faces: 16531
+    vertices: 8656
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0134
+  title: 鉄筋コンクリート船　武智丸
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/f51026ef02f9483f8a59aed302bb4947
+  creator: Nagasaki_3D_Project
+  creator_url: https://sketchfab.com/nagasaki_3d_museum
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - transport
+  - vessel
+  space_tags:
+  - public
+  historical_notes: The concrete cargo ship Takechi Maru, built to the EC wartime standard design for the Imperial Navy.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/f51026ef02f9483f8a59aed302bb4947/thumbnails/17bc07ce638d4c68a44b8cb8dd6e148b/640x360.jpeg
+  technical:
+    faces: 1106053
+    vertices: 563650
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0135
+  title: 旧陸軍青戸飛行場　第1号トーチカ
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/1-4d6877ac65024fc1802b0e1e26e81c1e
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - military
+  - architecture
+  space_tags:
+  - military
+  historical_notes: Tōbunken. Pillbox no. 1 of the former Army airfield at Aoto, Minamikyūshū, dated about 1943–45.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/4d6877ac65024fc1802b0e1e26e81c1e/thumbnails/c114de3e4fa94206b30d45e5c6cdf860/5cad5e6db3f646adb1355eac0f47e857.jpeg
+  technical:
+    faces: 2999999
+    vertices: 1540154
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0136
+  title: 旧陸軍青戸飛行場　第2号トーチカ
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/2-379225bba9614a72815310abab5a6f09
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - military
+  - architecture
+  space_tags:
+  - military
+  historical_notes: Tōbunken. Pillbox no. 2 of the former Army airfield at Aoto, Minamikyūshū, dated about 1943–45.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/379225bba9614a72815310abab5a6f09/thumbnails/86382092492544e098e11b704709285c/e3cc97beedfa4754aaee672bb3e9a5f8.jpeg
+  technical:
+    faces: 2617312
+    vertices: 1342866
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0137
+  title: Model of incendiary bomb
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/model-of-incendiary-bomb-103a5a8556a944e8b48dd0c18006740c
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - model
+  space_tags:
+  - public
+  historical_notes: A model of an incendiary bomb, documented by the listing in connection with the Tokyo air raid of 10 March 1945.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/103a5a8556a944e8b48dd0c18006740c/thumbnails/741ee2db7beb49b5955c874009bd9aa7/9f321b7f31c74c8d884458e54a3550d3.jpeg
+  technical:
+    faces: 50813
+    vertices: 28274
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0138
+  title: Mother and Child Statue "Under Fire of War"
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/mother-and-child-statue-under-fire-of-war-1f73312d54654956a0d0681191fdc14d
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - sculpture
+  - memorial
+  space_tags:
+  - public
+  historical_notes: The statue Mother and Child 'Under Fire of War', documented by the listing in connection with the Tokyo air raid of 10 March 1945.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/1f73312d54654956a0d0681191fdc14d/thumbnails/4c5a9a0bebec4d22a91b68cd58791dd7/eb6a7cc507fc41e697a8972d8336248c.jpeg
+  technical:
+    faces: 1527266
+    vertices: 809376
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0139
+  title: Piano grazed by incendiary bombs
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/piano-grazed-by-incendiary-bombs-bd19881cfcef45c88a439999363fa038
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - music
+  - household
+  space_tags:
+  - home
+  historical_notes: A piano grazed by incendiary bombs in the Tokyo air raid of 10 March 1945.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/bd19881cfcef45c88a439999363fa038/thumbnails/cb85c71a25cb41b4993027f920c78881/9d34661165114b8d9a0e76b54d703b69.jpeg
+  technical:
+    faces: 111049
+    vertices: 63196
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0140
+  title: Room under light control
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/room-under-light-control-0b19e58eef2e4e82bc80e087d2a717c5
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - interior
+  - household
+  space_tags:
+  - home
+  historical_notes: A room set up for blackout (light control), documented by the listing in connection with the Tokyo air raid of 10 March 1945.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/0b19e58eef2e4e82bc80e087d2a717c5/thumbnails/b832581a369545e7943ee461f74650f6/6300a23ced914b1699c41a9709a54cac.jpeg
+  technical:
+    faces: 142005
+    vertices: 80956
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0141
+  title: Water tank for fire prevention
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/water-tank-for-fire-prevention-659eeb7382b04559a17f6da74de09048
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - household
+  space_tags:
+  - street
+  historical_notes: A fire-prevention water tank, documented by the listing in connection with the Tokyo air raid of 10 March 1945.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/659eeb7382b04559a17f6da74de09048/thumbnails/118169c1d2f1457a9a8672b20b37bf66/ccfb27d948d547ed884e64009ba442be.jpeg
+  technical:
+    faces: 760976
+    vertices: 405253
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0142
+  title: 東京大空襲で被災した狛犬（東京都墨田区向島４丁目９番１３号 秋葉神社）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/4913-3ec550e6ba434929a8f4ea0ecb6d048d
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - religion
+  space_tags:
+  - religion
+  historical_notes: Guardian dogs (komainu) of Akiba shrine, Mukōjima, damaged in the Tokyo air raid.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/3ec550e6ba434929a8f4ea0ecb6d048d/thumbnails/5c08ad01ea40485897621cc5196b2091/6ed932cee8ab4a99afd4c6276c6debf0.jpeg
+  technical:
+    faces: 3538584
+    vertices: 1989592
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0143
+  title: 東京大空襲焼け残り電柱（東京都台東区三筋1丁目13−12）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/11312-6f75b3d9b16c48c8885e811e272d552f
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY 4.0
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - war
+  - infrastructure
+  - urban
+  space_tags:
+  - street
+  historical_notes: A utility pole in Misuji, Taitō, that survived the Tokyo air raid of 10 March 1945 (Shōwa 20).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/6f75b3d9b16c48c8885e811e272d552f/thumbnails/84a43c27cb3b4cf8ae31aba593e0d5c9/758317117256430eb56ae9da63b25fae.jpeg
+  technical:
+    faces: 2191774
+    vertices: 1227817
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0144
+  title: キャブレター［陸軍四式戦闘機「疾風（1446号機）」搭載］
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/1446-2e2b6ab3f7f14972a93faac78de2206a
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - aircraft
+  - component
+  space_tags:
+  - public
+  historical_notes: Chiran Peace Museum for Kamikaze Pilots. The carburettor of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
+  showa_fit: unassessed
+  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  image: https://media.sketchfab.com/models/2e2b6ab3f7f14972a93faac78de2206a/thumbnails/ab56428866484ebbb93b83cc35f01e7f/75bb430ccb1141bb9823d37e8e1aa42b.jpeg
+  technical:
+    faces: 3999999
+    vertices: 2143312
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0145
+  title: 慣性始動機［陸軍四式戦闘機「疾風（1446号機）」搭載］
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/1446-888ff4c3ddb946aaa2645fc5de479b96
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - aircraft
+  - component
+  space_tags:
+  - public
+  historical_notes: Chiran Peace Museum for Kamikaze Pilots. The inertia starter of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
+  showa_fit: unassessed
+  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  image: https://media.sketchfab.com/models/888ff4c3ddb946aaa2645fc5de479b96/thumbnails/e2508e3d065e42758ebd364fc747e91f/d54267da74724989b36aab51173a65f1.jpeg
+  technical:
+    faces: 3797205
+    vertices: 1921077
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0146
+  title: 操縦席［陸軍四式戦闘機「疾風（1446号機）」搭載
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/1446-d71fbc910e87420789444bb276d5ac02
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - aircraft
+  - component
+  space_tags:
+  - public
+  historical_notes: Chiran Peace Museum for Kamikaze Pilots. The cockpit of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
+  showa_fit: unassessed
+  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  image: https://media.sketchfab.com/models/d71fbc910e87420789444bb276d5ac02/thumbnails/8263058542c04886bca7f2bcb0f193c6/ee1e448590d54e2cac7b1ded8222cd1f.jpeg
+  technical:
+    faces: 4999999
+    vertices: 2536039
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0147
+  title: 機銃同調装置［陸軍四式戦闘機「疾風（1446号機）」］搭載
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/1446-cbae2b3fe1574092884ccfefcdc49c80
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - aircraft
+  - component
+  space_tags:
+  - public
+  historical_notes: Chiran Peace Museum for Kamikaze Pilots. The gun synchroniser of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
+  showa_fit: unassessed
+  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  image: https://media.sketchfab.com/models/cbae2b3fe1574092884ccfefcdc49c80/thumbnails/0d53b27d10214c1fb0ad672542e1b396/0370ead55262429aacf0f3db711be706.jpeg
+  technical:
+    faces: 773482
+    vertices: 403967
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0148
+  title: 水メタノール噴射装置［陸軍四式戦闘機「疾風（1446号機）」］搭載
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/1446-84187f64018b4ed28d2fe71cd30c3627
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - aircraft
+  - component
+  space_tags:
+  - public
+  historical_notes: Chiran Peace Museum for Kamikaze Pilots. The water-methanol injection unit of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
+  showa_fit: unassessed
+  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  image: https://media.sketchfab.com/models/84187f64018b4ed28d2fe71cd30c3627/thumbnails/a4997cb39d1e406a8b32ff1ffbc6dd6f/cc8a2486dca24feeb2bf7ee7e04dae69.jpeg
+  technical:
+    faces: 2406781
+    vertices: 1240829
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0149
+  title: 燃料ポンプ［陸軍四式戦闘機「疾風（1446号機）」搭載］
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/1446-cab0bc17e3a14688be427b1ceda6372d
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - aircraft
+  - component
+  space_tags:
+  - public
+  historical_notes: Chiran Peace Museum for Kamikaze Pilots. The fuel pump of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
+  showa_fit: unassessed
+  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  image: https://media.sketchfab.com/models/cab0bc17e3a14688be427b1ceda6372d/thumbnails/ebff7ef67b434e088f19d88164eb7011/c88e4244fbf444d7a55e4ed226f51634.jpeg
+  technical:
+    faces: 970635
+    vertices: 501423
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0150
+  title: 磁石発電機（マグネトー）［陸軍四式戦闘機「疾風（1446号機）」搭載］
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/1446-ca56461047134b4283c0e0d456bea47e
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - interwar_wartime_1926_1945
+  object_tags:
+  - military
+  - aircraft
+  - component
+  space_tags:
+  - public
+  historical_notes: Chiran Peace Museum for Kamikaze Pilots. The magneto of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
+  showa_fit: unassessed
+  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  image: https://media.sketchfab.com/models/ca56461047134b4283c0e0d456bea47e/thumbnails/92e628611d52429184d8d0cc8798efa3/6013c1c78aa840218cc0e265a578d8fa.jpeg
+  technical:
+    faces: 2330891
+    vertices: 1191803
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0151
+  title: 熊谷市星川戦災者慰霊之女神
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/962bccf4a0484860a538522363fdb1c3
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - memorial
+  - sculpture
+  - war
+  space_tags:
+  - public
+  historical_notes: A memorial to victims of the Kumagaya air raid of 15 August 1945, by Kitamura Seibō, installed in 1975 (Shōwa 50).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/962bccf4a0484860a538522363fdb1c3/thumbnails/2ca4b1cdbd8348f1a413a2debde9ac18/f59fcccaa79a413eb66e35e40a32ca4c.jpeg
+  technical:
+    faces: 269673
+    vertices: 135250
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0152
+  title: 熊谷市星川ふれあい
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/2f0358ea72624901b925c7e16ef026a6
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - sculpture
+  space_tags:
+  - public
+  historical_notes: Street sculpture by Kikuchi Kazuo on the Hoshikawa promenade, Kumagaya, installed in 1985 (Shōwa 60).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/2f0358ea72624901b925c7e16ef026a6/thumbnails/31fa2227fe5646a88b5618222768e358/407cab666a734b12ab99532caafa4b80.jpeg
+  technical:
+    faces: 157280
+    vertices: 78976
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0153
+  title: 熊谷市星川やすらぎ
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/5c3f28a271434a73a257fc1e09932067
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - sculpture
+  space_tags:
+  - public
+  historical_notes: Street sculpture by Chino Shigeru on the Hoshikawa promenade, Kumagaya, installed in 1982 (Shōwa 57).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/5c3f28a271434a73a257fc1e09932067/thumbnails/90ab41a5b5a44d5daee85fbd9080809c/363fd793f2764ac6a268f640d800f25c.jpeg
+  technical:
+    faces: 184665
+    vertices: 92710
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0154
+  title: 熊谷市星川レダ
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/aa5ea97a1c1342a794be39f9186a4655
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - sculpture
+  space_tags:
+  - public
+  historical_notes: Street sculpture by Sakurai Yūichi on the Hoshikawa promenade, Kumagaya, installed in 1982 (Shōwa 57).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/aa5ea97a1c1342a794be39f9186a4655/thumbnails/5b93e953a4464bba99125a6be03d61e0/859459afb7e04b25a28ac1a13aa3ea46.jpeg
+  technical:
+    faces: 208399
+    vertices: 104535
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0155
+  title: 熊谷市星川新風
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/6bd53167ccd847a2b9b73475dec2c60b
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - sculpture
+  space_tags:
+  - public
+  historical_notes: Street sculpture by Tominaga Naoki on the Hoshikawa promenade, Kumagaya, installed in 1984 (Shōwa 59).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/6bd53167ccd847a2b9b73475dec2c60b/thumbnails/8ebbf1b683ce43eb8d139090b76051a4/c9060121eb1c42569fb73dccc8452abd.jpeg
+  technical:
+    faces: 142978
+    vertices: 71715
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0156
+  title: 熊谷市星川花園の歌
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/9d7647b59f9841fe84f296836c571054
+  creator: 熊谷市立江南文化財センター【公式】
+  creator_url: https://sketchfab.com/odoruhaniwa
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - sculpture
+  space_tags:
+  - public
+  historical_notes: Street sculpture by Entsuba Katsuzō on the Hoshikawa promenade, Kumagaya, installed in 1983 (Shōwa 58).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/9d7647b59f9841fe84f296836c571054/thumbnails/a5c6eb6ce97f4f989f7319775aa9823b/2aa2619f2e484bd29da9abc018c30351.jpeg
+  technical:
+    faces: 147155
+    vertices: 73837
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0157
+  title: The Azuma School Nigenkin, a Two-Stringed Zither
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/the-azuma-school-nigenkin-a-two-stringed-zither-01b5380d88db4db4bc6c1c90d0b1b4aa
+  creator: 東京文化財研究所（TOBUNKEN）
+  creator_url: https://sketchfab.com/tobunken
+  licence: View only (not downloadable)
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - culture
+  - music
+  space_tags:
+  - home
+  historical_notes: Tōbunken. A nigenkin (two-stringed zither) of the Azuma school, made by Makimoto Gakki; the listing dates it to 1981–1988.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/01b5380d88db4db4bc6c1c90d0b1b4aa/thumbnails/99d876c0e8f1402cacf11d4eea651ca1/aa172ec3e42243d2a910e25c53d4c6a3.jpeg
+  technical:
+    faces: 466495
+    vertices: 239796
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0158
+  title: Corridor of Setagaya Art Museum：世田谷美術館の廊下
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/corridor-of-setagaya-art-museum-f3f8a6440a4349d8a4aa47d145d95e13
+  creator: kazugoru
+  creator_url: https://sketchfab.com/kazugoru
+  licence: CC BY 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - architecture
+  - interior
+  space_tags:
+  - public
+  historical_notes: A corridor of the Setagaya Art Museum, which opened on 30 March 1986.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/f3f8a6440a4349d8a4aa47d145d95e13/thumbnails/32702a935f7243a482941b3a41c3c7c4/0d43986b8168460c8371aebd71549094.jpeg
+  technical:
+    faces: 273506
+    vertices: 140432
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0159
+  title: ホテルアカオ501号室：HOTEL ACAO 501
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/501hotel-acao-501-da6211da4a9b441997dbe80edf13a141
+  creator: kazugoru
+  creator_url: https://sketchfab.com/kazugoru
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - architecture
+  - interior
+  - leisure
+  space_tags:
+  - leisure
+  historical_notes: Room 501 of the Hotel New Akao in Atami, which the listing says opened in 1973.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/da6211da4a9b441997dbe80edf13a141/thumbnails/e503afbd0e8440a1b7138be870257932/20425bf90c2d4a47827e0a8fc1ffc322.jpeg
+  technical:
+    faces: 293193
+    vertices: 156691
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0160
+  title: 埼玉県神川町 上武鉄道日丹線 旧寄島駅付近 踏切跡 遺構
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/680f731d535341f681b0d98c0ac99bf7
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - transport
+  - infrastructure
+  space_tags:
+  - street
+  historical_notes: A level-crossing remnant of the Jōbu Railway Nittan line, Saitama, discontinued in 1986.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/680f731d535341f681b0d98c0ac99bf7/thumbnails/0dcaff9e4a084359a25fc173683ded25/a3a041851ab148ffa113953d88b20ccf.jpeg
+  technical:
+    faces: 400604
+    vertices: 200277
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0161
+  title: 東武鉄道伊勢崎線 草加駅付近の旧線路踏切跡 遺構
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/eade805d4e0b4efb8faf1b318e30443f
+  creator: NAMAHAGE
+  creator_url: https://sketchfab.com/hiroyuki.ogata1
+  licence: CC BY 4.0
+  period_tags:
+  - late_showa_1973_1989
+  object_tags:
+  - transport
+  - infrastructure
+  space_tags:
+  - street
+  historical_notes: A remnant of the old ground-level Tōbu Isesaki line near Sōka station, elevated in 1988.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/eade805d4e0b4efb8faf1b318e30443f/thumbnails/b66ffe4df74044f99781351c13d3df4f/9ac465f08bda4d01a3afd226abb15c26.jpeg
+  technical:
+    faces: 490347
+    vertices: 245189
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0162
+  title: 昭和碑･昭和水位標柱･安政碑@牟岐町
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/59053b8ac398436c94b2cf647f547df0
+  creator: takuchans
+  creator_url: https://sketchfab.com/takuchans
+  licence: CC BY 4.0
+  period_tags:
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - memorial
+  - environment
+  space_tags:
+  - public
+  historical_notes: Memorials at Mugi, Tokushima, to the 1854 Ansei and 1946 Shōwa Nankai earthquakes, with a post marking the 1946 tsunami height.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/59053b8ac398436c94b2cf647f547df0/thumbnails/674b1bf0a5ff486f98a24c0bbdabad00/720x405.jpeg
+  technical:
+    faces: 2120991
+    vertices: 1109913
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0163
+  title: 銀天街発祥の碑
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/8f89ac4c9fd24f8692c4d6d1fbe83ea5
+  creator: Tae Morikawa
+  creator_url: https://sketchfab.com/taemorikawa.sdgs
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - memorial
+  - commercial
+  space_tags:
+  - commercial
+  historical_notes: A monument to the Uomachi Gintengai arcade in Kitakyūshū, completed in October 1951; the listing calls it Japan's first arcade over a public road.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/8f89ac4c9fd24f8692c4d6d1fbe83ea5/thumbnails/27d3eedff00749528e58ccb3c54698fc/38a5c80b096643429a69ab70230436e2.jpeg
+  technical:
+    faces: 7204
+    vertices: 3748
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0164
+  title: Handa Silver Mine Ruins#2(Japan)
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/handa-silver-mine-ruins2japan-75f6bdf9c1294130b63cf1e332acc242
+  creator: Fujihiko Matsumoto
+  creator_url: https://sketchfab.com/fujisan
+  licence: View only (not downloadable)
+  period_tags:
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - industrial
+  - environment
+  space_tags:
+  - industrial
+  historical_notes: Remains of the Handa silver mine in Koori, Fukushima, which the listing says ceased operations in 1950.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/75f6bdf9c1294130b63cf1e332acc242/thumbnails/e538a2cc011941b7baa57a06ef899081/21d56c4281c84ff2ae2d86142988433e.jpeg
+  technical:
+    faces: 689578
+    vertices: 508469
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0165
+  title: 大妻コタカ旧居宅模型
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/12fba298206941a4825e1e630adb3bf5
+  creator: 大妻女子大学博物館　Otsuma Women's University Museum
+  creator_url: https://sketchfab.com/otsuma_museum
+  licence: View only (not downloadable)
+  period_tags:
+  - occupation_reconstruction_1945_1952
+  - high_growth_1952_1973
+  object_tags:
+  - architecture
+  - household
+  - model
+  space_tags:
+  - home
+  historical_notes: Otsuma Women's University Museum. A model of the house where Ōtsuma Kotaka lived from 1947 until her death in 1970.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/12fba298206941a4825e1e630adb3bf5/thumbnails/5762d9d17c0147229203fc71171c38f9/ddf33d9196e34293a28667661b8bb51c.jpeg
+  technical:
+    faces: 1000000
+    vertices: 500842
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0166
+  title: 食用蛙供養塔（東京都江戸川区東小松川2丁目16番19号　源法寺）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/21619-2fce211e264147ffa61400acd59fdc00
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY 4.0
+  period_tags:
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - memorial
+  - religion
+  - food
+  space_tags:
+  - religion
+  historical_notes: A memorial to edible bullfrogs at a temple in Higashi-Komatsugawa, Edogawa, raised by the Tokyo edible-frog association in Shōwa 27 (1952); the listing describes the bullfrog trade from early Shōwa to the postwar years.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/2fce211e264147ffa61400acd59fdc00/thumbnails/e07f514c3b3e4fc7ba46dafe66af57ff/02e9bd7034c04cdebfa7a8f9a953d555.jpeg
+  technical:
+    faces: 3135494
+    vertices: 1753268
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0167
+  title: （旧）食用蛙供養塔（東京都江戸川区船堀６丁目９番３０号 法龍寺）
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/6930-97b8d2d935a548e0b290f685f7f77f15
+  creator: seirogan
+  creator_url: https://sketchfab.com/seirogan
+  licence: CC BY 4.0
+  period_tags:
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - memorial
+  - religion
+  - food
+  space_tags:
+  - religion
+  historical_notes: The former memorial to edible bullfrogs at a temple in Funabori, Edogawa, raised in Shōwa 27 (1952).
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/97b8d2d935a548e0b290f685f7f77f15/thumbnails/869f51bd7c5e43638359673109045e40/bf1a90862d3243d292ce639ee20e0f25.jpeg
+  technical:
+    faces: 1475171
+    vertices: 791196
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0168
+  title: Omoide Yokocho 思い出横丁
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/omoide-yokocho-6eb13610e4d446acaabc03a830618a63
+  creator: ProQuLA
+  creator_url: https://sketchfab.com/alternaassets
+  licence: View only (not downloadable)
+  period_tags:
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - commercial
+  - urban
+  - food
+  space_tags:
+  - commercial
+  historical_notes: Omoide Yokochō in Shinjuku, an alley of small eateries that the listing traces to the postwar 1940s.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/6eb13610e4d446acaabc03a830618a63/thumbnails/7992536606024538bcd725d7b3cdfd7a/d34173954cae45e2837cf782fa1b4506.jpeg
+  technical:
+    faces: 322252
+    vertices: 178229
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0169
+  title: 「マツダ号 GB型」1950年式
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/gb1950-14f84ee693d94296a11e13601729299b
+  creator: Akihiko Tarutani
+  creator_url: https://sketchfab.com/akihiko_tarutani
+  licence: CC BY-NC-SA 4.0
+  period_tags:
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - transport
+  - vehicle
+  space_tags:
+  - street
+  historical_notes: A Mazda GB three-wheeled truck, 1950 model, on display at the Yamato Museum, Kure.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/14f84ee693d94296a11e13601729299b/thumbnails/49fa73540e064381904703b4be5411f9/2b1ac61a13a846198f5b6444620e55c7.jpeg
+  technical:
+    faces: 402360
+    vertices: 202788
+    downloadable: true
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
+- id: skf-0170
+  title: 更生服 紺木綿地絣 / Rehabilitation Clothes
+  source: sketchfab
+  source_url: https://sketchfab.com/3d-models/rehabilitation-clothes-15ad13d8971e449da23393a3d5a7f76a
+  creator: ToMuCo｜Tokyo Museum Collection
+  creator_url: https://sketchfab.com/tiffhac
+  licence: View only (not downloadable)
+  period_tags:
+  - occupation_reconstruction_1945_1952
+  object_tags:
+  - clothing
+  - war
+  space_tags:
+  - home
+  historical_notes: Edo-Tokyo Museum. Remade clothing (kōseifuku) of indigo kasuri cotton, dated 1948 (Shōwa 23) and catalogued under wartime life.
+  showa_fit: unassessed
+  image: https://media.sketchfab.com/models/15ad13d8971e449da23393a3d5a7f76a/thumbnails/d93f5ee73a774ae496dc539af4b2989d/b3525cba6e8a4f839e0ed65710f34e2f.jpeg
+  technical:
+    faces: 90815
+    vertices: 45607
+    downloadable: false
+  verification:
+    status: verified
+    method: sketchfab-api
+    checked: '2026-11-01'
