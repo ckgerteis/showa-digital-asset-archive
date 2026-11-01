@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-01: an image for every entry
+
+- Every one of the 179 entries now carries an image from its own listing, hotlinked from the platform's image server. The 37 Fab, CGTrader and Unity entries that had none now show the listing's preview image: Fab's from its listing data (640 px), CGTrader's and Unity's from the page's `og:image`. Fab and CGTrader refuse automated requests, so those listings were read in a browser; the Unity listings were read directly. All 179 image addresses answered 200 on 1 Nov 2026.
+- The same reading filled in what the listings show. Fab: seller links for all 22, and the licence (Fab Standard License, Personal and Professional tiers) where the catalog had "Not displayed on listing". CGTrader: the designer for the six entries that had "Not confirmed", the licence (Royalty Free, no AI training) for all nine, and the current titles of cgt-0006 and cgt-0007, which their sellers have renamed. Verification dates and methods are updated for all 37.
+- The seven probable entries stay probable: their doubt is whether each listing is the product the v1 catalog meant, which reading the listing does not settle.
+
 ## 2026-11-01: 112 new Sketchfab entries
 
 - `catalog/fab.yml` grows from 67 to 179 entries (skf-0059 to skf-0170), drawn from a search of Sketchfab and of the full model lists of 24 accounts. Each entry's listing dates the object to 1926–1989: the Osaka Museum of History's Time Capsule EXPO'70 objects, Edo-Tokyo Museum home-front objects, Tōbunken's scans of the Chiran and Aoto airfields, the Sakata clinic in Kumagaya (1931), traces of the Tokyo air raids, steam locomotives, culverts and rail remains, and postwar shopping arcades.
