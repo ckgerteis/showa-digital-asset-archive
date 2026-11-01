@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-01: menu and citation
+
+- Acknowledgments (謝辞) added to the top menu of every page, after About the Creator. Menu links are set a little tighter at 1200 px and above so all items fit on one line.
+- Every page footer (EN/JA) now carries the suggested citation: Gerteis, Christopher. 2025–. *Shōwa Digital Asset Archive*. SOAS University of London. https://showa-digital-archive.org/.
+
 ## 2026-11-01: About the Creator
 
 - New page `creator.html` / `ja/creator.html` on Dr Christopher Gerteis's work in critical heritage, digital heritage and computational humanities, with links to the Hashima XR Project, Simulating Silence, his articles in the *Bulletin of the Institute of Oriental Culture* (2024) and *History* (2026), *Past Meets Pixel* and bibliograph-mcp. Added to the top menu of every page.
