@@ -1206,8 +1206,9 @@
   title: Chabu Table
   source: cgtrader
   source_url: "https://www.cgtrader.com/3d-models/interior/living-room/chabu-table"
-  creator: Not confirmed
-  licence: CGTrader Royalty Free (unconfirmed)
+  creator: favorscreation
+  creator_url: "https://www.cgtrader.com/designers/favorscreation"
+  licence: CGTrader Royalty Free (no AI training)
   period_tags:
   - occupation_reconstruction_1945_1952
   - high_growth_1952_1973
@@ -1219,9 +1220,10 @@
   - living_room
   historical_notes: "Low dining table supporting tatami-room staging and shared-meal scenes."
   showa_fit: unassessed
+  image: "https://img-new.cgtrader.com/items/4973811/b2557052c3/chabu-table-3d-model-b2557052c3.webp"
   verification:
-    status: probable
-    method: web-search
+    status: verified
+    method: manual
     checked: '2026-11-01'
     note: "Listing title is '3D model Chabu Table'; description: 'A traditional Japanese low table... chabutai'.\
       \ Catalog title 'Japanese Low Table (Chabu Table)' and catalog category path (furniture/table) differ; actual\
@@ -1230,8 +1232,9 @@
   title: japanese thermal jar
   source: cgtrader
   source_url: "https://www.cgtrader.com/3d-models/interior/living-room/japanese-thermal-jar"
-  creator: Not confirmed
-  licence: Not displayed on listing
+  creator: favorscreation
+  creator_url: "https://www.cgtrader.com/designers/favorscreation"
+  licence: CGTrader Royalty Free (no AI training)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -1242,9 +1245,10 @@
   - kitchen
   historical_notes: "Insulated container suitable for Shōwa domestic food/storage practices."
   showa_fit: unassessed
+  image: "https://img-new.cgtrader.com/items/4980719/14ad547559/japanese-thermal-jar-3d-model-14ad547559.webp"
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Japanese Thermal Jar"
 - id: cgt-0004
@@ -1252,7 +1256,7 @@
   source: cgtrader
   source_url: "https://www.cgtrader.com/3d-models/interior/living-room/tatami-mat"
   creator: Dorio3D
-  licence: CGTrader Royalty Free
+  licence: CGTrader Royalty Free (no AI training)
   period_tags:
   - interwar_wartime_1926_1945
   - occupation_reconstruction_1945_1952
@@ -1266,19 +1270,21 @@
   - interior
   historical_notes: "Alternative tatami model for variation and/or different topology/UV requirements."
   showa_fit: unassessed
+  image: "https://img-new.cgtrader.com/items/3569668/e1c1078bc5/tatami-mat-3d-model-e1c1078bc5.webp"
   technical:
     formats: BLEND (native), FBX, OBJ
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Tatami Mat (CGTrader variant)"
 - id: cgt-0005
   title: Japanese public bathroom Unity ready 3D model
   source: cgtrader
   source_url: "https://www.cgtrader.com/3d-models/interior/bathroom/japanese-public-bathroom"
-  creator: Not confirmed
-  licence: Not displayed on listing
+  creator: shareacc
+  creator_url: "https://www.cgtrader.com/designers/shareacc"
+  licence: CGTrader Royalty Free (no AI training)
   period_tags:
   - occupation_reconstruction_1945_1952
   - high_growth_1952_1973
@@ -1290,17 +1296,19 @@
   - bath
   historical_notes: "Public hygiene infrastructure environment element; supports neighbourhood/street-scene context."
   showa_fit: unassessed
+  image: "https://img-new.cgtrader.com/items/3680498/e0b03ff47f/japanese-public-bathroom-unity-ready-3d-model-e0b03ff47f.webp"
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Japanese Public Bathroom"
 - id: cgt-0006
-  title: "45 sets of furnitures and tools in old Japanese dining room ..."
+  title: "49 Traditional Japanese Living and Dining Room Props"
   source: cgtrader
   source_url: "https://www.cgtrader.com/3d-models/interior/living-room/furnitures-and-tools-in-living-room-of-old-japanese-house"
-  creator: Not confirmed
-  licence: Not displayed on listing
+  creator: roy1999
+  creator_url: "https://www.cgtrader.com/designers/roy1999"
+  licence: CGTrader Royalty Free (no AI training)
   period_tags:
   - interwar_wartime_1926_1945
   - occupation_reconstruction_1945_1952
@@ -1313,13 +1321,14 @@
   - kitchen
   historical_notes: "Bundled interior props enabling faster dressing of lived-in dining/kitchen scenes."
   showa_fit: unassessed
+  image: "https://img-new.cgtrader.com/items/4131739/a4a2ee2866/49-traditional-japanese-living-and-dining-room-props-3d-model-a4a2ee2866.webp"
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
-    note: "v1 title: Furnitures and Tools in Old Japanese Dining Room"
+    note: "Listing retitled; catalog title before 1 Nov 2026 recheck: 45 sets of furnitures and tools in old Japanese dining room ..."
 - id: cgt-0007
-  title: "100 over Sets of Japanese traditional house interior 3D Model Pack"
+  title: "Traditional Japanese Interior Props Bundle - Doors and Furniture"
   source: cgtrader
   source_url: "https://www.cgtrader.com/3d-model-packs/100-over-sets-of-japanese-traditional-house-interior"
   creator: roy1999
@@ -1337,20 +1346,22 @@
   - interior
   historical_notes: "Large interior kit for fast iteration across multiple domestic rooms without repeating layouts."
   showa_fit: unassessed
+  image: "https://img-new.cgtrader.com/items/4274184/0e7b8bcb4d/traditional-japanese-interior-props-bundle-doors-and-furniture-3d-model-0e7b8bcb4d.webp"
   technical:
     formats: BLEND (native), OBJ, FBX, PNG, JPG textures
     price: paid; $69.50 shown with a -50% badge
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
-    note: "v1 title: 100+ Sets of Japanese Traditional House Interior"
+    note: "Listing retitled; catalog title before 1 Nov 2026 recheck: 100 over Sets of Japanese traditional house interior 3D Model Pack"
 - id: cgt-0008
   title: Japanese Shrine Pack - 30 Modular PBR AAA-ready models
   source: cgtrader
   source_url: "https://www.cgtrader.com/3d-models/exterior/historic-exterior/japanese-hachiman-shrine-pack-30-modular-pbr-aaa-ready-models"
-  creator: Not confirmed
-  licence: Not displayed on listing
+  creator: nimikko
+  creator_url: "https://www.cgtrader.com/designers/nimikko"
+  licence: CGTrader Royalty Free (no AI training)
   period_tags:
   - interwar_wartime_1926_1945
   - high_growth_1952_1973
@@ -1363,9 +1374,10 @@
   - religion
   historical_notes: "Shrine environment pack for religious/civic landscape elements (continuity across eras)."
   showa_fit: unassessed
+  image: "https://img-new.cgtrader.com/items/2721850/86b9b2e5b6/japanese-shrine-pack-30-modular-pbr-aaa-ready-models-3d-model-86b9b2e5b6.webp"
   verification:
-    status: probable
-    method: web-search
+    status: verified
+    method: manual
     checked: '2026-11-01'
     note: "Title differs from catalog 'Hachiman Shrine (Pack)', but the URL slug contains 'hachiman-shrine-pack'\
       \ and the description says 'build as huge or as small Hachiman shrines as you want'. Likely renamed."
@@ -1373,8 +1385,9 @@
   title: Japanese Festival Pack - Matsuri And Obon Assets
   source: cgtrader
   source_url: "https://www.cgtrader.com/3d-models/exterior/exterior-public/japanese-festival-pack-matsuri-and-odonbori-assets"
-  creator: Not confirmed
-  licence: Not displayed on listing
+  creator: nimikko
+  creator_url: "https://www.cgtrader.com/designers/nimikko"
+  licence: CGTrader Royalty Free (no AI training)
   period_tags:
   - interwar_wartime_1926_1945
   - high_growth_1952_1973
@@ -1387,9 +1400,10 @@
   - festival
   historical_notes: "Festival props supporting community scenes, street dressing, and seasonal cultural contexts."
   showa_fit: unassessed
+  image: "https://img-new.cgtrader.com/items/4263264/65ddd1234b/japanese-festival-pack-matsuri-and-obon-assets-3d-model-65ddd1234b.webp"
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Japanese Festival Pack (Matsuri and Obon Assets)"
 - id: cgt-0010
@@ -1397,7 +1411,7 @@
   source: cgtrader
   source_url: "https://www.cgtrader.com/3d-models/exterior/exterior-public/old-japanese-restaurant-interior-and-exterior"
   creator: Nimikko
-  licence: Not displayed on listing
+  licence: CGTrader Royalty Free (no AI training)
   period_tags:
   - high_growth_1952_1973
   object_tags:
@@ -1409,11 +1423,12 @@
   - interior
   historical_notes: "Commercial interior environment suitable for Shōwa-era nightlife and after-work sociality scenes."
   showa_fit: unassessed
+  image: "https://img-new.cgtrader.com/items/3276524/2c3dfe3524/japanese-izakaya-restaurant-2-interior-and-exterior-3d-model-2c3dfe3524.webp"
   technical:
     price: $39.00 (per nimikko.co.jp)
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
     note: "v1 title: Japanese Izakaya Restaurant 2"
 - id: unity-0001
@@ -1431,12 +1446,13 @@
   historical_notes: "Late-Shōwa residential kit (houses + domestic exterior details) for building neighbourhood\
     \ streetscapes."
   showa_fit: unassessed
+  image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/7ea91f3e-4eb9-48e6-ab03-eeeec6196ea8.jpg?v=1"
   technical:
     formats: Unity package v1.2 (Feb 9 2022)
     price: paid; $20 USD
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: unity-0002
   title: '"Shouwa" 80''s Japanese town model set vol.3 -Mall'
@@ -1452,12 +1468,13 @@
   - environment
   historical_notes: "Late-Shōwa commercial district/mall elements (shops, signs, arcade roof) for dense street scenes."
   showa_fit: unassessed
+  image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/82ef8fcf-c3b9-4daf-afbe-5c786337069f.jpg?v=1"
   technical:
     formats: Unity package v1.2a (Jul 5 2023)
     price: paid; $27 USD
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: unity-0003
   title: Old Japanese Town
@@ -1475,12 +1492,13 @@
   historical_notes: "Large environment pack for constructing older streetscapes; useful as a base layer behind bespoke\
     \ domestic interiors."
   showa_fit: unassessed
+  image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/27e6700a-fbad-4f5b-98ea-6a35bb323b68.jpg?v=1"
   technical:
     formats: Unity package v1.2.0
     price: paid; $179.99 USD
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: unity-0004
   title: Stylized Japan Environment
@@ -1498,12 +1516,13 @@
   historical_notes: "Stylized environment pack (pagodas/ryokan/torii + nature assets) for non-photoreal XR scenes\
     \ or interpretive layers."
   showa_fit: unassessed
+  image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/b37e8556-e351-4611-bf64-fb3a66d6aa73.jpg?v=1"
   technical:
     formats: Unity package v1.0 (Sep 19 2022)
     price: paid; $15 USD
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: unity-0005
   title: Japanese House Package
@@ -1521,12 +1540,13 @@
   historical_notes: "Multi-building bundle (shops/houses) supporting quick assembly of mixed-use streets and neighbourhood\
     \ nodes."
   showa_fit: unassessed
+  image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/fb49c499-35cb-40fe-92bb-af14f8b845ff.jpg?v=1"
   technical:
     formats: Unity package v1.0 (Feb 6 2024)
     price: paid; $69 USD
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 - id: unity-0006
   title: Living Room 1950s / 40+ Assets
@@ -1544,12 +1564,13 @@
   historical_notes: "Mid-century interior prop pack enabling Western-influenced domestic scenes (useful alongside\
     \ Shōwa electronics and hybrid room layouts)."
   showa_fit: unassessed
+  image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/59436717-c7d0-43e9-8dcf-9cb0649b7ef6.jpg?v=1"
   technical:
     formats: Unity package v1.0 (Apr 22 2024)
     price: paid; $39.99 USD
   verification:
     status: verified
-    method: web-search
+    method: manual
     checked: '2026-11-01'
 
 # Added 2026-11-01 from the candidate sweep (Tier A: the listing dates the object to 1926-1989).

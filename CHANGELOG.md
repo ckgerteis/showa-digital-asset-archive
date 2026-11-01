@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-01: images for CGTrader and Unity entries
+
+- All nine CGTrader and six Unity Asset Store entries now carry the listing's own preview image (its `og:image`), hotlinked from the store's image server like the Sketchfab thumbnails. CGTrader refuses automated requests, so those listings were read in a browser; the Unity listings were read directly.
+- The same reading filled in what the CGTrader listings show: the designer for the six entries that had "Not confirmed", the licence (Royalty Free, no AI training) for all nine, and the current titles of cgt-0006 and cgt-0007, which their sellers have renamed. cgt-0001 and cgt-0008 move from probable to verified. Verification dates and methods are updated for all 15.
+- The 22 Fab entries still have no image.
+
 ## 2026-11-01: 112 new Sketchfab entries
 
 - `catalog/fab.yml` grows from 67 to 179 entries (skf-0059 to skf-0170), drawn from a search of Sketchfab and of the full model lists of 24 accounts. Each entry's listing dates the object to 1926–1989: the Osaka Museum of History's Time Capsule EXPO'70 objects, Edo-Tokyo Museum home-front objects, Tōbunken's scans of the Chiran and Aoto airfields, the Sakata clinic in Kumagaya (1931), traces of the Tokyo air raids, steam locomotives, culverts and rail remains, and postwar shopping arcades.
