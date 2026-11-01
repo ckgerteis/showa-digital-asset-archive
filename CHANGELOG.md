@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-01: AI & Ethics statement adopted
+
+- The AI & Ethics statement (`ethics.html`, `ja/ethics.html`) is adopted by the project director as published; the draft label is removed.
+
 ## 2026-11-01: custom domain
 
 - The archive moves to https://showa-digital-archive.org/, registered through Netlify with DNS on Netlify (apex A and AAAA records to GitHub Pages, `www` as a CNAME to ckgerteis.github.io). GitHub Pages still serves the site; the old ckgerteis.github.io address redirects to the new one.
