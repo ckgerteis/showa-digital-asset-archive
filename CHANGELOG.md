@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-01: About the Creator
+
+- New page `creator.html` / `ja/creator.html` on Dr Christopher Gerteis's work in critical heritage, digital heritage and computational humanities, with links to the Hashima XR Project, Simulating Silence, his articles in the *Bulletin of the Institute of Oriental Culture* (2024) and *History* (2026), *Past Meets Pixel* and bibliograph-mcp. Added to the top menu of every page.
+- The top menu now collapses to the menu button below 1200 px, since the extra item made labels wrap at laptop widths.
+
 ## 2026-11-01: Shōwa artefacts in video games
 
 - Home page (EN/JA): new subsection on Shōwa artefacts in video games (*Shenmue*, *Yakuza 0*, *Boku no Natsuyasumi*, *Paranormasight*), placed after the opening paragraph of About the Archive; the nostalgia paragraphs follow under their own heading, and the duplicate game sentence in the closing paragraph is cut. The project credit line is removed at the director's instruction.
