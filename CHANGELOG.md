@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-01: historical fit for the 112 new entries
+
+- The director adopted a rule for `showa_fit` (now in the README) and assessed skf-0059 to skf-0170 under it: 89 documented, 22 proxy, 1 anachronistic. A new field, `fit_grounds`, records the reasons for each, and the catalog card shows them beside the fit. The 67 earlier entries remain unassessed.
+- Proxies are mainly spaces still in use (the Asakusa underground arcade, Suehirochō passage, Jinbōchō station, Omoide Yokochō, a Hotel New Akao room), air-raid exhibits whose listings name no holder, reconstructions (Gunkanjima, the Kenmeri Skyline), and objects dated only approximately or by type. The Hijimayama landslide memorial is anachronistic: its inscription says it was rebuilt some thirty years after the 1972 disaster.
+- The nine pieces of military hardware stay in the catalog at the director's ruling.
+- Review notes: 17 of 19 resolved and removed. Three Iizuka licence notes were wrong (the catalog already recorded CC BY-NC 4.0); the two horse-Kannon listings give different dimensions and the two Asakusa arcade scans are separate listings, so both pairs stay. Jinbōchō's historical note now gives the Mita Line station's opening as 30 June 1972, not the listing's 1969. Two notes stay open: Gunkanjima (comparison with the Hashima XR Project record) and the surrender rescript (original or facsimile).
+
 ## 2026-11-01: an image for every entry
 
 - Every one of the 179 entries now carries an image from its own listing, hotlinked from the platform's image server. The 37 Fab, CGTrader and Unity entries that had none now show the listing's preview image: Fab's from its listing data (640 px), CGTrader's and Unity's from the page's `og:image`. Fab and CGTrader refuse automated requests, so those listings were read in a browser; the Unity listings were read directly. All 179 image addresses answered 200 on 1 Nov 2026.

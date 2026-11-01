@@ -105,7 +105,7 @@
               <summary>${esc(T.details)}</summary>
               ${e.historical_notes ? `<p class="mt-2 mb-1" lang="en">${esc(e.historical_notes)} ${esc(T.notesLang)}</p>` : ""}
               ${e.review_note ? `<p class="mb-1 text-danger" lang="en"><strong>${esc(T.review)}:</strong> ${esc(e.review_note)}</p>` : ""}
-              <p class="mb-1">${esc(T.fitLabel)}: ${esc(T.fit[e.showa_fit] || e.showa_fit)}</p>
+              <p class="mb-1">${esc(T.fitLabel)}: ${esc(T.fit[e.showa_fit] || e.showa_fit)}${e.fit_grounds ? ` <span class="text-muted" lang="en">(${esc(e.fit_grounds)})</span>` : ""}</p>
               ${techRows ? `<p class="mb-1">${esc(T.technical)}: ${techRows}</p>` : ""}
               <p class="mb-0 text-muted">${esc(T.checked)}: ${esc(v.checked)} (${esc(v.method)}) · ${esc(e.id)}</p>
             </details>

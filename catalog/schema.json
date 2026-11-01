@@ -28,6 +28,7 @@
       "historical_notes": {"type": "string"},
       "showa_fit": {"enum": ["unassessed", "documented", "proxy", "anachronistic"],
                     "description": "Curatorial judgement of historical fit; set only by the curator"},
+      "fit_grounds": {"type": "string", "description": "The curator's grounds for the showa_fit value, under the rule in README.md"},
       "review_note": {"type": "string", "description": "Open curatorial question about this entry"},
       "image": {"type": "string", "format": "uri"},
       "technical": {
