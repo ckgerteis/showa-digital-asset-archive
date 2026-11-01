@@ -18,7 +18,8 @@
   - household
   - furniture
   historical_notes: "The kotatsu remained the center of family life and heating throughout the Shōwa period."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a kotatsu) but gives no period."
   image: "https://media.sketchfab.com/models/cfb9685fa4c3474baf0cf203da96486b/thumbnails/acbd72bf6a714f289e61735cdee82666/6cd7eb84bdd44a97b394bfd9ae292db8.jpeg"
   technical:
     faces: 7612
@@ -41,7 +42,8 @@
   - household
   - bedding
   historical_notes: "Traditional floor bedding, folded away during the day to maximize living space."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan by its title (Japanese futon); no description or period."
   image: "https://media.sketchfab.com/models/f7385f6be76d492cb943325df7428615/thumbnails/4788ee5fe1fa4a90b3cc017b0a920fdd/d166d9fc15fa4a22ab1fcff3446dedcd.jpeg"
   technical:
     faces: 372834
@@ -64,9 +66,8 @@
   - household
   - furniture
   historical_notes: "Simple open shelving used in shops and domestic storage areas."
-  showa_fit: unassessed
-  review_note: "Listing tags the shelf 'chinese', 'korean', 'oriental'; the v1 catalogue retitled it 'Wooden Shelf'\
-    \ and dated it to 1926-45. Japanese provenance is not stated on the listing."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing tags it 'chinese', 'korean' and 'oriental' and gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/5d0f48de9618466fbe99f7cc7de0e0a2/thumbnails/00252b81e6d343dfab9de02f80b2f609/7113c82db6f345fabf70e17a088a3479.jpeg"
   technical:
     faces: 801
@@ -89,9 +90,8 @@
   - technology
   - audio
   historical_notes: "A 1960s Zenith (US) console, modelled as set dressing without internal mechanism."
-  showa_fit: unassessed
-  review_note: "Listing: 'A Zenith console from the 1960s' (US manufacturer). The v1 catalogue retitled it 'Retro\
-    \ Radio' and presented it as a Japanese household receiver."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing describes a 1960s Zenith console, a US product, and gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/a9d5edadaf494489b33d4e98290d349b/thumbnails/173790f20a2d4328aa8c4c09de0eaeb8/89a002dffa5b4a16a1c61d46f9165420.jpeg"
   technical:
     faces: 1696
@@ -114,7 +114,8 @@
   - technology
   - audio
   historical_notes: "Stereo systems became a status symbol of the middle-class household during the economic boom."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a 1960s ensemble stereo made by National (now Panasonic)."
   image: "https://media.sketchfab.com/models/70a5253f8cd54d73b081027e0d43ef80/thumbnails/9c928345f792465a9d87253430fd1aee/720x405.jpeg"
   technical:
     faces: 3808
@@ -137,9 +138,8 @@
   - household
   - furniture
   historical_notes: British G-Plan teak nesting tables of the 1960s.
-  showa_fit: unassessed
-  review_note: "Listing: 'Mid-Century G-Plan Quadrille British Teak Nesting Tables, 1960s'. A British design, catalogued\
-    \ in v1 as a '1960s Coffee Table' in a Japanese domestic sequence."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing describes British G-Plan teak tables of the 1960s and gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/418ff95954f14088920b3234d471f3d1/thumbnails/bf1b3c5b69974117affcf3fe90a8e384/0aa2e74f7ef1438d93ca819c771e4349.jpeg"
   technical:
     faces: 1224
@@ -162,7 +162,8 @@
   - household
   - clock
   historical_notes: "Mechanical pendulum clock (bonbon dokei) found in many Shōwa households."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Mashup of several clocks; the listing says the shape 'was popular in the 1970s apparently'. The listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/88c18bd315534b1fa699bf41dd9244ed/thumbnails/c96338b5bfc84260a9ab611f668a1be8/f5741c63997f4da0b0243ff08319d6f6.jpeg"
   technical:
     faces: 2004
@@ -187,9 +188,8 @@
   - household
   - food
   historical_notes: "A set of 1960s-style Western glassware and bottles (wine, spirits, milk)."
-  showa_fit: unassessed
-  review_note: "Listing: 'bottles and glasses ... 1960s glassware' tagged wine, whiskey, vodka, milk. The v1 note\
-    \ ('Standard 1.8L (Issho-bin) bottles used for sake and soy sauce') is not supported by the listing."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Bottles and glasses modelled on 1960s glassware (wine, whiskey, vodka, milk). The listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/dc27cb42274f4d2fb3413347ccfc68b2/thumbnails/132e26585faf4bac87599ad4b7912b19/bb8e6da010954ed4bdee8662d427fd3a.jpeg"
   technical:
     faces: 13440
@@ -212,7 +212,8 @@
   - household
   - food
   historical_notes: "The iconic Kikkoman dispenser, designed by Kenji Ekuan in 1961."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a Kikkoman soy-sauce bottle) but gives no period."
   image: "https://media.sketchfab.com/models/d9f7418ef42a4876a0a7f8c1fa7996ea/thumbnails/ef2b2276eebf4752a3b22e3db5b5e446/39f9b94575d340cbb4c9f3e904a813f0.jpeg"
   technical:
     faces: 30944
@@ -235,7 +236,8 @@
   - household
   - kitchen
   historical_notes: "Standard metal kettles were essential tools in every Shōwa kitchen."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A vintage-style kettle. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/0047fa5e44334d3e9bd171ad2bf95ff5/thumbnails/44bfed6526774018a4b9aaa5d4f690e5/c07dac22199d411290bf5affc29a8572.jpeg"
   technical:
     faces: 2418
@@ -258,8 +260,8 @@
   - household
   - culture
   historical_notes: "Smoking was prevalent in public and private spaces throughout the Shōwa era."
-  showa_fit: unassessed
-  review_note: "Listing: made for a recreation of Q's lab from the film Goldfinger. No Japanese reference."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Made for a recreation of a set from the film Goldfinger; the listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/e3a5fd374386419680a26a3acaa18728/thumbnails/eab611a9be9c435d883d0e7ad6db866e/ffd6236c9ea2497fac2404f316bf537f.jpeg"
   technical:
     faces: 7986
@@ -282,7 +284,8 @@
   - household
   - kitchen
   historical_notes: "A standard metal basin (kanadarai) used for washing before plastic became ubiquitous."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan by its title (old Japanese metal basin); the creator says it was modelled from one in their basement."
   image: "https://media.sketchfab.com/models/cd1e63b16f804638873d21b822a23617/thumbnails/4324de68ae004592840eb086f3ead686/a4bd8a332a964e48a9f9c48843f08881.jpeg"
   technical:
     faces: 4344
@@ -308,7 +311,8 @@
   - technology
   - communication
   historical_notes: "Type 3 or Type 4 telephone, common in hallways and offices until the 1960s."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese black wall telephone, model 600, attributed to NTT."
   image: "https://media.sketchfab.com/models/32ca0931052e40e192f59df81779fcef/thumbnails/7b24e94189ef45409a1d61bbccdf3736/f4094ae372cf467d801541303164acc4.jpeg"
   technical:
     faces: 49306
@@ -333,7 +337,8 @@
   - technology
   - appliance
   historical_notes: "The refrigerator was another of the 'Three Sacred Treasures' that transformed domestic life."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A fridge tagged '80s' and '90s'. The listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/30765d86e64e487a935b399ee056b0f7/thumbnails/b278a810c69f4a0f90d7c80ae3552ccf/3ed40374419645119fb4eb5567672cab.jpeg"
   technical:
     faces: 54374
@@ -356,7 +361,8 @@
   - transport
   - bicycle
   historical_notes: "Pre-war bicycle designs often featured sturdy frames for utility and delivery use."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A vintage-style bicycle. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/755673cce36140c1b4aaf249c9c51b06/thumbnails/f7c94d316c0a40cc8ab7765a2957998e/b64d67475fcc42888bab1d26fa91a63f.jpeg"
   technical:
     faces: 358358
@@ -379,7 +385,8 @@
   - household
   - kitchen
   historical_notes: "Modern ceramic designs reflected the changing aesthetics of the dining table."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Generic game-ready tableware. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/71c02a0e1e5d4e51b8772fe447e7d784/thumbnails/97ca42f0671246bdb2869d5436d69ee3/f0637af94ec74f00b82bd35954762121.jpeg"
   technical:
     faces: 55968
@@ -403,7 +410,8 @@
   - transport
   - industrial
   historical_notes: "Coal mining was a critical industry powering Japan's modernization and reconstruction."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing describes a coal-mine wagon from northern France and gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/fe3feca2ef8d41c8b57e0f7949508621/thumbnails/da7a86c9fe5e4bb9988352547d6954cc/e0a56a859ca8446ea8eb5c1d7a819df2.jpeg"
   technical:
     faces: 6315
@@ -427,7 +435,8 @@
   - industrial
   - architecture
   historical_notes: "Detailed visualization of a coal mine gallery, crucial to Japan's industrial history."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A model of a coal-mine gallery at Saint-Étienne, France, per the listing; no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/2cc9dfc11fe243039f9900f0c31414ae/thumbnails/fa7579792620437299ee93bec29b3edf/d0b03a4d21ad4d2abd9cfd619a90189a.jpeg"
   technical:
     faces: 1323204
@@ -450,7 +459,8 @@
   - industrial
   - environment
   historical_notes: "Environmental scene representing the working conditions of Shōwa era miners."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A coal-mine scene. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/8d06b91f11394f758798f1e838175bd0/thumbnails/1af8012ea56c4c4090a23a8b1b4fe46a/3c7ee34f725f47239d01dbc5417fb06f.jpeg"
   technical:
     faces: 24154
@@ -473,7 +483,8 @@
   - culture
   - bath
   historical_notes: "Items associated with onsen culture, including wooden buckets and stools."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (onsen stool and bucket in hinoki) but gives no period."
   image: "https://media.sketchfab.com/models/b44c975c848543b49b618d46c93dced6/thumbnails/e239576c339a4444957cb21df010ba59/ae693cedc5ac465cbf0d77ac9d69dea1.jpeg"
   technical:
     faces: 5791
@@ -498,7 +509,8 @@
   - household
   - books
   historical_notes: "Watoji binding style book, showing the transition between traditional and modern publishing."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (old Japanese books, hand-painted low-poly) but gives no period."
   image: "https://media.sketchfab.com/models/ac36f6825ff94da08ec37a0debaeb546/thumbnails/1a156df0698a49fa896ceb5be2867226/ca597aeee93045ddb21067dc9759248b.jpeg"
   technical:
     faces: 160
@@ -523,7 +535,8 @@
   - household
   - clothing
   historical_notes: "Typical folded garments stored in tansu chests or on tatami mats."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "Scanned present-day garments, folded in Japanese style per the listing tags; no period."
   image: "https://media.sketchfab.com/models/ff91333a3d1c4505b18315153c2ffd5e/thumbnails/c41eb3d37863403fb23fcd9a9d07b26a/3228471260b74e22802208e7b5b77243.jpeg"
   technical:
     faces: 829
@@ -546,7 +559,8 @@
   - industrial
   - clothing
   historical_notes: "Standard safety helmet used in construction and mining during the high-growth period."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A simple work helmet. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/3a90b5f021604be18c26d67e4bef53b8/thumbnails/01b73d97740b4789a580052664dbdb52/bce9c0a09da940b9b8023713a878ab14.jpeg"
   technical:
     faces: 1188
@@ -569,7 +583,8 @@
   - industrial
   - architecture
   historical_notes: Industrial buildings associated with coal mining operations.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Modular colliery buildings for background scenery. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/4f30cf1b73564b4c913419408d135dcf/thumbnails/10fa2342213b435197717e26d3eb8a9e/78519081b6c24ca097409dad690428f5.jpeg"
   technical:
     faces: 102115
@@ -592,8 +607,8 @@
   - industrial
   - resource
   historical_notes: "Raw resource pile representing the energy source of early Shōwa industry."
-  showa_fit: unassessed
-  review_note: "v1 period tag(s) outside the vocabulary: industrial_era."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A coal pile. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/f7d3aaba7aca469bb11bdbbd041c8029/thumbnails/8d65ba40f01c4f41ae10348de2e571bb/509bd8bfb3904b749d58fd836d99a59b.jpeg"
   technical:
     faces: 550652
@@ -617,9 +632,8 @@
   - tool
   historical_notes: "A Flottmann pneumatic rock drill from German underground mining, scanned at the Deutsches Bergbau-Museum\
     \ Bochum."
-  showa_fit: unassessed
-  review_note: "Listing (Deutsches Bergbau-Museum Bochum): a Flottmann rock drill made in Herne, Germany, used underground\
-    \ in German mining. Not a Japanese object."
+  showa_fit: proxy
+  fit_grounds: "A museum scan of a Flottmann rock drill made in Herne and used in German mining (Deutsches Bergbau-Museum Bochum); the listing gives no date and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/173e131655e64282b082ecbbc63d46b7/thumbnails/268f8801afd041408df4fe68cb6a47ac/d5ebabbf7a2f4dc3bc2ecc5e1c8266b7.jpeg"
   technical:
     faces: 749514
@@ -643,7 +657,8 @@
   - religion
   historical_notes: "A portable Shinto shrine (mikoshi) carried during festivals, symbolizing community identity\
     \ and resilience."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a mikoshi) but gives no period."
   image: "https://media.sketchfab.com/models/ab6bf22fcae243daa362f30aa4f8a4db/thumbnails/273f33f5d1cb4d41ace7cf4ce69838d2/bd656bc8d93c4b1ba8bbf8051c5e42bf.jpeg"
   technical:
     faces: 470818
@@ -671,7 +686,8 @@
   - home
   - kitchen
   historical_notes: "Compact sink/cabinet unit suitable for modest post-war apartments and company housing interiors."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A damaged kitchen sink unit. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/ae28685edf05438186c4fc800f9f0cf5/thumbnails/fa7c05bdc86241dbad4566adf7483fb7/4398d246054b4d05a958a0d90d223fba.jpeg"
   technical:
     faces: 16728
@@ -701,7 +717,8 @@
   - office
   historical_notes: "Mid-century telephone prop for corridors, offices, and domestic entryways (Shōwa-era communications\
     \ infrastructure)."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A study of an old telephone. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/ea1190c677314564948cbd5ed04b79bb/thumbnails/dcd520d3ead34bffaa9cab07c4cd89fd/00ea9604ec464314954087152833bd37.jpeg"
   technical:
     faces: 137297
@@ -730,7 +747,8 @@
   - home
   - kitchen
   historical_notes: "Domestic cookware prop for Shōwa kitchens; supports meal-prep and everyday-life staging."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan and the period: a 'Japanese shouwa retro pot'."
   image: "https://media.sketchfab.com/models/e22db974a49748bfac85fea024f1c331/thumbnails/2f7ce23fe0d64f8bb6a8a1541a6cd8a6/83bf20b14b58455f859977b628db7b0b.jpeg"
   technical:
     faces: 3365
@@ -754,7 +772,8 @@
   - industrial
   - architecture
   historical_notes: "A kitbash set useful for reconstructing Shōwa-era coal mining facilities."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. An industrial coal-mine kitbash set. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.fab.com/image_previews/gallery_images/65a49b72-98f7-4f57-bd4a-ac4bd85b32ac/322728cc-6475-4500-a704-3cb8d9cb2f00.jpg"
   technical:
     formats: Unreal Engine
@@ -779,7 +798,8 @@
   - transport
   - industrial
   historical_notes: "Template useful for simulating rail transport, a backbone of Shōwa modernization."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A train simulation template for Unreal Engine. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.fab.com/image_previews/gallery_images/e490cb2c-eb7c-41bb-8200-171f40b7dbae/cbd8e9a2-ab1d-480e-96e6-5b819d26eb37.jpg"
   technical:
     formats: Unreal Engine
@@ -801,7 +821,8 @@
   - industrial
   - tool
   historical_notes: Various hand tools used in mining operations.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A pack of mining tools. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.fab.com/image_previews/gallery_images/148e2e20-949d-4688-adf2-07e44c1ff1dc/235e10c5-a619-481f-b39b-66e358611f36.jpg"
   technical:
     formats: Unreal Engine, Unity
@@ -824,7 +845,8 @@
   - industrial
   - environment
   historical_notes: "A comprehensive bundle of assets for creating mine environments."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A modular mining environment. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.fab.com/image_previews/gallery_images/97f765b6-d678-4347-a17c-b3dfd3ed1149/63681f39-0b4f-4836-9661-8ae83462a1b2.jpg"
   technical:
     formats: Unreal Engine
@@ -846,7 +868,8 @@
   - architecture
   - environment
   historical_notes: "Environment pack suitable for creating rural or semi-rural post-war scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A stylized Japanese village inspired, per the listing, by classic Japanese cartoons and TV series."
   image: "https://media.fab.com/image_previews/gallery_images/b0828972-b9ce-4cca-b156-2562286d4400/e63af317-87eb-4061-9fb1-a1a0504616cf.jpg"
   technical:
     formats: Unreal Engine
@@ -867,7 +890,8 @@
   - architecture
   - commercial
   historical_notes: "Complete restaurant environment based on a real Izakaya in Onomichi, Hiroshima."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: an izakaya inspired by the historic town of Onomichi, Hiroshima, with names changed."
   image: "https://media.fab.com/image_previews/gallery_images/0bac889b-c2fe-4be1-814e-7ba60bbefd7d/e854dc4d-a29f-4117-8399-c785410f3fbc.jpg"
   technical:
     formats: Unreal Engine
@@ -893,7 +917,8 @@
   - commercial
   historical_notes: "Kaitenzushi (conveyor belt sushi) emerged in 1958, symbolizing the efficiency of the high-growth\
     \ era."
-  showa_fit: unassessed
+  showa_fit: anachronistic
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing describes a present-day conveyor-belt sushi restaurant where orders are placed by tablet."
   image: "https://media.fab.com/image_previews/gallery_images/34e13dcb-0314-4efe-beae-cf730c6e23e0/ab7e1325-43f9-47f5-b764-47335c1d91c9.jpg"
   technical:
     formats: Unreal Engine
@@ -916,7 +941,8 @@
   - architecture
   - commercial
   historical_notes: "Small eateries were central to neighborhood social life throughout the Shōwa period."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a typical small Japanese restaurant; no period."
   image: "https://media.fab.com/image_previews/gallery_images/7057cc65-c902-46ca-a953-47019df4c24c/bc40bfde-c2a0-47e5-a17a-14ec8d55815c.jpg"
   technical:
     formats: Unreal Engine
@@ -943,7 +969,8 @@
   - education
   historical_notes: "Wooden school buildings were standard educational infrastructure before the shift to reinforced\
     \ concrete."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: an old, abandoned-looking Japanese elementary school; no period."
   image: "https://media.fab.com/image_previews/gallery_images/a2a35339-59af-407b-8320-9b61143fb756/c20af1eb-ade7-454b-950f-1f2619edc8ad.jpg"
   technical:
     formats: Unreal Engine
@@ -964,7 +991,8 @@
   - interior
   - education
   historical_notes: "Standardized classroom fixtures reflect the modernization of the Japanese education system."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese classroom the listing calls 'slightly dated'; no period."
   image: "https://media.fab.com/image_previews/gallery_images/5dc53b9c-2cb4-48ee-9413-bb01d4589b2d/48a3aa8e-4c87-4599-b0cc-92313765d0ad.jpg"
   technical:
     formats: Unreal Engine
@@ -989,7 +1017,8 @@
   - architecture
   - education
   historical_notes: "Comprehensive set of school assets covering various aspects of student life."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a bundle of five Japanese school packs; no period."
   image: "https://media.fab.com/image_previews/gallery_images/5156195d-4a31-41cd-a9bb-04a7d85f0447/446b9461-8a43-48ef-846a-8413ef8dabdb.jpg"
   technical:
     formats: Unreal Engine
@@ -1013,7 +1042,8 @@
   - education
   historical_notes: "Institutional cafeteria spaces reflect the mass-scale education and dining of the post-war\
     \ boom."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese school cafeteria; no period."
   image: "https://media.fab.com/image_previews/gallery_images/537b9bce-d697-4981-9fd7-61a2d8c415b4/163ce498-25b2-4cb6-9e96-27c67f817001.jpg"
   technical:
     formats: Unreal Engine
@@ -1036,7 +1066,8 @@
   - architecture
   - environment
   historical_notes: "Domestic architecture integrated with garden elements, typical of suburban Shōwa homes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese-themed house and foliage environment; no period."
   image: "https://media.fab.com/image_previews/gallery_images/71c6f73d-8f38-4562-91c7-3a53352c4714/e39ea33d-4583-4635-91af-391cf1c3c31d.jpg"
   technical:
     formats: Unreal Engine
@@ -1060,7 +1091,8 @@
   - architecture
   - urban
   historical_notes: "Modular components allowing for the construction of varied streetscapes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: semi-traditional Japanese buildings; no period."
   image: "https://media.fab.com/image_previews/gallery_images/e080ff10-e3d3-4339-b2dd-f5bc6ad826d1/8dc8071a-14e9-4942-b1bd-a1e3f6213298.jpg"
   technical:
     formats: Unreal Engine
@@ -1083,7 +1115,8 @@
   - architecture
   - component
   historical_notes: "Traditional Kawara tiles remained the dominant roofing material throughout the 20th century."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: kawara roof tiles to the JIS J-53A standard."
   image: "https://media.fab.com/image_previews/gallery_images/3c3846b7-46e1-46a6-8568-903e5bbcb344/a80ddff8-afcd-41a8-b3a3-00cf2f23a3f1.jpg"
   technical:
     formats: Unreal Engine
@@ -1104,7 +1137,8 @@
   - urban
   - signage
   historical_notes: "A collection of 100 street signs, essential for creating authentic urban density."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: 109 common Japanese street signs, as in use today; the listing does not date the designs."
   image: "https://media.fab.com/image_previews/gallery_images/2bdb0a2b-c1f8-4b2d-828e-3089dc470fca/c0914fa5-f93b-43e0-9b5e-fc41525099e3.jpg"
   technical:
     formats: Unreal Engine
@@ -1127,7 +1161,8 @@
   - commercial
   - interior
   historical_notes: "Izakaya interiors represent the after-work culture of the Japanese 'salaryman'."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: an izakaya set in the alleys of Omoide Yokochō; no period."
   image: "https://media.fab.com/image_previews/gallery_images/d67ad2da-e934-4acd-8a33-fa4632aea5c2/f06b9b83-6849-4d66-a866-aaef53291bce.jpg"
   technical:
     formats: Unreal Engine
@@ -1152,7 +1187,8 @@
   - household
   - culture
   historical_notes: "Tea sets are ubiquitous in Japanese hospitality and domestic life across all eras."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a Japanese tea set) but gives no period."
   image: "https://media.fab.com/image_previews/gallery_images/8cf57932-56ac-47f4-89b2-584403a5651f/164e0768-9630-41e0-a2c0-bd4754b75a4a.jpg"
   technical:
     formats: Unreal Engine
@@ -1174,7 +1210,8 @@
   - transport
   - vehicle
   historical_notes: "The 'Mamachari' style utility bicycle became a staple of Japanese daily life."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a well-used Japanese city bicycle; no period."
   image: "https://media.fab.com/image_previews/gallery_images/327dd734-4ff1-404b-910c-326b70e2c3ff/20e6c309-55f2-420b-89dc-6e88905bc054.jpg"
   technical:
     formats: Unreal Engine, Unity
@@ -1196,7 +1233,8 @@
   - architecture
   - component
   historical_notes: "Shoji screens remained a key architectural feature even in modernizing homes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a shoji assembly kit; no period."
   image: "https://media.fab.com/image_previews/gallery_images/bf9215ff-e94e-440b-85cc-ad655dd646ae/724a086d-3cce-444d-b194-1a6ef25e8000.jpg"
   technical:
     formats: Unreal Engine
@@ -1217,7 +1255,8 @@
   - household
   - prop
   historical_notes: "Small items that clutter and define a lived-in Japanese room."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese-style room with accessories; no period."
   image: "https://media.fab.com/image_previews/gallery_images/3dc21dfa-7882-4869-9bf0-d4051e0b17e3/91642868-add5-48ac-963c-8fef68264491.jpg"
   technical:
     formats: Unreal Engine
@@ -1238,7 +1277,8 @@
   - interior
   - architecture
   historical_notes: "A kit for building standard Japanese washitsu (tatami rooms)."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: Japanese rooms on the zairai post-and-beam structure; no period."
   image: "https://media.fab.com/image_previews/gallery_images/a06e9fbc-44cc-4276-8dd1-4d11ded2c927/38338222-cc27-4927-ae86-c7e54bec3681.jpg"
   technical:
     formats: Unreal Engine
@@ -1263,7 +1303,8 @@
   - home
   - living_room
   historical_notes: "Low dining table supporting tatami-room staging and shared-meal scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a chabudai) but gives no period."
   image: "https://img-new.cgtrader.com/items/4973811/b2557052c3/chabu-table-3d-model-b2557052c3.webp"
   verification:
     status: probable
@@ -1288,7 +1329,8 @@
   - home
   - kitchen
   historical_notes: "Insulated container suitable for Shōwa domestic food/storage practices."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a Japanese thermal jar) but gives no period."
   image: "https://img-new.cgtrader.com/items/4980719/14ad547559/japanese-thermal-jar-3d-model-14ad547559.webp"
   verification:
     status: verified
@@ -1313,7 +1355,8 @@
   - home
   - interior
   historical_notes: "Alternative tatami model for variation and/or different topology/UV requirements."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a tatami mat) but gives no period."
   image: "https://img-new.cgtrader.com/items/3569668/e1c1078bc5/tatami-mat-3d-model-e1c1078bc5.webp"
   technical:
     formats: BLEND (native), FBX, OBJ
@@ -1339,7 +1382,8 @@
   - public
   - bath
   historical_notes: "Public hygiene infrastructure environment element; supports neighbourhood/street-scene context."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a Japanese public bathroom) but gives no period."
   image: "https://img-new.cgtrader.com/items/3680498/e0b03ff47f/japanese-public-bathroom-unity-ready-3d-model-e0b03ff47f.webp"
   verification:
     status: verified
@@ -1364,7 +1408,8 @@
   - home
   - kitchen
   historical_notes: "Bundled interior props enabling faster dressing of lived-in dining/kitchen scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: traditional Japanese living and dining room props; no period."
   image: "https://img-new.cgtrader.com/items/4131739/a4a2ee2866/49-traditional-japanese-living-and-dining-room-props-3d-model-a4a2ee2866.webp"
   verification:
     status: verified
@@ -1389,7 +1434,8 @@
   - home
   - interior
   historical_notes: "Large interior kit for fast iteration across multiple domestic rooms without repeating layouts."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: traditional Japanese interior props, doors and furniture; no period."
   image: "https://img-new.cgtrader.com/items/4274184/0e7b8bcb4d/traditional-japanese-interior-props-bundle-doors-and-furniture-3d-model-0e7b8bcb4d.webp"
   technical:
     formats: BLEND (native), OBJ, FBX, PNG, JPG textures
@@ -1417,7 +1463,8 @@
   - public
   - religion
   historical_notes: "Shrine environment pack for religious/civic landscape elements (continuity across eras)."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a modular Hachiman shrine pack; no period."
   image: "https://img-new.cgtrader.com/items/2721850/86b9b2e5b6/japanese-shrine-pack-30-modular-pbr-aaa-ready-models-3d-model-86b9b2e5b6.webp"
   verification:
     status: probable
@@ -1443,7 +1490,8 @@
   - public
   - festival
   historical_notes: "Festival props supporting community scenes, street dressing, and seasonal cultural contexts."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: matsuri and Obon festival props; no period."
   image: "https://img-new.cgtrader.com/items/4263264/65ddd1234b/japanese-festival-pack-matsuri-and-obon-assets-3d-model-65ddd1234b.webp"
   verification:
     status: verified
@@ -1466,7 +1514,8 @@
   - commercial
   - interior
   historical_notes: "Commercial interior environment suitable for Shōwa-era nightlife and after-work sociality scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: the CGTrader twin of the Onomichi-inspired izakaya pack; no period."
   image: "https://img-new.cgtrader.com/items/3276524/2c3dfe3524/japanese-izakaya-restaurant-2-interior-and-exterior-3d-model-2c3dfe3524.webp"
   technical:
     price: $39.00 (per nimikko.co.jp)
@@ -1489,7 +1538,8 @@
   - environment
   historical_notes: "Late-Shōwa residential kit (houses + domestic exterior details) for building neighbourhood\
     \ streetscapes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan and the period: houses for a late-Shōwa (1970–1980) town."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/7ea91f3e-4eb9-48e6-ab03-eeeec6196ea8.jpg?v=1"
   technical:
     formats: Unity package v1.2 (Feb 9 2022)
@@ -1511,7 +1561,8 @@
   - commercial
   - environment
   historical_notes: "Late-Shōwa commercial district/mall elements (shops, signs, arcade roof) for dense street scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan and the period: shopping-district buildings in the same late-Shōwa town series."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/82ef8fcf-c3b9-4daf-afbe-5c786337069f.jpg?v=1"
   technical:
     formats: Unity package v1.2a (Jul 5 2023)
@@ -1535,7 +1586,8 @@
   - environment
   historical_notes: "Large environment pack for constructing older streetscapes; useful as a base layer behind bespoke\
     \ domestic interiors."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: an old Japanese town environment; no period."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/27e6700a-fbad-4f5b-98ea-6a35bb323b68.jpg?v=1"
   technical:
     formats: Unity package v1.2.0
@@ -1559,7 +1611,8 @@
   - stylized
   historical_notes: "Stylized environment pack (pagodas/ryokan/torii + nature assets) for non-photoreal XR scenes\
     \ or interpretive layers."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a stylized, flat-shaded Japanese environment with pagoda, palace, ryokan and torii; no period."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/b37e8556-e351-4611-bf64-fb3a66d6aa73.jpg?v=1"
   technical:
     formats: Unity package v1.0 (Sep 19 2022)
@@ -1583,7 +1636,8 @@
   - prop_set
   historical_notes: "Multi-building bundle (shops/houses) supporting quick assembly of mixed-use streets and neighbourhood\
     \ nodes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: shops and houses, several named after real places (Kanayama, Kyoto, Shinagawa, Tsukishima); no period."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/fb49c499-35cb-40fe-92bb-af14f8b845ff.jpg?v=1"
   technical:
     formats: Unity package v1.0 (Feb 6 2024)
@@ -1607,7 +1661,8 @@
   - prop_set
   historical_notes: "Mid-century interior prop pack enabling Western-influenced domestic scenes (useful alongside\
     \ Shōwa electronics and hybrid room layouts)."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A stylized '1950s' living-room prop pack. The listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/59436717-c7d0-43e9-8dcf-9cb0649b7ef6.jpg?v=1"
   technical:
     formats: Unity package v1.0 (Apr 22 2024)
