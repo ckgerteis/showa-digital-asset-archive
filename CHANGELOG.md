@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-01: provenance of the catalog stated
+
+- AI & Ethics statement (EN/JA) corrected at the project director's instruction: the December 2025 catalog was adapted from the work of Katherine Strachan and Adam Kay (linked to their public profiles), and has been maintained with Anthropic's Claude tools since then. It replaces the earlier sentence that the first version was compiled with AI tools.
+
 ## 2026-11-01: AI & Ethics statement adopted
 
 - The AI & Ethics statement (`ethics.html`, `ja/ethics.html`) is adopted by the project director as published; the draft label is removed.
