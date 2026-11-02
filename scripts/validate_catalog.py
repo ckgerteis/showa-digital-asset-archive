@@ -31,7 +31,8 @@ def main():
             if n > 1:
                 errors.append(f"duplicate {field}: {value} ({n} entries)")
 
-    prefix = {"sketchfab": "skf", "fab": "fab", "cgtrader": "cgt", "unity_asset_store": "unity"}
+    prefix = {"sketchfab": "skf", "fab": "fab", "cgtrader": "cgt", "unity_asset_store": "unity",
+              "booth": "booth", "niconi_3d": "nico", "open_data": "od"}
     for e in data:
         if e.get("source") in prefix and not e.get("id", "").startswith(prefix[e["source"]] + "-"):
             errors.append(f"{e.get('id')}: id prefix does not match source {e.get('source')}")

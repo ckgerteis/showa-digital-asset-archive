@@ -16,13 +16,13 @@
       late_showa_1973_1989: "昭和後期（1973–89）",
       unassigned: "時期未定"
     },
-    sources: { sketchfab: "Sketchfab", fab: "Fab", cgtrader: "CGTrader", unity_asset_store: "Unity Asset Store" },
+    sources: { sketchfab: "Sketchfab", fab: "Fab", cgtrader: "CGTrader", unity_asset_store: "Unity Asset Store", booth: "BOOTH", niconi_3d: "ニコニ立体", open_data: "オープンデータ" },
     view: "掲載ページを開く", details: "詳細", noAssets: "条件に該当するアセットはありません。",
     error: "カタログを読み込めませんでした", of: "件中", shown: "件を表示",
     licence: "ライセンス（掲載ページ記載）", creator: "制作者", checked: "確認日", probable: "照合：推定",
     probableHelp: "掲載ページのタイトルが移行時に変更されているため、同一性は推定です。",
-    review: "要検討", fitLabel: "時代適合性", technical: "技術情報", faces: "ポリゴン数", downloadable: "ダウンロード可",
-    yes: "可", no: "不可", formats: "形式", price: "価格", notesLang: "（解説は英語）",
+    review: "要検討", fitLabel: "時代適合性", aiLabel: "AIの使用（掲載ページの記載）", aiBadge: "AI記載あり", aiAll: "AI記載：すべて", aiYes: "AI記載あり", aiNo: "AI記載なし", technical: "技術情報", faces: "ポリゴン数", downloadable: "ダウンロード可",
+    yes: "可", no: "不可", formats: "形式", items: "点数", price: "価格", notesLang: "（解説は英語）",
     fit: { unassessed: "未評価", documented: "確認済み", proxy: "代替資料", anachronistic: "時代不適合" },
     licenceClass: { open: "オープン（CC）", commercial: "商用ライセンス", viewonly: "閲覧のみ", unknown: "記載なし" }
   } : {
@@ -33,13 +33,13 @@
       late_showa_1973_1989: "Late Shōwa (1973–89)",
       unassigned: "Period unassigned"
     },
-    sources: { sketchfab: "Sketchfab", fab: "Fab", cgtrader: "CGTrader", unity_asset_store: "Unity Asset Store" },
+    sources: { sketchfab: "Sketchfab", fab: "Fab", cgtrader: "CGTrader", unity_asset_store: "Unity Asset Store", booth: "BOOTH", niconi_3d: "ニコニ立体 (Niconi 3D)", open_data: "Open data" },
     view: "Open listing", details: "Details", noAssets: "No assets match these filters.",
     error: "The catalog could not be loaded", of: "of", shown: "shown",
     licence: "Licence (as listed)", creator: "Creator", checked: "Listing checked", probable: "Match probable",
     probableHelp: "The listing was retitled when it moved platforms; the match rests on seller and description.",
-    review: "Under review", fitLabel: "Historical fit", technical: "Technical", faces: "Faces", downloadable: "Downloadable",
-    yes: "yes", no: "no", formats: "Formats", price: "Price", notesLang: "",
+    review: "Under review", fitLabel: "Historical fit", aiLabel: "AI use (as the listing states)", aiBadge: "AI statement", aiAll: "AI statement: any", aiYes: "Has an AI statement", aiNo: "No AI statement", technical: "Technical", faces: "Faces", downloadable: "Downloadable",
+    yes: "yes", no: "no", formats: "Formats", items: "Items", price: "Price", notesLang: "",
     fit: { unassessed: "not yet assessed", documented: "documented", proxy: "proxy object", anachronistic: "anachronistic" },
     licenceClass: { open: "Open (Creative Commons)", commercial: "Commercial licence", viewonly: "View only", unknown: "Not stated" }
   };
@@ -79,11 +79,13 @@
     if (e.verification && e.verification.status === "probable")
       flags.push(`<span class="badge text-bg-warning" title="${esc(T.probableHelp)}">${esc(T.probable)}</span>`);
     if (e.review_note) flags.push(`<span class="badge text-bg-danger">${esc(T.review)}</span>`);
+    if (e.ai_statement) flags.push(`<span class="badge text-bg-info">${esc(T.aiBadge)}</span>`);
     const tech = e.technical || {};
     const techRows = [
       tech.faces != null ? `${esc(T.faces)}: ${Number(tech.faces).toLocaleString()}` : "",
       tech.downloadable != null ? `${esc(T.downloadable)}: ${tech.downloadable ? T.yes : T.no}` : "",
       tech.formats ? `${esc(T.formats)}: ${esc(tech.formats)}` : "",
+      tech.items != null ? `${esc(T.items)}: ${Number(tech.items).toLocaleString()}` : "",
       tech.price ? `${esc(T.price)}: ${esc(tech.price)}` : ""
     ].filter(Boolean).join(" · ");
     const v = e.verification || {};
@@ -105,6 +107,7 @@
               <summary>${esc(T.details)}</summary>
               ${e.historical_notes ? `<p class="mt-2 mb-1" lang="en">${esc(e.historical_notes)} ${esc(T.notesLang)}</p>` : ""}
               ${e.review_note ? `<p class="mb-1 text-danger" lang="en"><strong>${esc(T.review)}:</strong> ${esc(e.review_note)}</p>` : ""}
+              ${e.ai_statement ? `<p class="mb-1"><strong>${esc(T.aiLabel)}:</strong> <span lang="ja">${esc(e.ai_statement)}</span></p>` : ""}
               <p class="mb-1">${esc(T.fitLabel)}: ${esc(T.fit[e.showa_fit] || e.showa_fit)}${e.fit_grounds ? ` <span class="text-muted" lang="en">(${esc(e.fit_grounds)})</span>` : ""}</p>
               ${techRows ? `<p class="mb-1">${esc(T.technical)}: ${techRows}</p>` : ""}
               <p class="mb-0 text-muted">${esc(T.checked)}: ${esc(v.checked)} (${esc(v.method)}) · ${esc(e.id)}</p>
@@ -121,15 +124,17 @@
   function apply() {
     const term = $("searchInput").value.trim().toLowerCase();
     const period = $("periodFilter").value, obj = $("objectFilter").value, space = $("spaceFilter").value;
-    const src = $("sourceFilter").value, lic = $("licenceFilter").value;
+    const src = $("sourceFilter").value, lic = $("licenceFilter").value, ai = $("aiFilter").value;
     const rows = data.filter((e) => {
       if (period && !(e.period_tags || []).includes(period)) return false;
       if (obj && !(e.object_tags || []).includes(obj)) return false;
       if (space && !(e.space_tags || []).includes(space)) return false;
       if (src && e.source !== src) return false;
       if (lic && licenceClass(e.licence) !== lic) return false;
+      if (ai === "yes" && !e.ai_statement) return false;
+      if (ai === "no" && e.ai_statement) return false;
       if (!term) return true;
-      return [e.title, e.title_ja, e.creator, e.historical_notes, (e.object_tags || []).join(" "), (e.space_tags || []).join(" ")]
+      return [e.title, e.title_ja, e.creator, e.historical_notes, e.ai_statement, (e.object_tags || []).join(" "), (e.space_tags || []).join(" ")]
         .join(" ").toLowerCase().includes(term);
     });
     $("count").textContent = JA ? `${data.length}${T.of}${rows.length}${T.shown}` : `${rows.length} ${T.of} ${data.length} ${T.shown}`;
@@ -148,7 +153,8 @@
         fillSelect("spaceFilter", uniq((e) => e.space_tags || []), (t) => t.replace(/_/g, " "));
         fillSelect("sourceFilter", Object.keys(T.sources).filter((s) => data.some((e) => e.source === s)), (s) => T.sources[s]);
         fillSelect("licenceFilter", Object.keys(T.licenceClass), (c) => T.licenceClass[c]);
-        ["searchInput", "periodFilter", "objectFilter", "spaceFilter", "sourceFilter", "licenceFilter"].forEach((id) =>
+        fillSelect("aiFilter", ["yes", "no"], (v) => (v === "yes" ? T.aiYes : T.aiNo));
+        ["searchInput", "periodFilter", "objectFilter", "spaceFilter", "sourceFilter", "licenceFilter", "aiFilter"].forEach((id) =>
           $(id).addEventListener(id === "searchInput" ? "input" : "change", apply));
         apply();
       })

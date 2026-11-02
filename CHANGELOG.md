@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-02: Japanese marketplaces, institutional open data and 273 new entries
+
+- The catalog now accepts three further sources: BOOTH (`booth`, ids `booth-`), ニコニ立体 / Niconi 3D (`niconi_3d`, `nico-`) and institutional open-data portals (`open_data`, `od-`). Schema, validator, link checker, the platform filter and both Submit pages are updated.
+- 273 entries added (catalog now 452), all found through Japanese-language searches and admitted where the model can be downloaded and its stated terms allow use in world or game building, or restrict it, as recorded: 243 BOOTH items (10 with restricted terms, mostly non-commercial), one ニコニ立体 work, 28 Sketchfab models from municipal, museum and individual accounts, and Nakano Sunplaza's 3D data on Tokyo's open-data catalogue. About 500 further BOOTH items whose pages state no terms are held back until their terms can be read.
+- One entry per listing: a pack sold as one item is one entry, with the number of objects in `technical.items`. Seller's terms are recorded in `licence` in the listing's own words.
+- New field `ai_statement` quotes what a listing says about AI use in making the model, as the AI & Ethics statement requires; the card shows it and a new filter selects it. Twenty listings carry one.
+- Historical fit applied under the adopted rule: the marketplace items are proxies, with the listing's period wording quoted in the grounds; 15 institutional and individual scans are documented. Six BOOTH items give only a decade, not 昭和, and are admitted as proxies at the director's ruling.
+
 ## 2026-11-01: historical fit for every entry
 
 - The director adopted a rule for `showa_fit` (now in the README) and assessed skf-0059 to skf-0170 under it: 89 documented, 22 proxy, 1 anachronistic. A new field, `fit_grounds`, records the reasons for each, and the catalog card shows them beside the fit.
