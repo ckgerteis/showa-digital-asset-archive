@@ -16,4 +16,9 @@ model files. Listing titles, creator names and thumbnail images are reproduced o
 the listing to identify it; they remain the property of the creator or platform and are not
 relicensed here.
 
+One image is hosted by the archive itself: `assets/thumbs/od-0001.jpg`, a view rendered from the
+exterior model in Nakano City's *中野サンプラザ3Dデータ* (Tokyo open-data catalogue), which Nakano City
+licenses under CC BY 4.0. The render is likewise CC BY 4.0, credited to Nakano City; the catalog entry
+carries the credit in its `image_credit` field.
+
 The software is licensed separately under the MIT licence; see `LICENSE`.

@@ -6,6 +6,7 @@
 - 273 entries added (catalog now 452), all found through Japanese-language searches and admitted where the model can be downloaded and its stated terms allow use in world or game building, or restrict it, as recorded: 243 BOOTH items (10 with restricted terms, mostly non-commercial), one ニコニ立体 work, 28 Sketchfab models from municipal, museum and individual accounts, and Nakano Sunplaza's 3D data on Tokyo's open-data catalogue. About 500 further BOOTH items whose pages state no terms are held back until their terms can be read.
 - One entry per listing: a pack sold as one item is one entry, with the number of objects in `technical.items`. Seller's terms are recorded in `licence` in the listing's own words.
 - New field `ai_statement` quotes what a listing says about AI use in making the model, as the AI & Ethics statement requires; the card shows it and a new filter selects it. Twenty listings carry one.
+- Every entry has an image. Nakano Sunplaza's dataset has no picture, so the archive rendered a view of its CC BY 4.0 exterior model and hosts it at `assets/thumbs/od-0001.jpg`, the first image the archive hosts itself. The credit is in a new `image_credit` field, shown on the card, and in `LICENSE-CONTENT.md`.
 - Historical fit applied under the adopted rule: the marketplace items are proxies, with the listing's period wording quoted in the grounds; 15 institutional and individual scans are documented. Six BOOTH items give only a decade, not 昭和, and are admitted as proxies at the director's ruling.
 
 ## 2026-11-01: historical fit for every entry

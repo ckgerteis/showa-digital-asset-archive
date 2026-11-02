@@ -11658,6 +11658,8 @@
   historical_notes: Nakano Sunplaza, Tokyo. Point clouds, photographs and a 3D model made in 2023 to archive the building as a cultural asset after it closed in July 2023; published on Tokyo's open-data catalogue.
   showa_fit: proxy
   fit_grounds: A record of the surviving building made at its closure, but the dataset does not give the building's date.
+  image: https://showa-digital-archive.org/assets/thumbs/od-0001.jpg
+  image_credit: "Rendered by the archive from nakano_Outside.glb in 中野サンプラザ3Dデータ © Nakano City, CC BY 4.0. Untextured exterior model, shown in neutral tones."
   technical:
     downloadable: true
     formats: 'ZIP: point clouds (five areas), 3D model data (glb, ifc, nwc, nwd), photographs'

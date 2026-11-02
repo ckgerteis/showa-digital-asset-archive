@@ -32,6 +32,7 @@
       "fit_grounds": {"type": "string", "description": "The curator's grounds for the showa_fit value, under the rule in README.md"},
       "review_note": {"type": "string", "description": "Open curatorial question about this entry"},
       "image": {"type": "string", "format": "uri"},
+      "image_credit": {"type": "string", "description": "Credit for an image the archive hosts itself (assets/thumbs/), as its licence requires"},
       "technical": {
         "type": "object", "additionalProperties": false,
         "properties": {

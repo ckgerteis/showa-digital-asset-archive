@@ -21,7 +21,7 @@
     error: "カタログを読み込めませんでした", of: "件中", shown: "件を表示",
     licence: "ライセンス（掲載ページ記載）", creator: "制作者", checked: "確認日", probable: "照合：推定",
     probableHelp: "掲載ページのタイトルが移行時に変更されているため、同一性は推定です。",
-    review: "要検討", fitLabel: "時代適合性", aiLabel: "AIの使用（掲載ページの記載）", aiBadge: "AI記載あり", aiAll: "AI記載：すべて", aiYes: "AI記載あり", aiNo: "AI記載なし", technical: "技術情報", faces: "ポリゴン数", downloadable: "ダウンロード可",
+    review: "要検討", fitLabel: "時代適合性", imageCredit: "画像", aiLabel: "AIの使用（掲載ページの記載）", aiBadge: "AI記載あり", aiAll: "AI記載：すべて", aiYes: "AI記載あり", aiNo: "AI記載なし", technical: "技術情報", faces: "ポリゴン数", downloadable: "ダウンロード可",
     yes: "可", no: "不可", formats: "形式", items: "点数", price: "価格", notesLang: "（解説は英語）",
     fit: { unassessed: "未評価", documented: "確認済み", proxy: "代替資料", anachronistic: "時代不適合" },
     licenceClass: { open: "オープン（CC）", commercial: "商用ライセンス", viewonly: "閲覧のみ", unknown: "記載なし" }
@@ -38,7 +38,7 @@
     error: "The catalog could not be loaded", of: "of", shown: "shown",
     licence: "Licence (as listed)", creator: "Creator", checked: "Listing checked", probable: "Match probable",
     probableHelp: "The listing was retitled when it moved platforms; the match rests on seller and description.",
-    review: "Under review", fitLabel: "Historical fit", aiLabel: "AI use (as the listing states)", aiBadge: "AI statement", aiAll: "AI statement: any", aiYes: "Has an AI statement", aiNo: "No AI statement", technical: "Technical", faces: "Faces", downloadable: "Downloadable",
+    review: "Under review", fitLabel: "Historical fit", imageCredit: "Image", aiLabel: "AI use (as the listing states)", aiBadge: "AI statement", aiAll: "AI statement: any", aiYes: "Has an AI statement", aiNo: "No AI statement", technical: "Technical", faces: "Faces", downloadable: "Downloadable",
     yes: "yes", no: "no", formats: "Formats", items: "Items", price: "Price", notesLang: "",
     fit: { unassessed: "not yet assessed", documented: "documented", proxy: "proxy object", anachronistic: "anachronistic" },
     licenceClass: { open: "Open (Creative Commons)", commercial: "Commercial licence", viewonly: "View only", unknown: "Not stated" }
@@ -110,6 +110,7 @@
               ${e.ai_statement ? `<p class="mb-1"><strong>${esc(T.aiLabel)}:</strong> <span lang="ja">${esc(e.ai_statement)}</span></p>` : ""}
               <p class="mb-1">${esc(T.fitLabel)}: ${esc(T.fit[e.showa_fit] || e.showa_fit)}${e.fit_grounds ? ` <span class="text-muted" lang="en">(${esc(e.fit_grounds)})</span>` : ""}</p>
               ${techRows ? `<p class="mb-1">${esc(T.technical)}: ${techRows}</p>` : ""}
+              ${e.image_credit ? `<p class="mb-1 text-muted">${esc(T.imageCredit)}: ${esc(e.image_credit)}</p>` : ""}
               <p class="mb-0 text-muted">${esc(T.checked)}: ${esc(v.checked)} (${esc(v.method)}) · ${esc(e.id)}</p>
             </details>
           </div>
