@@ -18,7 +18,8 @@
   - household
   - furniture
   historical_notes: "The kotatsu remained the center of family life and heating throughout the Shōwa period."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a kotatsu) but gives no period."
   image: "https://media.sketchfab.com/models/cfb9685fa4c3474baf0cf203da96486b/thumbnails/acbd72bf6a714f289e61735cdee82666/6cd7eb84bdd44a97b394bfd9ae292db8.jpeg"
   technical:
     faces: 7612
@@ -41,7 +42,8 @@
   - household
   - bedding
   historical_notes: "Traditional floor bedding, folded away during the day to maximize living space."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan by its title (Japanese futon); no description or period."
   image: "https://media.sketchfab.com/models/f7385f6be76d492cb943325df7428615/thumbnails/4788ee5fe1fa4a90b3cc017b0a920fdd/d166d9fc15fa4a22ab1fcff3446dedcd.jpeg"
   technical:
     faces: 372834
@@ -63,10 +65,9 @@
   object_tags:
   - household
   - furniture
-  historical_notes: "Simple open shelving used in shops and domestic storage areas."
-  showa_fit: unassessed
-  review_note: "Listing tags the shelf 'chinese', 'korean', 'oriental'; the v1 catalogue retitled it 'Wooden Shelf'\
-    \ and dated it to 1926-45. Japanese provenance is not stated on the listing."
+  historical_notes: "Original catalog note: Simple open shelving used in shops and domestic storage areas. The listing describes a shelf made for the creator's game project, tagged 'chinese', 'korean' and 'oriental'."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing tags it 'chinese', 'korean' and 'oriental' and gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/5d0f48de9618466fbe99f7cc7de0e0a2/thumbnails/00252b81e6d343dfab9de02f80b2f609/7113c82db6f345fabf70e17a088a3479.jpeg"
   technical:
     faces: 801
@@ -88,10 +89,9 @@
   object_tags:
   - technology
   - audio
-  historical_notes: "A 1960s Zenith (US) console, modelled as set dressing without internal mechanism."
-  showa_fit: unassessed
-  review_note: "Listing: 'A Zenith console from the 1960s' (US manufacturer). The v1 catalogue retitled it 'Retro\
-    \ Radio' and presented it as a Japanese household receiver."
+  historical_notes: "Original catalog note: A mid-century radio receiver, connecting households to news and culture. The listing describes a 1960s Zenith console (a US manufacturer), modelled as set dressing without its record player or radio."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing describes a 1960s Zenith console, a US product, and gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/a9d5edadaf494489b33d4e98290d349b/thumbnails/173790f20a2d4328aa8c4c09de0eaeb8/89a002dffa5b4a16a1c61d46f9165420.jpeg"
   technical:
     faces: 1696
@@ -114,7 +114,8 @@
   - technology
   - audio
   historical_notes: "Stereo systems became a status symbol of the middle-class household during the economic boom."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a 1960s ensemble stereo made by National (now Panasonic)."
   image: "https://media.sketchfab.com/models/70a5253f8cd54d73b081027e0d43ef80/thumbnails/9c928345f792465a9d87253430fd1aee/720x405.jpeg"
   technical:
     faces: 3808
@@ -136,10 +137,9 @@
   object_tags:
   - household
   - furniture
-  historical_notes: British G-Plan teak nesting tables of the 1960s.
-  showa_fit: unassessed
-  review_note: "Listing: 'Mid-Century G-Plan Quadrille British Teak Nesting Tables, 1960s'. A British design, catalogued\
-    \ in v1 as a '1960s Coffee Table' in a Japanese domestic sequence."
+  historical_notes: "Original catalog note: Western-style furniture began appearing alongside traditional items in the 1960s. The listing describes mid-century G-Plan Quadrille British teak nesting tables of the 1960s."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing describes British G-Plan teak tables of the 1960s and gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/418ff95954f14088920b3234d471f3d1/thumbnails/bf1b3c5b69974117affcf3fe90a8e384/0aa2e74f7ef1438d93ca819c771e4349.jpeg"
   technical:
     faces: 1224
@@ -161,8 +161,9 @@
   object_tags:
   - household
   - clock
-  historical_notes: "Mechanical pendulum clock (bonbon dokei) found in many Shōwa households."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Mechanical pendulum clock (bonbon dokei) found in many Shōwa households. The listing describes a kitchen wall clock combined from several similar models; the shape 'was popular in the 1970s apparently'."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Mashup of several clocks; the listing says the shape 'was popular in the 1970s apparently'. The listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/88c18bd315534b1fa699bf41dd9244ed/thumbnails/c96338b5bfc84260a9ab611f668a1be8/f5741c63997f4da0b0243ff08319d6f6.jpeg"
   technical:
     faces: 2004
@@ -186,10 +187,9 @@
   object_tags:
   - household
   - food
-  historical_notes: "A set of 1960s-style Western glassware and bottles (wine, spirits, milk)."
-  showa_fit: unassessed
-  review_note: "Listing: 'bottles and glasses ... 1960s glassware' tagged wine, whiskey, vodka, milk. The v1 note\
-    \ ('Standard 1.8L (Issho-bin) bottles used for sake and soy sauce') is not supported by the listing."
+  historical_notes: "Original catalog note: Standard 1.8L (Issho-bin) bottles used for sake and soy sauce. The listing describes bottles and glasses modelled on references to 1960s glassware (wine, whiskey, vodka, milk)."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Bottles and glasses modelled on 1960s glassware (wine, whiskey, vodka, milk). The listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/dc27cb42274f4d2fb3413347ccfc68b2/thumbnails/132e26585faf4bac87599ad4b7912b19/bb8e6da010954ed4bdee8662d427fd3a.jpeg"
   technical:
     faces: 13440
@@ -212,7 +212,8 @@
   - household
   - food
   historical_notes: "The iconic Kikkoman dispenser, designed by Kenji Ekuan in 1961."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a Kikkoman soy-sauce bottle) but gives no period."
   image: "https://media.sketchfab.com/models/d9f7418ef42a4876a0a7f8c1fa7996ea/thumbnails/ef2b2276eebf4752a3b22e3db5b5e446/39f9b94575d340cbb4c9f3e904a813f0.jpeg"
   technical:
     faces: 30944
@@ -234,8 +235,9 @@
   object_tags:
   - household
   - kitchen
-  historical_notes: "Standard metal kettles were essential tools in every Shōwa kitchen."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Standard metal kettles were essential tools in every Shōwa kitchen. The listing describes a vintage-style tea kettle."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A vintage-style kettle. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/0047fa5e44334d3e9bd171ad2bf95ff5/thumbnails/44bfed6526774018a4b9aaa5d4f690e5/c07dac22199d411290bf5affc29a8572.jpeg"
   technical:
     faces: 2418
@@ -257,9 +259,9 @@
   object_tags:
   - household
   - culture
-  historical_notes: "Smoking was prevalent in public and private spaces throughout the Shōwa era."
-  showa_fit: unassessed
-  review_note: "Listing: made for a recreation of Q's lab from the film Goldfinger. No Japanese reference."
+  historical_notes: "Original catalog note: Smoking was prevalent in public and private spaces throughout the Shōwa era. The listing describes an ashtray made for a recreation of Q's lab from the film Goldfinger."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Made for a recreation of a set from the film Goldfinger; the listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/e3a5fd374386419680a26a3acaa18728/thumbnails/eab611a9be9c435d883d0e7ad6db866e/ffd6236c9ea2497fac2404f316bf537f.jpeg"
   technical:
     faces: 7986
@@ -282,7 +284,8 @@
   - household
   - kitchen
   historical_notes: "A standard metal basin (kanadarai) used for washing before plastic became ubiquitous."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan by its title (old Japanese metal basin); the creator says it was modelled from one in their basement."
   image: "https://media.sketchfab.com/models/cd1e63b16f804638873d21b822a23617/thumbnails/4324de68ae004592840eb086f3ead686/a4bd8a332a964e48a9f9c48843f08881.jpeg"
   technical:
     faces: 4344
@@ -308,7 +311,8 @@
   - technology
   - communication
   historical_notes: "Type 3 or Type 4 telephone, common in hallways and offices until the 1960s."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese black wall telephone, model 600, attributed to NTT."
   image: "https://media.sketchfab.com/models/32ca0931052e40e192f59df81779fcef/thumbnails/7b24e94189ef45409a1d61bbccdf3736/f4094ae372cf467d801541303164acc4.jpeg"
   technical:
     faces: 49306
@@ -332,8 +336,9 @@
   object_tags:
   - technology
   - appliance
-  historical_notes: "The refrigerator was another of the 'Three Sacred Treasures' that transformed domestic life."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: The refrigerator was another of the 'Three Sacred Treasures' that transformed domestic life. The listing describes an old-school vintage fridge, tagged '80s' and '90s'."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A fridge tagged '80s' and '90s'. The listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/30765d86e64e487a935b399ee056b0f7/thumbnails/b278a810c69f4a0f90d7c80ae3552ccf/3ed40374419645119fb4eb5567672cab.jpeg"
   technical:
     faces: 54374
@@ -355,8 +360,9 @@
   object_tags:
   - transport
   - bicycle
-  historical_notes: "Pre-war bicycle designs often featured sturdy frames for utility and delivery use."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Pre-war bicycle designs often featured sturdy frames for utility and delivery use. The listing describes a vintage bicycle."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A vintage-style bicycle. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/755673cce36140c1b4aaf249c9c51b06/thumbnails/f7c94d316c0a40cc8ab7765a2957998e/b64d67475fcc42888bab1d26fa91a63f.jpeg"
   technical:
     faces: 358358
@@ -378,8 +384,9 @@
   object_tags:
   - household
   - kitchen
-  historical_notes: "Modern ceramic designs reflected the changing aesthetics of the dining table."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Modern ceramic designs reflected the changing aesthetics of the dining table. The listing describes game-ready low-poly tableware."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Generic game-ready tableware. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/71c02a0e1e5d4e51b8772fe447e7d784/thumbnails/97ca42f0671246bdb2869d5436d69ee3/f0637af94ec74f00b82bd35954762121.jpeg"
   technical:
     faces: 55968
@@ -402,8 +409,9 @@
   object_tags:
   - transport
   - industrial
-  historical_notes: "Coal mining was a critical industry powering Japan's modernization and reconstruction."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Coal mining was a critical industry powering Japan's modernization and reconstruction. The listing describes a berline coal-mine wagon from northern France."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing describes a coal-mine wagon from northern France and gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/fe3feca2ef8d41c8b57e0f7949508621/thumbnails/da7a86c9fe5e4bb9988352547d6954cc/e0a56a859ca8446ea8eb5c1d7a819df2.jpeg"
   technical:
     faces: 6315
@@ -426,8 +434,9 @@
   object_tags:
   - industrial
   - architecture
-  historical_notes: "Detailed visualization of a coal mine gallery, crucial to Japan's industrial history."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Detailed visualization of a coal mine gallery, crucial to Japan's industrial history. The listing describes a coal-mine gallery at Saint-Étienne, France."
+  showa_fit: proxy
+  fit_grounds: "A model of a coal-mine gallery at Saint-Étienne, France, per the listing; no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/2cc9dfc11fe243039f9900f0c31414ae/thumbnails/fa7579792620437299ee93bec29b3edf/d0b03a4d21ad4d2abd9cfd619a90189a.jpeg"
   technical:
     faces: 1323204
@@ -449,8 +458,9 @@
   object_tags:
   - industrial
   - environment
-  historical_notes: "Environmental scene representing the working conditions of Shōwa era miners."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Environmental scene representing the working conditions of Shōwa era miners. The listing describes a small scene from the creator's coal-mine environment."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A coal-mine scene. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/8d06b91f11394f758798f1e838175bd0/thumbnails/1af8012ea56c4c4090a23a8b1b4fe46a/3c7ee34f725f47239d01dbc5417fb06f.jpeg"
   technical:
     faces: 24154
@@ -473,7 +483,8 @@
   - culture
   - bath
   historical_notes: "Items associated with onsen culture, including wooden buckets and stools."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (onsen stool and bucket in hinoki) but gives no period."
   image: "https://media.sketchfab.com/models/b44c975c848543b49b618d46c93dced6/thumbnails/e239576c339a4444957cb21df010ba59/ae693cedc5ac465cbf0d77ac9d69dea1.jpeg"
   technical:
     faces: 5791
@@ -498,7 +509,8 @@
   - household
   - books
   historical_notes: "Watoji binding style book, showing the transition between traditional and modern publishing."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (old Japanese books, hand-painted low-poly) but gives no period."
   image: "https://media.sketchfab.com/models/ac36f6825ff94da08ec37a0debaeb546/thumbnails/1a156df0698a49fa896ceb5be2867226/ca597aeee93045ddb21067dc9759248b.jpeg"
   technical:
     faces: 160
@@ -523,7 +535,8 @@
   - household
   - clothing
   historical_notes: "Typical folded garments stored in tansu chests or on tatami mats."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "Scanned present-day garments, folded in Japanese style per the listing tags; no period."
   image: "https://media.sketchfab.com/models/ff91333a3d1c4505b18315153c2ffd5e/thumbnails/c41eb3d37863403fb23fcd9a9d07b26a/3228471260b74e22802208e7b5b77243.jpeg"
   technical:
     faces: 829
@@ -545,8 +558,9 @@
   object_tags:
   - industrial
   - clothing
-  historical_notes: "Standard safety helmet used in construction and mining during the high-growth period."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Standard safety helmet used in construction and mining during the high-growth period. The listing describes a very simple work helmet."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A simple work helmet. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/3a90b5f021604be18c26d67e4bef53b8/thumbnails/01b73d97740b4789a580052664dbdb52/bce9c0a09da940b9b8023713a878ab14.jpeg"
   technical:
     faces: 1188
@@ -568,8 +582,9 @@
   object_tags:
   - industrial
   - architecture
-  historical_notes: Industrial buildings associated with coal mining operations.
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Industrial buildings associated with coal mining operations. The listing describes modular buildings for a mining works or coal-processing plant, made for background scenery."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. Modular colliery buildings for background scenery. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/4f30cf1b73564b4c913419408d135dcf/thumbnails/10fa2342213b435197717e26d3eb8a9e/78519081b6c24ca097409dad690428f5.jpeg"
   technical:
     faces: 102115
@@ -591,9 +606,9 @@
   object_tags:
   - industrial
   - resource
-  historical_notes: "Raw resource pile representing the energy source of early Shōwa industry."
-  showa_fit: unassessed
-  review_note: "v1 period tag(s) outside the vocabulary: industrial_era."
+  historical_notes: "Original catalog note: Raw resource pile representing the energy source of early Shōwa industry. The listing describes a coal pile; the description reads only 'from Mine 7'."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A coal pile. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/f7d3aaba7aca469bb11bdbbd041c8029/thumbnails/8d65ba40f01c4f41ae10348de2e571bb/509bd8bfb3904b749d58fd836d99a59b.jpeg"
   technical:
     faces: 550652
@@ -615,11 +630,9 @@
   object_tags:
   - industrial
   - tool
-  historical_notes: "A Flottmann pneumatic rock drill from German underground mining, scanned at the Deutsches Bergbau-Museum\
-    \ Bochum."
-  showa_fit: unassessed
-  review_note: "Listing (Deutsches Bergbau-Museum Bochum): a Flottmann rock drill made in Herne, Germany, used underground\
-    \ in German mining. Not a Japanese object."
+  historical_notes: "Original catalog note: Pneumatic drill used in mining and heavy construction. The listing describes a rock drill probably made by Flottmann in Herne and used underground in German mining, opened at the Deutsches Bergbau-Museum Bochum to show its mechanism."
+  showa_fit: proxy
+  fit_grounds: "A museum scan of a Flottmann rock drill made in Herne and used in German mining (Deutsches Bergbau-Museum Bochum); the listing gives no date and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/173e131655e64282b082ecbbc63d46b7/thumbnails/268f8801afd041408df4fe68cb6a47ac/d5ebabbf7a2f4dc3bc2ecc5e1c8266b7.jpeg"
   technical:
     faces: 749514
@@ -643,7 +656,8 @@
   - religion
   historical_notes: "A portable Shinto shrine (mikoshi) carried during festivals, symbolizing community identity\
     \ and resilience."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a mikoshi) but gives no period."
   image: "https://media.sketchfab.com/models/ab6bf22fcae243daa362f30aa4f8a4db/thumbnails/273f33f5d1cb4d41ace7cf4ce69838d2/bd656bc8d93c4b1ba8bbf8051c5e42bf.jpeg"
   technical:
     faces: 470818
@@ -670,8 +684,9 @@
   space_tags:
   - home
   - kitchen
-  historical_notes: "Compact sink/cabinet unit suitable for modest post-war apartments and company housing interiors."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Compact sink/cabinet unit suitable for modest post-war apartments and company housing interiors. The listing describes an old kitchen sink unit, tagged 'abandoned' and 'damaged'."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A damaged kitchen sink unit. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/ae28685edf05438186c4fc800f9f0cf5/thumbnails/fa7c05bdc86241dbad4566adf7483fb7/4398d246054b4d05a958a0d90d223fba.jpeg"
   technical:
     faces: 16728
@@ -699,9 +714,9 @@
   space_tags:
   - home
   - office
-  historical_notes: "Mid-century telephone prop for corridors, offices, and domestic entryways (Shōwa-era communications\
-    \ infrastructure)."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Mid-century telephone prop for corridors, offices, and domestic entryways (Shōwa-era communications infrastructure). The listing describes an old telephone, made as a modelling study."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A study of an old telephone. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.sketchfab.com/models/ea1190c677314564948cbd5ed04b79bb/thumbnails/dcd520d3ead34bffaa9cab07c4cd89fd/00ea9604ec464314954087152833bd37.jpeg"
   technical:
     faces: 137297
@@ -730,7 +745,8 @@
   - home
   - kitchen
   historical_notes: "Domestic cookware prop for Shōwa kitchens; supports meal-prep and everyday-life staging."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan and the period: a 'Japanese shouwa retro pot'."
   image: "https://media.sketchfab.com/models/e22db974a49748bfac85fea024f1c331/thumbnails/2f7ce23fe0d64f8bb6a8a1541a6cd8a6/83bf20b14b58455f859977b628db7b0b.jpeg"
   technical:
     faces: 3365
@@ -753,8 +769,9 @@
   object_tags:
   - industrial
   - architecture
-  historical_notes: "A kitbash set useful for reconstructing Shōwa-era coal mining facilities."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: A kitbash set useful for reconstructing Shōwa-era coal mining facilities. The listing describes an industrial kitbash set built on a coal-mine theme."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. An industrial coal-mine kitbash set. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.fab.com/image_previews/gallery_images/65a49b72-98f7-4f57-bd4a-ac4bd85b32ac/322728cc-6475-4500-a704-3cb8d9cb2f00.jpg"
   technical:
     formats: Unreal Engine
@@ -778,8 +795,9 @@
   object_tags:
   - transport
   - industrial
-  historical_notes: "Template useful for simulating rail transport, a backbone of Shōwa modernization."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Template useful for simulating rail transport, a backbone of Shōwa modernization. The listing describes a train simulation template for Unreal Engine."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A train simulation template for Unreal Engine. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.fab.com/image_previews/gallery_images/e490cb2c-eb7c-41bb-8200-171f40b7dbae/cbd8e9a2-ab1d-480e-96e6-5b819d26eb37.jpg"
   technical:
     formats: Unreal Engine
@@ -800,8 +818,9 @@
   object_tags:
   - industrial
   - tool
-  historical_notes: Various hand tools used in mining operations.
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Various hand tools used in mining operations. The listing describes a pack of mining tools for games and historical visualisation."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A pack of mining tools. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.fab.com/image_previews/gallery_images/148e2e20-949d-4688-adf2-07e44c1ff1dc/235e10c5-a619-481f-b39b-66e358611f36.jpg"
   technical:
     formats: Unreal Engine, Unity
@@ -823,8 +842,9 @@
   object_tags:
   - industrial
   - environment
-  historical_notes: "A comprehensive bundle of assets for creating mine environments."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: A comprehensive bundle of assets for creating mine environments. The listing describes a modular set for an industrial mining environment."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A modular mining environment. The listing gives no place or period and no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://media.fab.com/image_previews/gallery_images/97f765b6-d678-4347-a17c-b3dfd3ed1149/63681f39-0b4f-4836-9661-8ae83462a1b2.jpg"
   technical:
     formats: Unreal Engine
@@ -846,7 +866,8 @@
   - architecture
   - environment
   historical_notes: "Environment pack suitable for creating rural or semi-rural post-war scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A stylized Japanese village inspired, per the listing, by classic Japanese cartoons and TV series."
   image: "https://media.fab.com/image_previews/gallery_images/b0828972-b9ce-4cca-b156-2562286d4400/e63af317-87eb-4061-9fb1-a1a0504616cf.jpg"
   technical:
     formats: Unreal Engine
@@ -867,7 +888,8 @@
   - architecture
   - commercial
   historical_notes: "Complete restaurant environment based on a real Izakaya in Onomichi, Hiroshima."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: an izakaya inspired by the historic town of Onomichi, Hiroshima, with names changed."
   image: "https://media.fab.com/image_previews/gallery_images/0bac889b-c2fe-4be1-814e-7ba60bbefd7d/e854dc4d-a29f-4117-8399-c785410f3fbc.jpg"
   technical:
     formats: Unreal Engine
@@ -893,7 +915,8 @@
   - commercial
   historical_notes: "Kaitenzushi (conveyor belt sushi) emerged in 1958, symbolizing the efficiency of the high-growth\
     \ era."
-  showa_fit: unassessed
+  showa_fit: anachronistic
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing describes a present-day conveyor-belt sushi restaurant where orders are placed by tablet."
   image: "https://media.fab.com/image_previews/gallery_images/34e13dcb-0314-4efe-beae-cf730c6e23e0/ab7e1325-43f9-47f5-b764-47335c1d91c9.jpg"
   technical:
     formats: Unreal Engine
@@ -916,7 +939,8 @@
   - architecture
   - commercial
   historical_notes: "Small eateries were central to neighborhood social life throughout the Shōwa period."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a typical small Japanese restaurant; no period."
   image: "https://media.fab.com/image_previews/gallery_images/7057cc65-c902-46ca-a953-47019df4c24c/bc40bfde-c2a0-47e5-a17a-14ec8d55815c.jpg"
   technical:
     formats: Unreal Engine
@@ -943,7 +967,8 @@
   - education
   historical_notes: "Wooden school buildings were standard educational infrastructure before the shift to reinforced\
     \ concrete."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: an old, abandoned-looking Japanese elementary school; no period."
   image: "https://media.fab.com/image_previews/gallery_images/a2a35339-59af-407b-8320-9b61143fb756/c20af1eb-ade7-454b-950f-1f2619edc8ad.jpg"
   technical:
     formats: Unreal Engine
@@ -964,7 +989,8 @@
   - interior
   - education
   historical_notes: "Standardized classroom fixtures reflect the modernization of the Japanese education system."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese classroom the listing calls 'slightly dated'; no period."
   image: "https://media.fab.com/image_previews/gallery_images/5dc53b9c-2cb4-48ee-9413-bb01d4589b2d/48a3aa8e-4c87-4599-b0cc-92313765d0ad.jpg"
   technical:
     formats: Unreal Engine
@@ -989,7 +1015,8 @@
   - architecture
   - education
   historical_notes: "Comprehensive set of school assets covering various aspects of student life."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a bundle of five Japanese school packs; no period."
   image: "https://media.fab.com/image_previews/gallery_images/5156195d-4a31-41cd-a9bb-04a7d85f0447/446b9461-8a43-48ef-846a-8413ef8dabdb.jpg"
   technical:
     formats: Unreal Engine
@@ -1013,7 +1040,8 @@
   - education
   historical_notes: "Institutional cafeteria spaces reflect the mass-scale education and dining of the post-war\
     \ boom."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese school cafeteria; no period."
   image: "https://media.fab.com/image_previews/gallery_images/537b9bce-d697-4981-9fd7-61a2d8c415b4/163ce498-25b2-4cb6-9e96-27c67f817001.jpg"
   technical:
     formats: Unreal Engine
@@ -1036,7 +1064,8 @@
   - architecture
   - environment
   historical_notes: "Domestic architecture integrated with garden elements, typical of suburban Shōwa homes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese-themed house and foliage environment; no period."
   image: "https://media.fab.com/image_previews/gallery_images/71c6f73d-8f38-4562-91c7-3a53352c4714/e39ea33d-4583-4635-91af-391cf1c3c31d.jpg"
   technical:
     formats: Unreal Engine
@@ -1060,7 +1089,8 @@
   - architecture
   - urban
   historical_notes: "Modular components allowing for the construction of varied streetscapes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: semi-traditional Japanese buildings; no period."
   image: "https://media.fab.com/image_previews/gallery_images/e080ff10-e3d3-4339-b2dd-f5bc6ad826d1/8dc8071a-14e9-4942-b1bd-a1e3f6213298.jpg"
   technical:
     formats: Unreal Engine
@@ -1083,7 +1113,8 @@
   - architecture
   - component
   historical_notes: "Traditional Kawara tiles remained the dominant roofing material throughout the 20th century."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: kawara roof tiles to the JIS J-53A standard."
   image: "https://media.fab.com/image_previews/gallery_images/3c3846b7-46e1-46a6-8568-903e5bbcb344/a80ddff8-afcd-41a8-b3a3-00cf2f23a3f1.jpg"
   technical:
     formats: Unreal Engine
@@ -1104,7 +1135,8 @@
   - urban
   - signage
   historical_notes: "A collection of 100 street signs, essential for creating authentic urban density."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: 109 common Japanese street signs, as in use today; the listing does not date the designs."
   image: "https://media.fab.com/image_previews/gallery_images/2bdb0a2b-c1f8-4b2d-828e-3089dc470fca/c0914fa5-f93b-43e0-9b5e-fc41525099e3.jpg"
   technical:
     formats: Unreal Engine
@@ -1127,7 +1159,8 @@
   - commercial
   - interior
   historical_notes: "Izakaya interiors represent the after-work culture of the Japanese 'salaryman'."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: an izakaya set in the alleys of Omoide Yokochō; no period."
   image: "https://media.fab.com/image_previews/gallery_images/d67ad2da-e934-4acd-8a33-fa4632aea5c2/f06b9b83-6849-4d66-a866-aaef53291bce.jpg"
   technical:
     formats: Unreal Engine
@@ -1152,7 +1185,8 @@
   - household
   - culture
   historical_notes: "Tea sets are ubiquitous in Japanese hospitality and domestic life across all eras."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a Japanese tea set) but gives no period."
   image: "https://media.fab.com/image_previews/gallery_images/8cf57932-56ac-47f4-89b2-584403a5651f/164e0768-9630-41e0-a2c0-bd4754b75a4a.jpg"
   technical:
     formats: Unreal Engine
@@ -1174,7 +1208,8 @@
   - transport
   - vehicle
   historical_notes: "The 'Mamachari' style utility bicycle became a staple of Japanese daily life."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a well-used Japanese city bicycle; no period."
   image: "https://media.fab.com/image_previews/gallery_images/327dd734-4ff1-404b-910c-326b70e2c3ff/20e6c309-55f2-420b-89dc-6e88905bc054.jpg"
   technical:
     formats: Unreal Engine, Unity
@@ -1196,7 +1231,8 @@
   - architecture
   - component
   historical_notes: "Shoji screens remained a key architectural feature even in modernizing homes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a shoji assembly kit; no period."
   image: "https://media.fab.com/image_previews/gallery_images/bf9215ff-e94e-440b-85cc-ad655dd646ae/724a086d-3cce-444d-b194-1a6ef25e8000.jpg"
   technical:
     formats: Unreal Engine
@@ -1217,7 +1253,8 @@
   - household
   - prop
   historical_notes: "Small items that clutter and define a lived-in Japanese room."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a Japanese-style room with accessories; no period."
   image: "https://media.fab.com/image_previews/gallery_images/3dc21dfa-7882-4869-9bf0-d4051e0b17e3/91642868-add5-48ac-963c-8fef68264491.jpg"
   technical:
     formats: Unreal Engine
@@ -1238,7 +1275,8 @@
   - interior
   - architecture
   historical_notes: "A kit for building standard Japanese washitsu (tatami rooms)."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: Japanese rooms on the zairai post-and-beam structure; no period."
   image: "https://media.fab.com/image_previews/gallery_images/a06e9fbc-44cc-4276-8dd1-4d11ded2c927/38338222-cc27-4927-ae86-c7e54bec3681.jpg"
   technical:
     formats: Unreal Engine
@@ -1263,7 +1301,8 @@
   - home
   - living_room
   historical_notes: "Low dining table supporting tatami-room staging and shared-meal scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a chabudai) but gives no period."
   image: "https://img-new.cgtrader.com/items/4973811/b2557052c3/chabu-table-3d-model-b2557052c3.webp"
   verification:
     status: probable
@@ -1288,7 +1327,8 @@
   - home
   - kitchen
   historical_notes: "Insulated container suitable for Shōwa domestic food/storage practices."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a Japanese thermal jar) but gives no period."
   image: "https://img-new.cgtrader.com/items/4980719/14ad547559/japanese-thermal-jar-3d-model-14ad547559.webp"
   verification:
     status: verified
@@ -1313,7 +1353,8 @@
   - home
   - interior
   historical_notes: "Alternative tatami model for variation and/or different topology/UV requirements."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a tatami mat) but gives no period."
   image: "https://img-new.cgtrader.com/items/3569668/e1c1078bc5/tatami-mat-3d-model-e1c1078bc5.webp"
   technical:
     formats: BLEND (native), FBX, OBJ
@@ -1339,7 +1380,8 @@
   - public
   - bath
   historical_notes: "Public hygiene infrastructure environment element; supports neighbourhood/street-scene context."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan (a Japanese public bathroom) but gives no period."
   image: "https://img-new.cgtrader.com/items/3680498/e0b03ff47f/japanese-public-bathroom-unity-ready-3d-model-e0b03ff47f.webp"
   verification:
     status: verified
@@ -1364,7 +1406,8 @@
   - home
   - kitchen
   historical_notes: "Bundled interior props enabling faster dressing of lived-in dining/kitchen scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: traditional Japanese living and dining room props; no period."
   image: "https://img-new.cgtrader.com/items/4131739/a4a2ee2866/49-traditional-japanese-living-and-dining-room-props-3d-model-a4a2ee2866.webp"
   verification:
     status: verified
@@ -1389,7 +1432,8 @@
   - home
   - interior
   historical_notes: "Large interior kit for fast iteration across multiple domestic rooms without repeating layouts."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: traditional Japanese interior props, doors and furniture; no period."
   image: "https://img-new.cgtrader.com/items/4274184/0e7b8bcb4d/traditional-japanese-interior-props-bundle-doors-and-furniture-3d-model-0e7b8bcb4d.webp"
   technical:
     formats: BLEND (native), OBJ, FBX, PNG, JPG textures
@@ -1417,7 +1461,8 @@
   - public
   - religion
   historical_notes: "Shrine environment pack for religious/civic landscape elements (continuity across eras)."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a modular Hachiman shrine pack; no period."
   image: "https://img-new.cgtrader.com/items/2721850/86b9b2e5b6/japanese-shrine-pack-30-modular-pbr-aaa-ready-models-3d-model-86b9b2e5b6.webp"
   verification:
     status: probable
@@ -1443,7 +1488,8 @@
   - public
   - festival
   historical_notes: "Festival props supporting community scenes, street dressing, and seasonal cultural contexts."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: matsuri and Obon festival props; no period."
   image: "https://img-new.cgtrader.com/items/4263264/65ddd1234b/japanese-festival-pack-matsuri-and-obon-assets-3d-model-65ddd1234b.webp"
   verification:
     status: verified
@@ -1466,7 +1512,8 @@
   - commercial
   - interior
   historical_notes: "Commercial interior environment suitable for Shōwa-era nightlife and after-work sociality scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: the CGTrader twin of the Onomichi-inspired izakaya pack; no period."
   image: "https://img-new.cgtrader.com/items/3276524/2c3dfe3524/japanese-izakaya-restaurant-2-interior-and-exterior-3d-model-2c3dfe3524.webp"
   technical:
     price: $39.00 (per nimikko.co.jp)
@@ -1489,7 +1536,8 @@
   - environment
   historical_notes: "Late-Shōwa residential kit (houses + domestic exterior details) for building neighbourhood\
     \ streetscapes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan and the period: houses for a late-Shōwa (1970–1980) town."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/7ea91f3e-4eb9-48e6-ab03-eeeec6196ea8.jpg?v=1"
   technical:
     formats: Unity package v1.2 (Feb 9 2022)
@@ -1511,7 +1559,8 @@
   - commercial
   - environment
   historical_notes: "Late-Shōwa commercial district/mall elements (shops, signs, arcade roof) for dense street scenes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan and the period: shopping-district buildings in the same late-Shōwa town series."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/82ef8fcf-c3b9-4daf-afbe-5c786337069f.jpg?v=1"
   technical:
     formats: Unity package v1.2a (Jul 5 2023)
@@ -1535,7 +1584,8 @@
   - environment
   historical_notes: "Large environment pack for constructing older streetscapes; useful as a base layer behind bespoke\
     \ domestic interiors."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: an old Japanese town environment; no period."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/27e6700a-fbad-4f5b-98ea-6a35bb323b68.jpg?v=1"
   technical:
     formats: Unity package v1.2.0
@@ -1559,7 +1609,8 @@
   - stylized
   historical_notes: "Stylized environment pack (pagodas/ryokan/torii + nature assets) for non-photoreal XR scenes\
     \ or interpretive layers."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: a stylized, flat-shaded Japanese environment with pagoda, palace, ryokan and torii; no period."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/b37e8556-e351-4611-bf64-fb3a66d6aa73.jpg?v=1"
   technical:
     formats: Unity package v1.0 (Sep 19 2022)
@@ -1583,7 +1634,8 @@
   - prop_set
   historical_notes: "Multi-building bundle (shops/houses) supporting quick assembly of mixed-use streets and neighbourhood\
     \ nodes."
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. The listing ties it to Japan: shops and houses, several named after real places (Kanayama, Kyoto, Shinagawa, Tsukishima); no period."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/fb49c499-35cb-40fe-92bb-af14f8b845ff.jpg?v=1"
   technical:
     formats: Unity package v1.0 (Feb 6 2024)
@@ -1605,9 +1657,9 @@
   - interior
   - household
   - prop_set
-  historical_notes: "Mid-century interior prop pack enabling Western-influenced domestic scenes (useful alongside\
-    \ Shōwa electronics and hybrid room layouts)."
-  showa_fit: unassessed
+  historical_notes: "Original catalog note: Mid-century interior prop pack enabling Western-influenced domestic scenes (useful alongside Shōwa electronics and hybrid room layouts). The listing describes a stylized prop pack; the title gives '1950s'."
+  showa_fit: proxy
+  fit_grounds: "A modelled asset, not a record of a surviving original. A stylized '1950s' living-room prop pack. The listing gives no Japanese reference; kept as a proxy at the director's ruling."
   image: "https://assetstorev1-prd-cdn.unity3d.com/key-image/59436717-c7d0-43e9-8dcf-9cb0649b7ef6.jpg?v=1"
   technical:
     formats: Unity package v1.0 (Apr 22 2024)
@@ -1634,7 +1686,8 @@
   space_tags:
   - home
   historical_notes: The listing describes a Japanese-made CRT television launched around 1968 (Shōwa 43).
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "No holder or scan source named; may be a modelled replica of the 1968 product rather than a record of a surviving set. Documented if shown to be a scan of a surviving set."
   image: https://media.sketchfab.com/models/f78ec31d6cfb4ec8bbbfa502807df316/thumbnails/bd45a0c0d2a64bd8b68fe64aa7d9ff7a/06ce58751fbf4cf5a2c0905cd1ea9834.jpeg
   technical:
     faces: 11810
@@ -1659,7 +1712,8 @@
   space_tags:
   - public
   historical_notes: Osaka Museum of History. The listing describes Time Capsule EXPO'70, made by the Mainichi Shimbun and Matsushita Electric for the 1970 Osaka Expo; casting began in 1969.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Osaka Museum of History)."
   image: https://media.sketchfab.com/models/50ac31aa616a43de8ec0cf7a3ad217de/thumbnails/15091534243b4db2800295ab7b656229/0f9f371e0baf437fbe8ce476cdbbaabc.jpeg
   technical:
     faces: 500000
@@ -1685,7 +1739,8 @@
   space_tags:
   - home
   historical_notes: A toy gas range from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Osaka Museum of History); capsule contents sealed 1970."
   image: https://media.sketchfab.com/models/5dad27658da4437db175fab4878d01ad/thumbnails/300d419160734ce2b829ea9958d2682a/6153b8ec3cb44444af56be4e806941ea.jpeg
   technical:
     faces: 324717
@@ -1710,7 +1765,8 @@
   space_tags:
   - home
   historical_notes: A Matsushita Electric Works razor from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Osaka Museum of History); capsule contents sealed 1970."
   image: https://media.sketchfab.com/models/d4211ec38d714af2adf9ca4550a8ab98/thumbnails/8029b05a3ba9499481199f14316f1fd5/2b48d8c891254b3d9d804c9f8d72a846.jpeg
   technical:
     faces: 13459
@@ -1736,7 +1792,8 @@
   space_tags:
   - home
   historical_notes: A 1:50 model of a 3DK public-corporation (kōdan) flat from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Osaka Museum of History); a 1970 architectural model, itself the Shōwa object."
   image: https://media.sketchfab.com/models/db3e3f5a8a9a43dab335d3245ed9d0c8/thumbnails/213f47c21986491db057b9608f874d98/b30c36a7a02e4c03ab85c7825e05c962.jpeg
   technical:
     faces: 101366
@@ -1760,7 +1817,8 @@
   space_tags:
   - home
   historical_notes: A woman's beret from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Osaka Museum of History); capsule contents sealed 1970."
   image: https://media.sketchfab.com/models/25caa6bb756949c6926dccab0a648265/thumbnails/69338e117c6442598443d49293a75938/fcd96b7766134b23964225971da0c1e3.jpeg
   technical:
     faces: 100036
@@ -1785,7 +1843,8 @@
   space_tags:
   - home
   historical_notes: A micro-miniature radio receiver from the contents of Time Capsule EXPO'70 (1970), Osaka Museum of History.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Osaka Museum of History); capsule contents sealed 1970."
   image: https://media.sketchfab.com/models/bc0e16947a7e42fbbbcbf600853799c8/thumbnails/3283a0f596fd43b5b6b7a45378122753/9997ffde295343e9a301934bd76863f3.jpeg
   technical:
     faces: 1499498
@@ -1812,7 +1871,8 @@
   space_tags:
   - public
   historical_notes: Hashima (Gunkanjima), the coal-mining island off Nagasaki; the listing gives its peak population of 5,259 in 1959 and its closure in 1974.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A paid reconstruction of the island; the listing describes Hashima but names no survey or scan source."
   review_note: The archive's director researches Hashima; check the model against the Hashima XR Project record before assessing fit.
   image: https://media.sketchfab.com/models/8b5f4004326144c9886233fcba8e10bd/thumbnails/dbb8c89d58a14ccf90f0ebcc2df6c70f/759f12eb68d649a681035619de9d799a.jpeg
   technical:
@@ -1837,8 +1897,9 @@
   - environment
   space_tags:
   - public
-  historical_notes: A memorial to the Hijimayama landslide in Kōchi of 15 September 1972 (Shōwa 47).
-  showa_fit: unassessed
+  historical_notes: "A memorial to the Hijimayama landslide in Kōchi of 15 September 1972 (Shōwa 47). The inscription says the memorial was rebuilt some thirty years after the disaster."
+  showa_fit: anachronistic
+  fit_grounds: "The inscription quoted in the listing says the memorial was rebuilt some thirty years after the 1972 landslide, so the object scanned dates from the 2000s. It commemorates a Shōwa event; the period tag records that event."
   image: https://media.sketchfab.com/models/c2fe8a4e23834c3297c0fd0957ddffab/thumbnails/1f4f3928fd87440598ef16751d9b3323/021f2609aa154742bb33c3e742067155.jpeg
   technical:
     faces: 500000
@@ -1863,7 +1924,8 @@
   space_tags:
   - leisure
   historical_notes: The former Maya Kankō Hotel on Mount Maya, Kobe, which the listing says ceased operating as a hotel in 1970.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Surviving building scanned with the owner's permission; the listing dates the end of hotel use to 1970. Construction year not given in the listing."
   image: https://media.sketchfab.com/models/7bbed423934f42669ef922a739ff9fa2/thumbnails/52362290483f42679e07cb5ea3f47034/ca37bb32889b4212850dd514903a2183.jpeg
   technical:
     faces: 2091826
@@ -1888,7 +1950,8 @@
   space_tags:
   - festival
   historical_notes: A lion-dance head (shishigashira); the listing title dates it to Shōwa 33 (1958).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Uploaded by the Hakui lion-dance museum; the listing title dates it to Shōwa 33 (1958)."
   image: https://media.sketchfab.com/models/f61603726030418ab74cf51dd6f9ae92/thumbnails/d1978422745b427681611635dc80b15c/0eda70f9bfc240c7ad930b39258053e2.jpeg
   technical:
     faces: 301226
@@ -1913,8 +1976,8 @@
   space_tags:
   - commercial
   historical_notes: The Asakusa underground shopping arcade, opened in 1955.
-  showa_fit: unassessed
-  review_note: Second scan of the same arcade as the alternaassets listing.
+  showa_fit: proxy
+  fit_grounds: "A shopping arcade still in use; the scan shows its state at capture, which the listing does not separate from later alteration."
   image: https://media.sketchfab.com/models/564735fdf3b44fb3928716ceb19602b9/thumbnails/52c88dad79e04d1ba191fde65abb721e/7259812e18384ec99e6b750501099e2a.jpeg
   technical:
     faces: 1736913
@@ -1939,7 +2002,8 @@
   space_tags:
   - public
   historical_notes: An acrylic eye by Miyashita Yoshiko at Shinjuku station, in the basement of the Shinjuku Subaru Building; the listing dates it to 1969.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Original public artwork dated 1969 by the listing (artist named); lighting replaced with LEDs in 2015, per the listing."
   image: https://media.sketchfab.com/models/51975a9c241e45e3a3e2d44cf68e56ff/thumbnails/250ecb417ffe4f91a045b6acfb0b9cc1/7b297c1f13334c118a638a545e2a7391.jpeg
   technical:
     faces: 147220
@@ -1963,9 +2027,9 @@
   - urban
   space_tags:
   - public
-  historical_notes: Jinbōchō Station, Tokyo; the listing gives 1969 as the opening year.
-  showa_fit: unassessed
-  review_note: Check the opening year the listing gives.
+  historical_notes: "Jinbōchō Station, Tokyo. The listing gives 1969 as the opening year; the Toei Mita Line station opened on 30 June 1972."
+  showa_fit: proxy
+  fit_grounds: "A station still in use, scanned in its present state."
   image: https://media.sketchfab.com/models/811ed6d3c9b846c69f9edb8b0d00ab08/thumbnails/b91e1d2d8f63437aadac43d2ce30f0e8/7726c021112a4977a6d88a396f5a900e.jpeg
   technical:
     faces: 240867
@@ -1990,7 +2054,8 @@
   space_tags:
   - public
   historical_notes: The Suehirochō underground passage in Chiyoda, which the listing dates to the 1960s.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A passage still in use; the listing's 'since the 1960s' has no source."
   image: https://media.sketchfab.com/models/26ed39e445224648831b11c24f54292b/thumbnails/15440288458d4573bf2ee0c2c4382bc1/f144092c0c6445dfa0de954732f747d9.jpeg
   technical:
     faces: 272720
@@ -2015,7 +2080,8 @@
   space_tags:
   - commercial
   historical_notes: The Asakusa underground shopping arcade, which the listing calls Japan's oldest surviving underground shopping street, opened in 1955.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A shopping arcade still in use; the scan shows its state at capture, which the listing does not separate from later alteration."
   image: https://media.sketchfab.com/models/f3dcb436648d486ba28d4978bed1cf0c/thumbnails/16b6bae649ed4d5e8d6fe88ff7613b54/44c9b21f6bda49609e3c2291fc21c224.jpeg
   technical:
     faces: 2434268
@@ -2040,7 +2106,8 @@
   space_tags:
   - public
   historical_notes: JNR ED91, an electric locomotive built in 1956 for trials of AC electrification.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Scan (Aug 2021) of the surviving ED91 11, built 1956; the listing says it was dismantled in January 2022, so the scan is now the only record."
   image: https://media.sketchfab.com/models/206dabc80a2b4cf5a2b53265abbc0a66/thumbnails/c92f5bf94c5947c998f184cb8c8c0d5f/97a48be730c645499e8bdeeccd19e3f5.jpeg
   technical:
     faces: 641757
@@ -2065,9 +2132,9 @@
   - vehicle
   space_tags:
   - street
-  historical_notes: A Nissan Skyline GT-R of the C110 (Kenmeri) generation, built 1972–1977.
-  showa_fit: unassessed
-  review_note: Reconstruction by an enthusiast, not a scan of a surviving car.
+  historical_notes: "A Nissan Skyline GT-R of the C110 (Kenmeri) generation, built 1972–1977. A modelled reconstruction, not a scan of a surviving car."
+  showa_fit: proxy
+  fit_grounds: "A modelled reconstruction of the car type, not a record of a surviving car."
   image: https://media.sketchfab.com/models/1a950b81ee274a0eb8014bd84ba047f5/thumbnails/d800e8d7606e4c13820b5eb63167579c/dc5bede2084a40f3a1bbd53c356d18cf.jpeg
   technical:
     faces: 290990
@@ -2092,7 +2159,8 @@
   space_tags:
   - public
   historical_notes: Museum of Aeronautical Sciences. The first prototype of the YS-11, Japan's first postwar domestic airliner, which first flew on 30 August 1962.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Museum of Aeronautical Sciences); first flight 30 Aug 1962."
   image: https://media.sketchfab.com/models/30f38d0d479c4368896de7cd70bfbb53/thumbnails/41440f2a9d08411fa6b024dfdd3df6b5/cb30af318e234936972e52f0f6054a93.jpeg
   technical:
     faces: 2000072
@@ -2117,7 +2185,8 @@
   space_tags:
   - industrial
   historical_notes: The gate hoist of the Maruyama Dam, Gifu, made by Hitachi Zōsen in March Shōwa 29 (1954).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Machine on site at the Maruyama Dam; maker and date (Hitachi Zōsen, March 1954) given in the listing."
   image: https://media.sketchfab.com/models/fac6ad2521a64095996a25697ef4c2ba/thumbnails/65ddea4770a94a1a84e110b2176e1c32/d3f4628991744f7bb3bf5fddc87faa46.jpeg
   technical:
     faces: 3000000
@@ -2142,7 +2211,8 @@
   space_tags:
   - street
   historical_notes: Matsudo Museum. A Kurogane three-wheeled truck, type KE4, built in 1957 by Nihon Nainenki.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Matsudo Museum); type KE4, 1957."
   image: https://media.sketchfab.com/models/2be78a8183cc43849f937b71f1a97227/thumbnails/71ac7d6144084071bb4a3f94d88777cd/ad2e41350beb43b1a29572bd45b0afa8.jpeg
   technical:
     faces: 157315
@@ -2167,7 +2237,8 @@
   space_tags:
   - street
   historical_notes: The remains of Hatsudai bridge over a buried stream in Shibuya, built in September Shōwa 34 (1959).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Inscription quoted in the listing: built September Shōwa 34 (1959)."
   image: https://media.sketchfab.com/models/0bdecf4c3f5642e5b391485c25d57a47/thumbnails/fe0b6a27f541408f8b95d405d2f51f4b/a4e715c40e1b45ad8ebb93223e919a5b.jpeg
   technical:
     faces: 149990
@@ -2193,7 +2264,8 @@
   space_tags:
   - street
   historical_notes: Tram track remains found under Shiratori bridge, Bunkyō, which the listing dates to around the 1970s.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "Original remains, but the listing dates them only as 'around the 1970s'."
   image: https://media.sketchfab.com/models/76970889d1f34867aa1e37ae135d8fde/thumbnails/72f41646d3fe44b598e97754d2761385/f80405b58a1b49cab14373d517bea77b.jpeg
   technical:
     faces: 400072
@@ -2219,7 +2291,8 @@
   space_tags:
   - home
   historical_notes: The listing identifies a Konishiroku Baby Pearl camera, made 1934–1950.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Photogrammetry of a surviving Baby Pearl, a camera made 1934–1950."
   image: https://media.sketchfab.com/models/dedb1824608f420c9803ef8df51a3713/thumbnails/d1cec67dfdaa4067915fceff4b2e254e/9fb42b4025ae4ca9aa5a9e646ce1d413.jpeg
   technical:
     faces: 56688
@@ -2244,7 +2317,8 @@
   space_tags:
   - home
   historical_notes: The listing dates this clay menko, modelled on Daikokuten, from the Taishō to the early Shōwa period.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "No holder named; the listing dates it Taishō to early Shōwa, so it may predate 1926."
   image: https://media.sketchfab.com/models/aa154b6676a043d194a3d0f2af32eff8/thumbnails/d34b2aa922b64c7b8abfcf3349397c60/f1d116195ad549fa8ad26f0c5d8df41d.jpeg
   technical:
     faces: 499830
@@ -2269,7 +2343,8 @@
   space_tags:
   - home
   historical_notes: Edo-Tokyo Museum collection; the listing dates it to early Shōwa (昭和前期).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Edo-Tokyo Museum)."
   image: https://media.sketchfab.com/models/3826e880159a410cae0d5ad7229773f9/thumbnails/fdae45295d134f40836dd3db553c147a/f1743f85f83b4a1fa986391bf2e36e81.jpeg
   technical:
     faces: 303822
@@ -2294,7 +2369,8 @@
   space_tags:
   - home
   historical_notes: Edo-Tokyo Museum collection; the listing dates it to early Shōwa (昭和初期).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Edo-Tokyo Museum)."
   image: https://media.sketchfab.com/models/205eb840243d45079ae8bb312a5deed3/thumbnails/63f25842e6c94187a562119783051448/bd3328da307a463e91e913abdc97ca73.jpeg
   technical:
     faces: 79565
@@ -2319,7 +2395,8 @@
   space_tags:
   - commercial
   historical_notes: The listing dates this Jinbōchō building to 1930, built to mark Tokyo's reconstruction after the 1923 earthquake.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Surviving building, built 1930 and demolished 2020 per the listing; the scan is now the record."
   image: https://media.sketchfab.com/models/5394dc583fac4bd69a760b6d35236342/thumbnails/dbcd4251c819485bbad098d9b6a841af/4dbd880168824e949403d4e998f64b23.jpeg
   technical:
     faces: 236244
@@ -2344,7 +2421,8 @@
   space_tags:
   - home
   historical_notes: The architect Maekawa Kunio's own house in Kami-Ōsaki, Shinagawa, built in 1942 (Shōwa 17) when building materials were scarce under the wartime regime.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Built 1942 per the listing, which ToMuCo (Tokyo Museum Collection) published. The house was later relocated and restored at the Edo-Tokyo Open Air Architectural Museum (not stated in the listing), so the scan shows the restored house."
   image: https://media.sketchfab.com/models/5b1ee506fa6548938e5ac80b1f3507cf/thumbnails/ffd5833944fa4be897ec28db5dc60cb8/177daa47c47847edb54a3d6bf48325dd.jpeg
   technical:
     faces: 415519
@@ -2370,7 +2448,8 @@
   space_tags:
   - commercial
   historical_notes: The listing dates the Kitahara Building in Kanda Iwamotochō to 1927; it survived the air raids and was demolished in 2019.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Surviving building, built 1927 and demolished 2019 per the listing; the scan is now the record."
   image: https://media.sketchfab.com/models/7acb353f3fe749c3be5aebd1fde123c1/thumbnails/4ecef643c0bc44f0a5a9f03e475d8457/e54f0479368348efb861ef2c2dcb00e8.jpeg
   technical:
     faces: 97271
@@ -2395,7 +2474,8 @@
   space_tags:
   - home
   historical_notes: The main building of the Tokyo Metropolitan Teien Art Museum, built in 1933 (Shōwa 8) as the residence of Prince Asaka.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Building of 1933; Important Cultural Property per the listing."
   image: https://media.sketchfab.com/models/fbb7dfaf509c496f918d9864fa0bff8c/thumbnails/abcb6cd0789244f9a013f47b2ec9a799/bb34121e80614b49bda05ed5c134f97d.jpeg
   technical:
     faces: 206039
@@ -2419,9 +2499,9 @@
   - bedding
   space_tags:
   - home
-  historical_notes: A box pillow used by women with traditional hairstyles; the listing says such pillows were in use until about the 1930s.
-  showa_fit: unassessed
-  review_note: The listing dates this pillow's manufacture to the Taishō period (大正時代か).
+  historical_notes: "A box pillow used by women with traditional hairstyles; the listing says such pillows were in use until about the 1930s. The holding institute dates this pillow's making to the Taishō period."
+  showa_fit: proxy
+  fit_grounds: "The institution dates the pillow's making to the Taishō period (大正時代か); only the type is attested in use into the 1930s."
   image: https://media.sketchfab.com/models/208761ea9f9c44bc858892fcf5881130/thumbnails/095f79d9ed7d4340801feabae87ea18b/8fe2974139ed489ca1105e14984abe68.jpeg
   technical:
     faces: 708921
@@ -2446,7 +2526,8 @@
   space_tags:
   - religion
   historical_notes: A roadside horse-headed Kannon dated November Shōwa 3 (1928).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Inscription quoted in the listing: November Shōwa 3 (1928)."
   image: https://media.sketchfab.com/models/3f7937d297de406c8d078b71a38e9efb/thumbnails/e2e5b53779fd4ae19c5cd173ae07485e/bf718ae678be4047a612e6fb7b398b07.jpeg
   technical:
     faces: 349910
@@ -2472,8 +2553,8 @@
   space_tags:
   - religion
   historical_notes: A horse-headed Kannon said to have been raised in 1936 (Shōwa 11) for the horses that worked a coal mine.
-  showa_fit: unassessed
-  review_note: The description matches the iizukabunka listing of the same name; probably a second scan of one monument.
+  showa_fit: documented
+  fit_grounds: "Iizuka city designated cultural property per the listing; raised 1936 'it is said'."
   image: https://media.sketchfab.com/models/4a0acd45aeb448f3b2e12173693cefdb/thumbnails/4a59b10b99cb49e0b7a5db939a666039/e02f898ac7e44c06b0827cdcaf572d7c.jpeg
   technical:
     faces: 96686
@@ -2499,8 +2580,8 @@
   space_tags:
   - religion
   historical_notes: A horse-headed Kannon said to have been raised in 1936 (Shōwa 11) for the horses that worked a coal mine; Iizuka city designated cultural property.
-  showa_fit: unassessed
-  review_note: The listing's description states CC BY-NC; the platform's licence field differs. Confirm which applies.
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Iizuka city); raised 1936 'it is said'."
   image: https://media.sketchfab.com/models/edfee0cb686f4508a1b0d2a19e8a29a6/thumbnails/d2fe4d232e9945fab12814bb82b5cb4d/2206e0fa9fb44c33b703b190a16099a0.jpeg
   technical:
     faces: 96686
@@ -2525,7 +2606,8 @@
   space_tags:
   - public
   historical_notes: The former Ōgoe recreation hall in Tamura, Fukushima, built in 1926; a registered tangible cultural property.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Registered tangible cultural property; built by Kon Wajirō in 1926 (probably the last months of Taishō), used through Shōwa, and described as keeping its original appearance."
   image: https://media.sketchfab.com/models/7c620f1f560d49b7822c43537100cfd7/thumbnails/a5e3dc48dd624ff8be74ff1afeca2c6f/f0fe8eadf3724cde93e1cb5f9979682f.jpeg
   technical:
     faces: 293658
@@ -2550,7 +2632,8 @@
   space_tags:
   - office
   historical_notes: The former office of the Iwase Farm, Fukushima, built in 1933.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Town-designated cultural property; built 1933."
   image: https://media.sketchfab.com/models/5ac66ecc2be845cbb14f7e8ac10f4bf9/thumbnails/0b84ca681af5487ba77281dc2774f749/3a9fec7d41cd4bf2a08bc951fbff7125.jpeg
   technical:
     faces: 320297
@@ -2575,8 +2658,8 @@
   space_tags:
   - theatre
   historical_notes: A tiger costume head from the Kaho Gekijō theatre in Iizuka, believed to date from early Shōwa.
-  showa_fit: unassessed
-  review_note: The listing's description states CC BY-NC; the platform's licence field differs. Confirm which applies.
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Iizuka city board of education); estimated early Shōwa."
   image: https://media.sketchfab.com/models/66e4714c7ea7424e9afb71cceb7be7d9/thumbnails/cc3731a7a59e43f3ab56b64c64d68443/307ffdf5d62f40558e59d38667db6f75.jpeg
   technical:
     faces: 45139
@@ -2601,7 +2684,8 @@
   space_tags:
   - farm
   historical_notes: Hakui City Museum. A rice-grading sieve (sengoku-dōshi) inscribed with a production date of August Shōwa 6 (1931).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Hakui City Museum); inscribed August Shōwa 6 (1931)."
   image: https://media.sketchfab.com/models/313d1e8412724c8481d51db071004ad4/thumbnails/a90394ea34054d3f86900797dd497a25/06e6c7ce3b9148868256a6c796d45b70.jpeg
   technical:
     faces: 500000
@@ -2626,8 +2710,8 @@
   space_tags:
   - theatre
   historical_notes: A dog costume head from the Kaho Gekijō theatre in Iizuka, believed to date from early Shōwa.
-  showa_fit: unassessed
-  review_note: The listing's description states CC BY-NC; the platform's licence field differs. Confirm which applies.
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Iizuka city board of education); estimated early Shōwa."
   image: https://media.sketchfab.com/models/bf46e9bd251741f9b11870af907a63df/thumbnails/42d213a3e1fe461e88195c7edaa02c50/e3760eab00d647eeb6703ae50d53eb76.jpeg
   technical:
     faces: 64941
@@ -2655,7 +2739,8 @@
   space_tags:
   - school
   historical_notes: Otsuma Women's University Museum. An eaves tile with the school crest, from the ferroconcrete school building in use from 1936 (Shōwa 11) to 1986 (Shōwa 61).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Otsuma Women's University Museum); building in use 1936–1986."
   image: https://media.sketchfab.com/models/6e002e2a9c264c3d821d74760797c450/thumbnails/32b50d7310374a8e9b77f8d1103f2424/4aab4ee77e4c494ead6f6c0bb983f842.jpeg
   technical:
     faces: 49942
@@ -2681,7 +2766,8 @@
   space_tags:
   - clinic
   historical_notes: The delivery room of the former Sakata clinic in Menuma, Kumagaya, built in 1931 (Shōwa 6) as a maternity clinic; a registered tangible cultural property.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Registered tangible cultural property (former Sakata clinic, built 1931); scanned by the Kumagaya city cultural-property centre."
   image: https://media.sketchfab.com/models/72c286f6a0db46408bf332afeac60f6a/thumbnails/e1736f4c1fff459f88a6a2a37b481cbe/b8e49075ee0e47d9b21f2bf80593c318.jpeg
   technical:
     faces: 201520
@@ -2707,7 +2793,8 @@
   space_tags:
   - clinic
   historical_notes: The reception and dispensary of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Registered tangible cultural property (former Sakata clinic, built 1931); scanned by the Kumagaya city cultural-property centre."
   image: https://media.sketchfab.com/models/7d31f2c823fe46dda4238cbc1659013c/thumbnails/b438ab6fa9604cabbfdad42b685098cf/bad9d5ac866f40d195a82016616ba098.jpeg
   technical:
     faces: 172713
@@ -2733,7 +2820,8 @@
   space_tags:
   - clinic
   historical_notes: The waiting room of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Registered tangible cultural property (former Sakata clinic, built 1931); scanned by the Kumagaya city cultural-property centre."
   image: https://media.sketchfab.com/models/c9bf5b04c610484c8aa8d9db45b93a10/thumbnails/aae233ec36344f94bfaa3bd7889b0c2c/6ed675f8106349fb94f5be1f018ab3bc.jpeg
   technical:
     faces: 100663
@@ -2759,7 +2847,8 @@
   space_tags:
   - clinic
   historical_notes: The reception room of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Registered tangible cultural property (former Sakata clinic, built 1931); scanned by the Kumagaya city cultural-property centre."
   image: https://media.sketchfab.com/models/b47a0713cb3c4ea0908d49e751efb09c/thumbnails/5df34438f4214191b5cbe04ca75b04de/ab78523eeceb448b9f57b0eb42eac31b.jpeg
   technical:
     faces: 138347
@@ -2785,7 +2874,8 @@
   space_tags:
   - clinic
   historical_notes: The hot-water room of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Registered tangible cultural property (former Sakata clinic, built 1931); scanned by the Kumagaya city cultural-property centre."
   image: https://media.sketchfab.com/models/f729804780e141008d1f7c65eb5c8044/thumbnails/c74438928be147eb8ba0f601055119d4/819b1dc07f5f4053bca08ecefdf37a2b.jpeg
   technical:
     faces: 103734
@@ -2811,7 +2901,8 @@
   space_tags:
   - clinic
   historical_notes: The consulting room of the former Sakata clinic, Kumagaya, built in 1931 (Shōwa 6).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Registered tangible cultural property (former Sakata clinic, built 1931); scanned by the Kumagaya city cultural-property centre."
   image: https://media.sketchfab.com/models/fffcfb3b07fe440891724e4a1478395b/thumbnails/d9dee11dd25848f28fc198fe461db42a/2f25892e78d747709e37ec24813dbce8.jpeg
   technical:
     faces: 172980
@@ -2839,7 +2930,8 @@
   space_tags:
   - clinic
   historical_notes: The former Sakata clinic in Menuma, Kumagaya, built in 1931 (Shōwa 6) as a maternity clinic and used until the late 1970s.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Registered tangible cultural property (former Sakata clinic, built 1931); scanned by the Kumagaya city cultural-property centre."
   image: https://media.sketchfab.com/models/e905902bf1624baba2e23b23d659484d/thumbnails/3ed0ea6c23da4108978e35e31d183b76/027e9d2df02449ffafb96ac1ca9174eb.jpeg
   technical:
     faces: 362864
@@ -2864,7 +2956,8 @@
   space_tags:
   - public
   historical_notes: The former Hakubutsukan-Dōbutsuen station of the Keisei line in Ueno Park, opened in 1933 (Shōwa 8).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Former station of 1933, in situ in Ueno Park; dated by the line's opening."
   image: https://media.sketchfab.com/models/9a09bdf9c67c49c0944b1799f0d60f9e/thumbnails/4da14365a57a42f386f99d1756c75fb7/9d1852233ed041fc9b47aaeb641d760c.jpeg
   technical:
     faces: 1144513
@@ -2890,7 +2983,8 @@
   space_tags:
   - public
   historical_notes: The Futatsugoya tunnel on the Bansei road, Fukushima, widened for motor traffic in 1934 (Shōwa 9) and bypassed in 1966.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "JSCE civil-engineering heritage; widened 1934, bypassed 1966."
   image: https://media.sketchfab.com/models/4749ba1722774d3eb101199d51bd39b8/thumbnails/2495ca0130e145a78e3b967bf30d1ad7/decb7e6e2c4e4e15ac3ee3a4eb100f58.jpeg
   technical:
     faces: 392594
@@ -2917,7 +3011,8 @@
   space_tags:
   - public
   historical_notes: JNR D51 no. 718, preserved in Ichinomiya; built by Hitachi at Kasado on 11 July 1943 (Shōwa 18) and withdrawn on 25 April 1974.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Preserved locomotive; build and withdrawal dates from the city record the listing cites."
   image: https://media.sketchfab.com/models/a705dcf5443d4c9f9607101b8c7cf332/thumbnails/e52a27355b5449d6a9d21d76cb297d96/30a3ac8df696419389d722073f616d7b.jpeg
   technical:
     faces: 10788457
@@ -2942,7 +3037,8 @@
   space_tags:
   - street
   historical_notes: The culvert of Yanagibashi over a tributary of the Kanda River, completed in 1932 (Shōwa 7).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Completed 1932 (Shōwa 7) per the listing."
   image: https://media.sketchfab.com/models/6e8af7fc9f6a4b06b2563d4294c423dd/thumbnails/0614d86b6ae14779ab17584f1cd21ead/039aacf350b54bbf951f6288dd09ec33.jpeg
   technical:
     faces: 200419
@@ -2971,7 +3067,8 @@
   space_tags:
   - industrial
   historical_notes: Remains of the Tōbu Senju freight line, opened in 1935, which from 1944 carried fertiliser by way of the Sumida River.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Remains of a freight line opened 1935."
   image: https://media.sketchfab.com/models/a456c4dd71ab430eaff9597f85809060/thumbnails/6103b3faf44c45aa973e2b5b26605387/0abed8e9bbf748ce8f8a797f181b87f5.jpeg
   technical:
     faces: 1000414
@@ -2996,7 +3093,8 @@
   space_tags:
   - farm
   historical_notes: The intake of the Kōnan siphon, Kumagaya, built in reinforced concrete in 1936 (Shōwa 11).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Scanned by the Kumagaya city cultural-property centre; built 1936."
   image: https://media.sketchfab.com/models/61ffaaaf3d8d43e58adb0fa6533ce4f2/thumbnails/2e9ec5c52bed4075890a444ffb20c95e/1543331d128f4853aa4b49af8049cc9c.jpeg
   technical:
     faces: 359233
@@ -3021,7 +3119,8 @@
   space_tags:
   - public
   historical_notes: A monument in Kumagaya raised in 1934 (Shōwa 9) to mark the wells dug in the drought of 1933.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Scanned by the Kumagaya city cultural-property centre; monument raised 1934."
   image: https://media.sketchfab.com/models/a13b0ad61c1041bfbcdf959573e41504/thumbnails/029b34a3f1c9484ea4e4abd51a58fb71/2ef85e18c7bb43e6a10f005157bfa22e.jpeg
   technical:
     faces: 151139
@@ -3046,7 +3145,8 @@
   space_tags:
   - street
   historical_notes: A gate post of Iriebashi bridge, Yokohama, built by the Reconstruction Bureau in May Shōwa 2 (1927).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Built by the Reconstruction Bureau, May Shōwa 2 (1927)."
   image: https://media.sketchfab.com/models/ea553996939c4f6293f58e50b7fac591/thumbnails/37a11e12e1a84886b884e6e86cfa2c91/5db7bc7c46a94d85b2bf1057f211a37e.jpeg
   technical:
     faces: 1000058
@@ -3073,7 +3173,8 @@
   space_tags:
   - public
   historical_notes: JNR C58 no. 114, built in Osaka in February 1939; preserved in Ōsaki, Miyagi, and listed for scrapping.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Preserved locomotive built February 1939."
   image: https://media.sketchfab.com/models/1a423ea9cce745baa29c08df2fad8be7/thumbnails/c240a51c3133413a8d4ffa7fe0c04f59/40b3a3a7b89f45c5b03835b22ab669b6.jpeg
   technical:
     faces: 692380
@@ -3100,7 +3201,8 @@
   space_tags:
   - public
   historical_notes: JNR C58 no. 19, built in Hyōgo on 29 September 1938; preserved in Ōsaki, Miyagi, and listed for scrapping.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Preserved locomotive built September 1938."
   image: https://media.sketchfab.com/models/f989e188a88d400c81f9118c19303095/thumbnails/5ed81d43e20946edb4f2d28e24c9f970/fa986f86d4a245d8a30e2ab0ed535111.jpeg
   technical:
     faces: 698946
@@ -3125,7 +3227,8 @@
   space_tags:
   - public
   historical_notes: JNR C58 no. 356, built in 1944; preserved at Nakayamadaira Onsen station, Miyagi, and listed for scrapping.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Preserved locomotive built 1944."
   image: https://media.sketchfab.com/models/05406f8ccedf475ebf1aa4118fa6e806/thumbnails/3606f6bbda79480eb88d4a41e5f9470f/461d236b6def4c96a090942568e940b8.jpeg
   technical:
     faces: 797965
@@ -3151,7 +3254,8 @@
   space_tags:
   - public
   historical_notes: A JNR D51 freight locomotive built at Kōriyama in 1940, preserved in Kaiseizan park.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Preserved locomotive built 1940."
   image: https://media.sketchfab.com/models/1f09333b44c646e0a557b25a49d88d36/thumbnails/9a9b829198554ddfb3ee8b786d7099d9/1a9685ae77934253b98769a7dd7be420.jpeg
   technical:
     faces: 567434
@@ -3177,8 +3281,8 @@
   space_tags:
   - public
   historical_notes: A turbine of the destroyer Sawakaze, beached at Onahama port, Iwaki, in April 1948.
-  showa_fit: unassessed
-  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  showa_fit: documented
+  fit_grounds: "Original turbine of a destroyer completed in the Taishō period, in service through the war and beached as a breakwater in 1948. Kept at the director's ruling (1 Nov 2026)."
   image: https://media.sketchfab.com/models/85294a37736f4bf6924721d582b849b2/thumbnails/9c23fe471b614be09bfc7988ba743162/12dc38d37aba47f1baa952f63c82d2ee.jpeg
   technical:
     faces: 205855
@@ -3204,7 +3308,8 @@
   space_tags:
   - religion
   historical_notes: The one-legged torii of Sannō shrine, Nagasaki; the listing says the other gates fell in the atomic bombing of 9 August 1945.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "In situ; survived the atomic bombing of 9 Aug 1945."
   image: https://media.sketchfab.com/models/a610ee5598ee49e695fa8746b399e096/thumbnails/14194110380c40f3bd79cff9e81b9f86/640x360.jpeg
   technical:
     faces: 1503836
@@ -3229,7 +3334,8 @@
   space_tags:
   - office
   historical_notes: The former Edogawa ward office document store, burnt out inside in the Tokyo air raid of 10 March 1945.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "In situ; burnt out in the raid of 10 Mar 1945."
   image: https://media.sketchfab.com/models/3fdac2a03da3496c880e4152b6a51626/thumbnails/3c2489a0a0ac4d0b9c968a40a755fd49/670fb96bc6b14a2fa3d7db132826a7d4.jpeg
   technical:
     faces: 499999
@@ -3255,7 +3361,8 @@
   space_tags:
   - military
   historical_notes: Tōbunken. The ammunition store of the former Army airfield at Chiran, Kagoshima, dated 1941.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of a designated or registered structure at the former Chiran airfield; dated by the listing."
   image: https://media.sketchfab.com/models/209c043e96bc468ba348bfe256a1ddab/thumbnails/56f241eedd654ae9a5d6adecd0e974a9/529c994868f747e6ac1deb6161f847d1.jpeg
   technical:
     faces: 3000000
@@ -3281,7 +3388,8 @@
   space_tags:
   - military
   historical_notes: Tōbunken. An aircraft blast shelter at the former Army airfield at Chiran, dated 1945.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of a designated or registered structure at the former Chiran airfield; dated by the listing."
   image: https://media.sketchfab.com/models/86fe40afea514ec2b44427146d5faa87/thumbnails/c0e69631325b4155b46dbed70e7069bc/3328cb47fefa496b9eeaea6ee8aadfd5.jpeg
   technical:
     faces: 2750000
@@ -3307,7 +3415,8 @@
   space_tags:
   - military
   historical_notes: Tōbunken. An aircraft blast shelter at the former Army airfield at Chiran, dated 1945; the scan includes a model fighter and a viewing platform.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of a designated or registered structure at the former Chiran airfield; dated by the listing."
   image: https://media.sketchfab.com/models/651c677247e748e0869c0cd8ecc30e7f/thumbnails/dddb55f6a88e4bdb8bc32fd0f3ca9778/3b0c4b91604c44be921f8593eefee8ec.jpeg
   technical:
     faces: 2499999
@@ -3333,7 +3442,8 @@
   space_tags:
   - military
   historical_notes: Tōbunken. A landing-training structure at the former Army airfield at Chiran, dated 1941.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of a designated or registered structure at the former Chiran airfield; dated by the listing."
   image: https://media.sketchfab.com/models/d69a4f71e5cf4d65813bd95abd9d9de8/thumbnails/5acd660917d94c4cb32999b30f88e992/0a44c561ef344d0e9f37baacc3317cae.jpeg
   technical:
     faces: 3000000
@@ -3359,7 +3469,8 @@
   space_tags:
   - military
   historical_notes: Tōbunken. The water tower of the former Army airfield at Chiran, dated 1941.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of a designated or registered structure at the former Chiran airfield; dated by the listing."
   image: https://media.sketchfab.com/models/6d78944eb7054896bd7e0b3d6d5a0598/thumbnails/3c32989e7e514df495f08596dd6a2f27/6fd22f4fd6f2443bbff69f65e30e1913.jpeg
   technical:
     faces: 2000200
@@ -3385,7 +3496,8 @@
   space_tags:
   - military
   historical_notes: Tōbunken. A fire-water cistern at the former Army airfield at Chiran, dated 1941.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of a designated or registered structure at the former Chiran airfield; dated by the listing."
   image: https://media.sketchfab.com/models/0a80562dcfa14f8fb22abe50cabe261f/thumbnails/c60f7b1a6c48494a939522138aad2bc3/68dd859d45804387bd3ba8af92b57a62.jpeg
   technical:
     faces: 2499999
@@ -3411,7 +3523,8 @@
   space_tags:
   - street
   historical_notes: Marks on the Shin-Ishichōbashi viaduct at Kanda station, said to be from strafing during the Second World War; the listing says the date is unknown.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "The listing says the marks are only 'said to be' from wartime strafing and the date is unknown."
   image: https://media.sketchfab.com/models/824f1a2f776b4385919d9a6e1d2a5425/thumbnails/be9036cb310840ad9c14af8e0227ca57/1d2b0a49d42e41ae8fc945610e94f160.jpeg
   technical:
     faces: 200750
@@ -3437,7 +3550,8 @@
   space_tags:
   - home
   historical_notes: Edo-Tokyo Museum. An electric heater made from the tail fin of an incendiary bomb, dated 1945 (Shōwa 20).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Edo-Tokyo Museum); 1945."
   image: https://media.sketchfab.com/models/dc23434a5a44466d86dc75c3e58a6e40/thumbnails/614afe8c84d4403bb3095dd256e02df5/3983414d21bf49daa2fc236a6e420648.jpeg
   technical:
     faces: 70870
@@ -3462,7 +3576,8 @@
   space_tags:
   - military
   historical_notes: A direction plate at the bowing station of the Army Academy in Zama, used from 1937 when the academy moved there.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "In situ; in use from 1937 per the explanatory board the listing quotes."
   image: https://media.sketchfab.com/models/cde47ec4b126473f85e4582c1c7c219e/thumbnails/49d74cf1cd2f493a8c94abd1d19ee8b7/18d8292377ca4eafa025281e764f2ecb.jpeg
   technical:
     faces: 196088
@@ -3490,7 +3605,8 @@
   space_tags:
   - military
   historical_notes: Rail siding of the Sagami Army Ordnance Depot, taken over by the US Army after 1945.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Rail siding of the prewar Sagami depot, used by the US Army from 1945."
   image: https://media.sketchfab.com/models/c895be088410424986c02686c00053b6/thumbnails/a7a002f64b934db9ba2bc6fc64369fe9/875cc790d0e04a4dad0ef3ecc2faed62.jpeg
   technical:
     faces: 400370
@@ -3515,8 +3631,8 @@
   space_tags:
   - public
   historical_notes: Tōbunken. The propeller of a Navy Shiden-kai fighter shot down over Chikujō, Fukuoka, on 8 August 1945.
-  showa_fit: unassessed
-  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey; Chikujō town designated cultural property; shot down 8 Aug 1945. Kept at the director's ruling (1 Nov 2026)."
   image: https://media.sketchfab.com/models/1afb5961fd714539994b5c594cbf4cff/thumbnails/b92bc84de6ab40bcbb301cd500430fec/b1bc79ee915b488ab80f0cf8083c2966.jpeg
   technical:
     faces: 1997032
@@ -3541,7 +3657,8 @@
   space_tags:
   - public
   historical_notes: The listing describes this as the original Imperial Rescript on the end of the war (終戦の詔書).
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "The listing names the original rescript but not where it was scanned; documented if the scan was made from the original at the National Archives of Japan."
   review_note: The listing does not say whether the original or a facsimile was scanned.
   image: https://media.sketchfab.com/models/d12a3fd7b2bd4e888c220af0bc909480/thumbnails/24eee6e8464b4c23a1e6243ff08a0cf4/9a029452ac864da98488fb6957029365.jpeg
   technical:
@@ -3568,7 +3685,8 @@
   space_tags:
   - public
   historical_notes: The concrete cargo ship Takechi Maru, built to the EC wartime standard design for the Imperial Navy.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Surviving hulls of a wartime concrete ship, now a breakwater."
   image: https://media.sketchfab.com/models/f51026ef02f9483f8a59aed302bb4947/thumbnails/17bc07ce638d4c68a44b8cb8dd6e148b/640x360.jpeg
   technical:
     faces: 1106053
@@ -3594,7 +3712,8 @@
   space_tags:
   - military
   historical_notes: Tōbunken. Pillbox no. 1 of the former Army airfield at Aoto, Minamikyūshū, dated about 1943–45.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey (2024); airfield built from 1943."
   image: https://media.sketchfab.com/models/4d6877ac65024fc1802b0e1e26e81c1e/thumbnails/c114de3e4fa94206b30d45e5c6cdf860/5cad5e6db3f646adb1355eac0f47e857.jpeg
   technical:
     faces: 2999999
@@ -3620,7 +3739,8 @@
   space_tags:
   - military
   historical_notes: Tōbunken. Pillbox no. 2 of the former Army airfield at Aoto, Minamikyūshū, dated about 1943–45.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey (2024); airfield built from 1943."
   image: https://media.sketchfab.com/models/379225bba9614a72815310abab5a6f09/thumbnails/86382092492544e098e11b704709285c/e3cc97beedfa4754aaee672bb3e9a5f8.jpeg
   technical:
     faces: 2617312
@@ -3645,7 +3765,8 @@
   space_tags:
   - public
   historical_notes: A model of an incendiary bomb, documented by the listing in connection with the Tokyo air raid of 10 March 1945.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A model of a bomb, not the bomb; no holder named."
   image: https://media.sketchfab.com/models/103a5a8556a944e8b48dd0c18006740c/thumbnails/741ee2db7beb49b5955c874009bd9aa7/9f321b7f31c74c8d884458e54a3550d3.jpeg
   technical:
     faces: 50813
@@ -3671,7 +3792,8 @@
   space_tags:
   - public
   historical_notes: The statue Mother and Child 'Under Fire of War', documented by the listing in connection with the Tokyo air raid of 10 March 1945.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "No date or location for the statue in the listing."
   image: https://media.sketchfab.com/models/1f73312d54654956a0d0681191fdc14d/thumbnails/4c5a9a0bebec4d22a91b68cd58791dd7/eb6a7cc507fc41e697a8972d8336248c.jpeg
   technical:
     faces: 1527266
@@ -3697,7 +3819,8 @@
   space_tags:
   - home
   historical_notes: A piano grazed by incendiary bombs in the Tokyo air raid of 10 March 1945.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "Probably an original 1945 object, but the listing names no holder or source; documented if the holder is confirmed."
   image: https://media.sketchfab.com/models/bd19881cfcef45c88a439999363fa038/thumbnails/cb85c71a25cb41b4993027f920c78881/9d34661165114b8d9a0e76b54d703b69.jpeg
   technical:
     faces: 111049
@@ -3723,7 +3846,8 @@
   space_tags:
   - home
   historical_notes: A room set up for blackout (light control), documented by the listing in connection with the Tokyo air raid of 10 March 1945.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A reconstructed room setting; no holder named."
   image: https://media.sketchfab.com/models/0b19e58eef2e4e82bc80e087d2a717c5/thumbnails/b832581a369545e7943ee461f74650f6/6300a23ced914b1699c41a9709a54cac.jpeg
   technical:
     faces: 142005
@@ -3748,7 +3872,8 @@
   space_tags:
   - street
   historical_notes: A fire-prevention water tank, documented by the listing in connection with the Tokyo air raid of 10 March 1945.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "No holder named and no indication whether original or replica."
   image: https://media.sketchfab.com/models/659eeb7382b04559a17f6da74de09048/thumbnails/118169c1d2f1457a9a8672b20b37bf66/ccfb27d948d547ed884e64009ba442be.jpeg
   technical:
     faces: 760976
@@ -3773,7 +3898,8 @@
   space_tags:
   - religion
   historical_notes: Guardian dogs (komainu) of Akiba shrine, Mukōjima, damaged in the Tokyo air raid.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "In situ at Akiba shrine, Mukōjima; raid damage stated by the listing."
   image: https://media.sketchfab.com/models/3ec550e6ba434929a8f4ea0ecb6d048d/thumbnails/5c08ad01ea40485897621cc5196b2091/6ed932cee8ab4a99afd4c6276c6debf0.jpeg
   technical:
     faces: 3538584
@@ -3799,7 +3925,8 @@
   space_tags:
   - street
   historical_notes: A utility pole in Misuji, Taitō, that survived the Tokyo air raid of 10 March 1945 (Shōwa 20).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "In situ; the preservation plaque quoted in the listing (1988) records its survival of the 10 Mar 1945 raid."
   image: https://media.sketchfab.com/models/6f75b3d9b16c48c8885e811e272d552f/thumbnails/84a43c27cb3b4cf8ae31aba593e0d5c9/758317117256430eb56ae9da63b25fae.jpeg
   technical:
     faces: 2191774
@@ -3825,8 +3952,8 @@
   space_tags:
   - public
   historical_notes: Chiran Peace Museum for Kamikaze Pilots. The carburettor of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
-  showa_fit: unassessed
-  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of the surviving Ki-84 no. 1446, a Minamikyūshū city designated cultural property held by the Chiran Peace Museum. Kept at the director's ruling (1 Nov 2026)."
   image: https://media.sketchfab.com/models/2e2b6ab3f7f14972a93faac78de2206a/thumbnails/ab56428866484ebbb93b83cc35f01e7f/75bb430ccb1141bb9823d37e8e1aa42b.jpeg
   technical:
     faces: 3999999
@@ -3852,8 +3979,8 @@
   space_tags:
   - public
   historical_notes: Chiran Peace Museum for Kamikaze Pilots. The inertia starter of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
-  showa_fit: unassessed
-  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of the surviving Ki-84 no. 1446, a Minamikyūshū city designated cultural property held by the Chiran Peace Museum. Kept at the director's ruling (1 Nov 2026)."
   image: https://media.sketchfab.com/models/888ff4c3ddb946aaa2645fc5de479b96/thumbnails/e2508e3d065e42758ebd364fc747e91f/d54267da74724989b36aab51173a65f1.jpeg
   technical:
     faces: 3797205
@@ -3879,8 +4006,8 @@
   space_tags:
   - public
   historical_notes: Chiran Peace Museum for Kamikaze Pilots. The cockpit of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
-  showa_fit: unassessed
-  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of the surviving Ki-84 no. 1446, a Minamikyūshū city designated cultural property held by the Chiran Peace Museum. Kept at the director's ruling (1 Nov 2026)."
   image: https://media.sketchfab.com/models/d71fbc910e87420789444bb276d5ac02/thumbnails/8263058542c04886bca7f2bcb0f193c6/ee1e448590d54e2cac7b1ded8222cd1f.jpeg
   technical:
     faces: 4999999
@@ -3906,8 +4033,8 @@
   space_tags:
   - public
   historical_notes: Chiran Peace Museum for Kamikaze Pilots. The gun synchroniser of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
-  showa_fit: unassessed
-  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of the surviving Ki-84 no. 1446, a Minamikyūshū city designated cultural property held by the Chiran Peace Museum. Kept at the director's ruling (1 Nov 2026)."
   image: https://media.sketchfab.com/models/cbae2b3fe1574092884ccfefcdc49c80/thumbnails/0d53b27d10214c1fb0ad672542e1b396/0370ead55262429aacf0f3db711be706.jpeg
   technical:
     faces: 773482
@@ -3933,8 +4060,8 @@
   space_tags:
   - public
   historical_notes: Chiran Peace Museum for Kamikaze Pilots. The water-methanol injection unit of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
-  showa_fit: unassessed
-  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of the surviving Ki-84 no. 1446, a Minamikyūshū city designated cultural property held by the Chiran Peace Museum. Kept at the director's ruling (1 Nov 2026)."
   image: https://media.sketchfab.com/models/84187f64018b4ed28d2fe71cd30c3627/thumbnails/a4997cb39d1e406a8b32ff1ffbc6dd6f/cc8a2486dca24feeb2bf7ee7e04dae69.jpeg
   technical:
     faces: 2406781
@@ -3960,8 +4087,8 @@
   space_tags:
   - public
   historical_notes: Chiran Peace Museum for Kamikaze Pilots. The fuel pump of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
-  showa_fit: unassessed
-  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of the surviving Ki-84 no. 1446, a Minamikyūshū city designated cultural property held by the Chiran Peace Museum. Kept at the director's ruling (1 Nov 2026)."
   image: https://media.sketchfab.com/models/cab0bc17e3a14688be427b1ceda6372d/thumbnails/ebff7ef67b434e088f19d88164eb7011/c88e4244fbf444d7a55e4ed226f51634.jpeg
   technical:
     faces: 970635
@@ -3987,8 +4114,8 @@
   space_tags:
   - public
   historical_notes: Chiran Peace Museum for Kamikaze Pilots. The magneto of Army Type 4 fighter Hayate no. 1446, an Asia-Pacific War aircraft.
-  showa_fit: unassessed
-  review_note: Military hardware, admitted at the director's instruction (1 Nov 2026) for a ruling on showa_fit.
+  showa_fit: documented
+  fit_grounds: "Tōbunken survey of the surviving Ki-84 no. 1446, a Minamikyūshū city designated cultural property held by the Chiran Peace Museum. Kept at the director's ruling (1 Nov 2026)."
   image: https://media.sketchfab.com/models/ca56461047134b4283c0e0d456bea47e/thumbnails/92e628611d52429184d8d0cc8798efa3/6013c1c78aa840218cc0e265a578d8fa.jpeg
   technical:
     faces: 2330891
@@ -4014,7 +4141,8 @@
   space_tags:
   - public
   historical_notes: A memorial to victims of the Kumagaya air raid of 15 August 1945, by Kitamura Seibō, installed in 1975 (Shōwa 50).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Scanned by the Kumagaya city cultural-property centre; installed 16 Aug 1975."
   image: https://media.sketchfab.com/models/962bccf4a0484860a538522363fdb1c3/thumbnails/2ca4b1cdbd8348f1a413a2debde9ac18/f59fcccaa79a413eb66e35e40a32ca4c.jpeg
   technical:
     faces: 269673
@@ -4038,7 +4166,8 @@
   space_tags:
   - public
   historical_notes: Street sculpture by Kikuchi Kazuo on the Hoshikawa promenade, Kumagaya, installed in 1985 (Shōwa 60).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Scanned by the Kumagaya city cultural-property centre; installed 1985."
   image: https://media.sketchfab.com/models/2f0358ea72624901b925c7e16ef026a6/thumbnails/31fa2227fe5646a88b5618222768e358/407cab666a734b12ab99532caafa4b80.jpeg
   technical:
     faces: 157280
@@ -4062,7 +4191,8 @@
   space_tags:
   - public
   historical_notes: Street sculpture by Chino Shigeru on the Hoshikawa promenade, Kumagaya, installed in 1982 (Shōwa 57).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Scanned by the Kumagaya city cultural-property centre; installed 1982."
   image: https://media.sketchfab.com/models/5c3f28a271434a73a257fc1e09932067/thumbnails/90ab41a5b5a44d5daee85fbd9080809c/363fd793f2764ac6a268f640d800f25c.jpeg
   technical:
     faces: 184665
@@ -4086,7 +4216,8 @@
   space_tags:
   - public
   historical_notes: Street sculpture by Sakurai Yūichi on the Hoshikawa promenade, Kumagaya, installed in 1982 (Shōwa 57).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Scanned by the Kumagaya city cultural-property centre; installed 1982."
   image: https://media.sketchfab.com/models/aa5ea97a1c1342a794be39f9186a4655/thumbnails/5b93e953a4464bba99125a6be03d61e0/859459afb7e04b25a28ac1a13aa3ea46.jpeg
   technical:
     faces: 208399
@@ -4110,7 +4241,8 @@
   space_tags:
   - public
   historical_notes: Street sculpture by Tominaga Naoki on the Hoshikawa promenade, Kumagaya, installed in 1984 (Shōwa 59).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Scanned by the Kumagaya city cultural-property centre; installed 1984."
   image: https://media.sketchfab.com/models/6bd53167ccd847a2b9b73475dec2c60b/thumbnails/8ebbf1b683ce43eb8d139090b76051a4/c9060121eb1c42569fb73dccc8452abd.jpeg
   technical:
     faces: 142978
@@ -4134,7 +4266,8 @@
   space_tags:
   - public
   historical_notes: Street sculpture by Entsuba Katsuzō on the Hoshikawa promenade, Kumagaya, installed in 1983 (Shōwa 58).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Scanned by the Kumagaya city cultural-property centre; installed 1983."
   image: https://media.sketchfab.com/models/9d7647b59f9841fe84f296836c571054/thumbnails/a5c6eb6ce97f4f989f7319775aa9823b/2aa2619f2e484bd29da9abc018c30351.jpeg
   technical:
     faces: 147155
@@ -4159,7 +4292,8 @@
   space_tags:
   - home
   historical_notes: Tōbunken. A nigenkin (two-stringed zither) of the Azuma school, made by Makimoto Gakki; the listing dates it to 1981–1988.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Tōbunken record of an instrument in the Azuma-kai collection, dated 1981–1988."
   image: https://media.sketchfab.com/models/01b5380d88db4db4bc6c1c90d0b1b4aa/thumbnails/99d876c0e8f1402cacf11d4eea651ca1/aa172ec3e42243d2a910e25c53d4c6a3.jpeg
   technical:
     faces: 466495
@@ -4184,7 +4318,8 @@
   space_tags:
   - public
   historical_notes: A corridor of the Setagaya Art Museum, which opened on 30 March 1986.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Museum building opened 1986, in its original institutional use."
   image: https://media.sketchfab.com/models/f3f8a6440a4349d8a4aa47d145d95e13/thumbnails/32702a935f7243a482941b3a41c3c7c4/0d43986b8168460c8371aebd71549094.jpeg
   technical:
     faces: 273506
@@ -4210,7 +4345,8 @@
   space_tags:
   - leisure
   historical_notes: Room 501 of the Hotel New Akao in Atami, which the listing says opened in 1973.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A hotel room still in commercial use under new management since 2021; the scan does not separate 1973 fabric from later refitting."
   image: https://media.sketchfab.com/models/da6211da4a9b441997dbe80edf13a141/thumbnails/e503afbd0e8440a1b7138be870257932/20425bf90c2d4a47827e0a8fc1ffc322.jpeg
   technical:
     faces: 293193
@@ -4235,7 +4371,8 @@
   space_tags:
   - street
   historical_notes: A level-crossing remnant of the Jōbu Railway Nittan line, Saitama, discontinued in 1986.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Remains of a line closed in 1986."
   image: https://media.sketchfab.com/models/680f731d535341f681b0d98c0ac99bf7/thumbnails/0dcaff9e4a084359a25fc173683ded25/a3a041851ab148ffa113953d88b20ccf.jpeg
   technical:
     faces: 400604
@@ -4260,7 +4397,8 @@
   space_tags:
   - street
   historical_notes: A remnant of the old ground-level Tōbu Isesaki line near Sōka station, elevated in 1988.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Remains of the ground-level line replaced in 1988."
   image: https://media.sketchfab.com/models/eade805d4e0b4efb8faf1b318e30443f/thumbnails/b66ffe4df74044f99781351c13d3df4f/9ac465f08bda4d01a3afd226abb15c26.jpeg
   technical:
     faces: 490347
@@ -4285,7 +4423,8 @@
   space_tags:
   - public
   historical_notes: Memorials at Mugi, Tokushima, to the 1854 Ansei and 1946 Shōwa Nankai earthquakes, with a post marking the 1946 tsunami height.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "The Shōwa monument's own date of erection, and the tsunami post's, are not given; the scan also includes the 1854 Ansei stone."
   image: https://media.sketchfab.com/models/59053b8ac398436c94b2cf647f547df0/thumbnails/674b1bf0a5ff486f98a24c0bbdabad00/720x405.jpeg
   technical:
     faces: 2120991
@@ -4310,7 +4449,8 @@
   space_tags:
   - commercial
   historical_notes: A monument to the Uomachi Gintengai arcade in Kitakyūshū, completed in October 1951; the listing calls it Japan's first arcade over a public road.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "The monument marks a 1951 event; the listing does not date the monument itself."
   image: https://media.sketchfab.com/models/8f89ac4c9fd24f8692c4d6d1fbe83ea5/thumbnails/27d3eedff00749528e58ccb3c54698fc/38a5c80b096643429a69ab70230436e2.jpeg
   technical:
     faces: 7204
@@ -4335,7 +4475,8 @@
   space_tags:
   - industrial
   historical_notes: Remains of the Handa silver mine in Koori, Fukushima, which the listing says ceased operations in 1950.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Mine site that closed in 1950; the listing notes it was re-excavated around 1965."
   image: https://media.sketchfab.com/models/75f6bdf9c1294130b63cf1e332acc242/thumbnails/e538a2cc011941b7baa57a06ef899081/21d56c4281c84ff2ae2d86142988433e.jpeg
   technical:
     faces: 689578
@@ -4362,7 +4503,8 @@
   space_tags:
   - home
   historical_notes: Otsuma Women's University Museum. A model of the house where Ōtsuma Kotaka lived from 1947 until her death in 1970.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "A museum model of the house, not the house; the listing does not date the model."
   image: https://media.sketchfab.com/models/12fba298206941a4825e1e630adb3bf5/thumbnails/5762d9d17c0147229203fc71171c38f9/ddf33d9196e34293a28667661b8bb51c.jpeg
   technical:
     faces: 1000000
@@ -4388,7 +4530,8 @@
   space_tags:
   - religion
   historical_notes: A memorial to edible bullfrogs at a temple in Higashi-Komatsugawa, Edogawa, raised by the Tokyo edible-frog association in Shōwa 27 (1952); the listing describes the bullfrog trade from early Shōwa to the postwar years.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Inscribed: raised by the Tokyo edible-frog association in Shōwa 27 (1952)."
   image: https://media.sketchfab.com/models/2fce211e264147ffa61400acd59fdc00/thumbnails/e07f514c3b3e4fc7ba46dafe66af57ff/02e9bd7034c04cdebfa7a8f9a953d555.jpeg
   technical:
     faces: 3135494
@@ -4414,7 +4557,8 @@
   space_tags:
   - religion
   historical_notes: The former memorial to edible bullfrogs at a temple in Funabori, Edogawa, raised in Shōwa 27 (1952).
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Inscribed: raised in Shōwa 27 (1952)."
   image: https://media.sketchfab.com/models/97b8d2d935a548e0b290f685f7f77f15/thumbnails/869f51bd7c5e43638359673109045e40/bf1a90862d3243d292ce639ee20e0f25.jpeg
   technical:
     faces: 1475171
@@ -4440,7 +4584,8 @@
   space_tags:
   - commercial
   historical_notes: Omoide Yokochō in Shinjuku, an alley of small eateries that the listing traces to the postwar 1940s.
-  showa_fit: unassessed
+  showa_fit: proxy
+  fit_grounds: "Alley of eateries still in use; the listing gives no date for the fabric scanned."
   image: https://media.sketchfab.com/models/6eb13610e4d446acaabc03a830618a63/thumbnails/7992536606024538bcd725d7b3cdfd7a/d34173954cae45e2837cf782fa1b4506.jpeg
   technical:
     faces: 322252
@@ -4465,7 +4610,8 @@
   space_tags:
   - street
   historical_notes: A Mazda GB three-wheeled truck, 1950 model, on display at the Yamato Museum, Kure.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Yamato Museum, Kure); 1950 model."
   image: https://media.sketchfab.com/models/14f84ee693d94296a11e13601729299b/thumbnails/49fa73540e064381904703b4be5411f9/2b1ac61a13a846198f5b6444620e55c7.jpeg
   technical:
     faces: 402360
@@ -4490,7 +4636,8 @@
   space_tags:
   - home
   historical_notes: Edo-Tokyo Museum. Remade clothing (kōseifuku) of indigo kasuri cotton, dated 1948 (Shōwa 23) and catalogued under wartime life.
-  showa_fit: unassessed
+  showa_fit: documented
+  fit_grounds: "Holding institution or cultural-property designation named in the listing (Edo-Tokyo Museum); 1948."
   image: https://media.sketchfab.com/models/15ad13d8971e449da23393a3d5a7f76a/thumbnails/d93f5ee73a774ae496dc539af4b2989d/b3525cba6e8a4f839e0ed65710f34e2f.jpeg
   technical:
     faces: 90815

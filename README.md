@@ -53,6 +53,15 @@ A minimal entry:
     checked: "2026-11-01"
 ```
 
+## Historical fit
+
+`showa_fit` is set by the curator only, with the reasons in `fit_grounds`. The rule (adopted 1 November 2026):
+
+- `documented`: the model records a surviving original (object, structure or site) whose date in 1926–1989 is attested by a holding institution or cultural-property designation named in the listing, an inscription the listing quotes, or a dated construction, closure or event the listing names for that structure. Originals relocated, restored or since demolished still count; the grounds say so.
+- `proxy`: the model stands for a Shōwa object without recording a dated original: reconstructions, replicas and modelled versions of a type; originals whose Shōwa date the listing asserts without such evidence, or only approximately; spaces still in commercial or public use, where the scan cannot separate Shōwa fabric from later alteration; models of a building rather than the building.
+- `anachronistic`: the model records something made outside 1926–1989 with no attested Shōwa life, including later memorials to Shōwa events.
+- `unassessed`: not yet assessed.
+
 Period tags: `interwar_wartime_1926_1945`, `occupation_reconstruction_1945_1952`, `high_growth_1952_1973`, `late_showa_1973_1989`, `unassigned`. New values go through the project director.
 
 ## Checks
