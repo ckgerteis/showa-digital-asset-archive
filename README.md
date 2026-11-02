@@ -5,7 +5,7 @@
 
 Site: <https://showa-digital-archive.org/> · Directed by Dr Christopher Gerteis, SOAS University of London.
 
-The archive links to listings on Sketchfab, Fab, CGTrader and the Unity Asset Store. It never copies or redistributes model files.
+The archive links to listings on Sketchfab, Fab, CGTrader, the Unity Asset Store, BOOTH and ニコニ立体 (Niconi 3D), and to institutional open-data portals. It never copies or redistributes model files.
 
 ## How the site works
 
@@ -34,12 +34,14 @@ Entries enter `fab.yml` only after the listing has been checked. For Sketchfab:
 
 For Fab, CGTrader and Unity listings, copy the fields from the listing page by hand and set `verification.method: manual`.
 
+For BOOTH items and ニコニ立体 works, read the public item data (`https://booth.pm/ja/items/<id>.json`, `https://3d.nicovideo.jp/works/<id>.json`) and set `verification.method: listing-data`. Record the seller's terms in `licence` as the listing states them, the number of objects in a pack in `technical.items`, and anything the listing says about AI use in `ai_statement`, quoted. One entry per listing: a pack sold as one item is one entry.
+
 A minimal entry:
 
 ```yaml
 - id: skf-0059
   title: Black Wall Telephone            # as on the listing
-  source: sketchfab                      # sketchfab | fab | cgtrader | unity_asset_store
+  source: sketchfab                      # sketchfab | fab | cgtrader | unity_asset_store | booth | niconi_3d | open_data
   source_url: "https://sketchfab.com/3d-models/black-wall-telephone-32ca0931052e40e192f59df81779fcef"
   creator: GiyoP                         # as on the listing
   licence: CC BY 4.0                     # as on the listing

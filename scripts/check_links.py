@@ -2,7 +2,8 @@
 """Check that every catalog listing still exists.
 
 Sketchfab entries are checked through the public Sketchfab API (reliable, no token needed).
-Fab, CGTrader and Unity pages are fetched over HTTP; Fab and CGTrader often answer automated
+BOOTH items are checked through their public item data (/items/<id>.json), ニコニ立体 works through
+/works/<id>.json, and open-data records through the portal page. Fab, CGTrader and Unity pages are fetched over HTTP; Fab and CGTrader often answer automated
 requests with a bot challenge (403/202), which is reported as UNCONFIRMED rather than as a failure.
 
 Usage: python scripts/check_links.py [--report outputs/link_report.md]
@@ -51,6 +52,17 @@ def check(entry):
         if status in (404, 410):
             return "GONE", f"Sketchfab API {status}"
         return "UNCONFIRMED", f"Sketchfab API {status}"
+    if entry["source"] == "booth":
+        iid = re.search(r"/items/([0-9]+)", url).group(1)
+        status, body = fetch(f"https://booth.pm/ja/items/{iid}.json")
+        if status == 200:
+            name = json.loads(body).get("name")
+            return ("CHANGED", f"title now '{name}'") if name != entry["title"] else ("OK", "")
+        if status in (404, 410):
+            return "GONE", f"BOOTH {status}"
+        return "UNCONFIRMED", f"BOOTH {status}"
+    if entry["source"] == "niconi_3d":
+        url = url + ".json"
     status, _ = fetch(url)
     if status and 200 <= status < 300 and status != 202:
         return "OK", ""
