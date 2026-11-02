@@ -6107,7 +6107,7 @@
   historical_notes: 'A 3D environment offered on BOOTH, made for VRChat, Unity, Quest/Android. The listing''s period wording: 「昭和風」「昭和」「80年代」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和風」「昭和」「80年代」.
-  ai_statement: AIで作成した昭和ぽい壁紙セットのほうは、無料で配布します。
+  ai_statement: "AIで作成した昭和ぽい壁紙セットのほうは、無料で配布します。"
   image: https://booth.pximg.net/c/620x620/d6fd1515-ca1b-4d3f-aaec-ccccbf44d7a1/i/4247918/d52c7c53-20bf-45b7-b263-a1c5bd205fd2_base_resized.jpg
   technical:
     downloadable: true
@@ -6997,7 +6997,7 @@
   historical_notes: 'A 3D model offered on BOOTH, made for VRChat, Unity, Blender. The listing''s period wording: 「昭和レトロ」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和レトロ」.
-  ai_statement: ※画像およびポリゴンの生成系AIを使用していません。
+  ai_statement: "※画像およびポリゴンの生成系AIを使用していません。"
   image: https://booth.pximg.net/c/620x620/608e3c83-8021-4e1b-a331-a10ea757e361/i/6610980/fcdb441b-38c5-4935-9282-b619c0f1ab67_base_resized.jpg
   technical:
     downloadable: true
@@ -7715,7 +7715,7 @@
   historical_notes: 'A 3D environment offered on BOOTH, made for VRChat, Unity, Blender. The listing''s period wording: 「昭和レトロ」「昭和の」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和レトロ」「昭和の」.
-  ai_statement: 'リアルな質感: テクスチャにはAI生成画像（Gemini）をベースに加工を施し、独特の年季が入ったコンクリートの質感を再現してい…AI生成物: 一部テクスチャにAI生成画像（Google Gemini）を使用し、素材として加工。'
+  ai_statement: "リアルな質感: テクスチャにはAI生成画像（Gemini）をベースに加工を施し、独特の年季が入ったコンクリートの質感を再現しています。AI生成物: 一部テクスチャにAI生成画像（Google Gemini）を使用し、素材として加工・使用しています。"
   image: https://booth.pximg.net/c/620x620/5282e183-0a33-4831-a3ad-b8cc31caa523/i/8176833/bb978c2b-893b-4729-806a-7b09f7ade795_base_resized.jpg
   technical:
     downloadable: true
@@ -8442,7 +8442,7 @@
   historical_notes: 'A 3D model offered on BOOTH, made for VRChat, Unity, Blender. The listing''s period wording: 「1960年代」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original. The listing gives only a decade (「1960年代」) and does not use 昭和; admitted as a proxy at the director's ruling (2 Nov 2026).
-  ai_statement: ※画像およびポリゴンの生成系AIを使用していません。
+  ai_statement: "※画像およびポリゴンの生成系AIを使用していません。"
   image: https://booth.pximg.net/c/620x620/608e3c83-8021-4e1b-a331-a10ea757e361/i/8540261/e64aa345-481f-4b08-98df-07bd621ff90d_base_resized.jpg
   technical:
     downloadable: true
@@ -8577,7 +8577,7 @@
   historical_notes: 'A pack of 30 items offered on BOOTH, made for VRChat, Unity, Unreal, Blender. The listing''s period wording: 「昭和」「昭和レトロ」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和」「昭和レトロ」.
-  ai_statement: 本商品の制作には生成AIを使用し、出力結果をもとに調整。
+  ai_statement: "本商品の制作には生成AIを使用し、出力結果をもとに調整・編集を行っています。"
   image: https://booth.pximg.net/c/620x620/81772d97-3f70-4f1d-9dc4-948d33150800/i/8685184/c69094ba-34c2-45c8-afc3-da4da59236fb_base_resized.jpg
   technical:
     downloadable: true
@@ -8606,7 +8606,7 @@
   historical_notes: 'A 3D model offered on BOOTH, made for VRChat, Blender. The listing''s period wording: 「昭和」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和」.
-  ai_statement: AIは使用していません。
+  ai_statement: "AIは使用していません。"
   image: https://booth.pximg.net/c/620x620/872eb077-ee5f-4077-856a-40bc1ea91f6b/i/8687598/f4c58139-1a67-4c69-bdf5-4e28e69c3fa3_base_resized.jpg
   technical:
     downloadable: true
@@ -8631,7 +8631,7 @@
   historical_notes: 'A pack of 30 items offered on BOOTH, made for VRChat, Unity, Unreal, Blender. The listing''s period wording: 「昭和」「昭和レトロ」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和」「昭和レトロ」.
-  ai_statement: 本商品の制作には生成AIを使用し、出力結果をもとに調整。
+  ai_statement: "本商品の制作には生成AIを使用し、出力結果をもとに調整・編集を行っています。"
   image: https://booth.pximg.net/c/620x620/81772d97-3f70-4f1d-9dc4-948d33150800/i/8688047/0c979c17-db08-4129-9d2a-447a4ba1e8c4_base_resized.jpg
   technical:
     downloadable: true
@@ -9298,7 +9298,7 @@
   historical_notes: 'A 3D environment offered on BOOTH, made for VRChat, Unity, Blender, Quest/Android. The listing''s period wording: 「昭和」「昭和レトロ」「昭和の」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和」「昭和レトロ」「昭和の」.
-  ai_statement: モデルは本ショップで制作し、テクスチャ制作には画像生成AIを使用しています。
+  ai_statement: "モデルは本ショップで制作し、テクスチャ制作には画像生成AIを使用しています。"
   image: https://booth.pximg.net/c/620x620/b542c1a4-2504-4ecc-b2ae-4ee61c7ca559/i/8852997/079ed601-5761-4b73-993a-0a58b8c202e3_base_resized.jpg
   technical:
     downloadable: true
@@ -9353,7 +9353,7 @@
   historical_notes: 'A 3D model offered on BOOTH, made for VRChat, Unity, Blender, Quest/Android. The listing''s period wording: 「昭和レトロ」「昭和」「昭和の」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和レトロ」「昭和」「昭和の」.
-  ai_statement: モデルは本ショップで制作し、テクスチャ制作には画像生成AIを使用しています。
+  ai_statement: "モデルは本ショップで制作し、テクスチャ制作には画像生成AIを使用しています。"
   image: https://booth.pximg.net/c/620x620/b542c1a4-2504-4ecc-b2ae-4ee61c7ca559/i/8856113/9de3c0aa-64f3-458b-a632-eb2ddeba1006_base_resized.jpg
   technical:
     downloadable: true
@@ -9413,7 +9413,7 @@
   historical_notes: 'A 3D environment offered on BOOTH, made for VRChat, Unity, Unreal, Blender, Quest/Android. The listing''s period wording: 「昭和の」「昭和レトロ」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和の」「昭和レトロ」.
-  ai_statement: BlenderとPythonで制作し、AIアシスタントをスクリプト作成。
+  ai_statement: "BlenderとPythonで制作し、AIアシスタントをスクリプト作成・調整・検査・文書作成に使用しています。本版のモデル・テクスチャ・商品画像には、画像生成AIや3D生成サービスの出力を使用していません。"
   image: https://booth.pximg.net/c/620x620/a647fd77-c6c6-4167-ad0c-0a7083037675/i/8862752/8d0eca3b-c768-40e0-a323-a4b2799fd2a4_base_resized.jpg
   technical:
     downloadable: true
@@ -9464,7 +9464,7 @@
   historical_notes: 'A pack of 30 items offered on BOOTH, made for VRChat, Unity, Unreal, Blender. The listing''s period wording: 「昭和レトロ」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和レトロ」.
-  ai_statement: 本商品の制作には生成AIを使用し、出力結果をもとに調整。
+  ai_statement: "本商品の制作には生成AIを使用し、出力結果をもとに調整・編集を行っています。"
   image: https://booth.pximg.net/c/620x620/81772d97-3f70-4f1d-9dc4-948d33150800/i/8866858/d9da97d0-3c8a-4acb-9e74-982fd2e42d23_base_resized.jpg
   technical:
     downloadable: true
@@ -9495,7 +9495,7 @@
   historical_notes: 'A pack of 24 items offered on BOOTH, made for VRChat, Unity, Unreal, Blender. The listing''s period wording: 「昭和レトロ」「昭和」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和レトロ」「昭和」.
-  ai_statement: 形状と看板面は Blender のスクリプトで手続き的に生成しています（画像生成AIは使用していません）。
+  ai_statement: "形状と看板面は Blender のスクリプトで手続き的に生成しています（画像生成AIは使用していません）。"
   image: https://booth.pximg.net/c/620x620/f94c542b-adc9-4d5f-bf54-5e01d8eb373e/i/8868641/bd220ee3-38d0-4b17-a7a6-59a787299d62_base_resized.jpg
   technical:
     downloadable: true
@@ -9524,7 +9524,7 @@
   historical_notes: 'A 3D environment offered on BOOTH, made for VRChat, Unity, Blender. The listing''s period wording: 「昭和の」「showa」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和の」「showa」.
-  ai_statement: 床の画像素材にAI画像生成を使用しています。
+  ai_statement: "制作時のコンセプトと木肌・床の画像素材にAI画像生成を使用しています。"
   image: https://booth.pximg.net/c/620x620/b63171cb-525b-40da-8640-5e2f14e8cf1e/i/8876582/e6efd6fb-cac8-4502-8e0d-6ac8e9735120_base_resized.jpg
   technical:
     downloadable: true
@@ -10005,7 +10005,7 @@
   historical_notes: 'A pack of 100 items offered on BOOTH, made for VRChat, Unity, Blender, Quest/Android. The listing''s period wording: 「昭和レトロ」「昭和の」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和レトロ」「昭和の」.
-  ai_statement: 生成AIで作成。
+  ai_statement: "生成AIで作成・修正したスクリプトを用い、Blender上でモデルと材質を構築しています。"
   image: https://booth.pximg.net/c/620x620/266f9d9a-2dc3-4423-bad7-0d778c85a5fb/i/8963937/0a17ac8c-d20a-45eb-b268-6150f9a48898_base_resized.jpg
   technical:
     downloadable: true
@@ -10056,7 +10056,7 @@
   historical_notes: 'A pack of 12 items offered on BOOTH, made for VRChat, Unity, Blender. The listing''s period wording: 「昭和」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和」.
-  ai_statement: 商品画像はすべて Blender でレンダリングしたもので、AI 生成画像は使っていません。
+  ai_statement: "商品画像はすべて Blender でレンダリングしたもので、AI 生成画像は使っていません。"
   image: https://booth.pximg.net/c/620x620/52e271d5-4adb-4221-9aba-79de39634fc4/i/8984997/9e98929a-bbf2-4906-ad02-d1eb7c53e9ae_base_resized.jpg
   technical:
     downloadable: true
@@ -10225,7 +10225,7 @@
   historical_notes: 'A pack of 94 items offered on BOOTH, made for VRChat, Unity, Blender, Quest/Android. The listing''s period wording: 「昭和レトロ」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和レトロ」.
-  ai_statement: メッシュはChatGPT（OpenAI）が書いたBlender Pyth…参考画像はOpenAI画像生成。
+  ai_statement: "メッシュはChatGPT（OpenAI）が書いたBlender Pythonスクリプトで作成し、こちらで検査・修正しました。参考画像はOpenAI画像生成。"
   image: https://booth.pximg.net/c/620x620/c1d33bdd-3e03-4b8c-947c-996345f89dfa/i/8983072/1561fe95-ab0b-47ce-9796-86797a2ef476_base_resized.jpg
   technical:
     downloadable: true
@@ -10254,7 +10254,7 @@
   historical_notes: 'A 3D environment offered on BOOTH, made for VRChat, Unity, Blender, Quest/Android. The listing''s period wording: 「昭和レトロ」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和レトロ」.
-  ai_statement: AIを用いたBlenderスクリプト、生成画像を加工したテクスチャ、手続き的な素材。
+  ai_statement: "AIを用いたBlenderスクリプト、生成画像を加工したテクスチャ、手続き的な素材・シェーダーを使用。"
   image: https://booth.pximg.net/c/620x620/c1d33bdd-3e03-4b8c-947c-996345f89dfa/i/8990739/7fc4de31-2332-4623-853a-8e148baed943_base_resized.jpg
   technical:
     downloadable: true
@@ -10280,7 +10280,7 @@
   historical_notes: 'A 3D environment offered on BOOTH, made for VRChat, Unity, Blender, Quest/Android. The listing''s period wording: 「昭和レトロ」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和レトロ」.
-  ai_statement: メッシュはChatGPT（OpenAI）が書いたBlender Pythonスクリプトで…布等の模様はプログラム生成、照明。参考画像にAI画像生成を使用しています。
+  ai_statement: "メッシュはChatGPT（OpenAI）が書いたBlender Pythonスクリプトで生成し、組立・検査・修正しました。参考画像にAI画像生成を使用しています。"
   image: https://booth.pximg.net/c/620x620/c1d33bdd-3e03-4b8c-947c-996345f89dfa/i/8990785/34dac60b-4065-49e5-9e2f-32464737e2ed_base_resized.jpg
   technical:
     downloadable: true
@@ -10603,7 +10603,7 @@
   historical_notes: 'A 3D environment offered on BOOTH, made for VRChat, Unity, Blender, Quest/Android. The listing''s period wording: 「昭和」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和」.
-  ai_statement: 生成AIを用いて作成。
+  ai_statement: "生成AIを用いて作成・修正したBlender / Unityスクリプトで制作しています。"
   image: https://booth.pximg.net/c/620x620/c1d33bdd-3e03-4b8c-947c-996345f89dfa/i/9072416/57bf6e7b-44fd-49b6-bfef-8bd9dbded4d6_base_resized.jpg
   technical:
     downloadable: true
@@ -10907,7 +10907,7 @@
   historical_notes: 'A 3D environment offered on BOOTH, made for VRChat, Unity, Blender, Quest/Android. The listing''s period wording: 「昭和の」「昭和レトロ」.'
   showa_fit: proxy
   fit_grounds: A modelled asset offered on BOOTH, not a record of a surviving original; the listing frames it as 「昭和の」「昭和レトロ」.
-  ai_statement: 3D生成サービスの出力は使っていません。AIアシスタントは、スクリプトの作成。
+  ai_statement: "画像生成AI・3D生成サービスの出力は使っていません。AIアシスタントは、スクリプトの作成・調整・検査・文書の作成に使っています。"
   image: https://booth.pximg.net/c/620x620/a647fd77-c6c6-4167-ad0c-0a7083037675/i/9060675/e1d8db95-a835-43a3-84db-4aa16f68b6aa_base_resized.jpg
   technical:
     downloadable: true
